@@ -16,23 +16,25 @@ Original data can be found here:
 
 The original dataset was organized as .csv files. For this project, we will use R to import and handle our data analysis. 
 
-Data import can be found [here](), in the `src` folder of our repository. 
+Imported data can be found [here](), in the `src` folder of our repository. 
 
 ### Our question
 
-We decided to explore the dataset and ask whether there are any relationships between college region, type and major and graduates' salaries. This is an exploratory question.
+We decided to explore the dataset and ask whether there are any relationships between college region, type and major to graduates' salaries. This is an exploratory question.
 
 ### Our plan
 
 1. Perform an exploratory data analysis of the dataset:  
-    a. Look at school region, type, and degree    
-    b. Compare each for all the different salaries (starting salary, mid-career salary, etc.)  
-    c. Create plots to visualise the distributions of the data  
+    a. Investigate school region, type, and degree as they relate to graduates' salaries  
+        a. Look the different salaries: starting salary, mid-career salary, etc.  
+    c. Create plots to visualise the distributions of the data   
 
-2. If we notice a particular patterns/differences in groups, we will quantify them using using hypothesis testing. For example, we could look for differences in the variables (school region, type, degree) that may impact graduates' salaries using ANOVA.   
+2. If we find any patterns/differences in groups, we will validate/quantify them using using hypothesis testing. For example, we could look for differences in the variables (school region, type, degree) that may impact graduates' salaries using ANOVA.   
 
 ### Potential summaries and visualizations
 
-Many plots can be created for an exploratory analysis. For example, to visualize the distributions of data, violin or jitter plots that compare school type and salary could be made. We could also use ordered bar plots or dot plots to rank our data. For example, when comparing degree to starting salary, we would immediately see which degrees pay the highest and lowest directly after graduation. 
+To visualize the distribution of the data we plan to use violin/jitter plots that, for example, look at the distribution of salary by school type. We will also use ordered bar/dot plots to rank our data; for example, to see which degrees pay the highest and lowest directly after graduation we may compare degree type to starting salary.
 
-The final summary of our data will be represented as the result of a two-way ANOVA between school region, school type, and the resulting salary. The two-way ANOVA will tell us if there are any interaction effects between school region and type, and if there are is any statistically significant result that affects the final salary.
+We will summarise any differences in graduates' salary within each variable (school region, type, major) using an ANOVA. 
+
+### Directory structure
