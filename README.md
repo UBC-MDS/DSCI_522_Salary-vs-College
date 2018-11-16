@@ -1,11 +1,20 @@
 # DSCI_522_Salary-vs-College
 
-We chose to analyze a dataset about the salaries of US college graduates organized by college, region and major. This is publicly available [dataset](https://www.kaggle.com/wsj/college-salaries) on kaggle. The original data is from The Wall Street Journal.
+### About the dataset
 
-Our plan:
+We chose to analyze a dataset about the salaries of US college graduates organized by college, region, type and major. This is publicly available [dataset](https://www.kaggle.com/wsj/college-salaries) on kaggle. The original data is from The Wall Street Journal.
 
-First, we start with the exploratory data analysis based on the dataset we have, in terms of the region, school type, and the degree type;
+### Our question
 
-Violin plot and jitter plot can be constructed to help us visual the distribution of the data;
+We decided to explore the dataset and ask whether there are any relationships between college region, type and major and graduates' salaries. This is an exploratory question.
 
-When we see special patterns occur, we will further explore the data using hypothesis testing (ANOVA), to identify the sigificant difference. 
+### Our plan
+
+1. Perform an exploratory data analysis of the dataset:
+    a. Look at salary by school region, type, and degree
+    b. Do a) for different salaries (starting salary, mid-career salary, etc.)
+    a. Use violin/jitter plots to visualise the distributions of the data
+
+2. If we see an particular patterns/differences in groups, we will quantify them using using hypothesis testing:
+    a. Use ANOVA to look for differences in the variables (school region, type, degree) that may impact graduates' salaries. 
+
