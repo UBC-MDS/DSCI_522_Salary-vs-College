@@ -33,19 +33,23 @@ char_to_num <- function(dataframe){
   return(dataframe)
 }
 
+# Read in original dataset
+salary_by_degree <- read_csv("data/degrees-that-pay-back.csv")
+salary_by_type <- read_csv("data/salaries-by-college-type.csv")
+salary_by_region <- read_csv("data/salaries-by-region.csv")
+
+#salary_by_degree
+
 # Get clean data using the function `char_to_num`
 clean_salary_by_degree <- char_to_num(salary_by_degree)
 clean_salary_by_region <- char_to_num(salary_by_region)
 clean_salary_by_type <- char_to_num(salary_by_type)
 
-# Write the clean data file
-write.csv(clean_salary_by_region, file = "data/clean_salary_by_region")
-write.csv(clean_salary_by_type, file = "data/clean_salary_by_type")
-# Due to the special struction of the salary_by_degree dataframe (the last col as list)
-clean_salary_by_degree$salary_by_degree <- as.character(clean_salary_by_degree$salary_by_degree)
-write.csv(clean_salary_by_degree, file = "data/clean_salary_by_degree")
+#clean_salary_by_degree$`Mid-Career 90th Percentile Salary`
 
-# We can then read data with the clean version
-salary_by_degree <- read_csv("data/clean_salary_by_degree")
-salary_by_region <- read_csv("data/clean_salary_by_region")
-salary_by_type <- read_csv("data/clean_salary_by_type")
+# Write the clean data file
+write.csv(clean_salary_by_region, file = "data/clean_salary_by_region.csv", row.names = FALSE)
+write.csv(clean_salary_by_type, file = "data/clean_salary_by_type.csv", row.names = FALSE)
+# Due to the special struction of the salary_by_degree dataframe (the last col as list)
+#clean_salary_by_degree$salary_by_degree <- as.character(clean_salary_by_degree$salary_by_degree)
+write.csv(clean_salary_by_degree, file = "data/clean_salary_by_degree.csv", row.names = FALSE)
