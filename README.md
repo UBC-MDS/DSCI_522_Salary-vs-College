@@ -14,9 +14,9 @@ Original data can be found here:
 
 ### Importing the data
 
-The original dataset was organized as .csv files. For this project, we will use R to import and handle our data analysis. 
+The original dataset was organized as .csv files. For this project, we will use R to import and handle our data analysis.
 
-Imported data can be found [here](), in the `src` folder of our repository. 
+Imported data can be found [here](), in the `src` folder of our repository.
 
 ### Our question
 
@@ -29,12 +29,12 @@ We decided to explore the dataset and ask whether there are any relationships be
         a. Look the different salaries: starting salary, mid-career salary, etc.  
     c. Create plots to visualise the distributions of the data   
 
-2. If we find any patterns/differences in groups, we will validate/quantify them using using hypothesis testing. For example, we could look for differences in the variables (school region, type, degree) that may impact graduates' salaries using ANOVA.   
+2. If we find any patterns/differences in groups, we will validate/quantify them using hypothesis testing. For example, we could look for differences in the variables (school region, type, degree) that may impact graduates' salaries using ANOVA.   
 
 ### Potential summaries and visualizations
 
 To visualize the distribution of the data we plan to use violin/jitter plots that, for example, look at the distribution of salary by school type. We will also use ordered bar/dot plots to rank our data; for example, to see which degrees pay the highest and lowest directly after graduation we may compare degree type to starting salary.
 
-We will summarise any differences in graduates' salary within each variable (school region, type, major) using an ANOVA. 
+We will summarise any differences in graduates' salary within each variable (school region, type, major) using an ANOVA.
 
 ### Directory structure
