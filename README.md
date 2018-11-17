@@ -16,7 +16,7 @@ Original data can be found here:
 
 The original dataset was organized as .csv files. For this project, we will use R to import and handle our data analysis.
 
-Imported data can be found [here](), in the `src` folder of our repository.
+Imported data can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/master/data), in the `data` folder of our repository. Scripts that handle the data import can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/master/src), in the `src` folder. 
 
 ### Our question
 
@@ -26,7 +26,7 @@ We decided to explore the dataset and ask whether there are any relationships be
 
 1. Perform an exploratory data analysis of the dataset:  
     a. Investigate school region, type, and degree as they relate to graduates' salaries  
-        a. Look the different salaries: starting salary, mid-career salary, etc.  
+    b. Look the different salaries: starting salary, mid-career salary, etc.  
     c. Create plots to visualise the distributions of the data   
 
 2. If we find any patterns/differences in groups, we will validate/quantify them using hypothesis testing. For example, we could look for differences in the variables (school region, type, degree) that may impact graduates' salaries using ANOVA.   
@@ -38,3 +38,24 @@ To visualize the distribution of the data we plan to use violin/jitter plots tha
 We will summarise any differences in graduates' salary within each variable (school region, type, major) using an ANOVA.
 
 ### Directory structure
+```
+project_root/
+├── doc/
+│   ├── final_report.Rmd
+├── src/
+│   ├── import_data.R
+│   ├── Data_cleaning.R
+│   ├── analyze_data.R
+│   ├── viz_data.R
+├── data/
+│   ├── clean_salary_by_degree.csv
+│   ├── clean_salary_by_region.csv
+│   ├── clean_salary_by_type.csv
+│   ├── degrees-that-pay-back.csv
+│   ├── salaries-by-college-type.csv
+│   ├── salaries-by-region.csv
+├── results/
+│   ├── fig.png
+│   ├── stat_result.csv
+├── README.md
+```
