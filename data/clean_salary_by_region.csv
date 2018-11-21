@@ -1,4 +1,4 @@
-"School Name","Region","Starting Median Salary","Mid-Career Median Salary","Mid-Career 10th Percentile Salary","Mid-Career 25th Percentile Salary","Mid-Career 75th Percentile Salary","Mid-Career 90th Percentile Salary"
+"School_Name","Region","Starting_Median_Salary","Mid-Career_Median_Salary","Mid-Career_10th_Percentile_Salary","Mid-Career_25th_Percentile_Salary","Mid-Career_75th_Percentile_Salary","Mid-Career_90th_Percentile_Salary"
 "Stanford University","California",70400,129000,68400,93100,184000,257000
 "California Institute of Technology (CIT)","California",75500,123000,NA,104000,161000,NA
 "Harvey Mudd College","California",71800,122000,NA,96000,180000,NA

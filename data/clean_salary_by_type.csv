@@ -1,4 +1,4 @@
-"School Name","School Type","Starting Median Salary","Mid-Career Median Salary","Mid-Career 10th Percentile Salary","Mid-Career 25th Percentile Salary","Mid-Career 75th Percentile Salary","Mid-Career 90th Percentile Salary"
+"School_Name","School_Type","Starting_Median_Salary","Mid-Career_Median_Salary","Mid-Career_10th_Percentile_Salary","Mid-Career_25th_Percentile_Salary","Mid-Career_75th_Percentile_Salary","Mid-Career_90th_Percentile_Salary"
 "Massachusetts Institute of Technology (MIT)","Engineering",72200,126000,76800,99200,168000,220000
 "California Institute of Technology (CIT)","Engineering",75500,123000,NA,104000,161000,NA
 "Harvey Mudd College","Engineering",71800,122000,NA,96000,180000,NA
