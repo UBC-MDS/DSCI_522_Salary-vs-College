@@ -1,12 +1,17 @@
 # Data_cleaning.R
 # Group: lab2-11
 
-# This script read the raw data and clean the row data from the character type to computable numeric data
-# and create new clean data .csv files. The script takes two arguments from the command line.
+# This script reads the raw data and clean the row data from the character type to computable numeric data
+# and creates new clean data .csv files. The script takes two arguments from the command line.
 # 1. the file path for the .csv file that needs to be cleaned (e.g. data/degree-that-pay-back.csv)
 # 2. the file path for the cleaned file to be stored (e.g. data/degree-that-pay-back_cleaned.csv)
 
-# Usage: Rscript Data_cleaning.R
+# Usage: 
+# Rscript Data_cleaning.R data/degree-that-pay-back.csv data/degree-that-pay-back-cleaned.csv
+# Rscript Data_cleaning.R data/salaries-by-college-type.csv data/clean_salary_by_degree.csv
+# Rscript Data_cleaning.R data/salaries-by-region.csv data/clean_salary_by_region.csv
+
+#import libraries
 library(tidyverse)
 
 # Read in command line argument
@@ -36,6 +41,7 @@ char_to_num <- function(dataframe){
   dataframe$`Mid-Career 90th Percentile Salary` <- as.numeric(gsub(',','',dataframe$`Mid-Career 90th Percentile Salary`))
   
   colnames(dataframe) <- str_replace_all(colnames(dataframe), pattern = " ", replacement = "_")
+  colnames(dataframe) <- str_replace_all(colnames(dataframe), pattern = "-", replacement = "_")
   
   return(dataframe)
 }
