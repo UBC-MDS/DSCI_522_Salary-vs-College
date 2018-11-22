@@ -1,0 +1,2241 @@
+"School_Name","Region","Salary_Type","Salary"
+"Stanford University","California","Starting_Median_Salary",70400
+"California Institute of Technology (CIT)","California","Starting_Median_Salary",75500
+"Harvey Mudd College","California","Starting_Median_Salary",71800
+"University of California, Berkeley","California","Starting_Median_Salary",59900
+"Occidental College","California","Starting_Median_Salary",51900
+"Cal Poly San Luis Obispo","California","Starting_Median_Salary",57200
+"University of California at Los Angeles (UCLA)","California","Starting_Median_Salary",52600
+"University of California, San Diego (UCSD)","California","Starting_Median_Salary",51100
+"Pomona College","California","Starting_Median_Salary",48600
+"University of Southern California (USC)","California","Starting_Median_Salary",54800
+"University of California, Davis","California","Starting_Median_Salary",52300
+"University of California, Irvine (UCI)","California","Starting_Median_Salary",48300
+"San Jose State University (SJSU)","California","Starting_Median_Salary",53500
+"University of California, Santa Barbara (UCSB)","California","Starting_Median_Salary",50500
+"California State University (CSU), Chico","California","Starting_Median_Salary",47400
+"California State University, Fullerton (CSUF)","California","Starting_Median_Salary",45700
+"San Francisco State University (SFSU)","California","Starting_Median_Salary",47300
+"San Diego State University (SDSU)","California","Starting_Median_Salary",46200
+"California State University, Long Beach (CSULB)","California","Starting_Median_Salary",45100
+"California State University, East Bay (CSUEB)","California","Starting_Median_Salary",49200
+"University of California, Santa Cruz (UCSC)","California","Starting_Median_Salary",44700
+"California State University, Sacramento (CSUS)","California","Starting_Median_Salary",47800
+"University of California, Riverside (UCR)","California","Starting_Median_Salary",46800
+"California State University, Northridge (CSUN)","California","Starting_Median_Salary",45500
+"California State University, Dominguez Hills (CSUDH)","California","Starting_Median_Salary",42700
+"California State University (CSU), Stanislaus","California","Starting_Median_Salary",38000
+"Humboldt State University","California","Starting_Median_Salary",42600
+"Thomas Aquinas College","California","Starting_Median_Salary",41500
+"Colorado School of Mines","Western","Starting_Median_Salary",58100
+"University of Colorado - Boulder (UCB)","Western","Starting_Median_Salary",47100
+"New Mexico Institute of Mining and Technology (New Mexico Tech)","Western","Starting_Median_Salary",51000
+"Brigham Young University (BYU)","Western","Starting_Median_Salary",49400
+"University of Arizona","Western","Starting_Median_Salary",47500
+"University of Washington (UW)","Western","Starting_Median_Salary",48800
+"Washington State University (WSU)","Western","Starting_Median_Salary",45300
+"University of Colorado - Denver","Western","Starting_Median_Salary",46100
+"Arizona State University (ASU)","Western","Starting_Median_Salary",47400
+"Oregon State University (OSU)","Western","Starting_Median_Salary",45100
+"University of Utah","Western","Starting_Median_Salary",45400
+"University of Nevada, Reno (UNR)","Western","Starting_Median_Salary",46500
+"Seattle University","Western","Starting_Median_Salary",48300
+"University of Idaho","Western","Starting_Median_Salary",44900
+"University of New Mexico (UNM)","Western","Starting_Median_Salary",41600
+"University of Puget Sound","Western","Starting_Median_Salary",46600
+"Colorado College (CC)","Western","Starting_Median_Salary",38500
+"Reed College","Western","Starting_Median_Salary",40500
+"Whitman College","Western","Starting_Median_Salary",43500
+"New Mexico State University","Western","Starting_Median_Salary",44300
+"Colorado State University (CSU)","Western","Starting_Median_Salary",44800
+"University of Wyoming (UW)","Western","Starting_Median_Salary",44500
+"Utah State University","Western","Starting_Median_Salary",43800
+"University of Oregon","Western","Starting_Median_Salary",42200
+"Montana State University - Bozeman","Western","Starting_Median_Salary",46600
+"Gonzaga University","Western","Starting_Median_Salary",44900
+"University of Hawaii","Western","Starting_Median_Salary",43800
+"Western Washington University","Western","Starting_Median_Salary",42700
+"Regis University","Western","Starting_Median_Salary",48300
+"Idaho State University","Western","Starting_Median_Salary",44900
+"University of Alaska, Anchorage","Western","Starting_Median_Salary",45900
+"Lewis & Clark College","Western","Starting_Median_Salary",38900
+"University of Montana","Western","Starting_Median_Salary",37300
+"University of Nevada, Las Vegas (UNLV)","Western","Starting_Median_Salary",45200
+"Portland State University (PSU)","Western","Starting_Median_Salary",42600
+"Eastern Washington University","Western","Starting_Median_Salary",38600
+"Fort Lewis College","Western","Starting_Median_Salary",42000
+"Boise State University (BSU)","Western","Starting_Median_Salary",40800
+"Utah Valley State College","Western","Starting_Median_Salary",42400
+"Evergreen State College","Western","Starting_Median_Salary",39500
+"Southern Utah University","Western","Starting_Median_Salary",41900
+"Montana State University - Billings","Western","Starting_Median_Salary",37900
+"University of Notre Dame","Midwestern","Starting_Median_Salary",56300
+"University Of Chicago","Midwestern","Starting_Median_Salary",53400
+"Carleton College","Midwestern","Starting_Median_Salary",47500
+"Illinois Institute of Technology (IIT)","Midwestern","Starting_Median_Salary",56000
+"Case Western Reserve University","Midwestern","Starting_Median_Salary",56200
+"University of Illinois at Urbana-Champaign (UIUC)","Midwestern","Starting_Median_Salary",52900
+"Northwestern University","Midwestern","Starting_Median_Salary",52700
+"University of Missouri - Rolla (UMR)","Midwestern","Starting_Median_Salary",57100
+"South Dakota School of Mines & Technology","Midwestern","Starting_Median_Salary",55800
+"University of Michigan","Midwestern","Starting_Median_Salary",52700
+"Purdue University","Midwestern","Starting_Median_Salary",51400
+"Marquette University","Midwestern","Starting_Median_Salary",48500
+"DePauw University","Midwestern","Starting_Median_Salary",41400
+"University of Wisconsin (UW) - Madison","Midwestern","Starting_Median_Salary",48900
+"Bradley University","Midwestern","Starting_Median_Salary",47000
+"St. Olaf College","Midwestern","Starting_Median_Salary",45300
+"Michigan State University (MSU)","Midwestern","Starting_Median_Salary",46300
+"DePaul University","Midwestern","Starting_Median_Salary",46400
+"Iowa State University","Midwestern","Starting_Median_Salary",45400
+"University of Minnesota","Midwestern","Starting_Median_Salary",46200
+"Indiana University (IU), Bloomington","Midwestern","Starting_Median_Salary",46300
+"University of Iowa (UI)","Midwestern","Starting_Median_Salary",44700
+"Ohio State University (OSU)","Midwestern","Starting_Median_Salary",44900
+"Denison University","Midwestern","Starting_Median_Salary",42000
+"University of Illinois at Chicago","Midwestern","Starting_Median_Salary",47500
+"Oberlin College","Midwestern","Starting_Median_Salary",43400
+"University of Kansas","Midwestern","Starting_Median_Salary",42400
+"University of Missouri - Columbia","Midwestern","Starting_Median_Salary",41700
+"University of Nebraska","Midwestern","Starting_Median_Salary",45700
+"Northern Illinois University (NIU)","Midwestern","Starting_Median_Salary",43600
+"Gustavus Adolphus College","Midwestern","Starting_Median_Salary",44500
+"University of North Dakota","Midwestern","Starting_Median_Salary",44000
+"Kansas State University (KSU)","Midwestern","Starting_Median_Salary",43300
+"University of Wisconsin (UW) - Platteville","Midwestern","Starting_Median_Salary",45800
+"Wittenberg University","Midwestern","Starting_Median_Salary",39200
+"North Dakota State University (NDSU)","Midwestern","Starting_Median_Salary",45100
+"Grinnell College","Midwestern","Starting_Median_Salary",42600
+"Wayne State University","Midwestern","Starting_Median_Salary",42800
+"University of Toledo","Midwestern","Starting_Median_Salary",43100
+"University of Wisconsin (UW) - Whitewater","Midwestern","Starting_Median_Salary",40800
+"Minnesota State University - Mankato","Midwestern","Starting_Median_Salary",43300
+"University of Wisconsin (UW) - Milwaukee","Midwestern","Starting_Median_Salary",42300
+"Western Michigan University (WMU)","Midwestern","Starting_Median_Salary",42300
+"South Dakota State University (SDSU)","Midwestern","Starting_Median_Salary",41100
+"Ohio University","Midwestern","Starting_Median_Salary",42200
+"Illinois State University","Midwestern","Starting_Median_Salary",42000
+"Cleveland State University","Midwestern","Starting_Median_Salary",43500
+"University of Nebraska at Omaha","Midwestern","Starting_Median_Salary",41500
+"Southern Illinois University Carbondale","Midwestern","Starting_Median_Salary",43000
+"Eastern Michigan University","Midwestern","Starting_Median_Salary",40300
+"Bowling Green State University","Midwestern","Starting_Median_Salary",39800
+"St. Cloud State University","Midwestern","Starting_Median_Salary",41800
+"University of Wisconsin (UW) - Parkside","Midwestern","Starting_Median_Salary",40700
+"University of Akron","Midwestern","Starting_Median_Salary",41100
+"Missouri State University (MSU)","Midwestern","Starting_Median_Salary",36100
+"University of Wisconsin (UW) - La Crosse","Midwestern","Starting_Median_Salary",42200
+"University of Wisconsin (UW) - Stout","Midwestern","Starting_Median_Salary",43600
+"Robert Morris College (RMC)","Midwestern","Starting_Median_Salary",38500
+"University of Missouri - St. Louis (UMSL)","Midwestern","Starting_Median_Salary",41400
+"University of Wisconsin (UW) - Oshkosh","Midwestern","Starting_Median_Salary",39300
+"University of Missouri - Kansas City (UMKC)","Midwestern","Starting_Median_Salary",38900
+"University of Wisconsin (UW) - Eau Claire","Midwestern","Starting_Median_Salary",41400
+"Ball State University (BSU)","Midwestern","Starting_Median_Salary",39100
+"Park University","Midwestern","Starting_Median_Salary",44300
+"University of Wisconsin (UW) - Stevens Point","Midwestern","Starting_Median_Salary",39800
+"Kent State University","Midwestern","Starting_Median_Salary",38700
+"University of Wisconsin (UW) - Green Bay","Midwestern","Starting_Median_Salary",35800
+"Indiana Wesleyan University (IWU)","Midwestern","Starting_Median_Salary",39800
+"Pittsburg State University","Midwestern","Starting_Median_Salary",40400
+"Davenport University","Midwestern","Starting_Median_Salary",39700
+"Black Hills State University","Midwestern","Starting_Median_Salary",35300
+"Rice University","Southern","Starting_Median_Salary",64000
+"Georgetown University","Southern","Starting_Median_Salary",55000
+"Duke University","Southern","Starting_Median_Salary",58900
+"Georgia Institute of Technology","Southern","Starting_Median_Salary",58300
+"Washington and Lee University","Southern","Starting_Median_Salary",53600
+"Vanderbilt University","Southern","Starting_Median_Salary",51200
+"Davidson College","Southern","Starting_Median_Salary",46100
+"University of Virginia (UVA)","Southern","Starting_Median_Salary",52700
+"George Washington University (GWU)","Southern","Starting_Median_Salary",47000
+"Texas A&M University","Southern","Starting_Median_Salary",49700
+"Tulane University","Southern","Starting_Median_Salary",49100
+"Virginia Polytechnic Institute and State University (Virginia Tech)","Southern","Starting_Median_Salary",53500
+"University of Maryland, College Park","Southern","Starting_Median_Salary",52000
+"University of Richmond","Southern","Starting_Median_Salary",48600
+"University of Texas (UT) - Austin","Southern","Starting_Median_Salary",49700
+"Emory University","Southern","Starting_Median_Salary",52000
+"American University, Washington D.C.","Southern","Starting_Median_Salary",45300
+"University of Tulsa","Southern","Starting_Median_Salary",42400
+"Baylor University","Southern","Starting_Median_Salary",48300
+"University of Florida (UF)","Southern","Starting_Median_Salary",47100
+"Louisiana State University (LSU)","Southern","Starting_Median_Salary",46900
+"George Mason University","Southern","Starting_Median_Salary",47800
+"Clemson University","Southern","Starting_Median_Salary",48400
+"University of Georgia (UGA)","Southern","Starting_Median_Salary",44100
+"Auburn University","Southern","Starting_Median_Salary",45400
+"University of Delaware","Southern","Starting_Median_Salary",45900
+"Randolph-Macon College","Southern","Starting_Median_Salary",42600
+"North Carolina State University (NCSU)","Southern","Starting_Median_Salary",47200
+"University of Oklahoma","Southern","Starting_Median_Salary",44700
+"University of Arkansas","Southern","Starting_Median_Salary",44100
+"University of Alabama at Huntsville (UAH)","Southern","Starting_Median_Salary",43100
+"Howard University","Southern","Starting_Median_Salary",46900
+"University of North Carolina at Chapel Hill (UNCH)","Southern","Starting_Median_Salary",42900
+"University of Alabama, Tuscaloosa","Southern","Starting_Median_Salary",41300
+"University of Texas at Arlington (UTA)","Southern","Starting_Median_Salary",45400
+"Oklahoma State University","Southern","Starting_Median_Salary",42800
+"Tennessee Technological University","Southern","Starting_Median_Salary",46200
+"University of Houston (UH)","Southern","Starting_Median_Salary",46000
+"University of Mississippi","Southern","Starting_Median_Salary",41400
+"Lamar University","Southern","Starting_Median_Salary",46500
+"Mississippi State University (MSU)","Southern","Starting_Median_Salary",44500
+"University of Kentucky (UK)","Southern","Starting_Median_Salary",42800
+"Texas Christian University (TCU)","Southern","Starting_Median_Salary",45100
+"West Virginia University (WVU)","Southern","Starting_Median_Salary",43100
+"University of Maryland Baltimore County (UMBC)","Southern","Starting_Median_Salary",47000
+"University of Louisiana (UL) at Lafayette","Southern","Starting_Median_Salary",41100
+"Florida International University (FIU)","Southern","Starting_Median_Salary",43200
+"University of Tennessee","Southern","Starting_Median_Salary",43800
+"University of Arkansas - Monticello (UAM)","Southern","Starting_Median_Salary",39200
+"University of North Carolina at Charlotte (UNCC)","Southern","Starting_Median_Salary",43100
+"Georgia State University","Southern","Starting_Median_Salary",41800
+"LeTourneau University","Southern","Starting_Median_Salary",49500
+"Florida State University (FSU)","Southern","Starting_Median_Salary",42100
+"University of Texas at El Paso (UTEP)","Southern","Starting_Median_Salary",43400
+"University of Central Florida (UCF)","Southern","Starting_Median_Salary",42600
+"University of South Carolina","Southern","Starting_Median_Salary",40000
+"Florida Atlantic University (FAU)","Southern","Starting_Median_Salary",42600
+"University of South Florida (USF)","Southern","Starting_Median_Salary",41100
+"University of Texas at San Antonio (UTSA)","Southern","Starting_Median_Salary",42500
+"University of Alabama at Birmingham (UAB)","Southern","Starting_Median_Salary",39200
+"University of Memphis (U of M)","Southern","Starting_Median_Salary",41400
+"Appalachian State University","Southern","Starting_Median_Salary",40400
+"Virginia Commonwealth University (VCU)","Southern","Starting_Median_Salary",42000
+"East Carolina University (ECU)","Southern","Starting_Median_Salary",40200
+"Western Carolina University","Southern","Starting_Median_Salary",36900
+"Jacksonville University","Southern","Starting_Median_Salary",46700
+"University of North Carolina at Wilmington (UNCW)","Southern","Starting_Median_Salary",37500
+"Oklahoma City University","Southern","Starting_Median_Salary",40000
+"Arkansas State University (ASU)","Southern","Starting_Median_Salary",38700
+"Tarleton State University (TSU)","Southern","Starting_Median_Salary",40800
+"Morehead State University","Southern","Starting_Median_Salary",34800
+"Mississippi College","Southern","Starting_Median_Salary",35400
+"Dallas Baptist University","Southern","Starting_Median_Salary",39400
+"Austin Peay State University","Southern","Starting_Median_Salary",37700
+"Saint Leo University","Southern","Starting_Median_Salary",40900
+"Tusculum College","Southern","Starting_Median_Salary",36900
+"Virginia Wesleyan College (VWC)","Southern","Starting_Median_Salary",34600
+"Lee University (Cleveland, TN)","Southern","Starting_Median_Salary",34500
+"Florida Metropolitan University (FMU)","Southern","Starting_Median_Salary",36600
+"Dartmouth College","Northeastern","Starting_Median_Salary",58000
+"Princeton University","Northeastern","Starting_Median_Salary",66500
+"Massachusetts Institute of Technology (MIT)","Northeastern","Starting_Median_Salary",72200
+"Yale University","Northeastern","Starting_Median_Salary",59100
+"Harvard University","Northeastern","Starting_Median_Salary",63400
+"University of Pennsylvania","Northeastern","Starting_Median_Salary",60900
+"Polytechnic University of New York, Brooklyn","Northeastern","Starting_Median_Salary",62400
+"Cooper Union","Northeastern","Starting_Median_Salary",62200
+"Worcester Polytechnic Institute (WPI)","Northeastern","Starting_Median_Salary",61000
+"Carnegie Mellon University (CMU)","Northeastern","Starting_Median_Salary",61800
+"Rensselaer Polytechnic Institute (RPI)","Northeastern","Starting_Median_Salary",61100
+"Cornell University","Northeastern","Starting_Median_Salary",60300
+"Bucknell University","Northeastern","Starting_Median_Salary",54100
+"Brown University","Northeastern","Starting_Median_Salary",56200
+"Colgate University","Northeastern","Starting_Median_Salary",52800
+"Columbia University","Northeastern","Starting_Median_Salary",59400
+"Amherst College","Northeastern","Starting_Median_Salary",54500
+"Lafayette College","Northeastern","Starting_Median_Salary",53900
+"Bowdoin College","Northeastern","Starting_Median_Salary",48100
+"College of the Holy Cross","Northeastern","Starting_Median_Salary",50200
+"Stevens Institute of Technology","Northeastern","Starting_Median_Salary",60600
+"Lehigh University","Northeastern","Starting_Median_Salary",59200
+"Swarthmore College","Northeastern","Starting_Median_Salary",49700
+"Boston College","Northeastern","Starting_Median_Salary",52700
+"Williams College","Northeastern","Starting_Median_Salary",51700
+"Villanova University","Northeastern","Starting_Median_Salary",55800
+"Fordham University","Northeastern","Starting_Median_Salary",47800
+"Wesleyan University (Middletown, Connecticut)","Northeastern","Starting_Median_Salary",46500
+"Wentworth Institute of Technology","Northeastern","Starting_Median_Salary",53000
+"Bates College","Northeastern","Starting_Median_Salary",47300
+"Binghamton University","Northeastern","Starting_Median_Salary",53600
+"Union College","Northeastern","Starting_Median_Salary",47200
+"New York University (NYU)","Northeastern","Starting_Median_Salary",50300
+"Vassar College","Northeastern","Starting_Median_Salary",46000
+"Middlebury College","Northeastern","Starting_Median_Salary",47700
+"Mount Holyoke College","Northeastern","Starting_Median_Salary",42400
+"Boston University","Northeastern","Starting_Median_Salary",49000
+"Drexel University","Northeastern","Starting_Median_Salary",53400
+"St. John's University, New York","Northeastern","Starting_Median_Salary",48000
+"Long Island University","Northeastern","Starting_Median_Salary",47300
+"Stony Brook University","Northeastern","Starting_Median_Salary",49500
+"Franklin and Marshall College","Northeastern","Starting_Median_Salary",49100
+"Hofstra University","Northeastern","Starting_Median_Salary",46800
+"State University of New York (SUNY) at Albany","Northeastern","Starting_Median_Salary",44500
+"Rutgers University","Northeastern","Starting_Median_Salary",50300
+"Pratt Institute","Northeastern","Starting_Median_Salary",43800
+"Pace University","Northeastern","Starting_Median_Salary",53200
+"Seton Hall University","Northeastern","Starting_Median_Salary",48900
+"Rider University","Northeastern","Starting_Median_Salary",43600
+"University of Connecticut (UConn)","Northeastern","Starting_Median_Salary",48000
+"Providence College","Northeastern","Starting_Median_Salary",48000
+"University of Massachusetts (UMass) - Amherst","Northeastern","Starting_Median_Salary",46600
+"Ithaca College","Northeastern","Starting_Median_Salary",42700
+"University of Massachusetts (UMass) - Lowell","Northeastern","Starting_Median_Salary",45400
+"Northeastern University","Northeastern","Starting_Median_Salary",50500
+"Syracuse University","Northeastern","Starting_Median_Salary",45700
+"Colby College","Northeastern","Starting_Median_Salary",46400
+"Gettysburg College","Northeastern","Starting_Median_Salary",44700
+"Pennsylvania State University (PSU)","Northeastern","Starting_Median_Salary",49900
+"University of Rhode Island (URI)","Northeastern","Starting_Median_Salary",43900
+"Siena College","Northeastern","Starting_Median_Salary",45500
+"La Salle University (Philadelphia)","Northeastern","Starting_Median_Salary",43400
+"Rochester Institute of Technology (RIT)","Northeastern","Starting_Median_Salary",48900
+"Duquesne University","Northeastern","Starting_Median_Salary",40700
+"State University of New York (SUNY) at Farmingdale","Northeastern","Starting_Median_Salary",47300
+"Smith College","Northeastern","Starting_Median_Salary",44000
+"Hamilton College","Northeastern","Starting_Median_Salary",49200
+"Wellesley College","Northeastern","Starting_Median_Salary",42800
+"Widener University","Northeastern","Starting_Median_Salary",52900
+"University of New Haven","Northeastern","Starting_Median_Salary",44400
+"Dowling College","Northeastern","Starting_Median_Salary",41100
+"University of Vermont (UVM)","Northeastern","Starting_Median_Salary",44800
+"State University of New York (SUNY) at Buffalo","Northeastern","Starting_Median_Salary",46200
+"State University of New York (SUNY) at Geneseo","Northeastern","Starting_Median_Salary",42300
+"Fashion Institute of Technology","Northeastern","Starting_Median_Salary",42800
+"Philadelphia University","Northeastern","Starting_Median_Salary",45100
+"Ursinus College","Northeastern","Starting_Median_Salary",42100
+"Adelphi University","Northeastern","Starting_Median_Salary",40600
+"Juniata College","Northeastern","Starting_Median_Salary",41800
+"Fairleigh Dickinson University","Northeastern","Starting_Median_Salary",45700
+"University of New Hampshire (UNH)","Northeastern","Starting_Median_Salary",41800
+"University of Massachusetts (UMass) - Boston","Northeastern","Starting_Median_Salary",45600
+"State University of New York (SUNY) at Oswego","Northeastern","Starting_Median_Salary",38000
+"University of Massachusetts (UMass) - Dartmouth","Northeastern","Starting_Median_Salary",43200
+"State University of New York (SUNY) at Oneonta","Northeastern","Starting_Median_Salary",37500
+"Quinnipiac University","Northeastern","Starting_Median_Salary",43000
+"State University of New York (SUNY) at Plattsburgh","Northeastern","Starting_Median_Salary",40800
+"Sacred Heart University","Northeastern","Starting_Median_Salary",46000
+"Skidmore College","Northeastern","Starting_Median_Salary",41600
+"Moravian College","Northeastern","Starting_Median_Salary",42500
+"Penn State - Harrisburg","Northeastern","Starting_Median_Salary",45700
+"Suffolk University","Northeastern","Starting_Median_Salary",42100
+"Fitchburg State College","Northeastern","Starting_Median_Salary",42400
+"Roger Williams University","Northeastern","Starting_Median_Salary",42000
+"University Of Maine","Northeastern","Starting_Median_Salary",41200
+"State University of New York (SUNY) at Potsdam","Northeastern","Starting_Median_Salary",38000
+"Niagara University","Northeastern","Starting_Median_Salary",36900
+"State University of New York (SUNY) at Fredonia","Northeastern","Starting_Median_Salary",37800
+"University of Southern Maine","Northeastern","Starting_Median_Salary",39400
+"Mercy College","Northeastern","Starting_Median_Salary",43700
+"Stanford University","California","Mid_Career_Median_Salary",129000
+"California Institute of Technology (CIT)","California","Mid_Career_Median_Salary",123000
+"Harvey Mudd College","California","Mid_Career_Median_Salary",122000
+"University of California, Berkeley","California","Mid_Career_Median_Salary",112000
+"Occidental College","California","Mid_Career_Median_Salary",105000
+"Cal Poly San Luis Obispo","California","Mid_Career_Median_Salary",101000
+"University of California at Los Angeles (UCLA)","California","Mid_Career_Median_Salary",101000
+"University of California, San Diego (UCSD)","California","Mid_Career_Median_Salary",101000
+"Pomona College","California","Mid_Career_Median_Salary",101000
+"University of Southern California (USC)","California","Mid_Career_Median_Salary",99600
+"University of California, Davis","California","Mid_Career_Median_Salary",99600
+"University of California, Irvine (UCI)","California","Mid_Career_Median_Salary",96700
+"San Jose State University (SJSU)","California","Mid_Career_Median_Salary",95600
+"University of California, Santa Barbara (UCSB)","California","Mid_Career_Median_Salary",95000
+"California State University (CSU), Chico","California","Mid_Career_Median_Salary",88100
+"California State University, Fullerton (CSUF)","California","Mid_Career_Median_Salary",87000
+"San Francisco State University (SFSU)","California","Mid_Career_Median_Salary",86400
+"San Diego State University (SDSU)","California","Mid_Career_Median_Salary",85200
+"California State University, Long Beach (CSULB)","California","Mid_Career_Median_Salary",84700
+"California State University, East Bay (CSUEB)","California","Mid_Career_Median_Salary",84300
+"University of California, Santa Cruz (UCSC)","California","Mid_Career_Median_Salary",84100
+"California State University, Sacramento (CSUS)","California","Mid_Career_Median_Salary",82400
+"University of California, Riverside (UCR)","California","Mid_Career_Median_Salary",81300
+"California State University, Northridge (CSUN)","California","Mid_Career_Median_Salary",80400
+"California State University, Dominguez Hills (CSUDH)","California","Mid_Career_Median_Salary",72100
+"California State University (CSU), Stanislaus","California","Mid_Career_Median_Salary",71400
+"Humboldt State University","California","Mid_Career_Median_Salary",71300
+"Thomas Aquinas College","California","Mid_Career_Median_Salary",67500
+"Colorado School of Mines","Western","Mid_Career_Median_Salary",106000
+"University of Colorado - Boulder (UCB)","Western","Mid_Career_Median_Salary",97600
+"New Mexico Institute of Mining and Technology (New Mexico Tech)","Western","Mid_Career_Median_Salary",93400
+"Brigham Young University (BYU)","Western","Mid_Career_Median_Salary",88600
+"University of Arizona","Western","Mid_Career_Median_Salary",86100
+"University of Washington (UW)","Western","Mid_Career_Median_Salary",85300
+"Washington State University (WSU)","Western","Mid_Career_Median_Salary",84700
+"University of Colorado - Denver","Western","Mid_Career_Median_Salary",84400
+"Arizona State University (ASU)","Western","Mid_Career_Median_Salary",84100
+"Oregon State University (OSU)","Western","Mid_Career_Median_Salary",83300
+"University of Utah","Western","Mid_Career_Median_Salary",83200
+"University of Nevada, Reno (UNR)","Western","Mid_Career_Median_Salary",82900
+"Seattle University","Western","Mid_Career_Median_Salary",82800
+"University of Idaho","Western","Mid_Career_Median_Salary",82000
+"University of New Mexico (UNM)","Western","Mid_Career_Median_Salary",81600
+"University of Puget Sound","Western","Mid_Career_Median_Salary",81500
+"Colorado College (CC)","Western","Mid_Career_Median_Salary",81400
+"Reed College","Western","Mid_Career_Median_Salary",81100
+"Whitman College","Western","Mid_Career_Median_Salary",80100
+"New Mexico State University","Western","Mid_Career_Median_Salary",79500
+"Colorado State University (CSU)","Western","Mid_Career_Median_Salary",79000
+"University of Wyoming (UW)","Western","Mid_Career_Median_Salary",78700
+"Utah State University","Western","Mid_Career_Median_Salary",78700
+"University of Oregon","Western","Mid_Career_Median_Salary",78400
+"Montana State University - Bozeman","Western","Mid_Career_Median_Salary",77500
+"Gonzaga University","Western","Mid_Career_Median_Salary",76000
+"University of Hawaii","Western","Mid_Career_Median_Salary",76000
+"Western Washington University","Western","Mid_Career_Median_Salary",75400
+"Regis University","Western","Mid_Career_Median_Salary",73800
+"Idaho State University","Western","Mid_Career_Median_Salary",73400
+"University of Alaska, Anchorage","Western","Mid_Career_Median_Salary",72600
+"Lewis & Clark College","Western","Mid_Career_Median_Salary",72600
+"University of Montana","Western","Mid_Career_Median_Salary",71900
+"University of Nevada, Las Vegas (UNLV)","Western","Mid_Career_Median_Salary",71600
+"Portland State University (PSU)","Western","Mid_Career_Median_Salary",70900
+"Eastern Washington University","Western","Mid_Career_Median_Salary",70900
+"Fort Lewis College","Western","Mid_Career_Median_Salary",69800
+"Boise State University (BSU)","Western","Mid_Career_Median_Salary",69500
+"Utah Valley State College","Western","Mid_Career_Median_Salary",67100
+"Evergreen State College","Western","Mid_Career_Median_Salary",63900
+"Southern Utah University","Western","Mid_Career_Median_Salary",56500
+"Montana State University - Billings","Western","Mid_Career_Median_Salary",50600
+"University of Notre Dame","Midwestern","Mid_Career_Median_Salary",116000
+"University Of Chicago","Midwestern","Mid_Career_Median_Salary",113000
+"Carleton College","Midwestern","Mid_Career_Median_Salary",103000
+"Illinois Institute of Technology (IIT)","Midwestern","Mid_Career_Median_Salary",97800
+"Case Western Reserve University","Midwestern","Mid_Career_Median_Salary",96500
+"University of Illinois at Urbana-Champaign (UIUC)","Midwestern","Mid_Career_Median_Salary",96100
+"Northwestern University","Midwestern","Mid_Career_Median_Salary",95900
+"University of Missouri - Rolla (UMR)","Midwestern","Mid_Career_Median_Salary",95800
+"South Dakota School of Mines & Technology","Midwestern","Mid_Career_Median_Salary",93400
+"University of Michigan","Midwestern","Mid_Career_Median_Salary",93000
+"Purdue University","Midwestern","Mid_Career_Median_Salary",90500
+"Marquette University","Midwestern","Mid_Career_Median_Salary",88400
+"DePauw University","Midwestern","Mid_Career_Median_Salary",88200
+"University of Wisconsin (UW) - Madison","Midwestern","Mid_Career_Median_Salary",87800
+"Bradley University","Midwestern","Mid_Career_Median_Salary",87300
+"St. Olaf College","Midwestern","Mid_Career_Median_Salary",86200
+"Michigan State University (MSU)","Midwestern","Mid_Career_Median_Salary",85300
+"DePaul University","Midwestern","Mid_Career_Median_Salary",84800
+"Iowa State University","Midwestern","Mid_Career_Median_Salary",84600
+"University of Minnesota","Midwestern","Mid_Career_Median_Salary",84200
+"Indiana University (IU), Bloomington","Midwestern","Mid_Career_Median_Salary",84000
+"University of Iowa (UI)","Midwestern","Mid_Career_Median_Salary",83900
+"Ohio State University (OSU)","Midwestern","Mid_Career_Median_Salary",83700
+"Denison University","Midwestern","Mid_Career_Median_Salary",83500
+"University of Illinois at Chicago","Midwestern","Mid_Career_Median_Salary",81700
+"Oberlin College","Midwestern","Mid_Career_Median_Salary",81600
+"University of Kansas","Midwestern","Mid_Career_Median_Salary",81600
+"University of Missouri - Columbia","Midwestern","Mid_Career_Median_Salary",81000
+"University of Nebraska","Midwestern","Mid_Career_Median_Salary",80900
+"Northern Illinois University (NIU)","Midwestern","Mid_Career_Median_Salary",80800
+"Gustavus Adolphus College","Midwestern","Mid_Career_Median_Salary",80600
+"University of North Dakota","Midwestern","Mid_Career_Median_Salary",80600
+"Kansas State University (KSU)","Midwestern","Mid_Career_Median_Salary",79000
+"University of Wisconsin (UW) - Platteville","Midwestern","Mid_Career_Median_Salary",78500
+"Wittenberg University","Midwestern","Mid_Career_Median_Salary",78200
+"North Dakota State University (NDSU)","Midwestern","Mid_Career_Median_Salary",77800
+"Grinnell College","Midwestern","Mid_Career_Median_Salary",76600
+"Wayne State University","Midwestern","Mid_Career_Median_Salary",76100
+"University of Toledo","Midwestern","Mid_Career_Median_Salary",75900
+"University of Wisconsin (UW) - Whitewater","Midwestern","Mid_Career_Median_Salary",75500
+"Minnesota State University - Mankato","Midwestern","Mid_Career_Median_Salary",74700
+"University of Wisconsin (UW) - Milwaukee","Midwestern","Mid_Career_Median_Salary",74600
+"Western Michigan University (WMU)","Midwestern","Mid_Career_Median_Salary",73800
+"South Dakota State University (SDSU)","Midwestern","Mid_Career_Median_Salary",73500
+"Ohio University","Midwestern","Mid_Career_Median_Salary",73400
+"Illinois State University","Midwestern","Mid_Career_Median_Salary",73400
+"Cleveland State University","Midwestern","Mid_Career_Median_Salary",73100
+"University of Nebraska at Omaha","Midwestern","Mid_Career_Median_Salary",72600
+"Southern Illinois University Carbondale","Midwestern","Mid_Career_Median_Salary",72500
+"Eastern Michigan University","Midwestern","Mid_Career_Median_Salary",72100
+"Bowling Green State University","Midwestern","Mid_Career_Median_Salary",72100
+"St. Cloud State University","Midwestern","Mid_Career_Median_Salary",71400
+"University of Wisconsin (UW) - Parkside","Midwestern","Mid_Career_Median_Salary",71400
+"University of Akron","Midwestern","Mid_Career_Median_Salary",70300
+"Missouri State University (MSU)","Midwestern","Mid_Career_Median_Salary",69500
+"University of Wisconsin (UW) - La Crosse","Midwestern","Mid_Career_Median_Salary",69300
+"University of Wisconsin (UW) - Stout","Midwestern","Mid_Career_Median_Salary",68300
+"Robert Morris College (RMC)","Midwestern","Mid_Career_Median_Salary",68200
+"University of Missouri - St. Louis (UMSL)","Midwestern","Mid_Career_Median_Salary",67100
+"University of Wisconsin (UW) - Oshkosh","Midwestern","Mid_Career_Median_Salary",66400
+"University of Missouri - Kansas City (UMKC)","Midwestern","Mid_Career_Median_Salary",65800
+"University of Wisconsin (UW) - Eau Claire","Midwestern","Mid_Career_Median_Salary",64800
+"Ball State University (BSU)","Midwestern","Mid_Career_Median_Salary",64500
+"Park University","Midwestern","Mid_Career_Median_Salary",64300
+"University of Wisconsin (UW) - Stevens Point","Midwestern","Mid_Career_Median_Salary",64000
+"Kent State University","Midwestern","Mid_Career_Median_Salary",62600
+"University of Wisconsin (UW) - Green Bay","Midwestern","Mid_Career_Median_Salary",60600
+"Indiana Wesleyan University (IWU)","Midwestern","Mid_Career_Median_Salary",58500
+"Pittsburg State University","Midwestern","Mid_Career_Median_Salary",58200
+"Davenport University","Midwestern","Mid_Career_Median_Salary",46600
+"Black Hills State University","Midwestern","Mid_Career_Median_Salary",43900
+"Rice University","Southern","Mid_Career_Median_Salary",110000
+"Georgetown University","Southern","Mid_Career_Median_Salary",110000
+"Duke University","Southern","Mid_Career_Median_Salary",106000
+"Georgia Institute of Technology","Southern","Mid_Career_Median_Salary",106000
+"Washington and Lee University","Southern","Mid_Career_Median_Salary",104000
+"Vanderbilt University","Southern","Mid_Career_Median_Salary",104000
+"Davidson College","Southern","Mid_Career_Median_Salary",104000
+"University of Virginia (UVA)","Southern","Mid_Career_Median_Salary",103000
+"George Washington University (GWU)","Southern","Mid_Career_Median_Salary",97900
+"Texas A&M University","Southern","Mid_Career_Median_Salary",96100
+"Tulane University","Southern","Mid_Career_Median_Salary",95800
+"Virginia Polytechnic Institute and State University (Virginia Tech)","Southern","Mid_Career_Median_Salary",95400
+"University of Maryland, College Park","Southern","Mid_Career_Median_Salary",95000
+"University of Richmond","Southern","Mid_Career_Median_Salary",94600
+"University of Texas (UT) - Austin","Southern","Mid_Career_Median_Salary",93900
+"Emory University","Southern","Mid_Career_Median_Salary",91600
+"American University, Washington D.C.","Southern","Mid_Career_Median_Salary",90800
+"University of Tulsa","Southern","Mid_Career_Median_Salary",88700
+"Baylor University","Southern","Mid_Career_Median_Salary",88600
+"University of Florida (UF)","Southern","Mid_Career_Median_Salary",87900
+"Louisiana State University (LSU)","Southern","Mid_Career_Median_Salary",87800
+"George Mason University","Southern","Mid_Career_Median_Salary",86900
+"Clemson University","Southern","Mid_Career_Median_Salary",86000
+"University of Georgia (UGA)","Southern","Mid_Career_Median_Salary",86000
+"Auburn University","Southern","Mid_Career_Median_Salary",84700
+"University of Delaware","Southern","Mid_Career_Median_Salary",84500
+"Randolph-Macon College","Southern","Mid_Career_Median_Salary",83600
+"North Carolina State University (NCSU)","Southern","Mid_Career_Median_Salary",83300
+"University of Oklahoma","Southern","Mid_Career_Median_Salary",82900
+"University of Arkansas","Southern","Mid_Career_Median_Salary",82800
+"University of Alabama at Huntsville (UAH)","Southern","Mid_Career_Median_Salary",82700
+"Howard University","Southern","Mid_Career_Median_Salary",81800
+"University of North Carolina at Chapel Hill (UNCH)","Southern","Mid_Career_Median_Salary",81500
+"University of Alabama, Tuscaloosa","Southern","Mid_Career_Median_Salary",81400
+"University of Texas at Arlington (UTA)","Southern","Mid_Career_Median_Salary",80800
+"Oklahoma State University","Southern","Mid_Career_Median_Salary",80700
+"Tennessee Technological University","Southern","Mid_Career_Median_Salary",80000
+"University of Houston (UH)","Southern","Mid_Career_Median_Salary",79900
+"University of Mississippi","Southern","Mid_Career_Median_Salary",79700
+"Lamar University","Southern","Mid_Career_Median_Salary",79400
+"Mississippi State University (MSU)","Southern","Mid_Career_Median_Salary",79300
+"University of Kentucky (UK)","Southern","Mid_Career_Median_Salary",78300
+"Texas Christian University (TCU)","Southern","Mid_Career_Median_Salary",78100
+"West Virginia University (WVU)","Southern","Mid_Career_Median_Salary",78100
+"University of Maryland Baltimore County (UMBC)","Southern","Mid_Career_Median_Salary",77800
+"University of Louisiana (UL) at Lafayette","Southern","Mid_Career_Median_Salary",76300
+"Florida International University (FIU)","Southern","Mid_Career_Median_Salary",75500
+"University of Tennessee","Southern","Mid_Career_Median_Salary",74600
+"University of Arkansas - Monticello (UAM)","Southern","Mid_Career_Median_Salary",74500
+"University of North Carolina at Charlotte (UNCC)","Southern","Mid_Career_Median_Salary",74000
+"Georgia State University","Southern","Mid_Career_Median_Salary",74000
+"LeTourneau University","Southern","Mid_Career_Median_Salary",73800
+"Florida State University (FSU)","Southern","Mid_Career_Median_Salary",73000
+"University of Texas at El Paso (UTEP)","Southern","Mid_Career_Median_Salary",72100
+"University of Central Florida (UCF)","Southern","Mid_Career_Median_Salary",71700
+"University of South Carolina","Southern","Mid_Career_Median_Salary",71700
+"Florida Atlantic University (FAU)","Southern","Mid_Career_Median_Salary",71100
+"University of South Florida (USF)","Southern","Mid_Career_Median_Salary",71100
+"University of Texas at San Antonio (UTSA)","Southern","Mid_Career_Median_Salary",70700
+"University of Alabama at Birmingham (UAB)","Southern","Mid_Career_Median_Salary",70100
+"University of Memphis (U of M)","Southern","Mid_Career_Median_Salary",69700
+"Appalachian State University","Southern","Mid_Career_Median_Salary",69100
+"Virginia Commonwealth University (VCU)","Southern","Mid_Career_Median_Salary",68400
+"East Carolina University (ECU)","Southern","Mid_Career_Median_Salary",67500
+"Western Carolina University","Southern","Mid_Career_Median_Salary",66600
+"Jacksonville University","Southern","Mid_Career_Median_Salary",66200
+"University of North Carolina at Wilmington (UNCW)","Southern","Mid_Career_Median_Salary",64400
+"Oklahoma City University","Southern","Mid_Career_Median_Salary",64300
+"Arkansas State University (ASU)","Southern","Mid_Career_Median_Salary",63300
+"Tarleton State University (TSU)","Southern","Mid_Career_Median_Salary",62400
+"Morehead State University","Southern","Mid_Career_Median_Salary",60600
+"Mississippi College","Southern","Mid_Career_Median_Salary",60400
+"Dallas Baptist University","Southern","Mid_Career_Median_Salary",60200
+"Austin Peay State University","Southern","Mid_Career_Median_Salary",59200
+"Saint Leo University","Southern","Mid_Career_Median_Salary",57800
+"Tusculum College","Southern","Mid_Career_Median_Salary",55500
+"Virginia Wesleyan College (VWC)","Southern","Mid_Career_Median_Salary",54900
+"Lee University (Cleveland, TN)","Southern","Mid_Career_Median_Salary",53900
+"Florida Metropolitan University (FMU)","Southern","Mid_Career_Median_Salary",51000
+"Dartmouth College","Northeastern","Mid_Career_Median_Salary",134000
+"Princeton University","Northeastern","Mid_Career_Median_Salary",131000
+"Massachusetts Institute of Technology (MIT)","Northeastern","Mid_Career_Median_Salary",126000
+"Yale University","Northeastern","Mid_Career_Median_Salary",126000
+"Harvard University","Northeastern","Mid_Career_Median_Salary",124000
+"University of Pennsylvania","Northeastern","Mid_Career_Median_Salary",120000
+"Polytechnic University of New York, Brooklyn","Northeastern","Mid_Career_Median_Salary",114000
+"Cooper Union","Northeastern","Mid_Career_Median_Salary",114000
+"Worcester Polytechnic Institute (WPI)","Northeastern","Mid_Career_Median_Salary",114000
+"Carnegie Mellon University (CMU)","Northeastern","Mid_Career_Median_Salary",111000
+"Rensselaer Polytechnic Institute (RPI)","Northeastern","Mid_Career_Median_Salary",110000
+"Cornell University","Northeastern","Mid_Career_Median_Salary",110000
+"Bucknell University","Northeastern","Mid_Career_Median_Salary",110000
+"Brown University","Northeastern","Mid_Career_Median_Salary",109000
+"Colgate University","Northeastern","Mid_Career_Median_Salary",108000
+"Columbia University","Northeastern","Mid_Career_Median_Salary",107000
+"Amherst College","Northeastern","Mid_Career_Median_Salary",107000
+"Lafayette College","Northeastern","Mid_Career_Median_Salary",107000
+"Bowdoin College","Northeastern","Mid_Career_Median_Salary",107000
+"College of the Holy Cross","Northeastern","Mid_Career_Median_Salary",106000
+"Stevens Institute of Technology","Northeastern","Mid_Career_Median_Salary",105000
+"Lehigh University","Northeastern","Mid_Career_Median_Salary",105000
+"Swarthmore College","Northeastern","Mid_Career_Median_Salary",104000
+"Boston College","Northeastern","Mid_Career_Median_Salary",103000
+"Williams College","Northeastern","Mid_Career_Median_Salary",102000
+"Villanova University","Northeastern","Mid_Career_Median_Salary",101000
+"Fordham University","Northeastern","Mid_Career_Median_Salary",99900
+"Wesleyan University (Middletown, Connecticut)","Northeastern","Mid_Career_Median_Salary",97900
+"Wentworth Institute of Technology","Northeastern","Mid_Career_Median_Salary",96700
+"Bates College","Northeastern","Mid_Career_Median_Salary",96500
+"Binghamton University","Northeastern","Mid_Career_Median_Salary",95900
+"Union College","Northeastern","Mid_Career_Median_Salary",95800
+"New York University (NYU)","Northeastern","Mid_Career_Median_Salary",95600
+"Vassar College","Northeastern","Mid_Career_Median_Salary",94600
+"Middlebury College","Northeastern","Mid_Career_Median_Salary",94200
+"Mount Holyoke College","Northeastern","Mid_Career_Median_Salary",94200
+"Boston University","Northeastern","Mid_Career_Median_Salary",93900
+"Drexel University","Northeastern","Mid_Career_Median_Salary",93500
+"St. John's University, New York","Northeastern","Mid_Career_Median_Salary",93400
+"Long Island University","Northeastern","Mid_Career_Median_Salary",93200
+"Stony Brook University","Northeastern","Mid_Career_Median_Salary",93000
+"Franklin and Marshall College","Northeastern","Mid_Career_Median_Salary",92800
+"Hofstra University","Northeastern","Mid_Career_Median_Salary",92700
+"State University of New York (SUNY) at Albany","Northeastern","Mid_Career_Median_Salary",92200
+"Rutgers University","Northeastern","Mid_Career_Median_Salary",91800
+"Pratt Institute","Northeastern","Mid_Career_Median_Salary",89900
+"Pace University","Northeastern","Mid_Career_Median_Salary",89700
+"Seton Hall University","Northeastern","Mid_Career_Median_Salary",89200
+"Rider University","Northeastern","Mid_Career_Median_Salary",88900
+"University of Connecticut (UConn)","Northeastern","Mid_Career_Median_Salary",88800
+"Providence College","Northeastern","Mid_Career_Median_Salary",88600
+"University of Massachusetts (UMass) - Amherst","Northeastern","Mid_Career_Median_Salary",88200
+"Ithaca College","Northeastern","Mid_Career_Median_Salary",87400
+"University of Massachusetts (UMass) - Lowell","Northeastern","Mid_Career_Median_Salary",86600
+"Northeastern University","Northeastern","Mid_Career_Median_Salary",86400
+"Syracuse University","Northeastern","Mid_Career_Median_Salary",85900
+"Colby College","Northeastern","Mid_Career_Median_Salary",85800
+"Gettysburg College","Northeastern","Mid_Career_Median_Salary",85800
+"Pennsylvania State University (PSU)","Northeastern","Mid_Career_Median_Salary",85700
+"University of Rhode Island (URI)","Northeastern","Mid_Career_Median_Salary",85300
+"Siena College","Northeastern","Mid_Career_Median_Salary",85200
+"La Salle University (Philadelphia)","Northeastern","Mid_Career_Median_Salary",84700
+"Rochester Institute of Technology (RIT)","Northeastern","Mid_Career_Median_Salary",84600
+"Duquesne University","Northeastern","Mid_Career_Median_Salary",84400
+"State University of New York (SUNY) at Farmingdale","Northeastern","Mid_Career_Median_Salary",84200
+"Smith College","Northeastern","Mid_Career_Median_Salary",83900
+"Hamilton College","Northeastern","Mid_Career_Median_Salary",83700
+"Wellesley College","Northeastern","Mid_Career_Median_Salary",83500
+"Widener University","Northeastern","Mid_Career_Median_Salary",83400
+"University of New Haven","Northeastern","Mid_Career_Median_Salary",82900
+"Dowling College","Northeastern","Mid_Career_Median_Salary",82800
+"University of Vermont (UVM)","Northeastern","Mid_Career_Median_Salary",82700
+"State University of New York (SUNY) at Buffalo","Northeastern","Mid_Career_Median_Salary",81700
+"State University of New York (SUNY) at Geneseo","Northeastern","Mid_Career_Median_Salary",81300
+"Fashion Institute of Technology","Northeastern","Mid_Career_Median_Salary",81000
+"Philadelphia University","Northeastern","Mid_Career_Median_Salary",80300
+"Ursinus College","Northeastern","Mid_Career_Median_Salary",80000
+"Adelphi University","Northeastern","Mid_Career_Median_Salary",79200
+"Juniata College","Northeastern","Mid_Career_Median_Salary",78900
+"Fairleigh Dickinson University","Northeastern","Mid_Career_Median_Salary",78700
+"University of New Hampshire (UNH)","Northeastern","Mid_Career_Median_Salary",78300
+"University of Massachusetts (UMass) - Boston","Northeastern","Mid_Career_Median_Salary",78200
+"State University of New York (SUNY) at Oswego","Northeastern","Mid_Career_Median_Salary",77800
+"University of Massachusetts (UMass) - Dartmouth","Northeastern","Mid_Career_Median_Salary",77700
+"State University of New York (SUNY) at Oneonta","Northeastern","Mid_Career_Median_Salary",76700
+"Quinnipiac University","Northeastern","Mid_Career_Median_Salary",76500
+"State University of New York (SUNY) at Plattsburgh","Northeastern","Mid_Career_Median_Salary",76200
+"Sacred Heart University","Northeastern","Mid_Career_Median_Salary",75300
+"Skidmore College","Northeastern","Mid_Career_Median_Salary",74600
+"Moravian College","Northeastern","Mid_Career_Median_Salary",74400
+"Penn State - Harrisburg","Northeastern","Mid_Career_Median_Salary",74000
+"Suffolk University","Northeastern","Mid_Career_Median_Salary",74000
+"Fitchburg State College","Northeastern","Mid_Career_Median_Salary",72600
+"Roger Williams University","Northeastern","Mid_Career_Median_Salary",72300
+"University Of Maine","Northeastern","Mid_Career_Median_Salary",72100
+"State University of New York (SUNY) at Potsdam","Northeastern","Mid_Career_Median_Salary",70300
+"Niagara University","Northeastern","Mid_Career_Median_Salary",69700
+"State University of New York (SUNY) at Fredonia","Northeastern","Mid_Career_Median_Salary",66200
+"University of Southern Maine","Northeastern","Mid_Career_Median_Salary",63600
+"Mercy College","Northeastern","Mid_Career_Median_Salary",62600
+"Stanford University","California","Mid_Career_10th_Percentile_Salary",68400
+"California Institute of Technology (CIT)","California","Mid_Career_10th_Percentile_Salary",NA
+"Harvey Mudd College","California","Mid_Career_10th_Percentile_Salary",NA
+"University of California, Berkeley","California","Mid_Career_10th_Percentile_Salary",59500
+"Occidental College","California","Mid_Career_10th_Percentile_Salary",NA
+"Cal Poly San Luis Obispo","California","Mid_Career_10th_Percentile_Salary",55000
+"University of California at Los Angeles (UCLA)","California","Mid_Career_10th_Percentile_Salary",51300
+"University of California, San Diego (UCSD)","California","Mid_Career_10th_Percentile_Salary",51700
+"Pomona College","California","Mid_Career_10th_Percentile_Salary",NA
+"University of Southern California (USC)","California","Mid_Career_10th_Percentile_Salary",49700
+"University of California, Davis","California","Mid_Career_10th_Percentile_Salary",52000
+"University of California, Irvine (UCI)","California","Mid_Career_10th_Percentile_Salary",47800
+"San Jose State University (SJSU)","California","Mid_Career_10th_Percentile_Salary",50700
+"University of California, Santa Barbara (UCSB)","California","Mid_Career_10th_Percentile_Salary",51300
+"California State University (CSU), Chico","California","Mid_Career_10th_Percentile_Salary",46800
+"California State University, Fullerton (CSUF)","California","Mid_Career_10th_Percentile_Salary",45400
+"San Francisco State University (SFSU)","California","Mid_Career_10th_Percentile_Salary",45100
+"San Diego State University (SDSU)","California","Mid_Career_10th_Percentile_Salary",45500
+"California State University, Long Beach (CSULB)","California","Mid_Career_10th_Percentile_Salary",47400
+"California State University, East Bay (CSUEB)","California","Mid_Career_10th_Percentile_Salary",46000
+"University of California, Santa Cruz (UCSC)","California","Mid_Career_10th_Percentile_Salary",46100
+"California State University, Sacramento (CSUS)","California","Mid_Career_10th_Percentile_Salary",42900
+"University of California, Riverside (UCR)","California","Mid_Career_10th_Percentile_Salary",37200
+"California State University, Northridge (CSUN)","California","Mid_Career_10th_Percentile_Salary",44500
+"California State University, Dominguez Hills (CSUDH)","California","Mid_Career_10th_Percentile_Salary",30800
+"California State University (CSU), Stanislaus","California","Mid_Career_10th_Percentile_Salary",NA
+"Humboldt State University","California","Mid_Career_10th_Percentile_Salary",36000
+"Thomas Aquinas College","California","Mid_Career_10th_Percentile_Salary",NA
+"Colorado School of Mines","Western","Mid_Career_10th_Percentile_Salary",62200
+"University of Colorado - Boulder (UCB)","Western","Mid_Career_10th_Percentile_Salary",51600
+"New Mexico Institute of Mining and Technology (New Mexico Tech)","Western","Mid_Career_10th_Percentile_Salary",NA
+"Brigham Young University (BYU)","Western","Mid_Career_10th_Percentile_Salary",50600
+"University of Arizona","Western","Mid_Career_10th_Percentile_Salary",44800
+"University of Washington (UW)","Western","Mid_Career_10th_Percentile_Salary",47000
+"Washington State University (WSU)","Western","Mid_Career_10th_Percentile_Salary",43600
+"University of Colorado - Denver","Western","Mid_Career_10th_Percentile_Salary",46400
+"Arizona State University (ASU)","Western","Mid_Career_10th_Percentile_Salary",44600
+"Oregon State University (OSU)","Western","Mid_Career_10th_Percentile_Salary",46900
+"University of Utah","Western","Mid_Career_10th_Percentile_Salary",43000
+"University of Nevada, Reno (UNR)","Western","Mid_Career_10th_Percentile_Salary",41900
+"Seattle University","Western","Mid_Career_10th_Percentile_Salary",50600
+"University of Idaho","Western","Mid_Career_10th_Percentile_Salary",43000
+"University of New Mexico (UNM)","Western","Mid_Career_10th_Percentile_Salary",41800
+"University of Puget Sound","Western","Mid_Career_10th_Percentile_Salary",48900
+"Colorado College (CC)","Western","Mid_Career_10th_Percentile_Salary",NA
+"Reed College","Western","Mid_Career_10th_Percentile_Salary",NA
+"Whitman College","Western","Mid_Career_10th_Percentile_Salary",NA
+"New Mexico State University","Western","Mid_Career_10th_Percentile_Salary",37400
+"Colorado State University (CSU)","Western","Mid_Career_10th_Percentile_Salary",43800
+"University of Wyoming (UW)","Western","Mid_Career_10th_Percentile_Salary",41500
+"Utah State University","Western","Mid_Career_10th_Percentile_Salary",41600
+"University of Oregon","Western","Mid_Career_10th_Percentile_Salary",38100
+"Montana State University - Bozeman","Western","Mid_Career_10th_Percentile_Salary",40200
+"Gonzaga University","Western","Mid_Career_10th_Percentile_Salary",47000
+"University of Hawaii","Western","Mid_Career_10th_Percentile_Salary",40400
+"Western Washington University","Western","Mid_Career_10th_Percentile_Salary",41300
+"Regis University","Western","Mid_Career_10th_Percentile_Salary",41000
+"Idaho State University","Western","Mid_Career_10th_Percentile_Salary",35400
+"University of Alaska, Anchorage","Western","Mid_Career_10th_Percentile_Salary",39800
+"Lewis & Clark College","Western","Mid_Career_10th_Percentile_Salary",38200
+"University of Montana","Western","Mid_Career_10th_Percentile_Salary",37000
+"University of Nevada, Las Vegas (UNLV)","Western","Mid_Career_10th_Percentile_Salary",39000
+"Portland State University (PSU)","Western","Mid_Career_10th_Percentile_Salary",40700
+"Eastern Washington University","Western","Mid_Career_10th_Percentile_Salary",36000
+"Fort Lewis College","Western","Mid_Career_10th_Percentile_Salary",NA
+"Boise State University (BSU)","Western","Mid_Career_10th_Percentile_Salary",37400
+"Utah Valley State College","Western","Mid_Career_10th_Percentile_Salary",NA
+"Evergreen State College","Western","Mid_Career_10th_Percentile_Salary",38800
+"Southern Utah University","Western","Mid_Career_10th_Percentile_Salary",NA
+"Montana State University - Billings","Western","Mid_Career_10th_Percentile_Salary",NA
+"University of Notre Dame","Midwestern","Mid_Career_10th_Percentile_Salary",66400
+"University Of Chicago","Midwestern","Mid_Career_10th_Percentile_Salary",62200
+"Carleton College","Midwestern","Mid_Career_10th_Percentile_Salary",NA
+"Illinois Institute of Technology (IIT)","Midwestern","Mid_Career_10th_Percentile_Salary",56100
+"Case Western Reserve University","Midwestern","Mid_Career_10th_Percentile_Salary",54900
+"University of Illinois at Urbana-Champaign (UIUC)","Midwestern","Mid_Career_10th_Percentile_Salary",48200
+"Northwestern University","Midwestern","Mid_Career_10th_Percentile_Salary",51900
+"University of Missouri - Rolla (UMR)","Midwestern","Mid_Career_10th_Percentile_Salary",67600
+"South Dakota School of Mines & Technology","Midwestern","Mid_Career_10th_Percentile_Salary",71500
+"University of Michigan","Midwestern","Mid_Career_10th_Percentile_Salary",50900
+"Purdue University","Midwestern","Mid_Career_10th_Percentile_Salary",49900
+"Marquette University","Midwestern","Mid_Career_10th_Percentile_Salary",49500
+"DePauw University","Midwestern","Mid_Career_10th_Percentile_Salary",49500
+"University of Wisconsin (UW) - Madison","Midwestern","Mid_Career_10th_Percentile_Salary",47400
+"Bradley University","Midwestern","Mid_Career_10th_Percentile_Salary",45900
+"St. Olaf College","Midwestern","Mid_Career_10th_Percentile_Salary",41300
+"Michigan State University (MSU)","Midwestern","Mid_Career_10th_Percentile_Salary",44200
+"DePaul University","Midwestern","Mid_Career_10th_Percentile_Salary",50300
+"Iowa State University","Midwestern","Mid_Career_10th_Percentile_Salary",44400
+"University of Minnesota","Midwestern","Mid_Career_10th_Percentile_Salary",49000
+"Indiana University (IU), Bloomington","Midwestern","Mid_Career_10th_Percentile_Salary",43600
+"University of Iowa (UI)","Midwestern","Mid_Career_10th_Percentile_Salary",43300
+"Ohio State University (OSU)","Midwestern","Mid_Career_10th_Percentile_Salary",45500
+"Denison University","Midwestern","Mid_Career_10th_Percentile_Salary",NA
+"University of Illinois at Chicago","Midwestern","Mid_Career_10th_Percentile_Salary",44700
+"Oberlin College","Midwestern","Mid_Career_10th_Percentile_Salary",NA
+"University of Kansas","Midwestern","Mid_Career_10th_Percentile_Salary",44800
+"University of Missouri - Columbia","Midwestern","Mid_Career_10th_Percentile_Salary",43500
+"University of Nebraska","Midwestern","Mid_Career_10th_Percentile_Salary",42200
+"Northern Illinois University (NIU)","Midwestern","Mid_Career_10th_Percentile_Salary",43900
+"Gustavus Adolphus College","Midwestern","Mid_Career_10th_Percentile_Salary",NA
+"University of North Dakota","Midwestern","Mid_Career_10th_Percentile_Salary",43400
+"Kansas State University (KSU)","Midwestern","Mid_Career_10th_Percentile_Salary",37200
+"University of Wisconsin (UW) - Platteville","Midwestern","Mid_Career_10th_Percentile_Salary",48400
+"Wittenberg University","Midwestern","Mid_Career_10th_Percentile_Salary",NA
+"North Dakota State University (NDSU)","Midwestern","Mid_Career_10th_Percentile_Salary",39000
+"Grinnell College","Midwestern","Mid_Career_10th_Percentile_Salary",NA
+"Wayne State University","Midwestern","Mid_Career_10th_Percentile_Salary",40100
+"University of Toledo","Midwestern","Mid_Career_10th_Percentile_Salary",40100
+"University of Wisconsin (UW) - Whitewater","Midwestern","Mid_Career_10th_Percentile_Salary",38200
+"Minnesota State University - Mankato","Midwestern","Mid_Career_10th_Percentile_Salary",39500
+"University of Wisconsin (UW) - Milwaukee","Midwestern","Mid_Career_10th_Percentile_Salary",40600
+"Western Michigan University (WMU)","Midwestern","Mid_Career_10th_Percentile_Salary",40100
+"South Dakota State University (SDSU)","Midwestern","Mid_Career_10th_Percentile_Salary",34100
+"Ohio University","Midwestern","Mid_Career_10th_Percentile_Salary",36600
+"Illinois State University","Midwestern","Mid_Career_10th_Percentile_Salary",39100
+"Cleveland State University","Midwestern","Mid_Career_10th_Percentile_Salary",39500
+"University of Nebraska at Omaha","Midwestern","Mid_Career_10th_Percentile_Salary",39500
+"Southern Illinois University Carbondale","Midwestern","Mid_Career_10th_Percentile_Salary",38300
+"Eastern Michigan University","Midwestern","Mid_Career_10th_Percentile_Salary",37900
+"Bowling Green State University","Midwestern","Mid_Career_10th_Percentile_Salary",38200
+"St. Cloud State University","Midwestern","Mid_Career_10th_Percentile_Salary",38700
+"University of Wisconsin (UW) - Parkside","Midwestern","Mid_Career_10th_Percentile_Salary",40900
+"University of Akron","Midwestern","Mid_Career_10th_Percentile_Salary",40600
+"Missouri State University (MSU)","Midwestern","Mid_Career_10th_Percentile_Salary",33300
+"University of Wisconsin (UW) - La Crosse","Midwestern","Mid_Career_10th_Percentile_Salary",37500
+"University of Wisconsin (UW) - Stout","Midwestern","Mid_Career_10th_Percentile_Salary",40900
+"Robert Morris College (RMC)","Midwestern","Mid_Career_10th_Percentile_Salary",37300
+"University of Missouri - St. Louis (UMSL)","Midwestern","Mid_Career_10th_Percentile_Salary",36800
+"University of Wisconsin (UW) - Oshkosh","Midwestern","Mid_Career_10th_Percentile_Salary",37700
+"University of Missouri - Kansas City (UMKC)","Midwestern","Mid_Career_10th_Percentile_Salary",36300
+"University of Wisconsin (UW) - Eau Claire","Midwestern","Mid_Career_10th_Percentile_Salary",35000
+"Ball State University (BSU)","Midwestern","Mid_Career_10th_Percentile_Salary",35500
+"Park University","Midwestern","Mid_Career_10th_Percentile_Salary",37200
+"University of Wisconsin (UW) - Stevens Point","Midwestern","Mid_Career_10th_Percentile_Salary",38400
+"Kent State University","Midwestern","Mid_Career_10th_Percentile_Salary",36100
+"University of Wisconsin (UW) - Green Bay","Midwestern","Mid_Career_10th_Percentile_Salary",35500
+"Indiana Wesleyan University (IWU)","Midwestern","Mid_Career_10th_Percentile_Salary",39600
+"Pittsburg State University","Midwestern","Mid_Career_10th_Percentile_Salary",25600
+"Davenport University","Midwestern","Mid_Career_10th_Percentile_Salary",31600
+"Black Hills State University","Midwestern","Mid_Career_10th_Percentile_Salary",NA
+"Rice University","Southern","Mid_Career_10th_Percentile_Salary",55900
+"Georgetown University","Southern","Mid_Career_10th_Percentile_Salary",60300
+"Duke University","Southern","Mid_Career_10th_Percentile_Salary",56000
+"Georgia Institute of Technology","Southern","Mid_Career_10th_Percentile_Salary",67200
+"Washington and Lee University","Southern","Mid_Career_10th_Percentile_Salary",NA
+"Vanderbilt University","Southern","Mid_Career_10th_Percentile_Salary",49900
+"Davidson College","Southern","Mid_Career_10th_Percentile_Salary",NA
+"University of Virginia (UVA)","Southern","Mid_Career_10th_Percentile_Salary",52200
+"George Washington University (GWU)","Southern","Mid_Career_10th_Percentile_Salary",48400
+"Texas A&M University","Southern","Mid_Career_10th_Percentile_Salary",51100
+"Tulane University","Southern","Mid_Career_10th_Percentile_Salary",46500
+"Virginia Polytechnic Institute and State University (Virginia Tech)","Southern","Mid_Career_10th_Percentile_Salary",50600
+"University of Maryland, College Park","Southern","Mid_Career_10th_Percentile_Salary",50400
+"University of Richmond","Southern","Mid_Career_10th_Percentile_Salary",44500
+"University of Texas (UT) - Austin","Southern","Mid_Career_10th_Percentile_Salary",50100
+"Emory University","Southern","Mid_Career_10th_Percentile_Salary",52500
+"American University, Washington D.C.","Southern","Mid_Career_10th_Percentile_Salary",45200
+"University of Tulsa","Southern","Mid_Career_10th_Percentile_Salary",42300
+"Baylor University","Southern","Mid_Career_10th_Percentile_Salary",46300
+"University of Florida (UF)","Southern","Mid_Career_10th_Percentile_Salary",45400
+"Louisiana State University (LSU)","Southern","Mid_Career_10th_Percentile_Salary",43700
+"George Mason University","Southern","Mid_Career_10th_Percentile_Salary",51300
+"Clemson University","Southern","Mid_Career_10th_Percentile_Salary",50500
+"University of Georgia (UGA)","Southern","Mid_Career_10th_Percentile_Salary",43100
+"Auburn University","Southern","Mid_Career_10th_Percentile_Salary",45400
+"University of Delaware","Southern","Mid_Career_10th_Percentile_Salary",44500
+"Randolph-Macon College","Southern","Mid_Career_10th_Percentile_Salary",NA
+"North Carolina State University (NCSU)","Southern","Mid_Career_10th_Percentile_Salary",49200
+"University of Oklahoma","Southern","Mid_Career_10th_Percentile_Salary",41200
+"University of Arkansas","Southern","Mid_Career_10th_Percentile_Salary",43200
+"University of Alabama at Huntsville (UAH)","Southern","Mid_Career_10th_Percentile_Salary",46100
+"Howard University","Southern","Mid_Career_10th_Percentile_Salary",43300
+"University of North Carolina at Chapel Hill (UNCH)","Southern","Mid_Career_10th_Percentile_Salary",43400
+"University of Alabama, Tuscaloosa","Southern","Mid_Career_10th_Percentile_Salary",40100
+"University of Texas at Arlington (UTA)","Southern","Mid_Career_10th_Percentile_Salary",46400
+"Oklahoma State University","Southern","Mid_Career_10th_Percentile_Salary",40100
+"Tennessee Technological University","Southern","Mid_Career_10th_Percentile_Salary",42100
+"University of Houston (UH)","Southern","Mid_Career_10th_Percentile_Salary",42000
+"University of Mississippi","Southern","Mid_Career_10th_Percentile_Salary",40400
+"Lamar University","Southern","Mid_Career_10th_Percentile_Salary",38700
+"Mississippi State University (MSU)","Southern","Mid_Career_10th_Percentile_Salary",43300
+"University of Kentucky (UK)","Southern","Mid_Career_10th_Percentile_Salary",43000
+"Texas Christian University (TCU)","Southern","Mid_Career_10th_Percentile_Salary",42600
+"West Virginia University (WVU)","Southern","Mid_Career_10th_Percentile_Salary",39700
+"University of Maryland Baltimore County (UMBC)","Southern","Mid_Career_10th_Percentile_Salary",46900
+"University of Louisiana (UL) at Lafayette","Southern","Mid_Career_10th_Percentile_Salary",42000
+"Florida International University (FIU)","Southern","Mid_Career_10th_Percentile_Salary",40500
+"University of Tennessee","Southern","Mid_Career_10th_Percentile_Salary",41900
+"University of Arkansas - Monticello (UAM)","Southern","Mid_Career_10th_Percentile_Salary",NA
+"University of North Carolina at Charlotte (UNCC)","Southern","Mid_Career_10th_Percentile_Salary",38200
+"Georgia State University","Southern","Mid_Career_10th_Percentile_Salary",43000
+"LeTourneau University","Southern","Mid_Career_10th_Percentile_Salary",41200
+"Florida State University (FSU)","Southern","Mid_Career_10th_Percentile_Salary",39600
+"University of Texas at El Paso (UTEP)","Southern","Mid_Career_10th_Percentile_Salary",37700
+"University of Central Florida (UCF)","Southern","Mid_Career_10th_Percentile_Salary",39500
+"University of South Carolina","Southern","Mid_Career_10th_Percentile_Salary",36300
+"Florida Atlantic University (FAU)","Southern","Mid_Career_10th_Percentile_Salary",40700
+"University of South Florida (USF)","Southern","Mid_Career_10th_Percentile_Salary",39600
+"University of Texas at San Antonio (UTSA)","Southern","Mid_Career_10th_Percentile_Salary",39100
+"University of Alabama at Birmingham (UAB)","Southern","Mid_Career_10th_Percentile_Salary",43000
+"University of Memphis (U of M)","Southern","Mid_Career_10th_Percentile_Salary",36100
+"Appalachian State University","Southern","Mid_Career_10th_Percentile_Salary",37200
+"Virginia Commonwealth University (VCU)","Southern","Mid_Career_10th_Percentile_Salary",37400
+"East Carolina University (ECU)","Southern","Mid_Career_10th_Percentile_Salary",38400
+"Western Carolina University","Southern","Mid_Career_10th_Percentile_Salary",39000
+"Jacksonville University","Southern","Mid_Career_10th_Percentile_Salary",36700
+"University of North Carolina at Wilmington (UNCW)","Southern","Mid_Career_10th_Percentile_Salary",32100
+"Oklahoma City University","Southern","Mid_Career_10th_Percentile_Salary",NA
+"Arkansas State University (ASU)","Southern","Mid_Career_10th_Percentile_Salary",33600
+"Tarleton State University (TSU)","Southern","Mid_Career_10th_Percentile_Salary",32100
+"Morehead State University","Southern","Mid_Career_10th_Percentile_Salary",34300
+"Mississippi College","Southern","Mid_Career_10th_Percentile_Salary",NA
+"Dallas Baptist University","Southern","Mid_Career_10th_Percentile_Salary",38500
+"Austin Peay State University","Southern","Mid_Career_10th_Percentile_Salary",32200
+"Saint Leo University","Southern","Mid_Career_10th_Percentile_Salary",34400
+"Tusculum College","Southern","Mid_Career_10th_Percentile_Salary",36200
+"Virginia Wesleyan College (VWC)","Southern","Mid_Career_10th_Percentile_Salary",NA
+"Lee University (Cleveland, TN)","Southern","Mid_Career_10th_Percentile_Salary",NA
+"Florida Metropolitan University (FMU)","Southern","Mid_Career_10th_Percentile_Salary",32800
+"Dartmouth College","Northeastern","Mid_Career_10th_Percentile_Salary",63100
+"Princeton University","Northeastern","Mid_Career_10th_Percentile_Salary",68900
+"Massachusetts Institute of Technology (MIT)","Northeastern","Mid_Career_10th_Percentile_Salary",76800
+"Yale University","Northeastern","Mid_Career_10th_Percentile_Salary",58000
+"Harvard University","Northeastern","Mid_Career_10th_Percentile_Salary",54800
+"University of Pennsylvania","Northeastern","Mid_Career_10th_Percentile_Salary",55900
+"Polytechnic University of New York, Brooklyn","Northeastern","Mid_Career_10th_Percentile_Salary",66800
+"Cooper Union","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Worcester Polytechnic Institute (WPI)","Northeastern","Mid_Career_10th_Percentile_Salary",80000
+"Carnegie Mellon University (CMU)","Northeastern","Mid_Career_10th_Percentile_Salary",63300
+"Rensselaer Polytechnic Institute (RPI)","Northeastern","Mid_Career_10th_Percentile_Salary",71600
+"Cornell University","Northeastern","Mid_Career_10th_Percentile_Salary",56800
+"Bucknell University","Northeastern","Mid_Career_10th_Percentile_Salary",62800
+"Brown University","Northeastern","Mid_Career_10th_Percentile_Salary",55400
+"Colgate University","Northeastern","Mid_Career_10th_Percentile_Salary",60000
+"Columbia University","Northeastern","Mid_Career_10th_Percentile_Salary",50300
+"Amherst College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Lafayette College","Northeastern","Mid_Career_10th_Percentile_Salary",70600
+"Bowdoin College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"College of the Holy Cross","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Stevens Institute of Technology","Northeastern","Mid_Career_10th_Percentile_Salary",68700
+"Lehigh University","Northeastern","Mid_Career_10th_Percentile_Salary",69500
+"Swarthmore College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Boston College","Northeastern","Mid_Career_10th_Percentile_Salary",48900
+"Williams College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Villanova University","Northeastern","Mid_Career_10th_Percentile_Salary",56800
+"Fordham University","Northeastern","Mid_Career_10th_Percentile_Salary",48600
+"Wesleyan University (Middletown, Connecticut)","Northeastern","Mid_Career_10th_Percentile_Salary",42000
+"Wentworth Institute of Technology","Northeastern","Mid_Career_10th_Percentile_Salary",55200
+"Bates College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Binghamton University","Northeastern","Mid_Career_10th_Percentile_Salary",50900
+"Union College","Northeastern","Mid_Career_10th_Percentile_Salary",48700
+"New York University (NYU)","Northeastern","Mid_Career_10th_Percentile_Salary",47500
+"Vassar College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Middlebury College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Mount Holyoke College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Boston University","Northeastern","Mid_Career_10th_Percentile_Salary",48000
+"Drexel University","Northeastern","Mid_Career_10th_Percentile_Salary",54900
+"St. John's University, New York","Northeastern","Mid_Career_10th_Percentile_Salary",48000
+"Long Island University","Northeastern","Mid_Career_10th_Percentile_Salary",46300
+"Stony Brook University","Northeastern","Mid_Career_10th_Percentile_Salary",47200
+"Franklin and Marshall College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Hofstra University","Northeastern","Mid_Career_10th_Percentile_Salary",48900
+"State University of New York (SUNY) at Albany","Northeastern","Mid_Career_10th_Percentile_Salary",47000
+"Rutgers University","Northeastern","Mid_Career_10th_Percentile_Salary",48100
+"Pratt Institute","Northeastern","Mid_Career_10th_Percentile_Salary",48600
+"Pace University","Northeastern","Mid_Career_10th_Percentile_Salary",44200
+"Seton Hall University","Northeastern","Mid_Career_10th_Percentile_Salary",55700
+"Rider University","Northeastern","Mid_Career_10th_Percentile_Salary",47100
+"University of Connecticut (UConn)","Northeastern","Mid_Career_10th_Percentile_Salary",46100
+"Providence College","Northeastern","Mid_Career_10th_Percentile_Salary",42800
+"University of Massachusetts (UMass) - Amherst","Northeastern","Mid_Career_10th_Percentile_Salary",43100
+"Ithaca College","Northeastern","Mid_Career_10th_Percentile_Salary",50200
+"University of Massachusetts (UMass) - Lowell","Northeastern","Mid_Career_10th_Percentile_Salary",50900
+"Northeastern University","Northeastern","Mid_Career_10th_Percentile_Salary",47100
+"Syracuse University","Northeastern","Mid_Career_10th_Percentile_Salary",46400
+"Colby College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Gettysburg College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Pennsylvania State University (PSU)","Northeastern","Mid_Career_10th_Percentile_Salary",46300
+"University of Rhode Island (URI)","Northeastern","Mid_Career_10th_Percentile_Salary",45400
+"Siena College","Northeastern","Mid_Career_10th_Percentile_Salary",38700
+"La Salle University (Philadelphia)","Northeastern","Mid_Career_10th_Percentile_Salary",45300
+"Rochester Institute of Technology (RIT)","Northeastern","Mid_Career_10th_Percentile_Salary",45000
+"Duquesne University","Northeastern","Mid_Career_10th_Percentile_Salary",42600
+"State University of New York (SUNY) at Farmingdale","Northeastern","Mid_Career_10th_Percentile_Salary",50200
+"Smith College","Northeastern","Mid_Career_10th_Percentile_Salary",45100
+"Hamilton College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Wellesley College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Widener University","Northeastern","Mid_Career_10th_Percentile_Salary",42600
+"University of New Haven","Northeastern","Mid_Career_10th_Percentile_Salary",48500
+"Dowling College","Northeastern","Mid_Career_10th_Percentile_Salary",46500
+"University of Vermont (UVM)","Northeastern","Mid_Career_10th_Percentile_Salary",44700
+"State University of New York (SUNY) at Buffalo","Northeastern","Mid_Career_10th_Percentile_Salary",45900
+"State University of New York (SUNY) at Geneseo","Northeastern","Mid_Career_10th_Percentile_Salary",39300
+"Fashion Institute of Technology","Northeastern","Mid_Career_10th_Percentile_Salary",38800
+"Philadelphia University","Northeastern","Mid_Career_10th_Percentile_Salary",45800
+"Ursinus College","Northeastern","Mid_Career_10th_Percentile_Salary",35600
+"Adelphi University","Northeastern","Mid_Career_10th_Percentile_Salary",44200
+"Juniata College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Fairleigh Dickinson University","Northeastern","Mid_Career_10th_Percentile_Salary",40200
+"University of New Hampshire (UNH)","Northeastern","Mid_Career_10th_Percentile_Salary",41700
+"University of Massachusetts (UMass) - Boston","Northeastern","Mid_Career_10th_Percentile_Salary",36300
+"State University of New York (SUNY) at Oswego","Northeastern","Mid_Career_10th_Percentile_Salary",40400
+"University of Massachusetts (UMass) - Dartmouth","Northeastern","Mid_Career_10th_Percentile_Salary",43300
+"State University of New York (SUNY) at Oneonta","Northeastern","Mid_Career_10th_Percentile_Salary",40000
+"Quinnipiac University","Northeastern","Mid_Career_10th_Percentile_Salary",47900
+"State University of New York (SUNY) at Plattsburgh","Northeastern","Mid_Career_10th_Percentile_Salary",38400
+"Sacred Heart University","Northeastern","Mid_Career_10th_Percentile_Salary",39700
+"Skidmore College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Moravian College","Northeastern","Mid_Career_10th_Percentile_Salary",NA
+"Penn State - Harrisburg","Northeastern","Mid_Career_10th_Percentile_Salary",44000
+"Suffolk University","Northeastern","Mid_Career_10th_Percentile_Salary",48700
+"Fitchburg State College","Northeastern","Mid_Career_10th_Percentile_Salary",43300
+"Roger Williams University","Northeastern","Mid_Career_10th_Percentile_Salary",39800
+"University Of Maine","Northeastern","Mid_Career_10th_Percentile_Salary",41700
+"State University of New York (SUNY) at Potsdam","Northeastern","Mid_Career_10th_Percentile_Salary",35100
+"Niagara University","Northeastern","Mid_Career_10th_Percentile_Salary",44000
+"State University of New York (SUNY) at Fredonia","Northeastern","Mid_Career_10th_Percentile_Salary",32800
+"University of Southern Maine","Northeastern","Mid_Career_10th_Percentile_Salary",40400
+"Mercy College","Northeastern","Mid_Career_10th_Percentile_Salary",35600
+"Stanford University","California","Mid_Career_25th_Percentile_Salary",93100
+"California Institute of Technology (CIT)","California","Mid_Career_25th_Percentile_Salary",104000
+"Harvey Mudd College","California","Mid_Career_25th_Percentile_Salary",96000
+"University of California, Berkeley","California","Mid_Career_25th_Percentile_Salary",81000
+"Occidental College","California","Mid_Career_25th_Percentile_Salary",54800
+"Cal Poly San Luis Obispo","California","Mid_Career_25th_Percentile_Salary",74700
+"University of California at Los Angeles (UCLA)","California","Mid_Career_25th_Percentile_Salary",72500
+"University of California, San Diego (UCSD)","California","Mid_Career_25th_Percentile_Salary",75400
+"Pomona College","California","Mid_Career_25th_Percentile_Salary",63300
+"University of Southern California (USC)","California","Mid_Career_25th_Percentile_Salary",73800
+"University of California, Davis","California","Mid_Career_25th_Percentile_Salary",71600
+"University of California, Irvine (UCI)","California","Mid_Career_25th_Percentile_Salary",66000
+"San Jose State University (SJSU)","California","Mid_Career_25th_Percentile_Salary",70500
+"University of California, Santa Barbara (UCSB)","California","Mid_Career_25th_Percentile_Salary",71200
+"California State University (CSU), Chico","California","Mid_Career_25th_Percentile_Salary",62800
+"California State University, Fullerton (CSUF)","California","Mid_Career_25th_Percentile_Salary",62500
+"San Francisco State University (SFSU)","California","Mid_Career_25th_Percentile_Salary",62700
+"San Diego State University (SDSU)","California","Mid_Career_25th_Percentile_Salary",61800
+"California State University, Long Beach (CSULB)","California","Mid_Career_25th_Percentile_Salary",62500
+"California State University, East Bay (CSUEB)","California","Mid_Career_25th_Percentile_Salary",62400
+"University of California, Santa Cruz (UCSC)","California","Mid_Career_25th_Percentile_Salary",62000
+"California State University, Sacramento (CSUS)","California","Mid_Career_25th_Percentile_Salary",59600
+"University of California, Riverside (UCR)","California","Mid_Career_25th_Percentile_Salary",59900
+"California State University, Northridge (CSUN)","California","Mid_Career_25th_Percentile_Salary",57800
+"California State University, Dominguez Hills (CSUDH)","California","Mid_Career_25th_Percentile_Salary",47000
+"California State University (CSU), Stanislaus","California","Mid_Career_25th_Percentile_Salary",50500
+"Humboldt State University","California","Mid_Career_25th_Percentile_Salary",56300
+"Thomas Aquinas College","California","Mid_Career_25th_Percentile_Salary",44600
+"Colorado School of Mines","Western","Mid_Career_25th_Percentile_Salary",87900
+"University of Colorado - Boulder (UCB)","Western","Mid_Career_25th_Percentile_Salary",69000
+"New Mexico Institute of Mining and Technology (New Mexico Tech)","Western","Mid_Career_25th_Percentile_Salary",67400
+"Brigham Young University (BYU)","Western","Mid_Career_25th_Percentile_Salary",68500
+"University of Arizona","Western","Mid_Career_25th_Percentile_Salary",61700
+"University of Washington (UW)","Western","Mid_Career_25th_Percentile_Salary",59800
+"Washington State University (WSU)","Western","Mid_Career_25th_Percentile_Salary",59000
+"University of Colorado - Denver","Western","Mid_Career_25th_Percentile_Salary",58600
+"Arizona State University (ASU)","Western","Mid_Career_25th_Percentile_Salary",60700
+"Oregon State University (OSU)","Western","Mid_Career_25th_Percentile_Salary",64000
+"University of Utah","Western","Mid_Career_25th_Percentile_Salary",58400
+"University of Nevada, Reno (UNR)","Western","Mid_Career_25th_Percentile_Salary",54600
+"Seattle University","Western","Mid_Career_25th_Percentile_Salary",62400
+"University of Idaho","Western","Mid_Career_25th_Percentile_Salary",56700
+"University of New Mexico (UNM)","Western","Mid_Career_25th_Percentile_Salary",59100
+"University of Puget Sound","Western","Mid_Career_25th_Percentile_Salary",60100
+"Colorado College (CC)","Western","Mid_Career_25th_Percentile_Salary",43000
+"Reed College","Western","Mid_Career_25th_Percentile_Salary",67400
+"Whitman College","Western","Mid_Career_25th_Percentile_Salary",64800
+"New Mexico State University","Western","Mid_Career_25th_Percentile_Salary",53800
+"Colorado State University (CSU)","Western","Mid_Career_25th_Percentile_Salary",57100
+"University of Wyoming (UW)","Western","Mid_Career_25th_Percentile_Salary",54000
+"Utah State University","Western","Mid_Career_25th_Percentile_Salary",55400
+"University of Oregon","Western","Mid_Career_25th_Percentile_Salary",56200
+"Montana State University - Bozeman","Western","Mid_Career_25th_Percentile_Salary",58100
+"Gonzaga University","Western","Mid_Career_25th_Percentile_Salary",57400
+"University of Hawaii","Western","Mid_Career_25th_Percentile_Salary",56300
+"Western Washington University","Western","Mid_Career_25th_Percentile_Salary",56700
+"Regis University","Western","Mid_Career_25th_Percentile_Salary",55500
+"Idaho State University","Western","Mid_Career_25th_Percentile_Salary",49600
+"University of Alaska, Anchorage","Western","Mid_Career_25th_Percentile_Salary",56600
+"Lewis & Clark College","Western","Mid_Career_25th_Percentile_Salary",53400
+"University of Montana","Western","Mid_Career_25th_Percentile_Salary",51500
+"University of Nevada, Las Vegas (UNLV)","Western","Mid_Career_25th_Percentile_Salary",52400
+"Portland State University (PSU)","Western","Mid_Career_25th_Percentile_Salary",52300
+"Eastern Washington University","Western","Mid_Career_25th_Percentile_Salary",50500
+"Fort Lewis College","Western","Mid_Career_25th_Percentile_Salary",55000
+"Boise State University (BSU)","Western","Mid_Career_25th_Percentile_Salary",48700
+"Utah Valley State College","Western","Mid_Career_25th_Percentile_Salary",44100
+"Evergreen State College","Western","Mid_Career_25th_Percentile_Salary",47200
+"Southern Utah University","Western","Mid_Career_25th_Percentile_Salary",39700
+"Montana State University - Billings","Western","Mid_Career_25th_Percentile_Salary",31800
+"University of Notre Dame","Midwestern","Mid_Career_25th_Percentile_Salary",85100
+"University Of Chicago","Midwestern","Mid_Career_25th_Percentile_Salary",83300
+"Carleton College","Midwestern","Mid_Career_25th_Percentile_Salary",69400
+"Illinois Institute of Technology (IIT)","Midwestern","Mid_Career_25th_Percentile_Salary",77400
+"Case Western Reserve University","Midwestern","Mid_Career_25th_Percentile_Salary",76500
+"University of Illinois at Urbana-Champaign (UIUC)","Midwestern","Mid_Career_25th_Percentile_Salary",68900
+"Northwestern University","Midwestern","Mid_Career_25th_Percentile_Salary",69100
+"University of Missouri - Rolla (UMR)","Midwestern","Mid_Career_25th_Percentile_Salary",80400
+"South Dakota School of Mines & Technology","Midwestern","Mid_Career_25th_Percentile_Salary",81900
+"University of Michigan","Midwestern","Mid_Career_25th_Percentile_Salary",69400
+"Purdue University","Midwestern","Mid_Career_25th_Percentile_Salary",67400
+"Marquette University","Midwestern","Mid_Career_25th_Percentile_Salary",67400
+"DePauw University","Midwestern","Mid_Career_25th_Percentile_Salary",57400
+"University of Wisconsin (UW) - Madison","Midwestern","Mid_Career_25th_Percentile_Salary",62400
+"Bradley University","Midwestern","Mid_Career_25th_Percentile_Salary",64900
+"St. Olaf College","Midwestern","Mid_Career_25th_Percentile_Salary",61000
+"Michigan State University (MSU)","Midwestern","Mid_Career_25th_Percentile_Salary",61500
+"DePaul University","Midwestern","Mid_Career_25th_Percentile_Salary",63900
+"Iowa State University","Midwestern","Mid_Career_25th_Percentile_Salary",60000
+"University of Minnesota","Midwestern","Mid_Career_25th_Percentile_Salary",63200
+"Indiana University (IU), Bloomington","Midwestern","Mid_Career_25th_Percentile_Salary",60400
+"University of Iowa (UI)","Midwestern","Mid_Career_25th_Percentile_Salary",61100
+"Ohio State University (OSU)","Midwestern","Mid_Career_25th_Percentile_Salary",60700
+"Denison University","Midwestern","Mid_Career_25th_Percentile_Salary",62100
+"University of Illinois at Chicago","Midwestern","Mid_Career_25th_Percentile_Salary",58800
+"Oberlin College","Midwestern","Mid_Career_25th_Percentile_Salary",46400
+"University of Kansas","Midwestern","Mid_Career_25th_Percentile_Salary",57200
+"University of Missouri - Columbia","Midwestern","Mid_Career_25th_Percentile_Salary",57100
+"University of Nebraska","Midwestern","Mid_Career_25th_Percentile_Salary",56600
+"Northern Illinois University (NIU)","Midwestern","Mid_Career_25th_Percentile_Salary",60200
+"Gustavus Adolphus College","Midwestern","Mid_Career_25th_Percentile_Salary",49300
+"University of North Dakota","Midwestern","Mid_Career_25th_Percentile_Salary",56400
+"Kansas State University (KSU)","Midwestern","Mid_Career_25th_Percentile_Salary",54100
+"University of Wisconsin (UW) - Platteville","Midwestern","Mid_Career_25th_Percentile_Salary",61200
+"Wittenberg University","Midwestern","Mid_Career_25th_Percentile_Salary",54100
+"North Dakota State University (NDSU)","Midwestern","Mid_Career_25th_Percentile_Salary",55800
+"Grinnell College","Midwestern","Mid_Career_25th_Percentile_Salary",65100
+"Wayne State University","Midwestern","Mid_Career_25th_Percentile_Salary",56200
+"University of Toledo","Midwestern","Mid_Career_25th_Percentile_Salary",54100
+"University of Wisconsin (UW) - Whitewater","Midwestern","Mid_Career_25th_Percentile_Salary",53500
+"Minnesota State University - Mankato","Midwestern","Mid_Career_25th_Percentile_Salary",53800
+"University of Wisconsin (UW) - Milwaukee","Midwestern","Mid_Career_25th_Percentile_Salary",54000
+"Western Michigan University (WMU)","Midwestern","Mid_Career_25th_Percentile_Salary",52500
+"South Dakota State University (SDSU)","Midwestern","Mid_Career_25th_Percentile_Salary",49900
+"Ohio University","Midwestern","Mid_Career_25th_Percentile_Salary",52800
+"Illinois State University","Midwestern","Mid_Career_25th_Percentile_Salary",55200
+"Cleveland State University","Midwestern","Mid_Career_25th_Percentile_Salary",51600
+"University of Nebraska at Omaha","Midwestern","Mid_Career_25th_Percentile_Salary",54400
+"Southern Illinois University Carbondale","Midwestern","Mid_Career_25th_Percentile_Salary",51300
+"Eastern Michigan University","Midwestern","Mid_Career_25th_Percentile_Salary",52800
+"Bowling Green State University","Midwestern","Mid_Career_25th_Percentile_Salary",51800
+"St. Cloud State University","Midwestern","Mid_Career_25th_Percentile_Salary",49400
+"University of Wisconsin (UW) - Parkside","Midwestern","Mid_Career_25th_Percentile_Salary",53100
+"University of Akron","Midwestern","Mid_Career_25th_Percentile_Salary",53300
+"Missouri State University (MSU)","Midwestern","Mid_Career_25th_Percentile_Salary",46900
+"University of Wisconsin (UW) - La Crosse","Midwestern","Mid_Career_25th_Percentile_Salary",47200
+"University of Wisconsin (UW) - Stout","Midwestern","Mid_Career_25th_Percentile_Salary",50600
+"Robert Morris College (RMC)","Midwestern","Mid_Career_25th_Percentile_Salary",47100
+"University of Missouri - St. Louis (UMSL)","Midwestern","Mid_Career_25th_Percentile_Salary",49600
+"University of Wisconsin (UW) - Oshkosh","Midwestern","Mid_Career_25th_Percentile_Salary",49700
+"University of Missouri - Kansas City (UMKC)","Midwestern","Mid_Career_25th_Percentile_Salary",48100
+"University of Wisconsin (UW) - Eau Claire","Midwestern","Mid_Career_25th_Percentile_Salary",47300
+"Ball State University (BSU)","Midwestern","Mid_Career_25th_Percentile_Salary",48200
+"Park University","Midwestern","Mid_Career_25th_Percentile_Salary",45600
+"University of Wisconsin (UW) - Stevens Point","Midwestern","Mid_Career_25th_Percentile_Salary",45100
+"Kent State University","Midwestern","Mid_Career_25th_Percentile_Salary",45800
+"University of Wisconsin (UW) - Green Bay","Midwestern","Mid_Career_25th_Percentile_Salary",46800
+"Indiana Wesleyan University (IWU)","Midwestern","Mid_Career_25th_Percentile_Salary",47800
+"Pittsburg State University","Midwestern","Mid_Career_25th_Percentile_Salary",46000
+"Davenport University","Midwestern","Mid_Career_25th_Percentile_Salary",38100
+"Black Hills State University","Midwestern","Mid_Career_25th_Percentile_Salary",32200
+"Rice University","Southern","Mid_Career_25th_Percentile_Salary",82100
+"Georgetown University","Southern","Mid_Career_25th_Percentile_Salary",85800
+"Duke University","Southern","Mid_Career_25th_Percentile_Salary",77400
+"Georgia Institute of Technology","Southern","Mid_Career_25th_Percentile_Salary",85200
+"Washington and Lee University","Southern","Mid_Career_25th_Percentile_Salary",82800
+"Vanderbilt University","Southern","Mid_Career_25th_Percentile_Salary",68100
+"Davidson College","Southern","Mid_Career_25th_Percentile_Salary",70500
+"University of Virginia (UVA)","Southern","Mid_Career_25th_Percentile_Salary",71800
+"George Washington University (GWU)","Southern","Mid_Career_25th_Percentile_Salary",69600
+"Texas A&M University","Southern","Mid_Career_25th_Percentile_Salary",71300
+"Tulane University","Southern","Mid_Career_25th_Percentile_Salary",64400
+"Virginia Polytechnic Institute and State University (Virginia Tech)","Southern","Mid_Career_25th_Percentile_Salary",71400
+"University of Maryland, College Park","Southern","Mid_Career_25th_Percentile_Salary",68300
+"University of Richmond","Southern","Mid_Career_25th_Percentile_Salary",59400
+"University of Texas (UT) - Austin","Southern","Mid_Career_25th_Percentile_Salary",67400
+"Emory University","Southern","Mid_Career_25th_Percentile_Salary",63300
+"American University, Washington D.C.","Southern","Mid_Career_25th_Percentile_Salary",62400
+"University of Tulsa","Southern","Mid_Career_25th_Percentile_Salary",60300
+"Baylor University","Southern","Mid_Career_25th_Percentile_Salary",60700
+"University of Florida (UF)","Southern","Mid_Career_25th_Percentile_Salary",62900
+"Louisiana State University (LSU)","Southern","Mid_Career_25th_Percentile_Salary",61300
+"George Mason University","Southern","Mid_Career_25th_Percentile_Salary",67200
+"Clemson University","Southern","Mid_Career_25th_Percentile_Salary",61800
+"University of Georgia (UGA)","Southern","Mid_Career_25th_Percentile_Salary",57800
+"Auburn University","Southern","Mid_Career_25th_Percentile_Salary",62700
+"University of Delaware","Southern","Mid_Career_25th_Percentile_Salary",64000
+"Randolph-Macon College","Southern","Mid_Career_25th_Percentile_Salary",54100
+"North Carolina State University (NCSU)","Southern","Mid_Career_25th_Percentile_Salary",64800
+"University of Oklahoma","Southern","Mid_Career_25th_Percentile_Salary",60300
+"University of Arkansas","Southern","Mid_Career_25th_Percentile_Salary",60700
+"University of Alabama at Huntsville (UAH)","Southern","Mid_Career_25th_Percentile_Salary",67800
+"Howard University","Southern","Mid_Career_25th_Percentile_Salary",60000
+"University of North Carolina at Chapel Hill (UNCH)","Southern","Mid_Career_25th_Percentile_Salary",57500
+"University of Alabama, Tuscaloosa","Southern","Mid_Career_25th_Percentile_Salary",56500
+"University of Texas at Arlington (UTA)","Southern","Mid_Career_25th_Percentile_Salary",61200
+"Oklahoma State University","Southern","Mid_Career_25th_Percentile_Salary",56500
+"Tennessee Technological University","Southern","Mid_Career_25th_Percentile_Salary",62600
+"University of Houston (UH)","Southern","Mid_Career_25th_Percentile_Salary",56200
+"University of Mississippi","Southern","Mid_Career_25th_Percentile_Salary",53500
+"Lamar University","Southern","Mid_Career_25th_Percentile_Salary",51600
+"Mississippi State University (MSU)","Southern","Mid_Career_25th_Percentile_Salary",58800
+"University of Kentucky (UK)","Southern","Mid_Career_25th_Percentile_Salary",57300
+"Texas Christian University (TCU)","Southern","Mid_Career_25th_Percentile_Salary",56600
+"West Virginia University (WVU)","Southern","Mid_Career_25th_Percentile_Salary",55700
+"University of Maryland Baltimore County (UMBC)","Southern","Mid_Career_25th_Percentile_Salary",59100
+"University of Louisiana (UL) at Lafayette","Southern","Mid_Career_25th_Percentile_Salary",54500
+"Florida International University (FIU)","Southern","Mid_Career_25th_Percentile_Salary",55800
+"University of Tennessee","Southern","Mid_Career_25th_Percentile_Salary",53200
+"University of Arkansas - Monticello (UAM)","Southern","Mid_Career_25th_Percentile_Salary",46100
+"University of North Carolina at Charlotte (UNCC)","Southern","Mid_Career_25th_Percentile_Salary",53200
+"Georgia State University","Southern","Mid_Career_25th_Percentile_Salary",55300
+"LeTourneau University","Southern","Mid_Career_25th_Percentile_Salary",52700
+"Florida State University (FSU)","Southern","Mid_Career_25th_Percentile_Salary",52800
+"University of Texas at El Paso (UTEP)","Southern","Mid_Career_25th_Percentile_Salary",50400
+"University of Central Florida (UCF)","Southern","Mid_Career_25th_Percentile_Salary",51500
+"University of South Carolina","Southern","Mid_Career_25th_Percentile_Salary",49900
+"Florida Atlantic University (FAU)","Southern","Mid_Career_25th_Percentile_Salary",53000
+"University of South Florida (USF)","Southern","Mid_Career_25th_Percentile_Salary",51500
+"University of Texas at San Antonio (UTSA)","Southern","Mid_Career_25th_Percentile_Salary",49800
+"University of Alabama at Birmingham (UAB)","Southern","Mid_Career_25th_Percentile_Salary",53400
+"University of Memphis (U of M)","Southern","Mid_Career_25th_Percentile_Salary",49100
+"Appalachian State University","Southern","Mid_Career_25th_Percentile_Salary",50400
+"Virginia Commonwealth University (VCU)","Southern","Mid_Career_25th_Percentile_Salary",51900
+"East Carolina University (ECU)","Southern","Mid_Career_25th_Percentile_Salary",52000
+"Western Carolina University","Southern","Mid_Career_25th_Percentile_Salary",49500
+"Jacksonville University","Southern","Mid_Career_25th_Percentile_Salary",47200
+"University of North Carolina at Wilmington (UNCW)","Southern","Mid_Career_25th_Percentile_Salary",46600
+"Oklahoma City University","Southern","Mid_Career_25th_Percentile_Salary",45400
+"Arkansas State University (ASU)","Southern","Mid_Career_25th_Percentile_Salary",45300
+"Tarleton State University (TSU)","Southern","Mid_Career_25th_Percentile_Salary",47400
+"Morehead State University","Southern","Mid_Career_25th_Percentile_Salary",46500
+"Mississippi College","Southern","Mid_Career_25th_Percentile_Salary",43900
+"Dallas Baptist University","Southern","Mid_Career_25th_Percentile_Salary",50300
+"Austin Peay State University","Southern","Mid_Career_25th_Percentile_Salary",40500
+"Saint Leo University","Southern","Mid_Career_25th_Percentile_Salary",41800
+"Tusculum College","Southern","Mid_Career_25th_Percentile_Salary",43000
+"Virginia Wesleyan College (VWC)","Southern","Mid_Career_25th_Percentile_Salary",37100
+"Lee University (Cleveland, TN)","Southern","Mid_Career_25th_Percentile_Salary",44500
+"Florida Metropolitan University (FMU)","Southern","Mid_Career_25th_Percentile_Salary",36800
+"Dartmouth College","Northeastern","Mid_Career_25th_Percentile_Salary",90200
+"Princeton University","Northeastern","Mid_Career_25th_Percentile_Salary",1e+05
+"Massachusetts Institute of Technology (MIT)","Northeastern","Mid_Career_25th_Percentile_Salary",99200
+"Yale University","Northeastern","Mid_Career_25th_Percentile_Salary",80600
+"Harvard University","Northeastern","Mid_Career_25th_Percentile_Salary",86200
+"University of Pennsylvania","Northeastern","Mid_Career_25th_Percentile_Salary",79200
+"Polytechnic University of New York, Brooklyn","Northeastern","Mid_Career_25th_Percentile_Salary",94300
+"Cooper Union","Northeastern","Mid_Career_25th_Percentile_Salary",80200
+"Worcester Polytechnic Institute (WPI)","Northeastern","Mid_Career_25th_Percentile_Salary",91200
+"Carnegie Mellon University (CMU)","Northeastern","Mid_Career_25th_Percentile_Salary",80100
+"Rensselaer Polytechnic Institute (RPI)","Northeastern","Mid_Career_25th_Percentile_Salary",85500
+"Cornell University","Northeastern","Mid_Career_25th_Percentile_Salary",79800
+"Bucknell University","Northeastern","Mid_Career_25th_Percentile_Salary",80600
+"Brown University","Northeastern","Mid_Career_25th_Percentile_Salary",74400
+"Colgate University","Northeastern","Mid_Career_25th_Percentile_Salary",76700
+"Columbia University","Northeastern","Mid_Career_25th_Percentile_Salary",71900
+"Amherst College","Northeastern","Mid_Career_25th_Percentile_Salary",84900
+"Lafayette College","Northeastern","Mid_Career_25th_Percentile_Salary",79300
+"Bowdoin College","Northeastern","Mid_Career_25th_Percentile_Salary",74600
+"College of the Holy Cross","Northeastern","Mid_Career_25th_Percentile_Salary",65600
+"Stevens Institute of Technology","Northeastern","Mid_Career_25th_Percentile_Salary",81900
+"Lehigh University","Northeastern","Mid_Career_25th_Percentile_Salary",85000
+"Swarthmore College","Northeastern","Mid_Career_25th_Percentile_Salary",67200
+"Boston College","Northeastern","Mid_Career_25th_Percentile_Salary",70000
+"Williams College","Northeastern","Mid_Career_25th_Percentile_Salary",76400
+"Villanova University","Northeastern","Mid_Career_25th_Percentile_Salary",76200
+"Fordham University","Northeastern","Mid_Career_25th_Percentile_Salary",65900
+"Wesleyan University (Middletown, Connecticut)","Northeastern","Mid_Career_25th_Percentile_Salary",62500
+"Wentworth Institute of Technology","Northeastern","Mid_Career_25th_Percentile_Salary",74000
+"Bates College","Northeastern","Mid_Career_25th_Percentile_Salary",60700
+"Binghamton University","Northeastern","Mid_Career_25th_Percentile_Salary",71200
+"Union College","Northeastern","Mid_Career_25th_Percentile_Salary",75200
+"New York University (NYU)","Northeastern","Mid_Career_25th_Percentile_Salary",65000
+"Vassar College","Northeastern","Mid_Career_25th_Percentile_Salary",60600
+"Middlebury College","Northeastern","Mid_Career_25th_Percentile_Salary",69100
+"Mount Holyoke College","Northeastern","Mid_Career_25th_Percentile_Salary",57100
+"Boston University","Northeastern","Mid_Career_25th_Percentile_Salary",64900
+"Drexel University","Northeastern","Mid_Career_25th_Percentile_Salary",72500
+"St. John's University, New York","Northeastern","Mid_Career_25th_Percentile_Salary",65400
+"Long Island University","Northeastern","Mid_Career_25th_Percentile_Salary",62100
+"Stony Brook University","Northeastern","Mid_Career_25th_Percentile_Salary",67100
+"Franklin and Marshall College","Northeastern","Mid_Career_25th_Percentile_Salary",55800
+"Hofstra University","Northeastern","Mid_Career_25th_Percentile_Salary",67000
+"State University of New York (SUNY) at Albany","Northeastern","Mid_Career_25th_Percentile_Salary",63100
+"Rutgers University","Northeastern","Mid_Career_25th_Percentile_Salary",65100
+"Pratt Institute","Northeastern","Mid_Career_25th_Percentile_Salary",65400
+"Pace University","Northeastern","Mid_Career_25th_Percentile_Salary",65400
+"Seton Hall University","Northeastern","Mid_Career_25th_Percentile_Salary",70600
+"Rider University","Northeastern","Mid_Career_25th_Percentile_Salary",63100
+"University of Connecticut (UConn)","Northeastern","Mid_Career_25th_Percentile_Salary",66400
+"Providence College","Northeastern","Mid_Career_25th_Percentile_Salary",62900
+"University of Massachusetts (UMass) - Amherst","Northeastern","Mid_Career_25th_Percentile_Salary",61300
+"Ithaca College","Northeastern","Mid_Career_25th_Percentile_Salary",62400
+"University of Massachusetts (UMass) - Lowell","Northeastern","Mid_Career_25th_Percentile_Salary",65000
+"Northeastern University","Northeastern","Mid_Career_25th_Percentile_Salary",62700
+"Syracuse University","Northeastern","Mid_Career_25th_Percentile_Salary",59400
+"Colby College","Northeastern","Mid_Career_25th_Percentile_Salary",63500
+"Gettysburg College","Northeastern","Mid_Career_25th_Percentile_Salary",66300
+"Pennsylvania State University (PSU)","Northeastern","Mid_Career_25th_Percentile_Salary",62000
+"University of Rhode Island (URI)","Northeastern","Mid_Career_25th_Percentile_Salary",60100
+"Siena College","Northeastern","Mid_Career_25th_Percentile_Salary",58400
+"La Salle University (Philadelphia)","Northeastern","Mid_Career_25th_Percentile_Salary",57500
+"Rochester Institute of Technology (RIT)","Northeastern","Mid_Career_25th_Percentile_Salary",62100
+"Duquesne University","Northeastern","Mid_Career_25th_Percentile_Salary",59500
+"State University of New York (SUNY) at Farmingdale","Northeastern","Mid_Career_25th_Percentile_Salary",59800
+"Smith College","Northeastern","Mid_Career_25th_Percentile_Salary",59800
+"Hamilton College","Northeastern","Mid_Career_25th_Percentile_Salary",51900
+"Wellesley College","Northeastern","Mid_Career_25th_Percentile_Salary",58600
+"Widener University","Northeastern","Mid_Career_25th_Percentile_Salary",61400
+"University of New Haven","Northeastern","Mid_Career_25th_Percentile_Salary",66100
+"Dowling College","Northeastern","Mid_Career_25th_Percentile_Salary",60600
+"University of Vermont (UVM)","Northeastern","Mid_Career_25th_Percentile_Salary",58000
+"State University of New York (SUNY) at Buffalo","Northeastern","Mid_Career_25th_Percentile_Salary",61400
+"State University of New York (SUNY) at Geneseo","Northeastern","Mid_Career_25th_Percentile_Salary",47600
+"Fashion Institute of Technology","Northeastern","Mid_Career_25th_Percentile_Salary",60500
+"Philadelphia University","Northeastern","Mid_Career_25th_Percentile_Salary",61900
+"Ursinus College","Northeastern","Mid_Career_25th_Percentile_Salary",54300
+"Adelphi University","Northeastern","Mid_Career_25th_Percentile_Salary",54800
+"Juniata College","Northeastern","Mid_Career_25th_Percentile_Salary",67200
+"Fairleigh Dickinson University","Northeastern","Mid_Career_25th_Percentile_Salary",56300
+"University of New Hampshire (UNH)","Northeastern","Mid_Career_25th_Percentile_Salary",56400
+"University of Massachusetts (UMass) - Boston","Northeastern","Mid_Career_25th_Percentile_Salary",53800
+"State University of New York (SUNY) at Oswego","Northeastern","Mid_Career_25th_Percentile_Salary",53000
+"University of Massachusetts (UMass) - Dartmouth","Northeastern","Mid_Career_25th_Percentile_Salary",56200
+"State University of New York (SUNY) at Oneonta","Northeastern","Mid_Career_25th_Percentile_Salary",54300
+"Quinnipiac University","Northeastern","Mid_Career_25th_Percentile_Salary",57400
+"State University of New York (SUNY) at Plattsburgh","Northeastern","Mid_Career_25th_Percentile_Salary",54100
+"Sacred Heart University","Northeastern","Mid_Career_25th_Percentile_Salary",54800
+"Skidmore College","Northeastern","Mid_Career_25th_Percentile_Salary",42800
+"Moravian College","Northeastern","Mid_Career_25th_Percentile_Salary",56700
+"Penn State - Harrisburg","Northeastern","Mid_Career_25th_Percentile_Salary",53100
+"Suffolk University","Northeastern","Mid_Career_25th_Percentile_Salary",57800
+"Fitchburg State College","Northeastern","Mid_Career_25th_Percentile_Salary",56100
+"Roger Williams University","Northeastern","Mid_Career_25th_Percentile_Salary",48500
+"University Of Maine","Northeastern","Mid_Career_25th_Percentile_Salary",55600
+"State University of New York (SUNY) at Potsdam","Northeastern","Mid_Career_25th_Percentile_Salary",51200
+"Niagara University","Northeastern","Mid_Career_25th_Percentile_Salary",57000
+"State University of New York (SUNY) at Fredonia","Northeastern","Mid_Career_25th_Percentile_Salary",44200
+"University of Southern Maine","Northeastern","Mid_Career_25th_Percentile_Salary",47900
+"Mercy College","Northeastern","Mid_Career_25th_Percentile_Salary",47300
+"Stanford University","California","Mid_Career_50th_Percentile_Salary",129000
+"California Institute of Technology (CIT)","California","Mid_Career_50th_Percentile_Salary",123000
+"Harvey Mudd College","California","Mid_Career_50th_Percentile_Salary",122000
+"University of California, Berkeley","California","Mid_Career_50th_Percentile_Salary",112000
+"Occidental College","California","Mid_Career_50th_Percentile_Salary",105000
+"Cal Poly San Luis Obispo","California","Mid_Career_50th_Percentile_Salary",101000
+"University of California at Los Angeles (UCLA)","California","Mid_Career_50th_Percentile_Salary",101000
+"University of California, San Diego (UCSD)","California","Mid_Career_50th_Percentile_Salary",101000
+"Pomona College","California","Mid_Career_50th_Percentile_Salary",101000
+"University of Southern California (USC)","California","Mid_Career_50th_Percentile_Salary",99600
+"University of California, Davis","California","Mid_Career_50th_Percentile_Salary",99600
+"University of California, Irvine (UCI)","California","Mid_Career_50th_Percentile_Salary",96700
+"San Jose State University (SJSU)","California","Mid_Career_50th_Percentile_Salary",95600
+"University of California, Santa Barbara (UCSB)","California","Mid_Career_50th_Percentile_Salary",95000
+"California State University (CSU), Chico","California","Mid_Career_50th_Percentile_Salary",88100
+"California State University, Fullerton (CSUF)","California","Mid_Career_50th_Percentile_Salary",87000
+"San Francisco State University (SFSU)","California","Mid_Career_50th_Percentile_Salary",86400
+"San Diego State University (SDSU)","California","Mid_Career_50th_Percentile_Salary",85200
+"California State University, Long Beach (CSULB)","California","Mid_Career_50th_Percentile_Salary",84700
+"California State University, East Bay (CSUEB)","California","Mid_Career_50th_Percentile_Salary",84300
+"University of California, Santa Cruz (UCSC)","California","Mid_Career_50th_Percentile_Salary",84100
+"California State University, Sacramento (CSUS)","California","Mid_Career_50th_Percentile_Salary",82400
+"University of California, Riverside (UCR)","California","Mid_Career_50th_Percentile_Salary",81300
+"California State University, Northridge (CSUN)","California","Mid_Career_50th_Percentile_Salary",80400
+"California State University, Dominguez Hills (CSUDH)","California","Mid_Career_50th_Percentile_Salary",72100
+"California State University (CSU), Stanislaus","California","Mid_Career_50th_Percentile_Salary",71400
+"Humboldt State University","California","Mid_Career_50th_Percentile_Salary",71300
+"Thomas Aquinas College","California","Mid_Career_50th_Percentile_Salary",67500
+"Colorado School of Mines","Western","Mid_Career_50th_Percentile_Salary",106000
+"University of Colorado - Boulder (UCB)","Western","Mid_Career_50th_Percentile_Salary",97600
+"New Mexico Institute of Mining and Technology (New Mexico Tech)","Western","Mid_Career_50th_Percentile_Salary",93400
+"Brigham Young University (BYU)","Western","Mid_Career_50th_Percentile_Salary",88600
+"University of Arizona","Western","Mid_Career_50th_Percentile_Salary",86100
+"University of Washington (UW)","Western","Mid_Career_50th_Percentile_Salary",85300
+"Washington State University (WSU)","Western","Mid_Career_50th_Percentile_Salary",84700
+"University of Colorado - Denver","Western","Mid_Career_50th_Percentile_Salary",84400
+"Arizona State University (ASU)","Western","Mid_Career_50th_Percentile_Salary",84100
+"Oregon State University (OSU)","Western","Mid_Career_50th_Percentile_Salary",83300
+"University of Utah","Western","Mid_Career_50th_Percentile_Salary",83200
+"University of Nevada, Reno (UNR)","Western","Mid_Career_50th_Percentile_Salary",82900
+"Seattle University","Western","Mid_Career_50th_Percentile_Salary",82800
+"University of Idaho","Western","Mid_Career_50th_Percentile_Salary",82000
+"University of New Mexico (UNM)","Western","Mid_Career_50th_Percentile_Salary",81600
+"University of Puget Sound","Western","Mid_Career_50th_Percentile_Salary",81500
+"Colorado College (CC)","Western","Mid_Career_50th_Percentile_Salary",81400
+"Reed College","Western","Mid_Career_50th_Percentile_Salary",81100
+"Whitman College","Western","Mid_Career_50th_Percentile_Salary",80100
+"New Mexico State University","Western","Mid_Career_50th_Percentile_Salary",79500
+"Colorado State University (CSU)","Western","Mid_Career_50th_Percentile_Salary",79000
+"University of Wyoming (UW)","Western","Mid_Career_50th_Percentile_Salary",78700
+"Utah State University","Western","Mid_Career_50th_Percentile_Salary",78700
+"University of Oregon","Western","Mid_Career_50th_Percentile_Salary",78400
+"Montana State University - Bozeman","Western","Mid_Career_50th_Percentile_Salary",77500
+"Gonzaga University","Western","Mid_Career_50th_Percentile_Salary",76000
+"University of Hawaii","Western","Mid_Career_50th_Percentile_Salary",76000
+"Western Washington University","Western","Mid_Career_50th_Percentile_Salary",75400
+"Regis University","Western","Mid_Career_50th_Percentile_Salary",73800
+"Idaho State University","Western","Mid_Career_50th_Percentile_Salary",73400
+"University of Alaska, Anchorage","Western","Mid_Career_50th_Percentile_Salary",72600
+"Lewis & Clark College","Western","Mid_Career_50th_Percentile_Salary",72600
+"University of Montana","Western","Mid_Career_50th_Percentile_Salary",71900
+"University of Nevada, Las Vegas (UNLV)","Western","Mid_Career_50th_Percentile_Salary",71600
+"Portland State University (PSU)","Western","Mid_Career_50th_Percentile_Salary",70900
+"Eastern Washington University","Western","Mid_Career_50th_Percentile_Salary",70900
+"Fort Lewis College","Western","Mid_Career_50th_Percentile_Salary",69800
+"Boise State University (BSU)","Western","Mid_Career_50th_Percentile_Salary",69500
+"Utah Valley State College","Western","Mid_Career_50th_Percentile_Salary",67100
+"Evergreen State College","Western","Mid_Career_50th_Percentile_Salary",63900
+"Southern Utah University","Western","Mid_Career_50th_Percentile_Salary",56500
+"Montana State University - Billings","Western","Mid_Career_50th_Percentile_Salary",50600
+"University of Notre Dame","Midwestern","Mid_Career_50th_Percentile_Salary",116000
+"University Of Chicago","Midwestern","Mid_Career_50th_Percentile_Salary",113000
+"Carleton College","Midwestern","Mid_Career_50th_Percentile_Salary",103000
+"Illinois Institute of Technology (IIT)","Midwestern","Mid_Career_50th_Percentile_Salary",97800
+"Case Western Reserve University","Midwestern","Mid_Career_50th_Percentile_Salary",96500
+"University of Illinois at Urbana-Champaign (UIUC)","Midwestern","Mid_Career_50th_Percentile_Salary",96100
+"Northwestern University","Midwestern","Mid_Career_50th_Percentile_Salary",95900
+"University of Missouri - Rolla (UMR)","Midwestern","Mid_Career_50th_Percentile_Salary",95800
+"South Dakota School of Mines & Technology","Midwestern","Mid_Career_50th_Percentile_Salary",93400
+"University of Michigan","Midwestern","Mid_Career_50th_Percentile_Salary",93000
+"Purdue University","Midwestern","Mid_Career_50th_Percentile_Salary",90500
+"Marquette University","Midwestern","Mid_Career_50th_Percentile_Salary",88400
+"DePauw University","Midwestern","Mid_Career_50th_Percentile_Salary",88200
+"University of Wisconsin (UW) - Madison","Midwestern","Mid_Career_50th_Percentile_Salary",87800
+"Bradley University","Midwestern","Mid_Career_50th_Percentile_Salary",87300
+"St. Olaf College","Midwestern","Mid_Career_50th_Percentile_Salary",86200
+"Michigan State University (MSU)","Midwestern","Mid_Career_50th_Percentile_Salary",85300
+"DePaul University","Midwestern","Mid_Career_50th_Percentile_Salary",84800
+"Iowa State University","Midwestern","Mid_Career_50th_Percentile_Salary",84600
+"University of Minnesota","Midwestern","Mid_Career_50th_Percentile_Salary",84200
+"Indiana University (IU), Bloomington","Midwestern","Mid_Career_50th_Percentile_Salary",84000
+"University of Iowa (UI)","Midwestern","Mid_Career_50th_Percentile_Salary",83900
+"Ohio State University (OSU)","Midwestern","Mid_Career_50th_Percentile_Salary",83700
+"Denison University","Midwestern","Mid_Career_50th_Percentile_Salary",83500
+"University of Illinois at Chicago","Midwestern","Mid_Career_50th_Percentile_Salary",81700
+"Oberlin College","Midwestern","Mid_Career_50th_Percentile_Salary",81600
+"University of Kansas","Midwestern","Mid_Career_50th_Percentile_Salary",81600
+"University of Missouri - Columbia","Midwestern","Mid_Career_50th_Percentile_Salary",81000
+"University of Nebraska","Midwestern","Mid_Career_50th_Percentile_Salary",80900
+"Northern Illinois University (NIU)","Midwestern","Mid_Career_50th_Percentile_Salary",80800
+"Gustavus Adolphus College","Midwestern","Mid_Career_50th_Percentile_Salary",80600
+"University of North Dakota","Midwestern","Mid_Career_50th_Percentile_Salary",80600
+"Kansas State University (KSU)","Midwestern","Mid_Career_50th_Percentile_Salary",79000
+"University of Wisconsin (UW) - Platteville","Midwestern","Mid_Career_50th_Percentile_Salary",78500
+"Wittenberg University","Midwestern","Mid_Career_50th_Percentile_Salary",78200
+"North Dakota State University (NDSU)","Midwestern","Mid_Career_50th_Percentile_Salary",77800
+"Grinnell College","Midwestern","Mid_Career_50th_Percentile_Salary",76600
+"Wayne State University","Midwestern","Mid_Career_50th_Percentile_Salary",76100
+"University of Toledo","Midwestern","Mid_Career_50th_Percentile_Salary",75900
+"University of Wisconsin (UW) - Whitewater","Midwestern","Mid_Career_50th_Percentile_Salary",75500
+"Minnesota State University - Mankato","Midwestern","Mid_Career_50th_Percentile_Salary",74700
+"University of Wisconsin (UW) - Milwaukee","Midwestern","Mid_Career_50th_Percentile_Salary",74600
+"Western Michigan University (WMU)","Midwestern","Mid_Career_50th_Percentile_Salary",73800
+"South Dakota State University (SDSU)","Midwestern","Mid_Career_50th_Percentile_Salary",73500
+"Ohio University","Midwestern","Mid_Career_50th_Percentile_Salary",73400
+"Illinois State University","Midwestern","Mid_Career_50th_Percentile_Salary",73400
+"Cleveland State University","Midwestern","Mid_Career_50th_Percentile_Salary",73100
+"University of Nebraska at Omaha","Midwestern","Mid_Career_50th_Percentile_Salary",72600
+"Southern Illinois University Carbondale","Midwestern","Mid_Career_50th_Percentile_Salary",72500
+"Eastern Michigan University","Midwestern","Mid_Career_50th_Percentile_Salary",72100
+"Bowling Green State University","Midwestern","Mid_Career_50th_Percentile_Salary",72100
+"St. Cloud State University","Midwestern","Mid_Career_50th_Percentile_Salary",71400
+"University of Wisconsin (UW) - Parkside","Midwestern","Mid_Career_50th_Percentile_Salary",71400
+"University of Akron","Midwestern","Mid_Career_50th_Percentile_Salary",70300
+"Missouri State University (MSU)","Midwestern","Mid_Career_50th_Percentile_Salary",69500
+"University of Wisconsin (UW) - La Crosse","Midwestern","Mid_Career_50th_Percentile_Salary",69300
+"University of Wisconsin (UW) - Stout","Midwestern","Mid_Career_50th_Percentile_Salary",68300
+"Robert Morris College (RMC)","Midwestern","Mid_Career_50th_Percentile_Salary",68200
+"University of Missouri - St. Louis (UMSL)","Midwestern","Mid_Career_50th_Percentile_Salary",67100
+"University of Wisconsin (UW) - Oshkosh","Midwestern","Mid_Career_50th_Percentile_Salary",66400
+"University of Missouri - Kansas City (UMKC)","Midwestern","Mid_Career_50th_Percentile_Salary",65800
+"University of Wisconsin (UW) - Eau Claire","Midwestern","Mid_Career_50th_Percentile_Salary",64800
+"Ball State University (BSU)","Midwestern","Mid_Career_50th_Percentile_Salary",64500
+"Park University","Midwestern","Mid_Career_50th_Percentile_Salary",64300
+"University of Wisconsin (UW) - Stevens Point","Midwestern","Mid_Career_50th_Percentile_Salary",64000
+"Kent State University","Midwestern","Mid_Career_50th_Percentile_Salary",62600
+"University of Wisconsin (UW) - Green Bay","Midwestern","Mid_Career_50th_Percentile_Salary",60600
+"Indiana Wesleyan University (IWU)","Midwestern","Mid_Career_50th_Percentile_Salary",58500
+"Pittsburg State University","Midwestern","Mid_Career_50th_Percentile_Salary",58200
+"Davenport University","Midwestern","Mid_Career_50th_Percentile_Salary",46600
+"Black Hills State University","Midwestern","Mid_Career_50th_Percentile_Salary",43900
+"Rice University","Southern","Mid_Career_50th_Percentile_Salary",110000
+"Georgetown University","Southern","Mid_Career_50th_Percentile_Salary",110000
+"Duke University","Southern","Mid_Career_50th_Percentile_Salary",106000
+"Georgia Institute of Technology","Southern","Mid_Career_50th_Percentile_Salary",106000
+"Washington and Lee University","Southern","Mid_Career_50th_Percentile_Salary",104000
+"Vanderbilt University","Southern","Mid_Career_50th_Percentile_Salary",104000
+"Davidson College","Southern","Mid_Career_50th_Percentile_Salary",104000
+"University of Virginia (UVA)","Southern","Mid_Career_50th_Percentile_Salary",103000
+"George Washington University (GWU)","Southern","Mid_Career_50th_Percentile_Salary",97900
+"Texas A&M University","Southern","Mid_Career_50th_Percentile_Salary",96100
+"Tulane University","Southern","Mid_Career_50th_Percentile_Salary",95800
+"Virginia Polytechnic Institute and State University (Virginia Tech)","Southern","Mid_Career_50th_Percentile_Salary",95400
+"University of Maryland, College Park","Southern","Mid_Career_50th_Percentile_Salary",95000
+"University of Richmond","Southern","Mid_Career_50th_Percentile_Salary",94600
+"University of Texas (UT) - Austin","Southern","Mid_Career_50th_Percentile_Salary",93900
+"Emory University","Southern","Mid_Career_50th_Percentile_Salary",91600
+"American University, Washington D.C.","Southern","Mid_Career_50th_Percentile_Salary",90800
+"University of Tulsa","Southern","Mid_Career_50th_Percentile_Salary",88700
+"Baylor University","Southern","Mid_Career_50th_Percentile_Salary",88600
+"University of Florida (UF)","Southern","Mid_Career_50th_Percentile_Salary",87900
+"Louisiana State University (LSU)","Southern","Mid_Career_50th_Percentile_Salary",87800
+"George Mason University","Southern","Mid_Career_50th_Percentile_Salary",86900
+"Clemson University","Southern","Mid_Career_50th_Percentile_Salary",86000
+"University of Georgia (UGA)","Southern","Mid_Career_50th_Percentile_Salary",86000
+"Auburn University","Southern","Mid_Career_50th_Percentile_Salary",84700
+"University of Delaware","Southern","Mid_Career_50th_Percentile_Salary",84500
+"Randolph-Macon College","Southern","Mid_Career_50th_Percentile_Salary",83600
+"North Carolina State University (NCSU)","Southern","Mid_Career_50th_Percentile_Salary",83300
+"University of Oklahoma","Southern","Mid_Career_50th_Percentile_Salary",82900
+"University of Arkansas","Southern","Mid_Career_50th_Percentile_Salary",82800
+"University of Alabama at Huntsville (UAH)","Southern","Mid_Career_50th_Percentile_Salary",82700
+"Howard University","Southern","Mid_Career_50th_Percentile_Salary",81800
+"University of North Carolina at Chapel Hill (UNCH)","Southern","Mid_Career_50th_Percentile_Salary",81500
+"University of Alabama, Tuscaloosa","Southern","Mid_Career_50th_Percentile_Salary",81400
+"University of Texas at Arlington (UTA)","Southern","Mid_Career_50th_Percentile_Salary",80800
+"Oklahoma State University","Southern","Mid_Career_50th_Percentile_Salary",80700
+"Tennessee Technological University","Southern","Mid_Career_50th_Percentile_Salary",80000
+"University of Houston (UH)","Southern","Mid_Career_50th_Percentile_Salary",79900
+"University of Mississippi","Southern","Mid_Career_50th_Percentile_Salary",79700
+"Lamar University","Southern","Mid_Career_50th_Percentile_Salary",79400
+"Mississippi State University (MSU)","Southern","Mid_Career_50th_Percentile_Salary",79300
+"University of Kentucky (UK)","Southern","Mid_Career_50th_Percentile_Salary",78300
+"Texas Christian University (TCU)","Southern","Mid_Career_50th_Percentile_Salary",78100
+"West Virginia University (WVU)","Southern","Mid_Career_50th_Percentile_Salary",78100
+"University of Maryland Baltimore County (UMBC)","Southern","Mid_Career_50th_Percentile_Salary",77800
+"University of Louisiana (UL) at Lafayette","Southern","Mid_Career_50th_Percentile_Salary",76300
+"Florida International University (FIU)","Southern","Mid_Career_50th_Percentile_Salary",75500
+"University of Tennessee","Southern","Mid_Career_50th_Percentile_Salary",74600
+"University of Arkansas - Monticello (UAM)","Southern","Mid_Career_50th_Percentile_Salary",74500
+"University of North Carolina at Charlotte (UNCC)","Southern","Mid_Career_50th_Percentile_Salary",74000
+"Georgia State University","Southern","Mid_Career_50th_Percentile_Salary",74000
+"LeTourneau University","Southern","Mid_Career_50th_Percentile_Salary",73800
+"Florida State University (FSU)","Southern","Mid_Career_50th_Percentile_Salary",73000
+"University of Texas at El Paso (UTEP)","Southern","Mid_Career_50th_Percentile_Salary",72100
+"University of Central Florida (UCF)","Southern","Mid_Career_50th_Percentile_Salary",71700
+"University of South Carolina","Southern","Mid_Career_50th_Percentile_Salary",71700
+"Florida Atlantic University (FAU)","Southern","Mid_Career_50th_Percentile_Salary",71100
+"University of South Florida (USF)","Southern","Mid_Career_50th_Percentile_Salary",71100
+"University of Texas at San Antonio (UTSA)","Southern","Mid_Career_50th_Percentile_Salary",70700
+"University of Alabama at Birmingham (UAB)","Southern","Mid_Career_50th_Percentile_Salary",70100
+"University of Memphis (U of M)","Southern","Mid_Career_50th_Percentile_Salary",69700
+"Appalachian State University","Southern","Mid_Career_50th_Percentile_Salary",69100
+"Virginia Commonwealth University (VCU)","Southern","Mid_Career_50th_Percentile_Salary",68400
+"East Carolina University (ECU)","Southern","Mid_Career_50th_Percentile_Salary",67500
+"Western Carolina University","Southern","Mid_Career_50th_Percentile_Salary",66600
+"Jacksonville University","Southern","Mid_Career_50th_Percentile_Salary",66200
+"University of North Carolina at Wilmington (UNCW)","Southern","Mid_Career_50th_Percentile_Salary",64400
+"Oklahoma City University","Southern","Mid_Career_50th_Percentile_Salary",64300
+"Arkansas State University (ASU)","Southern","Mid_Career_50th_Percentile_Salary",63300
+"Tarleton State University (TSU)","Southern","Mid_Career_50th_Percentile_Salary",62400
+"Morehead State University","Southern","Mid_Career_50th_Percentile_Salary",60600
+"Mississippi College","Southern","Mid_Career_50th_Percentile_Salary",60400
+"Dallas Baptist University","Southern","Mid_Career_50th_Percentile_Salary",60200
+"Austin Peay State University","Southern","Mid_Career_50th_Percentile_Salary",59200
+"Saint Leo University","Southern","Mid_Career_50th_Percentile_Salary",57800
+"Tusculum College","Southern","Mid_Career_50th_Percentile_Salary",55500
+"Virginia Wesleyan College (VWC)","Southern","Mid_Career_50th_Percentile_Salary",54900
+"Lee University (Cleveland, TN)","Southern","Mid_Career_50th_Percentile_Salary",53900
+"Florida Metropolitan University (FMU)","Southern","Mid_Career_50th_Percentile_Salary",51000
+"Dartmouth College","Northeastern","Mid_Career_50th_Percentile_Salary",134000
+"Princeton University","Northeastern","Mid_Career_50th_Percentile_Salary",131000
+"Massachusetts Institute of Technology (MIT)","Northeastern","Mid_Career_50th_Percentile_Salary",126000
+"Yale University","Northeastern","Mid_Career_50th_Percentile_Salary",126000
+"Harvard University","Northeastern","Mid_Career_50th_Percentile_Salary",124000
+"University of Pennsylvania","Northeastern","Mid_Career_50th_Percentile_Salary",120000
+"Polytechnic University of New York, Brooklyn","Northeastern","Mid_Career_50th_Percentile_Salary",114000
+"Cooper Union","Northeastern","Mid_Career_50th_Percentile_Salary",114000
+"Worcester Polytechnic Institute (WPI)","Northeastern","Mid_Career_50th_Percentile_Salary",114000
+"Carnegie Mellon University (CMU)","Northeastern","Mid_Career_50th_Percentile_Salary",111000
+"Rensselaer Polytechnic Institute (RPI)","Northeastern","Mid_Career_50th_Percentile_Salary",110000
+"Cornell University","Northeastern","Mid_Career_50th_Percentile_Salary",110000
+"Bucknell University","Northeastern","Mid_Career_50th_Percentile_Salary",110000
+"Brown University","Northeastern","Mid_Career_50th_Percentile_Salary",109000
+"Colgate University","Northeastern","Mid_Career_50th_Percentile_Salary",108000
+"Columbia University","Northeastern","Mid_Career_50th_Percentile_Salary",107000
+"Amherst College","Northeastern","Mid_Career_50th_Percentile_Salary",107000
+"Lafayette College","Northeastern","Mid_Career_50th_Percentile_Salary",107000
+"Bowdoin College","Northeastern","Mid_Career_50th_Percentile_Salary",107000
+"College of the Holy Cross","Northeastern","Mid_Career_50th_Percentile_Salary",106000
+"Stevens Institute of Technology","Northeastern","Mid_Career_50th_Percentile_Salary",105000
+"Lehigh University","Northeastern","Mid_Career_50th_Percentile_Salary",105000
+"Swarthmore College","Northeastern","Mid_Career_50th_Percentile_Salary",104000
+"Boston College","Northeastern","Mid_Career_50th_Percentile_Salary",103000
+"Williams College","Northeastern","Mid_Career_50th_Percentile_Salary",102000
+"Villanova University","Northeastern","Mid_Career_50th_Percentile_Salary",101000
+"Fordham University","Northeastern","Mid_Career_50th_Percentile_Salary",99900
+"Wesleyan University (Middletown, Connecticut)","Northeastern","Mid_Career_50th_Percentile_Salary",97900
+"Wentworth Institute of Technology","Northeastern","Mid_Career_50th_Percentile_Salary",96700
+"Bates College","Northeastern","Mid_Career_50th_Percentile_Salary",96500
+"Binghamton University","Northeastern","Mid_Career_50th_Percentile_Salary",95900
+"Union College","Northeastern","Mid_Career_50th_Percentile_Salary",95800
+"New York University (NYU)","Northeastern","Mid_Career_50th_Percentile_Salary",95600
+"Vassar College","Northeastern","Mid_Career_50th_Percentile_Salary",94600
+"Middlebury College","Northeastern","Mid_Career_50th_Percentile_Salary",94200
+"Mount Holyoke College","Northeastern","Mid_Career_50th_Percentile_Salary",94200
+"Boston University","Northeastern","Mid_Career_50th_Percentile_Salary",93900
+"Drexel University","Northeastern","Mid_Career_50th_Percentile_Salary",93500
+"St. John's University, New York","Northeastern","Mid_Career_50th_Percentile_Salary",93400
+"Long Island University","Northeastern","Mid_Career_50th_Percentile_Salary",93200
+"Stony Brook University","Northeastern","Mid_Career_50th_Percentile_Salary",93000
+"Franklin and Marshall College","Northeastern","Mid_Career_50th_Percentile_Salary",92800
+"Hofstra University","Northeastern","Mid_Career_50th_Percentile_Salary",92700
+"State University of New York (SUNY) at Albany","Northeastern","Mid_Career_50th_Percentile_Salary",92200
+"Rutgers University","Northeastern","Mid_Career_50th_Percentile_Salary",91800
+"Pratt Institute","Northeastern","Mid_Career_50th_Percentile_Salary",89900
+"Pace University","Northeastern","Mid_Career_50th_Percentile_Salary",89700
+"Seton Hall University","Northeastern","Mid_Career_50th_Percentile_Salary",89200
+"Rider University","Northeastern","Mid_Career_50th_Percentile_Salary",88900
+"University of Connecticut (UConn)","Northeastern","Mid_Career_50th_Percentile_Salary",88800
+"Providence College","Northeastern","Mid_Career_50th_Percentile_Salary",88600
+"University of Massachusetts (UMass) - Amherst","Northeastern","Mid_Career_50th_Percentile_Salary",88200
+"Ithaca College","Northeastern","Mid_Career_50th_Percentile_Salary",87400
+"University of Massachusetts (UMass) - Lowell","Northeastern","Mid_Career_50th_Percentile_Salary",86600
+"Northeastern University","Northeastern","Mid_Career_50th_Percentile_Salary",86400
+"Syracuse University","Northeastern","Mid_Career_50th_Percentile_Salary",85900
+"Colby College","Northeastern","Mid_Career_50th_Percentile_Salary",85800
+"Gettysburg College","Northeastern","Mid_Career_50th_Percentile_Salary",85800
+"Pennsylvania State University (PSU)","Northeastern","Mid_Career_50th_Percentile_Salary",85700
+"University of Rhode Island (URI)","Northeastern","Mid_Career_50th_Percentile_Salary",85300
+"Siena College","Northeastern","Mid_Career_50th_Percentile_Salary",85200
+"La Salle University (Philadelphia)","Northeastern","Mid_Career_50th_Percentile_Salary",84700
+"Rochester Institute of Technology (RIT)","Northeastern","Mid_Career_50th_Percentile_Salary",84600
+"Duquesne University","Northeastern","Mid_Career_50th_Percentile_Salary",84400
+"State University of New York (SUNY) at Farmingdale","Northeastern","Mid_Career_50th_Percentile_Salary",84200
+"Smith College","Northeastern","Mid_Career_50th_Percentile_Salary",83900
+"Hamilton College","Northeastern","Mid_Career_50th_Percentile_Salary",83700
+"Wellesley College","Northeastern","Mid_Career_50th_Percentile_Salary",83500
+"Widener University","Northeastern","Mid_Career_50th_Percentile_Salary",83400
+"University of New Haven","Northeastern","Mid_Career_50th_Percentile_Salary",82900
+"Dowling College","Northeastern","Mid_Career_50th_Percentile_Salary",82800
+"University of Vermont (UVM)","Northeastern","Mid_Career_50th_Percentile_Salary",82700
+"State University of New York (SUNY) at Buffalo","Northeastern","Mid_Career_50th_Percentile_Salary",81700
+"State University of New York (SUNY) at Geneseo","Northeastern","Mid_Career_50th_Percentile_Salary",81300
+"Fashion Institute of Technology","Northeastern","Mid_Career_50th_Percentile_Salary",81000
+"Philadelphia University","Northeastern","Mid_Career_50th_Percentile_Salary",80300
+"Ursinus College","Northeastern","Mid_Career_50th_Percentile_Salary",80000
+"Adelphi University","Northeastern","Mid_Career_50th_Percentile_Salary",79200
+"Juniata College","Northeastern","Mid_Career_50th_Percentile_Salary",78900
+"Fairleigh Dickinson University","Northeastern","Mid_Career_50th_Percentile_Salary",78700
+"University of New Hampshire (UNH)","Northeastern","Mid_Career_50th_Percentile_Salary",78300
+"University of Massachusetts (UMass) - Boston","Northeastern","Mid_Career_50th_Percentile_Salary",78200
+"State University of New York (SUNY) at Oswego","Northeastern","Mid_Career_50th_Percentile_Salary",77800
+"University of Massachusetts (UMass) - Dartmouth","Northeastern","Mid_Career_50th_Percentile_Salary",77700
+"State University of New York (SUNY) at Oneonta","Northeastern","Mid_Career_50th_Percentile_Salary",76700
+"Quinnipiac University","Northeastern","Mid_Career_50th_Percentile_Salary",76500
+"State University of New York (SUNY) at Plattsburgh","Northeastern","Mid_Career_50th_Percentile_Salary",76200
+"Sacred Heart University","Northeastern","Mid_Career_50th_Percentile_Salary",75300
+"Skidmore College","Northeastern","Mid_Career_50th_Percentile_Salary",74600
+"Moravian College","Northeastern","Mid_Career_50th_Percentile_Salary",74400
+"Penn State - Harrisburg","Northeastern","Mid_Career_50th_Percentile_Salary",74000
+"Suffolk University","Northeastern","Mid_Career_50th_Percentile_Salary",74000
+"Fitchburg State College","Northeastern","Mid_Career_50th_Percentile_Salary",72600
+"Roger Williams University","Northeastern","Mid_Career_50th_Percentile_Salary",72300
+"University Of Maine","Northeastern","Mid_Career_50th_Percentile_Salary",72100
+"State University of New York (SUNY) at Potsdam","Northeastern","Mid_Career_50th_Percentile_Salary",70300
+"Niagara University","Northeastern","Mid_Career_50th_Percentile_Salary",69700
+"State University of New York (SUNY) at Fredonia","Northeastern","Mid_Career_50th_Percentile_Salary",66200
+"University of Southern Maine","Northeastern","Mid_Career_50th_Percentile_Salary",63600
+"Mercy College","Northeastern","Mid_Career_50th_Percentile_Salary",62600
+"Stanford University","California","Mid_Career_75th_Percentile_Salary",184000
+"California Institute of Technology (CIT)","California","Mid_Career_75th_Percentile_Salary",161000
+"Harvey Mudd College","California","Mid_Career_75th_Percentile_Salary",180000
+"University of California, Berkeley","California","Mid_Career_75th_Percentile_Salary",149000
+"Occidental College","California","Mid_Career_75th_Percentile_Salary",157000
+"Cal Poly San Luis Obispo","California","Mid_Career_75th_Percentile_Salary",133000
+"University of California at Los Angeles (UCLA)","California","Mid_Career_75th_Percentile_Salary",139000
+"University of California, San Diego (UCSD)","California","Mid_Career_75th_Percentile_Salary",131000
+"Pomona College","California","Mid_Career_75th_Percentile_Salary",161000
+"University of Southern California (USC)","California","Mid_Career_75th_Percentile_Salary",140000
+"University of California, Davis","California","Mid_Career_75th_Percentile_Salary",135000
+"University of California, Irvine (UCI)","California","Mid_Career_75th_Percentile_Salary",123000
+"San Jose State University (SJSU)","California","Mid_Career_75th_Percentile_Salary",122000
+"University of California, Santa Barbara (UCSB)","California","Mid_Career_75th_Percentile_Salary",129000
+"California State University (CSU), Chico","California","Mid_Career_75th_Percentile_Salary",122000
+"California State University, Fullerton (CSUF)","California","Mid_Career_75th_Percentile_Salary",119000
+"San Francisco State University (SFSU)","California","Mid_Career_75th_Percentile_Salary",114000
+"San Diego State University (SDSU)","California","Mid_Career_75th_Percentile_Salary",116000
+"California State University, Long Beach (CSULB)","California","Mid_Career_75th_Percentile_Salary",113000
+"California State University, East Bay (CSUEB)","California","Mid_Career_75th_Percentile_Salary",115000
+"University of California, Santa Cruz (UCSC)","California","Mid_Career_75th_Percentile_Salary",121000
+"California State University, Sacramento (CSUS)","California","Mid_Career_75th_Percentile_Salary",111000
+"University of California, Riverside (UCR)","California","Mid_Career_75th_Percentile_Salary",109000
+"California State University, Northridge (CSUN)","California","Mid_Career_75th_Percentile_Salary",108000
+"California State University, Dominguez Hills (CSUDH)","California","Mid_Career_75th_Percentile_Salary",92200
+"California State University (CSU), Stanislaus","California","Mid_Career_75th_Percentile_Salary",94100
+"Humboldt State University","California","Mid_Career_75th_Percentile_Salary",94400
+"Thomas Aquinas College","California","Mid_Career_75th_Percentile_Salary",93100
+"Colorado School of Mines","Western","Mid_Career_75th_Percentile_Salary",142000
+"University of Colorado - Boulder (UCB)","Western","Mid_Career_75th_Percentile_Salary",128000
+"New Mexico Institute of Mining and Technology (New Mexico Tech)","Western","Mid_Career_75th_Percentile_Salary",123000
+"Brigham Young University (BYU)","Western","Mid_Career_75th_Percentile_Salary",119000
+"University of Arizona","Western","Mid_Career_75th_Percentile_Salary",117000
+"University of Washington (UW)","Western","Mid_Career_75th_Percentile_Salary",115000
+"Washington State University (WSU)","Western","Mid_Career_75th_Percentile_Salary",113000
+"University of Colorado - Denver","Western","Mid_Career_75th_Percentile_Salary",105000
+"Arizona State University (ASU)","Western","Mid_Career_75th_Percentile_Salary",114000
+"Oregon State University (OSU)","Western","Mid_Career_75th_Percentile_Salary",113000
+"University of Utah","Western","Mid_Career_75th_Percentile_Salary",116000
+"University of Nevada, Reno (UNR)","Western","Mid_Career_75th_Percentile_Salary",113000
+"Seattle University","Western","Mid_Career_75th_Percentile_Salary",110000
+"University of Idaho","Western","Mid_Career_75th_Percentile_Salary",104000
+"University of New Mexico (UNM)","Western","Mid_Career_75th_Percentile_Salary",105000
+"University of Puget Sound","Western","Mid_Career_75th_Percentile_Salary",104000
+"Colorado College (CC)","Western","Mid_Career_75th_Percentile_Salary",148000
+"Reed College","Western","Mid_Career_75th_Percentile_Salary",101000
+"Whitman College","Western","Mid_Career_75th_Percentile_Salary",111000
+"New Mexico State University","Western","Mid_Career_75th_Percentile_Salary",102000
+"Colorado State University (CSU)","Western","Mid_Career_75th_Percentile_Salary",112000
+"University of Wyoming (UW)","Western","Mid_Career_75th_Percentile_Salary",105000
+"Utah State University","Western","Mid_Career_75th_Percentile_Salary",101000
+"University of Oregon","Western","Mid_Career_75th_Percentile_Salary",117000
+"Montana State University - Bozeman","Western","Mid_Career_75th_Percentile_Salary",111000
+"Gonzaga University","Western","Mid_Career_75th_Percentile_Salary",103000
+"University of Hawaii","Western","Mid_Career_75th_Percentile_Salary",104000
+"Western Washington University","Western","Mid_Career_75th_Percentile_Salary",99200
+"Regis University","Western","Mid_Career_75th_Percentile_Salary",94800
+"Idaho State University","Western","Mid_Career_75th_Percentile_Salary",101000
+"University of Alaska, Anchorage","Western","Mid_Career_75th_Percentile_Salary",99300
+"Lewis & Clark College","Western","Mid_Career_75th_Percentile_Salary",104000
+"University of Montana","Western","Mid_Career_75th_Percentile_Salary",96400
+"University of Nevada, Las Vegas (UNLV)","Western","Mid_Career_75th_Percentile_Salary",1e+05
+"Portland State University (PSU)","Western","Mid_Career_75th_Percentile_Salary",94400
+"Eastern Washington University","Western","Mid_Career_75th_Percentile_Salary",93100
+"Fort Lewis College","Western","Mid_Career_75th_Percentile_Salary",94000
+"Boise State University (BSU)","Western","Mid_Career_75th_Percentile_Salary",87500
+"Utah Valley State College","Western","Mid_Career_75th_Percentile_Salary",84900
+"Evergreen State College","Western","Mid_Career_75th_Percentile_Salary",91600
+"Southern Utah University","Western","Mid_Career_75th_Percentile_Salary",78400
+"Montana State University - Billings","Western","Mid_Career_75th_Percentile_Salary",78500
+"University of Notre Dame","Midwestern","Mid_Career_75th_Percentile_Salary",163000
+"University Of Chicago","Midwestern","Mid_Career_75th_Percentile_Salary",174000
+"Carleton College","Midwestern","Mid_Career_75th_Percentile_Salary",141000
+"Illinois Institute of Technology (IIT)","Midwestern","Mid_Career_75th_Percentile_Salary",121000
+"Case Western Reserve University","Midwestern","Mid_Career_75th_Percentile_Salary",123000
+"University of Illinois at Urbana-Champaign (UIUC)","Midwestern","Mid_Career_75th_Percentile_Salary",132000
+"Northwestern University","Midwestern","Mid_Career_75th_Percentile_Salary",144000
+"University of Missouri - Rolla (UMR)","Midwestern","Mid_Career_75th_Percentile_Salary",122000
+"South Dakota School of Mines & Technology","Midwestern","Mid_Career_75th_Percentile_Salary",122000
+"University of Michigan","Midwestern","Mid_Career_75th_Percentile_Salary",128000
+"Purdue University","Midwestern","Mid_Career_75th_Percentile_Salary",121000
+"Marquette University","Midwestern","Mid_Career_75th_Percentile_Salary",121000
+"DePauw University","Midwestern","Mid_Career_75th_Percentile_Salary",133000
+"University of Wisconsin (UW) - Madison","Midwestern","Mid_Career_75th_Percentile_Salary",118000
+"Bradley University","Midwestern","Mid_Career_75th_Percentile_Salary",113000
+"St. Olaf College","Midwestern","Mid_Career_75th_Percentile_Salary",120000
+"Michigan State University (MSU)","Midwestern","Mid_Career_75th_Percentile_Salary",119000
+"DePaul University","Midwestern","Mid_Career_75th_Percentile_Salary",115000
+"Iowa State University","Midwestern","Mid_Career_75th_Percentile_Salary",109000
+"University of Minnesota","Midwestern","Mid_Career_75th_Percentile_Salary",112000
+"Indiana University (IU), Bloomington","Midwestern","Mid_Career_75th_Percentile_Salary",119000
+"University of Iowa (UI)","Midwestern","Mid_Career_75th_Percentile_Salary",116000
+"Ohio State University (OSU)","Midwestern","Mid_Career_75th_Percentile_Salary",116000
+"Denison University","Midwestern","Mid_Career_75th_Percentile_Salary",122000
+"University of Illinois at Chicago","Midwestern","Mid_Career_75th_Percentile_Salary",110000
+"Oberlin College","Midwestern","Mid_Career_75th_Percentile_Salary",128000
+"University of Kansas","Midwestern","Mid_Career_75th_Percentile_Salary",115000
+"University of Missouri - Columbia","Midwestern","Mid_Career_75th_Percentile_Salary",111000
+"University of Nebraska","Midwestern","Mid_Career_75th_Percentile_Salary",113000
+"Northern Illinois University (NIU)","Midwestern","Mid_Career_75th_Percentile_Salary",111000
+"Gustavus Adolphus College","Midwestern","Mid_Career_75th_Percentile_Salary",101000
+"University of North Dakota","Midwestern","Mid_Career_75th_Percentile_Salary",111000
+"Kansas State University (KSU)","Midwestern","Mid_Career_75th_Percentile_Salary",106000
+"University of Wisconsin (UW) - Platteville","Midwestern","Mid_Career_75th_Percentile_Salary",1e+05
+"Wittenberg University","Midwestern","Mid_Career_75th_Percentile_Salary",131000
+"North Dakota State University (NDSU)","Midwestern","Mid_Career_75th_Percentile_Salary",1e+05
+"Grinnell College","Midwestern","Mid_Career_75th_Percentile_Salary",116000
+"Wayne State University","Midwestern","Mid_Career_75th_Percentile_Salary",101000
+"University of Toledo","Midwestern","Mid_Career_75th_Percentile_Salary",1e+05
+"University of Wisconsin (UW) - Whitewater","Midwestern","Mid_Career_75th_Percentile_Salary",99300
+"Minnesota State University - Mankato","Midwestern","Mid_Career_75th_Percentile_Salary",95700
+"University of Wisconsin (UW) - Milwaukee","Midwestern","Mid_Career_75th_Percentile_Salary",93700
+"Western Michigan University (WMU)","Midwestern","Mid_Career_75th_Percentile_Salary",103000
+"South Dakota State University (SDSU)","Midwestern","Mid_Career_75th_Percentile_Salary",99400
+"Ohio University","Midwestern","Mid_Career_75th_Percentile_Salary",106000
+"Illinois State University","Midwestern","Mid_Career_75th_Percentile_Salary",105000
+"Cleveland State University","Midwestern","Mid_Career_75th_Percentile_Salary",97000
+"University of Nebraska at Omaha","Midwestern","Mid_Career_75th_Percentile_Salary",97400
+"Southern Illinois University Carbondale","Midwestern","Mid_Career_75th_Percentile_Salary",99300
+"Eastern Michigan University","Midwestern","Mid_Career_75th_Percentile_Salary",95400
+"Bowling Green State University","Midwestern","Mid_Career_75th_Percentile_Salary",101000
+"St. Cloud State University","Midwestern","Mid_Career_75th_Percentile_Salary",101000
+"University of Wisconsin (UW) - Parkside","Midwestern","Mid_Career_75th_Percentile_Salary",84900
+"University of Akron","Midwestern","Mid_Career_75th_Percentile_Salary",95200
+"Missouri State University (MSU)","Midwestern","Mid_Career_75th_Percentile_Salary",102000
+"University of Wisconsin (UW) - La Crosse","Midwestern","Mid_Career_75th_Percentile_Salary",93100
+"University of Wisconsin (UW) - Stout","Midwestern","Mid_Career_75th_Percentile_Salary",91600
+"Robert Morris College (RMC)","Midwestern","Mid_Career_75th_Percentile_Salary",95000
+"University of Missouri - St. Louis (UMSL)","Midwestern","Mid_Career_75th_Percentile_Salary",97600
+"University of Wisconsin (UW) - Oshkosh","Midwestern","Mid_Career_75th_Percentile_Salary",90100
+"University of Missouri - Kansas City (UMKC)","Midwestern","Mid_Career_75th_Percentile_Salary",95800
+"University of Wisconsin (UW) - Eau Claire","Midwestern","Mid_Career_75th_Percentile_Salary",93100
+"Ball State University (BSU)","Midwestern","Mid_Career_75th_Percentile_Salary",89300
+"Park University","Midwestern","Mid_Career_75th_Percentile_Salary",86400
+"University of Wisconsin (UW) - Stevens Point","Midwestern","Mid_Career_75th_Percentile_Salary",95400
+"Kent State University","Midwestern","Mid_Career_75th_Percentile_Salary",87000
+"University of Wisconsin (UW) - Green Bay","Midwestern","Mid_Career_75th_Percentile_Salary",81800
+"Indiana Wesleyan University (IWU)","Midwestern","Mid_Career_75th_Percentile_Salary",78600
+"Pittsburg State University","Midwestern","Mid_Career_75th_Percentile_Salary",84600
+"Davenport University","Midwestern","Mid_Career_75th_Percentile_Salary",65600
+"Black Hills State University","Midwestern","Mid_Career_75th_Percentile_Salary",60900
+"Rice University","Southern","Mid_Career_75th_Percentile_Salary",141000
+"Georgetown University","Southern","Mid_Career_75th_Percentile_Salary",174000
+"Duke University","Southern","Mid_Career_75th_Percentile_Salary",149000
+"Georgia Institute of Technology","Southern","Mid_Career_75th_Percentile_Salary",137000
+"Washington and Lee University","Southern","Mid_Career_75th_Percentile_Salary",146000
+"Vanderbilt University","Southern","Mid_Career_75th_Percentile_Salary",147000
+"Davidson College","Southern","Mid_Career_75th_Percentile_Salary",146000
+"University of Virginia (UVA)","Southern","Mid_Career_75th_Percentile_Salary",146000
+"George Washington University (GWU)","Southern","Mid_Career_75th_Percentile_Salary",132000
+"Texas A&M University","Southern","Mid_Career_75th_Percentile_Salary",131000
+"Tulane University","Southern","Mid_Career_75th_Percentile_Salary",134000
+"Virginia Polytechnic Institute and State University (Virginia Tech)","Southern","Mid_Career_75th_Percentile_Salary",124000
+"University of Maryland, College Park","Southern","Mid_Career_75th_Percentile_Salary",126000
+"University of Richmond","Southern","Mid_Career_75th_Percentile_Salary",151000
+"University of Texas (UT) - Austin","Southern","Mid_Career_75th_Percentile_Salary",129000
+"Emory University","Southern","Mid_Career_75th_Percentile_Salary",128000
+"American University, Washington D.C.","Southern","Mid_Career_75th_Percentile_Salary",134000
+"University of Tulsa","Southern","Mid_Career_75th_Percentile_Salary",120000
+"Baylor University","Southern","Mid_Career_75th_Percentile_Salary",130000
+"University of Florida (UF)","Southern","Mid_Career_75th_Percentile_Salary",120000
+"Louisiana State University (LSU)","Southern","Mid_Career_75th_Percentile_Salary",120000
+"George Mason University","Southern","Mid_Career_75th_Percentile_Salary",114000
+"Clemson University","Southern","Mid_Career_75th_Percentile_Salary",111000
+"University of Georgia (UGA)","Southern","Mid_Career_75th_Percentile_Salary",118000
+"Auburn University","Southern","Mid_Career_75th_Percentile_Salary",109000
+"University of Delaware","Southern","Mid_Career_75th_Percentile_Salary",119000
+"Randolph-Macon College","Southern","Mid_Career_75th_Percentile_Salary",123000
+"North Carolina State University (NCSU)","Southern","Mid_Career_75th_Percentile_Salary",112000
+"University of Oklahoma","Southern","Mid_Career_75th_Percentile_Salary",114000
+"University of Arkansas","Southern","Mid_Career_75th_Percentile_Salary",113000
+"University of Alabama at Huntsville (UAH)","Southern","Mid_Career_75th_Percentile_Salary",106000
+"Howard University","Southern","Mid_Career_75th_Percentile_Salary",109000
+"University of North Carolina at Chapel Hill (UNCH)","Southern","Mid_Career_75th_Percentile_Salary",117000
+"University of Alabama, Tuscaloosa","Southern","Mid_Career_75th_Percentile_Salary",117000
+"University of Texas at Arlington (UTA)","Southern","Mid_Career_75th_Percentile_Salary",106000
+"Oklahoma State University","Southern","Mid_Career_75th_Percentile_Salary",114000
+"Tennessee Technological University","Southern","Mid_Career_75th_Percentile_Salary",99500
+"University of Houston (UH)","Southern","Mid_Career_75th_Percentile_Salary",106000
+"University of Mississippi","Southern","Mid_Career_75th_Percentile_Salary",108000
+"Lamar University","Southern","Mid_Career_75th_Percentile_Salary",114000
+"Mississippi State University (MSU)","Southern","Mid_Career_75th_Percentile_Salary",108000
+"University of Kentucky (UK)","Southern","Mid_Career_75th_Percentile_Salary",107000
+"Texas Christian University (TCU)","Southern","Mid_Career_75th_Percentile_Salary",122000
+"West Virginia University (WVU)","Southern","Mid_Career_75th_Percentile_Salary",106000
+"University of Maryland Baltimore County (UMBC)","Southern","Mid_Career_75th_Percentile_Salary",105000
+"University of Louisiana (UL) at Lafayette","Southern","Mid_Career_75th_Percentile_Salary",107000
+"Florida International University (FIU)","Southern","Mid_Career_75th_Percentile_Salary",98200
+"University of Tennessee","Southern","Mid_Career_75th_Percentile_Salary",106000
+"University of Arkansas - Monticello (UAM)","Southern","Mid_Career_75th_Percentile_Salary",110000
+"University of North Carolina at Charlotte (UNCC)","Southern","Mid_Career_75th_Percentile_Salary",99500
+"Georgia State University","Southern","Mid_Career_75th_Percentile_Salary",99900
+"LeTourneau University","Southern","Mid_Career_75th_Percentile_Salary",95200
+"Florida State University (FSU)","Southern","Mid_Career_75th_Percentile_Salary",107000
+"University of Texas at El Paso (UTEP)","Southern","Mid_Career_75th_Percentile_Salary",99500
+"University of Central Florida (UCF)","Southern","Mid_Career_75th_Percentile_Salary",98400
+"University of South Carolina","Southern","Mid_Career_75th_Percentile_Salary",98400
+"Florida Atlantic University (FAU)","Southern","Mid_Career_75th_Percentile_Salary",99500
+"University of South Florida (USF)","Southern","Mid_Career_75th_Percentile_Salary",98100
+"University of Texas at San Antonio (UTSA)","Southern","Mid_Career_75th_Percentile_Salary",92700
+"University of Alabama at Birmingham (UAB)","Southern","Mid_Career_75th_Percentile_Salary",91400
+"University of Memphis (U of M)","Southern","Mid_Career_75th_Percentile_Salary",93500
+"Appalachian State University","Southern","Mid_Career_75th_Percentile_Salary",90800
+"Virginia Commonwealth University (VCU)","Southern","Mid_Career_75th_Percentile_Salary",1e+05
+"East Carolina University (ECU)","Southern","Mid_Career_75th_Percentile_Salary",98700
+"Western Carolina University","Southern","Mid_Career_75th_Percentile_Salary",94400
+"Jacksonville University","Southern","Mid_Career_75th_Percentile_Salary",88500
+"University of North Carolina at Wilmington (UNCW)","Southern","Mid_Career_75th_Percentile_Salary",97100
+"Oklahoma City University","Southern","Mid_Career_75th_Percentile_Salary",80600
+"Arkansas State University (ASU)","Southern","Mid_Career_75th_Percentile_Salary",83900
+"Tarleton State University (TSU)","Southern","Mid_Career_75th_Percentile_Salary",80400
+"Morehead State University","Southern","Mid_Career_75th_Percentile_Salary",72000
+"Mississippi College","Southern","Mid_Career_75th_Percentile_Salary",80400
+"Dallas Baptist University","Southern","Mid_Career_75th_Percentile_Salary",81800
+"Austin Peay State University","Southern","Mid_Career_75th_Percentile_Salary",73900
+"Saint Leo University","Southern","Mid_Career_75th_Percentile_Salary",80600
+"Tusculum College","Southern","Mid_Career_75th_Percentile_Salary",87300
+"Virginia Wesleyan College (VWC)","Southern","Mid_Career_75th_Percentile_Salary",88900
+"Lee University (Cleveland, TN)","Southern","Mid_Career_75th_Percentile_Salary",76800
+"Florida Metropolitan University (FMU)","Southern","Mid_Career_75th_Percentile_Salary",70400
+"Dartmouth College","Northeastern","Mid_Career_75th_Percentile_Salary",234000
+"Princeton University","Northeastern","Mid_Career_75th_Percentile_Salary",190000
+"Massachusetts Institute of Technology (MIT)","Northeastern","Mid_Career_75th_Percentile_Salary",168000
+"Yale University","Northeastern","Mid_Career_75th_Percentile_Salary",198000
+"Harvard University","Northeastern","Mid_Career_75th_Percentile_Salary",179000
+"University of Pennsylvania","Northeastern","Mid_Career_75th_Percentile_Salary",192000
+"Polytechnic University of New York, Brooklyn","Northeastern","Mid_Career_75th_Percentile_Salary",143000
+"Cooper Union","Northeastern","Mid_Career_75th_Percentile_Salary",142000
+"Worcester Polytechnic Institute (WPI)","Northeastern","Mid_Career_75th_Percentile_Salary",137000
+"Carnegie Mellon University (CMU)","Northeastern","Mid_Career_75th_Percentile_Salary",150000
+"Rensselaer Polytechnic Institute (RPI)","Northeastern","Mid_Career_75th_Percentile_Salary",140000
+"Cornell University","Northeastern","Mid_Career_75th_Percentile_Salary",160000
+"Bucknell University","Northeastern","Mid_Career_75th_Percentile_Salary",156000
+"Brown University","Northeastern","Mid_Career_75th_Percentile_Salary",159000
+"Colgate University","Northeastern","Mid_Career_75th_Percentile_Salary",167000
+"Columbia University","Northeastern","Mid_Career_75th_Percentile_Salary",161000
+"Amherst College","Northeastern","Mid_Career_75th_Percentile_Salary",162000
+"Lafayette College","Northeastern","Mid_Career_75th_Percentile_Salary",144000
+"Bowdoin College","Northeastern","Mid_Career_75th_Percentile_Salary",146000
+"College of the Holy Cross","Northeastern","Mid_Career_75th_Percentile_Salary",143000
+"Stevens Institute of Technology","Northeastern","Mid_Career_75th_Percentile_Salary",138000
+"Lehigh University","Northeastern","Mid_Career_75th_Percentile_Salary",160000
+"Swarthmore College","Northeastern","Mid_Career_75th_Percentile_Salary",167000
+"Boston College","Northeastern","Mid_Career_75th_Percentile_Salary",143000
+"Williams College","Northeastern","Mid_Career_75th_Percentile_Salary",143000
+"Villanova University","Northeastern","Mid_Career_75th_Percentile_Salary",156000
+"Fordham University","Northeastern","Mid_Career_75th_Percentile_Salary",142000
+"Wesleyan University (Middletown, Connecticut)","Northeastern","Mid_Career_75th_Percentile_Salary",126000
+"Wentworth Institute of Technology","Northeastern","Mid_Career_75th_Percentile_Salary",117000
+"Bates College","Northeastern","Mid_Career_75th_Percentile_Salary",162000
+"Binghamton University","Northeastern","Mid_Career_75th_Percentile_Salary",146000
+"Union College","Northeastern","Mid_Career_75th_Percentile_Salary",135000
+"New York University (NYU)","Northeastern","Mid_Career_75th_Percentile_Salary",142000
+"Vassar College","Northeastern","Mid_Career_75th_Percentile_Salary",123000
+"Middlebury College","Northeastern","Mid_Career_75th_Percentile_Salary",129000
+"Mount Holyoke College","Northeastern","Mid_Career_75th_Percentile_Salary",131000
+"Boston University","Northeastern","Mid_Career_75th_Percentile_Salary",130000
+"Drexel University","Northeastern","Mid_Career_75th_Percentile_Salary",122000
+"St. John's University, New York","Northeastern","Mid_Career_75th_Percentile_Salary",124000
+"Long Island University","Northeastern","Mid_Career_75th_Percentile_Salary",122000
+"Stony Brook University","Northeastern","Mid_Career_75th_Percentile_Salary",129000
+"Franklin and Marshall College","Northeastern","Mid_Career_75th_Percentile_Salary",185000
+"Hofstra University","Northeastern","Mid_Career_75th_Percentile_Salary",135000
+"State University of New York (SUNY) at Albany","Northeastern","Mid_Career_75th_Percentile_Salary",135000
+"Rutgers University","Northeastern","Mid_Career_75th_Percentile_Salary",128000
+"Pratt Institute","Northeastern","Mid_Career_75th_Percentile_Salary",123000
+"Pace University","Northeastern","Mid_Career_75th_Percentile_Salary",129000
+"Seton Hall University","Northeastern","Mid_Career_75th_Percentile_Salary",133000
+"Rider University","Northeastern","Mid_Career_75th_Percentile_Salary",127000
+"University of Connecticut (UConn)","Northeastern","Mid_Career_75th_Percentile_Salary",120000
+"Providence College","Northeastern","Mid_Career_75th_Percentile_Salary",138000
+"University of Massachusetts (UMass) - Amherst","Northeastern","Mid_Career_75th_Percentile_Salary",122000
+"Ithaca College","Northeastern","Mid_Career_75th_Percentile_Salary",128000
+"University of Massachusetts (UMass) - Lowell","Northeastern","Mid_Career_75th_Percentile_Salary",113000
+"Northeastern University","Northeastern","Mid_Career_75th_Percentile_Salary",117000
+"Syracuse University","Northeastern","Mid_Career_75th_Percentile_Salary",119000
+"Colby College","Northeastern","Mid_Career_75th_Percentile_Salary",129000
+"Gettysburg College","Northeastern","Mid_Career_75th_Percentile_Salary",132000
+"Pennsylvania State University (PSU)","Northeastern","Mid_Career_75th_Percentile_Salary",117000
+"University of Rhode Island (URI)","Northeastern","Mid_Career_75th_Percentile_Salary",112000
+"Siena College","Northeastern","Mid_Career_75th_Percentile_Salary",129000
+"La Salle University (Philadelphia)","Northeastern","Mid_Career_75th_Percentile_Salary",106000
+"Rochester Institute of Technology (RIT)","Northeastern","Mid_Career_75th_Percentile_Salary",112000
+"Duquesne University","Northeastern","Mid_Career_75th_Percentile_Salary",107000
+"State University of New York (SUNY) at Farmingdale","Northeastern","Mid_Career_75th_Percentile_Salary",110000
+"Smith College","Northeastern","Mid_Career_75th_Percentile_Salary",129000
+"Hamilton College","Northeastern","Mid_Career_75th_Percentile_Salary",123000
+"Wellesley College","Northeastern","Mid_Career_75th_Percentile_Salary",125000
+"Widener University","Northeastern","Mid_Career_75th_Percentile_Salary",106000
+"University of New Haven","Northeastern","Mid_Career_75th_Percentile_Salary",113000
+"Dowling College","Northeastern","Mid_Career_75th_Percentile_Salary",117000
+"University of Vermont (UVM)","Northeastern","Mid_Career_75th_Percentile_Salary",122000
+"State University of New York (SUNY) at Buffalo","Northeastern","Mid_Career_75th_Percentile_Salary",110000
+"State University of New York (SUNY) at Geneseo","Northeastern","Mid_Career_75th_Percentile_Salary",117000
+"Fashion Institute of Technology","Northeastern","Mid_Career_75th_Percentile_Salary",106000
+"Philadelphia University","Northeastern","Mid_Career_75th_Percentile_Salary",108000
+"Ursinus College","Northeastern","Mid_Career_75th_Percentile_Salary",1e+05
+"Adelphi University","Northeastern","Mid_Career_75th_Percentile_Salary",114000
+"Juniata College","Northeastern","Mid_Career_75th_Percentile_Salary",110000
+"Fairleigh Dickinson University","Northeastern","Mid_Career_75th_Percentile_Salary",112000
+"University of New Hampshire (UNH)","Northeastern","Mid_Career_75th_Percentile_Salary",114000
+"University of Massachusetts (UMass) - Boston","Northeastern","Mid_Career_75th_Percentile_Salary",109000
+"State University of New York (SUNY) at Oswego","Northeastern","Mid_Career_75th_Percentile_Salary",115000
+"University of Massachusetts (UMass) - Dartmouth","Northeastern","Mid_Career_75th_Percentile_Salary",107000
+"State University of New York (SUNY) at Oneonta","Northeastern","Mid_Career_75th_Percentile_Salary",97700
+"Quinnipiac University","Northeastern","Mid_Career_75th_Percentile_Salary",117000
+"State University of New York (SUNY) at Plattsburgh","Northeastern","Mid_Career_75th_Percentile_Salary",105000
+"Sacred Heart University","Northeastern","Mid_Career_75th_Percentile_Salary",105000
+"Skidmore College","Northeastern","Mid_Career_75th_Percentile_Salary",147000
+"Moravian College","Northeastern","Mid_Career_75th_Percentile_Salary",94900
+"Penn State - Harrisburg","Northeastern","Mid_Career_75th_Percentile_Salary",104000
+"Suffolk University","Northeastern","Mid_Career_75th_Percentile_Salary",95100
+"Fitchburg State College","Northeastern","Mid_Career_75th_Percentile_Salary",99600
+"Roger Williams University","Northeastern","Mid_Career_75th_Percentile_Salary",102000
+"University Of Maine","Northeastern","Mid_Career_75th_Percentile_Salary",99300
+"State University of New York (SUNY) at Potsdam","Northeastern","Mid_Career_75th_Percentile_Salary",1e+05
+"Niagara University","Northeastern","Mid_Career_75th_Percentile_Salary",92000
+"State University of New York (SUNY) at Fredonia","Northeastern","Mid_Career_75th_Percentile_Salary",93300
+"University of Southern Maine","Northeastern","Mid_Career_75th_Percentile_Salary",85700
+"Mercy College","Northeastern","Mid_Career_75th_Percentile_Salary",99000
+"Stanford University","California","Mid_Career_90th_Percentile_Salary",257000
+"California Institute of Technology (CIT)","California","Mid_Career_90th_Percentile_Salary",NA
+"Harvey Mudd College","California","Mid_Career_90th_Percentile_Salary",NA
+"University of California, Berkeley","California","Mid_Career_90th_Percentile_Salary",201000
+"Occidental College","California","Mid_Career_90th_Percentile_Salary",NA
+"Cal Poly San Luis Obispo","California","Mid_Career_90th_Percentile_Salary",178000
+"University of California at Los Angeles (UCLA)","California","Mid_Career_90th_Percentile_Salary",193000
+"University of California, San Diego (UCSD)","California","Mid_Career_90th_Percentile_Salary",177000
+"Pomona College","California","Mid_Career_90th_Percentile_Salary",NA
+"University of Southern California (USC)","California","Mid_Career_90th_Percentile_Salary",201000
+"University of California, Davis","California","Mid_Career_90th_Percentile_Salary",202000
+"University of California, Irvine (UCI)","California","Mid_Career_90th_Percentile_Salary",172000
+"San Jose State University (SJSU)","California","Mid_Career_90th_Percentile_Salary",156000
+"University of California, Santa Barbara (UCSB)","California","Mid_Career_90th_Percentile_Salary",173000
+"California State University (CSU), Chico","California","Mid_Career_90th_Percentile_Salary",154000
+"California State University, Fullerton (CSUF)","California","Mid_Career_90th_Percentile_Salary",158000
+"San Francisco State University (SFSU)","California","Mid_Career_90th_Percentile_Salary",150000
+"San Diego State University (SDSU)","California","Mid_Career_90th_Percentile_Salary",158000
+"California State University, Long Beach (CSULB)","California","Mid_Career_90th_Percentile_Salary",154000
+"California State University, East Bay (CSUEB)","California","Mid_Career_90th_Percentile_Salary",155000
+"University of California, Santa Cruz (UCSC)","California","Mid_Career_90th_Percentile_Salary",165000
+"California State University, Sacramento (CSUS)","California","Mid_Career_90th_Percentile_Salary",154000
+"University of California, Riverside (UCR)","California","Mid_Career_90th_Percentile_Salary",134000
+"California State University, Northridge (CSUN)","California","Mid_Career_90th_Percentile_Salary",153000
+"California State University, Dominguez Hills (CSUDH)","California","Mid_Career_90th_Percentile_Salary",132000
+"California State University (CSU), Stanislaus","California","Mid_Career_90th_Percentile_Salary",NA
+"Humboldt State University","California","Mid_Career_90th_Percentile_Salary",117000
+"Thomas Aquinas College","California","Mid_Career_90th_Percentile_Salary",NA
+"Colorado School of Mines","Western","Mid_Career_90th_Percentile_Salary",201000
+"University of Colorado - Boulder (UCB)","Western","Mid_Career_90th_Percentile_Salary",187000
+"New Mexico Institute of Mining and Technology (New Mexico Tech)","Western","Mid_Career_90th_Percentile_Salary",NA
+"Brigham Young University (BYU)","Western","Mid_Career_90th_Percentile_Salary",164000
+"University of Arizona","Western","Mid_Career_90th_Percentile_Salary",160000
+"University of Washington (UW)","Western","Mid_Career_90th_Percentile_Salary",149000
+"Washington State University (WSU)","Western","Mid_Career_90th_Percentile_Salary",162000
+"University of Colorado - Denver","Western","Mid_Career_90th_Percentile_Salary",144000
+"Arizona State University (ASU)","Western","Mid_Career_90th_Percentile_Salary",163000
+"Oregon State University (OSU)","Western","Mid_Career_90th_Percentile_Salary",146000
+"University of Utah","Western","Mid_Career_90th_Percentile_Salary",148000
+"University of Nevada, Reno (UNR)","Western","Mid_Career_90th_Percentile_Salary",143000
+"Seattle University","Western","Mid_Career_90th_Percentile_Salary",150000
+"University of Idaho","Western","Mid_Career_90th_Percentile_Salary",142000
+"University of New Mexico (UNM)","Western","Mid_Career_90th_Percentile_Salary",141000
+"University of Puget Sound","Western","Mid_Career_90th_Percentile_Salary",137000
+"Colorado College (CC)","Western","Mid_Career_90th_Percentile_Salary",NA
+"Reed College","Western","Mid_Career_90th_Percentile_Salary",NA
+"Whitman College","Western","Mid_Career_90th_Percentile_Salary",NA
+"New Mexico State University","Western","Mid_Career_90th_Percentile_Salary",131000
+"Colorado State University (CSU)","Western","Mid_Career_90th_Percentile_Salary",150000
+"University of Wyoming (UW)","Western","Mid_Career_90th_Percentile_Salary",145000
+"Utah State University","Western","Mid_Career_90th_Percentile_Salary",132000
+"University of Oregon","Western","Mid_Career_90th_Percentile_Salary",186000
+"Montana State University - Bozeman","Western","Mid_Career_90th_Percentile_Salary",151000
+"Gonzaga University","Western","Mid_Career_90th_Percentile_Salary",138000
+"University of Hawaii","Western","Mid_Career_90th_Percentile_Salary",128000
+"Western Washington University","Western","Mid_Career_90th_Percentile_Salary",119000
+"Regis University","Western","Mid_Career_90th_Percentile_Salary",117000
+"Idaho State University","Western","Mid_Career_90th_Percentile_Salary",143000
+"University of Alaska, Anchorage","Western","Mid_Career_90th_Percentile_Salary",137000
+"Lewis & Clark College","Western","Mid_Career_90th_Percentile_Salary",140000
+"University of Montana","Western","Mid_Career_90th_Percentile_Salary",138000
+"University of Nevada, Las Vegas (UNLV)","Western","Mid_Career_90th_Percentile_Salary",128000
+"Portland State University (PSU)","Western","Mid_Career_90th_Percentile_Salary",123000
+"Eastern Washington University","Western","Mid_Career_90th_Percentile_Salary",117000
+"Fort Lewis College","Western","Mid_Career_90th_Percentile_Salary",NA
+"Boise State University (BSU)","Western","Mid_Career_90th_Percentile_Salary",110000
+"Utah Valley State College","Western","Mid_Career_90th_Percentile_Salary",NA
+"Evergreen State College","Western","Mid_Career_90th_Percentile_Salary",120000
+"Southern Utah University","Western","Mid_Career_90th_Percentile_Salary",NA
+"Montana State University - Billings","Western","Mid_Career_90th_Percentile_Salary",NA
+"University of Notre Dame","Midwestern","Mid_Career_90th_Percentile_Salary",235000
+"University Of Chicago","Midwestern","Mid_Career_90th_Percentile_Salary",255000
+"Carleton College","Midwestern","Mid_Career_90th_Percentile_Salary",NA
+"Illinois Institute of Technology (IIT)","Midwestern","Mid_Career_90th_Percentile_Salary",165000
+"Case Western Reserve University","Midwestern","Mid_Career_90th_Percentile_Salary",168000
+"University of Illinois at Urbana-Champaign (UIUC)","Midwestern","Mid_Career_90th_Percentile_Salary",177000
+"Northwestern University","Midwestern","Mid_Career_90th_Percentile_Salary",205000
+"University of Missouri - Rolla (UMR)","Midwestern","Mid_Career_90th_Percentile_Salary",166000
+"South Dakota School of Mines & Technology","Midwestern","Mid_Career_90th_Percentile_Salary",147000
+"University of Michigan","Midwestern","Mid_Career_90th_Percentile_Salary",182000
+"Purdue University","Midwestern","Mid_Career_90th_Percentile_Salary",168000
+"Marquette University","Midwestern","Mid_Career_90th_Percentile_Salary",184000
+"DePauw University","Midwestern","Mid_Career_90th_Percentile_Salary",185000
+"University of Wisconsin (UW) - Madison","Midwestern","Mid_Career_90th_Percentile_Salary",170000
+"Bradley University","Midwestern","Mid_Career_90th_Percentile_Salary",151000
+"St. Olaf College","Midwestern","Mid_Career_90th_Percentile_Salary",185000
+"Michigan State University (MSU)","Midwestern","Mid_Career_90th_Percentile_Salary",170000
+"DePaul University","Midwestern","Mid_Career_90th_Percentile_Salary",160000
+"Iowa State University","Midwestern","Mid_Career_90th_Percentile_Salary",147000
+"University of Minnesota","Midwestern","Mid_Career_90th_Percentile_Salary",148000
+"Indiana University (IU), Bloomington","Midwestern","Mid_Career_90th_Percentile_Salary",178000
+"University of Iowa (UI)","Midwestern","Mid_Career_90th_Percentile_Salary",163000
+"Ohio State University (OSU)","Midwestern","Mid_Career_90th_Percentile_Salary",162000
+"Denison University","Midwestern","Mid_Career_90th_Percentile_Salary",NA
+"University of Illinois at Chicago","Midwestern","Mid_Career_90th_Percentile_Salary",146000
+"Oberlin College","Midwestern","Mid_Career_90th_Percentile_Salary",NA
+"University of Kansas","Midwestern","Mid_Career_90th_Percentile_Salary",156000
+"University of Missouri - Columbia","Midwestern","Mid_Career_90th_Percentile_Salary",156000
+"University of Nebraska","Midwestern","Mid_Career_90th_Percentile_Salary",156000
+"Northern Illinois University (NIU)","Midwestern","Mid_Career_90th_Percentile_Salary",161000
+"Gustavus Adolphus College","Midwestern","Mid_Career_90th_Percentile_Salary",NA
+"University of North Dakota","Midwestern","Mid_Career_90th_Percentile_Salary",157000
+"Kansas State University (KSU)","Midwestern","Mid_Career_90th_Percentile_Salary",138000
+"University of Wisconsin (UW) - Platteville","Midwestern","Mid_Career_90th_Percentile_Salary",139000
+"Wittenberg University","Midwestern","Mid_Career_90th_Percentile_Salary",NA
+"North Dakota State University (NDSU)","Midwestern","Mid_Career_90th_Percentile_Salary",123000
+"Grinnell College","Midwestern","Mid_Career_90th_Percentile_Salary",NA
+"Wayne State University","Midwestern","Mid_Career_90th_Percentile_Salary",139000
+"University of Toledo","Midwestern","Mid_Career_90th_Percentile_Salary",133000
+"University of Wisconsin (UW) - Whitewater","Midwestern","Mid_Career_90th_Percentile_Salary",150000
+"Minnesota State University - Mankato","Midwestern","Mid_Career_90th_Percentile_Salary",140000
+"University of Wisconsin (UW) - Milwaukee","Midwestern","Mid_Career_90th_Percentile_Salary",123000
+"Western Michigan University (WMU)","Midwestern","Mid_Career_90th_Percentile_Salary",135000
+"South Dakota State University (SDSU)","Midwestern","Mid_Career_90th_Percentile_Salary",129000
+"Ohio University","Midwestern","Mid_Career_90th_Percentile_Salary",150000
+"Illinois State University","Midwestern","Mid_Career_90th_Percentile_Salary",142000
+"Cleveland State University","Midwestern","Mid_Career_90th_Percentile_Salary",137000
+"University of Nebraska at Omaha","Midwestern","Mid_Career_90th_Percentile_Salary",126000
+"Southern Illinois University Carbondale","Midwestern","Mid_Career_90th_Percentile_Salary",139000
+"Eastern Michigan University","Midwestern","Mid_Career_90th_Percentile_Salary",135000
+"Bowling Green State University","Midwestern","Mid_Career_90th_Percentile_Salary",146000
+"St. Cloud State University","Midwestern","Mid_Career_90th_Percentile_Salary",126000
+"University of Wisconsin (UW) - Parkside","Midwestern","Mid_Career_90th_Percentile_Salary",119000
+"University of Akron","Midwestern","Mid_Career_90th_Percentile_Salary",127000
+"Missouri State University (MSU)","Midwestern","Mid_Career_90th_Percentile_Salary",134000
+"University of Wisconsin (UW) - La Crosse","Midwestern","Mid_Career_90th_Percentile_Salary",133000
+"University of Wisconsin (UW) - Stout","Midwestern","Mid_Career_90th_Percentile_Salary",136000
+"Robert Morris College (RMC)","Midwestern","Mid_Career_90th_Percentile_Salary",128000
+"University of Missouri - St. Louis (UMSL)","Midwestern","Mid_Career_90th_Percentile_Salary",144000
+"University of Wisconsin (UW) - Oshkosh","Midwestern","Mid_Career_90th_Percentile_Salary",138000
+"University of Missouri - Kansas City (UMKC)","Midwestern","Mid_Career_90th_Percentile_Salary",124000
+"University of Wisconsin (UW) - Eau Claire","Midwestern","Mid_Career_90th_Percentile_Salary",125000
+"Ball State University (BSU)","Midwestern","Mid_Career_90th_Percentile_Salary",128000
+"Park University","Midwestern","Mid_Career_90th_Percentile_Salary",113000
+"University of Wisconsin (UW) - Stevens Point","Midwestern","Mid_Career_90th_Percentile_Salary",128000
+"Kent State University","Midwestern","Mid_Career_90th_Percentile_Salary",124000
+"University of Wisconsin (UW) - Green Bay","Midwestern","Mid_Career_90th_Percentile_Salary",102000
+"Indiana Wesleyan University (IWU)","Midwestern","Mid_Career_90th_Percentile_Salary",93400
+"Pittsburg State University","Midwestern","Mid_Career_90th_Percentile_Salary",117000
+"Davenport University","Midwestern","Mid_Career_90th_Percentile_Salary",85700
+"Black Hills State University","Midwestern","Mid_Career_90th_Percentile_Salary",NA
+"Rice University","Southern","Mid_Career_90th_Percentile_Salary",216000
+"Georgetown University","Southern","Mid_Career_90th_Percentile_Salary",248000
+"Duke University","Southern","Mid_Career_90th_Percentile_Salary",218000
+"Georgia Institute of Technology","Southern","Mid_Career_90th_Percentile_Salary",183000
+"Washington and Lee University","Southern","Mid_Career_90th_Percentile_Salary",NA
+"Vanderbilt University","Southern","Mid_Career_90th_Percentile_Salary",222000
+"Davidson College","Southern","Mid_Career_90th_Percentile_Salary",NA
+"University of Virginia (UVA)","Southern","Mid_Career_90th_Percentile_Salary",215000
+"George Washington University (GWU)","Southern","Mid_Career_90th_Percentile_Salary",194000
+"Texas A&M University","Southern","Mid_Career_90th_Percentile_Salary",171000
+"Tulane University","Southern","Mid_Career_90th_Percentile_Salary",185000
+"Virginia Polytechnic Institute and State University (Virginia Tech)","Southern","Mid_Career_90th_Percentile_Salary",163000
+"University of Maryland, College Park","Southern","Mid_Career_90th_Percentile_Salary",166000
+"University of Richmond","Southern","Mid_Career_90th_Percentile_Salary",211000
+"University of Texas (UT) - Austin","Southern","Mid_Career_90th_Percentile_Salary",188000
+"Emory University","Southern","Mid_Career_90th_Percentile_Salary",192000
+"American University, Washington D.C.","Southern","Mid_Career_90th_Percentile_Salary",169000
+"University of Tulsa","Southern","Mid_Career_90th_Percentile_Salary",197000
+"Baylor University","Southern","Mid_Career_90th_Percentile_Salary",2e+05
+"University of Florida (UF)","Southern","Mid_Career_90th_Percentile_Salary",172000
+"Louisiana State University (LSU)","Southern","Mid_Career_90th_Percentile_Salary",165000
+"George Mason University","Southern","Mid_Career_90th_Percentile_Salary",150000
+"Clemson University","Southern","Mid_Career_90th_Percentile_Salary",150000
+"University of Georgia (UGA)","Southern","Mid_Career_90th_Percentile_Salary",164000
+"Auburn University","Southern","Mid_Career_90th_Percentile_Salary",145000
+"University of Delaware","Southern","Mid_Career_90th_Percentile_Salary",165000
+"Randolph-Macon College","Southern","Mid_Career_90th_Percentile_Salary",NA
+"North Carolina State University (NCSU)","Southern","Mid_Career_90th_Percentile_Salary",153000
+"University of Oklahoma","Southern","Mid_Career_90th_Percentile_Salary",167000
+"University of Arkansas","Southern","Mid_Career_90th_Percentile_Salary",160000
+"University of Alabama at Huntsville (UAH)","Southern","Mid_Career_90th_Percentile_Salary",132000
+"Howard University","Southern","Mid_Career_90th_Percentile_Salary",138000
+"University of North Carolina at Chapel Hill (UNCH)","Southern","Mid_Career_90th_Percentile_Salary",155000
+"University of Alabama, Tuscaloosa","Southern","Mid_Career_90th_Percentile_Salary",161000
+"University of Texas at Arlington (UTA)","Southern","Mid_Career_90th_Percentile_Salary",138000
+"Oklahoma State University","Southern","Mid_Career_90th_Percentile_Salary",151000
+"Tennessee Technological University","Southern","Mid_Career_90th_Percentile_Salary",121000
+"University of Houston (UH)","Southern","Mid_Career_90th_Percentile_Salary",141000
+"University of Mississippi","Southern","Mid_Career_90th_Percentile_Salary",186000
+"Lamar University","Southern","Mid_Career_90th_Percentile_Salary",158000
+"Mississippi State University (MSU)","Southern","Mid_Career_90th_Percentile_Salary",151000
+"University of Kentucky (UK)","Southern","Mid_Career_90th_Percentile_Salary",149000
+"Texas Christian University (TCU)","Southern","Mid_Career_90th_Percentile_Salary",183000
+"West Virginia University (WVU)","Southern","Mid_Career_90th_Percentile_Salary",141000
+"University of Maryland Baltimore County (UMBC)","Southern","Mid_Career_90th_Percentile_Salary",130000
+"University of Louisiana (UL) at Lafayette","Southern","Mid_Career_90th_Percentile_Salary",163000
+"Florida International University (FIU)","Southern","Mid_Career_90th_Percentile_Salary",136000
+"University of Tennessee","Southern","Mid_Career_90th_Percentile_Salary",153000
+"University of Arkansas - Monticello (UAM)","Southern","Mid_Career_90th_Percentile_Salary",NA
+"University of North Carolina at Charlotte (UNCC)","Southern","Mid_Career_90th_Percentile_Salary",133000
+"Georgia State University","Southern","Mid_Career_90th_Percentile_Salary",145000
+"LeTourneau University","Southern","Mid_Career_90th_Percentile_Salary",126000
+"Florida State University (FSU)","Southern","Mid_Career_90th_Percentile_Salary",156000
+"University of Texas at El Paso (UTEP)","Southern","Mid_Career_90th_Percentile_Salary",133000
+"University of Central Florida (UCF)","Southern","Mid_Career_90th_Percentile_Salary",125000
+"University of South Carolina","Southern","Mid_Career_90th_Percentile_Salary",131000
+"Florida Atlantic University (FAU)","Southern","Mid_Career_90th_Percentile_Salary",137000
+"University of South Florida (USF)","Southern","Mid_Career_90th_Percentile_Salary",131000
+"University of Texas at San Antonio (UTSA)","Southern","Mid_Career_90th_Percentile_Salary",121000
+"University of Alabama at Birmingham (UAB)","Southern","Mid_Career_90th_Percentile_Salary",125000
+"University of Memphis (U of M)","Southern","Mid_Career_90th_Percentile_Salary",127000
+"Appalachian State University","Southern","Mid_Career_90th_Percentile_Salary",115000
+"Virginia Commonwealth University (VCU)","Southern","Mid_Career_90th_Percentile_Salary",123000
+"East Carolina University (ECU)","Southern","Mid_Career_90th_Percentile_Salary",151000
+"Western Carolina University","Southern","Mid_Career_90th_Percentile_Salary",133000
+"Jacksonville University","Southern","Mid_Career_90th_Percentile_Salary",121000
+"University of North Carolina at Wilmington (UNCW)","Southern","Mid_Career_90th_Percentile_Salary",129000
+"Oklahoma City University","Southern","Mid_Career_90th_Percentile_Salary",NA
+"Arkansas State University (ASU)","Southern","Mid_Career_90th_Percentile_Salary",118000
+"Tarleton State University (TSU)","Southern","Mid_Career_90th_Percentile_Salary",126000
+"Morehead State University","Southern","Mid_Career_90th_Percentile_Salary",91300
+"Mississippi College","Southern","Mid_Career_90th_Percentile_Salary",NA
+"Dallas Baptist University","Southern","Mid_Career_90th_Percentile_Salary",98100
+"Austin Peay State University","Southern","Mid_Career_90th_Percentile_Salary",96200
+"Saint Leo University","Southern","Mid_Career_90th_Percentile_Salary",113000
+"Tusculum College","Southern","Mid_Career_90th_Percentile_Salary",124000
+"Virginia Wesleyan College (VWC)","Southern","Mid_Career_90th_Percentile_Salary",NA
+"Lee University (Cleveland, TN)","Southern","Mid_Career_90th_Percentile_Salary",NA
+"Florida Metropolitan University (FMU)","Southern","Mid_Career_90th_Percentile_Salary",102000
+"Dartmouth College","Northeastern","Mid_Career_90th_Percentile_Salary",321000
+"Princeton University","Northeastern","Mid_Career_90th_Percentile_Salary",261000
+"Massachusetts Institute of Technology (MIT)","Northeastern","Mid_Career_90th_Percentile_Salary",220000
+"Yale University","Northeastern","Mid_Career_90th_Percentile_Salary",326000
+"Harvard University","Northeastern","Mid_Career_90th_Percentile_Salary",288000
+"University of Pennsylvania","Northeastern","Mid_Career_90th_Percentile_Salary",282000
+"Polytechnic University of New York, Brooklyn","Northeastern","Mid_Career_90th_Percentile_Salary",190000
+"Cooper Union","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Worcester Polytechnic Institute (WPI)","Northeastern","Mid_Career_90th_Percentile_Salary",180000
+"Carnegie Mellon University (CMU)","Northeastern","Mid_Career_90th_Percentile_Salary",209000
+"Rensselaer Polytechnic Institute (RPI)","Northeastern","Mid_Career_90th_Percentile_Salary",182000
+"Cornell University","Northeastern","Mid_Career_90th_Percentile_Salary",210000
+"Bucknell University","Northeastern","Mid_Career_90th_Percentile_Salary",251000
+"Brown University","Northeastern","Mid_Career_90th_Percentile_Salary",228000
+"Colgate University","Northeastern","Mid_Career_90th_Percentile_Salary",265000
+"Columbia University","Northeastern","Mid_Career_90th_Percentile_Salary",241000
+"Amherst College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Lafayette College","Northeastern","Mid_Career_90th_Percentile_Salary",204000
+"Bowdoin College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"College of the Holy Cross","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Stevens Institute of Technology","Northeastern","Mid_Career_90th_Percentile_Salary",185000
+"Lehigh University","Northeastern","Mid_Career_90th_Percentile_Salary",229000
+"Swarthmore College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Boston College","Northeastern","Mid_Career_90th_Percentile_Salary",195000
+"Williams College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Villanova University","Northeastern","Mid_Career_90th_Percentile_Salary",226000
+"Fordham University","Northeastern","Mid_Career_90th_Percentile_Salary",198000
+"Wesleyan University (Middletown, Connecticut)","Northeastern","Mid_Career_90th_Percentile_Salary",215000
+"Wentworth Institute of Technology","Northeastern","Mid_Career_90th_Percentile_Salary",153000
+"Bates College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Binghamton University","Northeastern","Mid_Career_90th_Percentile_Salary",201000
+"Union College","Northeastern","Mid_Career_90th_Percentile_Salary",230000
+"New York University (NYU)","Northeastern","Mid_Career_90th_Percentile_Salary",216000
+"Vassar College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Middlebury College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Mount Holyoke College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Boston University","Northeastern","Mid_Career_90th_Percentile_Salary",193000
+"Drexel University","Northeastern","Mid_Career_90th_Percentile_Salary",161000
+"St. John's University, New York","Northeastern","Mid_Career_90th_Percentile_Salary",181000
+"Long Island University","Northeastern","Mid_Career_90th_Percentile_Salary",169000
+"Stony Brook University","Northeastern","Mid_Career_90th_Percentile_Salary",181000
+"Franklin and Marshall College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Hofstra University","Northeastern","Mid_Career_90th_Percentile_Salary",189000
+"State University of New York (SUNY) at Albany","Northeastern","Mid_Career_90th_Percentile_Salary",209000
+"Rutgers University","Northeastern","Mid_Career_90th_Percentile_Salary",176000
+"Pratt Institute","Northeastern","Mid_Career_90th_Percentile_Salary",155000
+"Pace University","Northeastern","Mid_Career_90th_Percentile_Salary",187000
+"Seton Hall University","Northeastern","Mid_Career_90th_Percentile_Salary",195000
+"Rider University","Northeastern","Mid_Career_90th_Percentile_Salary",150000
+"University of Connecticut (UConn)","Northeastern","Mid_Career_90th_Percentile_Salary",162000
+"Providence College","Northeastern","Mid_Career_90th_Percentile_Salary",194000
+"University of Massachusetts (UMass) - Amherst","Northeastern","Mid_Career_90th_Percentile_Salary",168000
+"Ithaca College","Northeastern","Mid_Career_90th_Percentile_Salary",174000
+"University of Massachusetts (UMass) - Lowell","Northeastern","Mid_Career_90th_Percentile_Salary",158000
+"Northeastern University","Northeastern","Mid_Career_90th_Percentile_Salary",159000
+"Syracuse University","Northeastern","Mid_Career_90th_Percentile_Salary",178000
+"Colby College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Gettysburg College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Pennsylvania State University (PSU)","Northeastern","Mid_Career_90th_Percentile_Salary",160000
+"University of Rhode Island (URI)","Northeastern","Mid_Career_90th_Percentile_Salary",157000
+"Siena College","Northeastern","Mid_Career_90th_Percentile_Salary",189000
+"La Salle University (Philadelphia)","Northeastern","Mid_Career_90th_Percentile_Salary",151000
+"Rochester Institute of Technology (RIT)","Northeastern","Mid_Career_90th_Percentile_Salary",159000
+"Duquesne University","Northeastern","Mid_Career_90th_Percentile_Salary",131000
+"State University of New York (SUNY) at Farmingdale","Northeastern","Mid_Career_90th_Percentile_Salary",162000
+"Smith College","Northeastern","Mid_Career_90th_Percentile_Salary",184000
+"Hamilton College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Wellesley College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Widener University","Northeastern","Mid_Career_90th_Percentile_Salary",138000
+"University of New Haven","Northeastern","Mid_Career_90th_Percentile_Salary",157000
+"Dowling College","Northeastern","Mid_Career_90th_Percentile_Salary",142000
+"University of Vermont (UVM)","Northeastern","Mid_Career_90th_Percentile_Salary",194000
+"State University of New York (SUNY) at Buffalo","Northeastern","Mid_Career_90th_Percentile_Salary",147000
+"State University of New York (SUNY) at Geneseo","Northeastern","Mid_Career_90th_Percentile_Salary",173000
+"Fashion Institute of Technology","Northeastern","Mid_Career_90th_Percentile_Salary",138000
+"Philadelphia University","Northeastern","Mid_Career_90th_Percentile_Salary",141000
+"Ursinus College","Northeastern","Mid_Career_90th_Percentile_Salary",160000
+"Adelphi University","Northeastern","Mid_Career_90th_Percentile_Salary",160000
+"Juniata College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Fairleigh Dickinson University","Northeastern","Mid_Career_90th_Percentile_Salary",171000
+"University of New Hampshire (UNH)","Northeastern","Mid_Career_90th_Percentile_Salary",147000
+"University of Massachusetts (UMass) - Boston","Northeastern","Mid_Career_90th_Percentile_Salary",151000
+"State University of New York (SUNY) at Oswego","Northeastern","Mid_Career_90th_Percentile_Salary",169000
+"University of Massachusetts (UMass) - Dartmouth","Northeastern","Mid_Career_90th_Percentile_Salary",132000
+"State University of New York (SUNY) at Oneonta","Northeastern","Mid_Career_90th_Percentile_Salary",155000
+"Quinnipiac University","Northeastern","Mid_Career_90th_Percentile_Salary",155000
+"State University of New York (SUNY) at Plattsburgh","Northeastern","Mid_Career_90th_Percentile_Salary",136000
+"Sacred Heart University","Northeastern","Mid_Career_90th_Percentile_Salary",150000
+"Skidmore College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Moravian College","Northeastern","Mid_Career_90th_Percentile_Salary",NA
+"Penn State - Harrisburg","Northeastern","Mid_Career_90th_Percentile_Salary",150000
+"Suffolk University","Northeastern","Mid_Career_90th_Percentile_Salary",145000
+"Fitchburg State College","Northeastern","Mid_Career_90th_Percentile_Salary",151000
+"Roger Williams University","Northeastern","Mid_Career_90th_Percentile_Salary",138000
+"University Of Maine","Northeastern","Mid_Career_90th_Percentile_Salary",141000
+"State University of New York (SUNY) at Potsdam","Northeastern","Mid_Career_90th_Percentile_Salary",179000
+"Niagara University","Northeastern","Mid_Career_90th_Percentile_Salary",128000
+"State University of New York (SUNY) at Fredonia","Northeastern","Mid_Career_90th_Percentile_Salary",181000
+"University of Southern Maine","Northeastern","Mid_Career_90th_Percentile_Salary",117000
+"Mercy College","Northeastern","Mid_Career_90th_Percentile_Salary",134000

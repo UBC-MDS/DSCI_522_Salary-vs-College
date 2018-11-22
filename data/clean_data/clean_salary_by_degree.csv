@@ -1,0 +1,351 @@
+"Undergraduate_Major","Salary_Type","Salary"
+"Accounting","Starting_Median_Salary",46000
+"Aerospace Engineering","Starting_Median_Salary",57700
+"Agriculture","Starting_Median_Salary",42600
+"Anthropology","Starting_Median_Salary",36800
+"Architecture","Starting_Median_Salary",41600
+"Art History","Starting_Median_Salary",35800
+"Biology","Starting_Median_Salary",38800
+"Business Management","Starting_Median_Salary",43000
+"Chemical Engineering","Starting_Median_Salary",63200
+"Chemistry","Starting_Median_Salary",42600
+"Civil Engineering","Starting_Median_Salary",53900
+"Communications","Starting_Median_Salary",38100
+"Computer Engineering","Starting_Median_Salary",61400
+"Computer Science","Starting_Median_Salary",55900
+"Construction","Starting_Median_Salary",53700
+"Criminal Justice","Starting_Median_Salary",35000
+"Drama","Starting_Median_Salary",35900
+"Economics","Starting_Median_Salary",50100
+"Education","Starting_Median_Salary",34900
+"Electrical Engineering","Starting_Median_Salary",60900
+"English","Starting_Median_Salary",38000
+"Film","Starting_Median_Salary",37900
+"Finance","Starting_Median_Salary",47900
+"Forestry","Starting_Median_Salary",39100
+"Geography","Starting_Median_Salary",41200
+"Geology","Starting_Median_Salary",43500
+"Graphic Design","Starting_Median_Salary",35700
+"Health Care Administration","Starting_Median_Salary",38800
+"History","Starting_Median_Salary",39200
+"Hospitality & Tourism","Starting_Median_Salary",37800
+"Industrial Engineering","Starting_Median_Salary",57700
+"Information Technology (IT)","Starting_Median_Salary",49100
+"Interior Design","Starting_Median_Salary",36100
+"International Relations","Starting_Median_Salary",40900
+"Journalism","Starting_Median_Salary",35600
+"Management Information Systems (MIS)","Starting_Median_Salary",49200
+"Marketing","Starting_Median_Salary",40800
+"Math","Starting_Median_Salary",45400
+"Mechanical Engineering","Starting_Median_Salary",57900
+"Music","Starting_Median_Salary",35900
+"Nursing","Starting_Median_Salary",54200
+"Nutrition","Starting_Median_Salary",39900
+"Philosophy","Starting_Median_Salary",39900
+"Physician Assistant","Starting_Median_Salary",74300
+"Physics","Starting_Median_Salary",50300
+"Political Science","Starting_Median_Salary",40800
+"Psychology","Starting_Median_Salary",35900
+"Religion","Starting_Median_Salary",34100
+"Sociology","Starting_Median_Salary",36500
+"Spanish","Starting_Median_Salary",34000
+"Accounting","Mid_Career_Median_Salary",77100
+"Aerospace Engineering","Mid_Career_Median_Salary",101000
+"Agriculture","Mid_Career_Median_Salary",71900
+"Anthropology","Mid_Career_Median_Salary",61500
+"Architecture","Mid_Career_Median_Salary",76800
+"Art History","Mid_Career_Median_Salary",64900
+"Biology","Mid_Career_Median_Salary",64800
+"Business Management","Mid_Career_Median_Salary",72100
+"Chemical Engineering","Mid_Career_Median_Salary",107000
+"Chemistry","Mid_Career_Median_Salary",79900
+"Civil Engineering","Mid_Career_Median_Salary",90500
+"Communications","Mid_Career_Median_Salary",70000
+"Computer Engineering","Mid_Career_Median_Salary",105000
+"Computer Science","Mid_Career_Median_Salary",95500
+"Construction","Mid_Career_Median_Salary",88900
+"Criminal Justice","Mid_Career_Median_Salary",56300
+"Drama","Mid_Career_Median_Salary",56900
+"Economics","Mid_Career_Median_Salary",98600
+"Education","Mid_Career_Median_Salary",52000
+"Electrical Engineering","Mid_Career_Median_Salary",103000
+"English","Mid_Career_Median_Salary",64700
+"Film","Mid_Career_Median_Salary",68500
+"Finance","Mid_Career_Median_Salary",88300
+"Forestry","Mid_Career_Median_Salary",62600
+"Geography","Mid_Career_Median_Salary",65500
+"Geology","Mid_Career_Median_Salary",79500
+"Graphic Design","Mid_Career_Median_Salary",59800
+"Health Care Administration","Mid_Career_Median_Salary",60600
+"History","Mid_Career_Median_Salary",71000
+"Hospitality & Tourism","Mid_Career_Median_Salary",57500
+"Industrial Engineering","Mid_Career_Median_Salary",94700
+"Information Technology (IT)","Mid_Career_Median_Salary",74800
+"Interior Design","Mid_Career_Median_Salary",53200
+"International Relations","Mid_Career_Median_Salary",80900
+"Journalism","Mid_Career_Median_Salary",66700
+"Management Information Systems (MIS)","Mid_Career_Median_Salary",82300
+"Marketing","Mid_Career_Median_Salary",79600
+"Math","Mid_Career_Median_Salary",92400
+"Mechanical Engineering","Mid_Career_Median_Salary",93600
+"Music","Mid_Career_Median_Salary",55000
+"Nursing","Mid_Career_Median_Salary",67000
+"Nutrition","Mid_Career_Median_Salary",55300
+"Philosophy","Mid_Career_Median_Salary",81200
+"Physician Assistant","Mid_Career_Median_Salary",91700
+"Physics","Mid_Career_Median_Salary",97300
+"Political Science","Mid_Career_Median_Salary",78200
+"Psychology","Mid_Career_Median_Salary",60400
+"Religion","Mid_Career_Median_Salary",52000
+"Sociology","Mid_Career_Median_Salary",58200
+"Spanish","Mid_Career_Median_Salary",53100
+"Accounting","Mid_Career_10th_Percentile_Salary",42200
+"Aerospace Engineering","Mid_Career_10th_Percentile_Salary",64300
+"Agriculture","Mid_Career_10th_Percentile_Salary",36300
+"Anthropology","Mid_Career_10th_Percentile_Salary",33800
+"Architecture","Mid_Career_10th_Percentile_Salary",50600
+"Art History","Mid_Career_10th_Percentile_Salary",28800
+"Biology","Mid_Career_10th_Percentile_Salary",36900
+"Business Management","Mid_Career_10th_Percentile_Salary",38800
+"Chemical Engineering","Mid_Career_10th_Percentile_Salary",71900
+"Chemistry","Mid_Career_10th_Percentile_Salary",45300
+"Civil Engineering","Mid_Career_10th_Percentile_Salary",63400
+"Communications","Mid_Career_10th_Percentile_Salary",37500
+"Computer Engineering","Mid_Career_10th_Percentile_Salary",66100
+"Computer Science","Mid_Career_10th_Percentile_Salary",56000
+"Construction","Mid_Career_10th_Percentile_Salary",56300
+"Criminal Justice","Mid_Career_10th_Percentile_Salary",32200
+"Drama","Mid_Career_10th_Percentile_Salary",36700
+"Economics","Mid_Career_10th_Percentile_Salary",50600
+"Education","Mid_Career_10th_Percentile_Salary",29300
+"Electrical Engineering","Mid_Career_10th_Percentile_Salary",69300
+"English","Mid_Career_10th_Percentile_Salary",33400
+"Film","Mid_Career_10th_Percentile_Salary",33900
+"Finance","Mid_Career_10th_Percentile_Salary",47200
+"Forestry","Mid_Career_10th_Percentile_Salary",41000
+"Geography","Mid_Career_10th_Percentile_Salary",40000
+"Geology","Mid_Career_10th_Percentile_Salary",45000
+"Graphic Design","Mid_Career_10th_Percentile_Salary",36000
+"Health Care Administration","Mid_Career_10th_Percentile_Salary",34600
+"History","Mid_Career_10th_Percentile_Salary",37000
+"Hospitality & Tourism","Mid_Career_10th_Percentile_Salary",35500
+"Industrial Engineering","Mid_Career_10th_Percentile_Salary",57100
+"Information Technology (IT)","Mid_Career_10th_Percentile_Salary",44500
+"Interior Design","Mid_Career_10th_Percentile_Salary",35700
+"International Relations","Mid_Career_10th_Percentile_Salary",38200
+"Journalism","Mid_Career_10th_Percentile_Salary",38400
+"Management Information Systems (MIS)","Mid_Career_10th_Percentile_Salary",45300
+"Marketing","Mid_Career_10th_Percentile_Salary",42100
+"Math","Mid_Career_10th_Percentile_Salary",45200
+"Mechanical Engineering","Mid_Career_10th_Percentile_Salary",63700
+"Music","Mid_Career_10th_Percentile_Salary",26700
+"Nursing","Mid_Career_10th_Percentile_Salary",47600
+"Nutrition","Mid_Career_10th_Percentile_Salary",33900
+"Philosophy","Mid_Career_10th_Percentile_Salary",35500
+"Physician Assistant","Mid_Career_10th_Percentile_Salary",66400
+"Physics","Mid_Career_10th_Percentile_Salary",56000
+"Political Science","Mid_Career_10th_Percentile_Salary",41200
+"Psychology","Mid_Career_10th_Percentile_Salary",31600
+"Religion","Mid_Career_10th_Percentile_Salary",29700
+"Sociology","Mid_Career_10th_Percentile_Salary",30700
+"Spanish","Mid_Career_10th_Percentile_Salary",31000
+"Accounting","Mid_Career_25th_Percentile_Salary",56100
+"Aerospace Engineering","Mid_Career_25th_Percentile_Salary",82100
+"Agriculture","Mid_Career_25th_Percentile_Salary",52100
+"Anthropology","Mid_Career_25th_Percentile_Salary",45500
+"Architecture","Mid_Career_25th_Percentile_Salary",62200
+"Art History","Mid_Career_25th_Percentile_Salary",42200
+"Biology","Mid_Career_25th_Percentile_Salary",47400
+"Business Management","Mid_Career_25th_Percentile_Salary",51500
+"Chemical Engineering","Mid_Career_25th_Percentile_Salary",87300
+"Chemistry","Mid_Career_25th_Percentile_Salary",60700
+"Civil Engineering","Mid_Career_25th_Percentile_Salary",75100
+"Communications","Mid_Career_25th_Percentile_Salary",49700
+"Computer Engineering","Mid_Career_25th_Percentile_Salary",84100
+"Computer Science","Mid_Career_25th_Percentile_Salary",74900
+"Construction","Mid_Career_25th_Percentile_Salary",68100
+"Criminal Justice","Mid_Career_25th_Percentile_Salary",41600
+"Drama","Mid_Career_25th_Percentile_Salary",41300
+"Economics","Mid_Career_25th_Percentile_Salary",70600
+"Education","Mid_Career_25th_Percentile_Salary",37900
+"Electrical Engineering","Mid_Career_25th_Percentile_Salary",83800
+"English","Mid_Career_25th_Percentile_Salary",44800
+"Film","Mid_Career_25th_Percentile_Salary",45500
+"Finance","Mid_Career_25th_Percentile_Salary",62100
+"Forestry","Mid_Career_25th_Percentile_Salary",49300
+"Geography","Mid_Career_25th_Percentile_Salary",50000
+"Geology","Mid_Career_25th_Percentile_Salary",59600
+"Graphic Design","Mid_Career_25th_Percentile_Salary",45500
+"Health Care Administration","Mid_Career_25th_Percentile_Salary",45600
+"History","Mid_Career_25th_Percentile_Salary",49200
+"Hospitality & Tourism","Mid_Career_25th_Percentile_Salary",43600
+"Industrial Engineering","Mid_Career_25th_Percentile_Salary",72300
+"Information Technology (IT)","Mid_Career_25th_Percentile_Salary",56700
+"Interior Design","Mid_Career_25th_Percentile_Salary",42600
+"International Relations","Mid_Career_25th_Percentile_Salary",56000
+"Journalism","Mid_Career_25th_Percentile_Salary",48300
+"Management Information Systems (MIS)","Mid_Career_25th_Percentile_Salary",60500
+"Marketing","Mid_Career_25th_Percentile_Salary",55600
+"Math","Mid_Career_25th_Percentile_Salary",64200
+"Mechanical Engineering","Mid_Career_25th_Percentile_Salary",76200
+"Music","Mid_Career_25th_Percentile_Salary",40200
+"Nursing","Mid_Career_25th_Percentile_Salary",56400
+"Nutrition","Mid_Career_25th_Percentile_Salary",44500
+"Philosophy","Mid_Career_25th_Percentile_Salary",52800
+"Physician Assistant","Mid_Career_25th_Percentile_Salary",75200
+"Physics","Mid_Career_25th_Percentile_Salary",74200
+"Political Science","Mid_Career_25th_Percentile_Salary",55300
+"Psychology","Mid_Career_25th_Percentile_Salary",42100
+"Religion","Mid_Career_25th_Percentile_Salary",36500
+"Sociology","Mid_Career_25th_Percentile_Salary",40400
+"Spanish","Mid_Career_25th_Percentile_Salary",40000
+"Accounting","Mid_Career_50th_Percentile_Salary",77100
+"Aerospace Engineering","Mid_Career_50th_Percentile_Salary",101000
+"Agriculture","Mid_Career_50th_Percentile_Salary",71900
+"Anthropology","Mid_Career_50th_Percentile_Salary",61500
+"Architecture","Mid_Career_50th_Percentile_Salary",76800
+"Art History","Mid_Career_50th_Percentile_Salary",64900
+"Biology","Mid_Career_50th_Percentile_Salary",64800
+"Business Management","Mid_Career_50th_Percentile_Salary",72100
+"Chemical Engineering","Mid_Career_50th_Percentile_Salary",107000
+"Chemistry","Mid_Career_50th_Percentile_Salary",79900
+"Civil Engineering","Mid_Career_50th_Percentile_Salary",90500
+"Communications","Mid_Career_50th_Percentile_Salary",70000
+"Computer Engineering","Mid_Career_50th_Percentile_Salary",105000
+"Computer Science","Mid_Career_50th_Percentile_Salary",95500
+"Construction","Mid_Career_50th_Percentile_Salary",88900
+"Criminal Justice","Mid_Career_50th_Percentile_Salary",56300
+"Drama","Mid_Career_50th_Percentile_Salary",56900
+"Economics","Mid_Career_50th_Percentile_Salary",98600
+"Education","Mid_Career_50th_Percentile_Salary",52000
+"Electrical Engineering","Mid_Career_50th_Percentile_Salary",103000
+"English","Mid_Career_50th_Percentile_Salary",64700
+"Film","Mid_Career_50th_Percentile_Salary",68500
+"Finance","Mid_Career_50th_Percentile_Salary",88300
+"Forestry","Mid_Career_50th_Percentile_Salary",62600
+"Geography","Mid_Career_50th_Percentile_Salary",65500
+"Geology","Mid_Career_50th_Percentile_Salary",79500
+"Graphic Design","Mid_Career_50th_Percentile_Salary",59800
+"Health Care Administration","Mid_Career_50th_Percentile_Salary",60600
+"History","Mid_Career_50th_Percentile_Salary",71000
+"Hospitality & Tourism","Mid_Career_50th_Percentile_Salary",57500
+"Industrial Engineering","Mid_Career_50th_Percentile_Salary",94700
+"Information Technology (IT)","Mid_Career_50th_Percentile_Salary",74800
+"Interior Design","Mid_Career_50th_Percentile_Salary",53200
+"International Relations","Mid_Career_50th_Percentile_Salary",80900
+"Journalism","Mid_Career_50th_Percentile_Salary",66700
+"Management Information Systems (MIS)","Mid_Career_50th_Percentile_Salary",82300
+"Marketing","Mid_Career_50th_Percentile_Salary",79600
+"Math","Mid_Career_50th_Percentile_Salary",92400
+"Mechanical Engineering","Mid_Career_50th_Percentile_Salary",93600
+"Music","Mid_Career_50th_Percentile_Salary",55000
+"Nursing","Mid_Career_50th_Percentile_Salary",67000
+"Nutrition","Mid_Career_50th_Percentile_Salary",55300
+"Philosophy","Mid_Career_50th_Percentile_Salary",81200
+"Physician Assistant","Mid_Career_50th_Percentile_Salary",91700
+"Physics","Mid_Career_50th_Percentile_Salary",97300
+"Political Science","Mid_Career_50th_Percentile_Salary",78200
+"Psychology","Mid_Career_50th_Percentile_Salary",60400
+"Religion","Mid_Career_50th_Percentile_Salary",52000
+"Sociology","Mid_Career_50th_Percentile_Salary",58200
+"Spanish","Mid_Career_50th_Percentile_Salary",53100
+"Accounting","Mid_Career_75th_Percentile_Salary",108000
+"Aerospace Engineering","Mid_Career_75th_Percentile_Salary",127000
+"Agriculture","Mid_Career_75th_Percentile_Salary",96300
+"Anthropology","Mid_Career_75th_Percentile_Salary",89300
+"Architecture","Mid_Career_75th_Percentile_Salary",97000
+"Art History","Mid_Career_75th_Percentile_Salary",87400
+"Biology","Mid_Career_75th_Percentile_Salary",94500
+"Business Management","Mid_Career_75th_Percentile_Salary",102000
+"Chemical Engineering","Mid_Career_75th_Percentile_Salary",143000
+"Chemistry","Mid_Career_75th_Percentile_Salary",108000
+"Civil Engineering","Mid_Career_75th_Percentile_Salary",115000
+"Communications","Mid_Career_75th_Percentile_Salary",98800
+"Computer Engineering","Mid_Career_75th_Percentile_Salary",135000
+"Computer Science","Mid_Career_75th_Percentile_Salary",122000
+"Construction","Mid_Career_75th_Percentile_Salary",118000
+"Criminal Justice","Mid_Career_75th_Percentile_Salary",80700
+"Drama","Mid_Career_75th_Percentile_Salary",79100
+"Economics","Mid_Career_75th_Percentile_Salary",145000
+"Education","Mid_Career_75th_Percentile_Salary",73400
+"Electrical Engineering","Mid_Career_75th_Percentile_Salary",130000
+"English","Mid_Career_75th_Percentile_Salary",93200
+"Film","Mid_Career_75th_Percentile_Salary",1e+05
+"Finance","Mid_Career_75th_Percentile_Salary",128000
+"Forestry","Mid_Career_75th_Percentile_Salary",78200
+"Geography","Mid_Career_75th_Percentile_Salary",90800
+"Geology","Mid_Career_75th_Percentile_Salary",101000
+"Graphic Design","Mid_Career_75th_Percentile_Salary",80800
+"Health Care Administration","Mid_Career_75th_Percentile_Salary",78800
+"History","Mid_Career_75th_Percentile_Salary",103000
+"Hospitality & Tourism","Mid_Career_75th_Percentile_Salary",81900
+"Industrial Engineering","Mid_Career_75th_Percentile_Salary",132000
+"Information Technology (IT)","Mid_Career_75th_Percentile_Salary",96700
+"Interior Design","Mid_Career_75th_Percentile_Salary",72500
+"International Relations","Mid_Career_75th_Percentile_Salary",111000
+"Journalism","Mid_Career_75th_Percentile_Salary",97700
+"Management Information Systems (MIS)","Mid_Career_75th_Percentile_Salary",108000
+"Marketing","Mid_Career_75th_Percentile_Salary",119000
+"Math","Mid_Career_75th_Percentile_Salary",128000
+"Mechanical Engineering","Mid_Career_75th_Percentile_Salary",120000
+"Music","Mid_Career_75th_Percentile_Salary",88000
+"Nursing","Mid_Career_75th_Percentile_Salary",80900
+"Nutrition","Mid_Career_75th_Percentile_Salary",70500
+"Philosophy","Mid_Career_75th_Percentile_Salary",127000
+"Physician Assistant","Mid_Career_75th_Percentile_Salary",108000
+"Physics","Mid_Career_75th_Percentile_Salary",132000
+"Political Science","Mid_Career_75th_Percentile_Salary",114000
+"Psychology","Mid_Career_75th_Percentile_Salary",87500
+"Religion","Mid_Career_75th_Percentile_Salary",70900
+"Sociology","Mid_Career_75th_Percentile_Salary",81200
+"Spanish","Mid_Career_75th_Percentile_Salary",76800
+"Accounting","Mid_Career_90th_Percentile_Salary",152000
+"Aerospace Engineering","Mid_Career_90th_Percentile_Salary",161000
+"Agriculture","Mid_Career_90th_Percentile_Salary",150000
+"Anthropology","Mid_Career_90th_Percentile_Salary",138000
+"Architecture","Mid_Career_90th_Percentile_Salary",136000
+"Art History","Mid_Career_90th_Percentile_Salary",125000
+"Biology","Mid_Career_90th_Percentile_Salary",135000
+"Business Management","Mid_Career_90th_Percentile_Salary",147000
+"Chemical Engineering","Mid_Career_90th_Percentile_Salary",194000
+"Chemistry","Mid_Career_90th_Percentile_Salary",148000
+"Civil Engineering","Mid_Career_90th_Percentile_Salary",148000
+"Communications","Mid_Career_90th_Percentile_Salary",143000
+"Computer Engineering","Mid_Career_90th_Percentile_Salary",162000
+"Computer Science","Mid_Career_90th_Percentile_Salary",154000
+"Construction","Mid_Career_90th_Percentile_Salary",171000
+"Criminal Justice","Mid_Career_90th_Percentile_Salary",107000
+"Drama","Mid_Career_90th_Percentile_Salary",153000
+"Economics","Mid_Career_90th_Percentile_Salary",210000
+"Education","Mid_Career_90th_Percentile_Salary",102000
+"Electrical Engineering","Mid_Career_90th_Percentile_Salary",168000
+"English","Mid_Career_90th_Percentile_Salary",133000
+"Film","Mid_Career_90th_Percentile_Salary",136000
+"Finance","Mid_Career_90th_Percentile_Salary",195000
+"Forestry","Mid_Career_90th_Percentile_Salary",111000
+"Geography","Mid_Career_90th_Percentile_Salary",132000
+"Geology","Mid_Career_90th_Percentile_Salary",156000
+"Graphic Design","Mid_Career_90th_Percentile_Salary",112000
+"Health Care Administration","Mid_Career_90th_Percentile_Salary",101000
+"History","Mid_Career_90th_Percentile_Salary",149000
+"Hospitality & Tourism","Mid_Career_90th_Percentile_Salary",124000
+"Industrial Engineering","Mid_Career_90th_Percentile_Salary",173000
+"Information Technology (IT)","Mid_Career_90th_Percentile_Salary",129000
+"Interior Design","Mid_Career_90th_Percentile_Salary",107000
+"International Relations","Mid_Career_90th_Percentile_Salary",157000
+"Journalism","Mid_Career_90th_Percentile_Salary",145000
+"Management Information Systems (MIS)","Mid_Career_90th_Percentile_Salary",146000
+"Marketing","Mid_Career_90th_Percentile_Salary",175000
+"Math","Mid_Career_90th_Percentile_Salary",183000
+"Mechanical Engineering","Mid_Career_90th_Percentile_Salary",163000
+"Music","Mid_Career_90th_Percentile_Salary",134000
+"Nursing","Mid_Career_90th_Percentile_Salary",98300
+"Nutrition","Mid_Career_90th_Percentile_Salary",99200
+"Philosophy","Mid_Career_90th_Percentile_Salary",168000
+"Physician Assistant","Mid_Career_90th_Percentile_Salary",124000
+"Physics","Mid_Career_90th_Percentile_Salary",178000
+"Political Science","Mid_Career_90th_Percentile_Salary",168000
+"Psychology","Mid_Career_90th_Percentile_Salary",127000
+"Religion","Mid_Career_90th_Percentile_Salary",96400
+"Sociology","Mid_Career_90th_Percentile_Salary",118000
+"Spanish","Mid_Career_90th_Percentile_Salary",96400
