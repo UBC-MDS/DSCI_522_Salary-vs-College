@@ -12,9 +12,9 @@
 # Script output is a .csv file that represents a dataframe in tidy data form
 
 # Usage: 
-# Rscript Data_cleaning.R data/raw_data/degree-that-pay-back.csv data/clean_data/degree-that-pay-back-cleaned.csv
-# Rscript Data_cleaning.R data/raw_data/salaries-by-college-type.csv data/clean_data/clean_salary_by_degree.csv
-# Rscript Data_cleaning.R data/raw_data/salaries-by-region.csv data/clean_data/clean_salary_by_region.csv
+# Rscript Data_cleaning.R ../data/raw_data/degrees-that-pay-back.csv ../data/clean_data/clean_salary_by_degree.csv
+# Rscript Data_cleaning.R ../data/raw_data/salaries-by-college-type.csv ../data/clean_data/clean_salary_by_type.csv
+# Rscript Data_cleaning.R ../data/raw_data/salaries-by-region.csv ../data/clean_data/clean_salary_by_region.csv
 
 #import libraries
 library(tidyverse)
