@@ -4,6 +4,7 @@
 # Because we are interested in a 2-factor ANOVA test (by region and school type), this script is used to perform inner join for the two datasets:
 # 1. data/clean_data/clean_salary_by_region.csv
 # 2. data/clean_data/clean_salary_by_type.csv
+# 3. data/clean_data/joined_region_and_type.csv
 # And create a third .csv file for storing the joined dataframes.
 # Since the goal for this script is very direct, the script will take no argument from the command bash
 
