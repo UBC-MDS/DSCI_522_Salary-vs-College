@@ -37,6 +37,7 @@ htmlwidgets::saveWidget(as_widget(p_1), image_save_path_1)
 # main function for making a interactive plot to explore the salary distribution for mid career: 10%, 25%, 75%, 90% percentile
 p_2 <- df %>% plot_ly(x = ~Undergraduate_Major, y = ~Mid_Career_10th_Percentile_Salary, type = 'bar', name = 'Mid Career 10th Percentile Salary') %>%
   add_trace(y = ~Mid_Career_25th_Percentile_Salary, name = 'Mid Career 25th Percentile Salary') %>%
+  add_trace(y = ~Mid_Career_Median_Salary, name = "Mid Career 50th Percentrile Salary") %>%
   add_trace(y = ~Mid_Career_75th_Percentile_Salary, name = 'Mid Career 75th Percentile Salary' ) %>%
   add_trace(y = ~Mid_Career_90th_Percentile_Salary, name = 'Mid Career 90th Percentile Salary') %>%
   layout(yaxis = list(title = 'Salaries for Different Major'),
