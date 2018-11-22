@@ -1,14 +1,20 @@
 # Join_region_and_type.R
 # Group: lab2-11
 
-# Because we are interested in a 2-factor ANOVA test (by region and school type), this script is used to perform inner join for the two datasets:
-# 1. data/clean_data/clean_salary_by_region.csv
-# 2. data/clean_data/clean_salary_by_type.csv
-# 3. data/clean_data/joined_region_and_type.csv
-# And create a third .csv file for storing the joined dataframes.
-# Since the goal for this script is very direct, the script will take no argument from the command bash
+# This script reads the clean salary by region and salary by type .csv's 
+# and inner joins the results based on the university name as a key. 
+# A new .csv file is the output of this script. 
+#
+# Script input arguments from the command line:
+# 1. .csv file path for the cleaned salary by region (e.g. data/clean_data/clean_salary_by_region.csv)
+# 2. .csv file path for the cleaned salary by type (e.g. data/clean_data/clean_salary_by_type.csv)
+# 3. .csv file path for the final output (e.g. data/clean_data/clean_salary_by_region_type_join.csv)
+# 
+# Script output is a .csv file that represents the joined dataframe in tidy data form
 
-# Usage: Rscript Join_region_and_type.R
+
+# Usage: 
+# Rscript Join_region_and_type.R ../data/clean_data/clean_salary_by_region.csv ../data/clean_data/clean_salary_by_type.csv ../data/clean_data/clean_salary_by_region_type_join.csv
 
 # import libraries
 library(tidyverse)

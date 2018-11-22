@@ -16,7 +16,7 @@ Original data can be found here:
 
 The original dataset was organized as .csv files. For this project, we will use R to import and handle our data analysis.
 
-Imported data can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/master/data), in the `data` folder of our repository. Scripts that handle the data import can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/master/src), in the `src` folder. 
+Imported data can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/master/data), in the `data` folder of our repository. Scripts that handle the data import can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/master/src), in the `src` folder.
 
 ### Our question
 
@@ -48,12 +48,15 @@ project_root/
 │   ├── analyze_data.R
 │   ├── viz_data.R
 ├── data/
-│   ├── clean_salary_by_degree.csv
-│   ├── clean_salary_by_region.csv
-│   ├── clean_salary_by_type.csv
-│   ├── degrees-that-pay-back.csv
-│   ├── salaries-by-college-type.csv
-│   ├── salaries-by-region.csv
+│   ├── clean_data/
+│       ├── clean_salary_by_degree.csv
+│       ├── clean_salary_by_region.csv
+│       ├── clean_salary_by_type.csv
+│       ├── clean_salary_by_region_type_join.csv
+│   ├── raw_data/
+│       ├── degrees-that-pay-back.csv
+│       ├── salaries-by-college-type.csv
+│       ├── salaries-by-region.csv
 ├── results/
 │   ├── fig.png
 │   ├── stat_result.csv
