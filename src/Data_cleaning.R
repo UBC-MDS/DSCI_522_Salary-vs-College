@@ -1,16 +1,20 @@
 # Data_cleaning.R
 # Group: lab2-11
 
-# This script reads the raw data and clean the row data from the character type to computable numeric data
-# and creates new clean data .csv files. The script takes two arguments from the command line.
-# 1. the file path for the .csv file that needs to be cleaned (e.g. data/degree-that-pay-back.csv)
-# 2. the file path for the cleaned file to be stored (e.g. data/degree-that-pay-back_cleaned.csv)
-# The output for the script will be a .csv file in its tidy form of data, with all the column and values computable
+# This script reads the raw data and cleans the raw data
+# It changes data that is currently character type to computable numeric data
+# New clean data .csv files are the output of this script. 
+#
+# Script input arguments from the command line:
+# 1. .csv file path that needs to be cleaned (e.g. data/degree-that-pay-back.csv)
+# 2. .csv file path for the cleaned file to be written (e.g. data/degree-that-pay-back_cleaned.csv)
+# 
+# Script output is a .csv file that represents a dataframe in tidy data form
 
 # Usage: 
-# Rscript Data_cleaning.R data/raw_data/degree-that-pay-back.csv data/clean/degree-that-pay-back-cleaned.csv
-# Rscript Data_cleaning.R data/raw_data/salaries-by-college-type.csv data/clean/clean_salary_by_degree.csv
-# Rscript Data_cleaning.R data/raw_data/salaries-by-region.csv data/clean/clean_salary_by_region.csv
+# Rscript Data_cleaning.R data/raw_data/degree-that-pay-back.csv data/clean_data/degree-that-pay-back-cleaned.csv
+# Rscript Data_cleaning.R data/raw_data/salaries-by-college-type.csv data/clean_data/clean_salary_by_degree.csv
+# Rscript Data_cleaning.R data/raw_data/salaries-by-region.csv data/clean_data/clean_salary_by_region.csv
 
 #import libraries
 library(tidyverse)
@@ -20,10 +24,11 @@ args <- commandArgs(trailingOnly = TRUE)
 input_file_path <- args[1]
 output_file_path <- args[2]
 
-# Data-Cleaning, remove the comma and dollar sign
+# Data-Cleaning: remove ',' and '$'
 
 char_to_num <- function(dataframe){
-  # remove the dollar sign and comma from the orignal row data
+  
+  # remove the '$' and ',' from the orignal raw data
   dataframe$`Starting Median Salary` <- gsub('\\$','', dataframe$`Starting Median Salary`)
   dataframe$`Starting Median Salary` <- as.numeric(gsub(',','',dataframe$`Starting Median Salary`))
   
@@ -42,13 +47,12 @@ char_to_num <- function(dataframe){
   dataframe$`Mid-Career 90th Percentile Salary` <- gsub('\\$','', dataframe$`Mid-Career 90th Percentile Salary`)
   dataframe$`Mid-Career 90th Percentile Salary` <- as.numeric(gsub(',','',dataframe$`Mid-Career 90th Percentile Salary`))
   
-  # remove space and '-'from the column name and make them computable
+  # remove space and '-' from the column name
   colnames(dataframe) <- str_replace_all(colnames(dataframe), pattern = " ", replacement = "_")
   colnames(dataframe) <- str_replace_all(colnames(dataframe), pattern = "-", replacement = "_")
   
-  # convert the widy form table in to tody form
-  # the dgree dataset have a useless column named 'Percent_change_from_Starting_to_Mid_Career_Salary' that we want to remove it
-  # We need to check the existence of the column
+  # convert 'widy' dataframe into 'tidy' form
+  # the 'Percent_change_from_Starting_to_Mid_Career_Salary' column in the raw degree dataset was removed as its not needed for our analysis
   if('Percent_change_from_Starting_to_Mid_Career_Salary' %in% colnames(dataframe)){
     dataframe_tidy <- dataframe %>%
       select(-Percent_change_from_Starting_to_Mid_Career_Salary) %>%
@@ -66,7 +70,7 @@ char_to_num <- function(dataframe){
 # Read in original dataset
 raw_data <- read_csv(input_file_path)
 
-# Get clean data using the function `char_to_num`
+# Clean dataset using the function `char_to_num`
 clean_data <- char_to_num(raw_data)
 
 # Write the clean data file
