@@ -1,20 +1,20 @@
 # EDA_region_and_school_type_to_salary.R
 # Group: lab2-11
 
-# This script creates two plots each time called to explore the relationship between
-# 1. region where the college in and salaries (start vs. MidCareer, salary distribution in MidCareer)
-# 2. school type that the college belong and salaries (start vs. MidCareer, salary distribution in MidCareer)
+# This script creates two plots each time the script is called to explore a college attribute's relation to salary between:
+# 1. school region and graduates' salaries (start vs. MidCareer, salary distribution in MidCareer)
+# 2. school type and graduates' salaries (start vs. MidCareer, salary distribution in MidCareer)
 
-# The script takes two arguments from the command line:
+# The script takes two input arguments from the command line:
 # 1. the file path for the joined table: data/clean_data/clean_salary_joined_region_and_type.csv
-# 2. the feature that the user want to explore: Region or School_Type
+# 2. the college attribute that the user wants to explore: Region or School_Type
 
 # Usage:
-# Rscript EDA_region_and_school_type_to_salary.R data/clean_data/clean_salary_by_region_type_join.csv Region
-# Rscript EDA_region_and_school_type_to_salary.R data/clean_data/clean_salary_by_region_type_join.csv School_Type
+# Rscript src/EDA_region_and_school_type_to_salary.R data/clean_data/clean_salary_by_region_type_join.csv Region
+# Rscript src/EDA_region_and_school_type_to_salary.R data/clean_data/clean_salary_by_region_type_join.csv School_Type
 
-# Each time the script called from the command bash, if the feature is right, it will:
-# 1. create 2 plots based on the feature given
+# Each time the script is called from the command line, if the college attribute is correct, it will:
+# 1. create 2 plots based on the college attribute given
 # 2. save the plots in the results folder
 #     - Region: salary_distribution_Region.png and salary_change_Region.png
 #     - School_Type: salary_distribution_SchoolType.png and salary_change_SchoolType.png
@@ -22,7 +22,6 @@
 
 # import libraries
 library(tidyverse)
-library(ggplot2)
 library(ggthemes)
 library(ggalt)
 library(scales)
@@ -32,14 +31,15 @@ args <- commandArgs(trailingOnly = TRUE)
 input_file_path <- args[1]
 feature_exp <- args[2]
 
+#read school region and type joined csv
+df <- read_csv(input_file_path)
 
 # choose the feature we want to explore
-
 if(feature_exp == 'Region'){
   
   # do the EDA for the region feature
-  # make the salary distribution table basedon the region
-  df_region <- df %>%
+  # make the salary distribution table based on the region
+  df_region <- df %>% 
     select(-School_Name, -School_Type)
   
   # the introduce and remove of the School_Name and School_Type introduced duplicates into our data
