@@ -1,4 +1,4 @@
-# Salary vs College 
+# Do college factors impact salary?
 
 ### About the dataset
 
