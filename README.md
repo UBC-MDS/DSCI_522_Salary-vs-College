@@ -1,4 +1,4 @@
-# DSCI_522_Salary-vs-College
+# Salary vs College 
 
 ### About the dataset
 
@@ -20,7 +20,7 @@ Imported data can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-
 
 ### Our question
 
-We decided to explore the dataset and ask whether there are any relationships between college region, type and major to graduates' salaries. This is an exploratory question.
+We decided to explore the dataset and ask whether there are any relationships between college region, type and degree (major) to graduates' salaries. This is an exploratory question.
 
 ### Our plan
 
@@ -29,7 +29,7 @@ We decided to explore the dataset and ask whether there are any relationships be
     b. Look the different salaries: starting salary, mid-career salary, etc.  
     c. Create plots to visualise the distributions of the data   
 
-2. If we find any patterns/differences in groups, we will validate/quantify them using hypothesis testing. For example, we could look for differences in the variables (school region, type, degree) that may impact graduates' salaries using ANOVA.   
+2. If we find any patterns/differences amongst the groups, we will generate a hypothesis and test it. We will use one-way ANOVA to test for whether any significant differences in salary exist amongst groups of interest (school regions, type, degrees). We will use post hoc testing (tukey pairwise comparisons) to determine which group is different from the others.   
 
 ### Potential summaries and visualizations
 
