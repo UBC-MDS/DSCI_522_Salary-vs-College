@@ -1,0 +1,29 @@
+---
+title: "college_salary_report"
+author: "Constantin Shuster"
+date: "22/11/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = here::here())
+```
+
+# Exploring college education variables and how they impact career salary
+
+### Our question
+
+### Our dataset
+
+### Exploratory data analysis
+
+### Results
+
+### Interpretation
+
+### Limitations
+
+### Future directions
+
+### References
