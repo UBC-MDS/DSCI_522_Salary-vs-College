@@ -110,5 +110,7 @@ salary_column[61:70, 1] <- names(school_type_tukeys[7])
 school_type_tukey_results <- bind_cols(salary_column, school_type_tukey_results)
 school_type_tukey_results <- select(school_type_tukey_results, salary_type, term, comparison, adj.p.value)
 
+write_csv(region_results, path=paste0(output_file_path, "/region_anova_results.csv"), col_names = TRUE)
+write_csv(school_type_results, path=paste0(output_file_path, "/school_type_anova_results.csv"), col_names = TRUE)
 write_csv(region_tukey_results, path=paste0(output_file_path, "/region_tukey_results.csv"), col_names = TRUE)
 write_csv(school_type_tukey_results, path=paste0(output_file_path, "/school_type_tukey_results.csv"), col_names = TRUE)
