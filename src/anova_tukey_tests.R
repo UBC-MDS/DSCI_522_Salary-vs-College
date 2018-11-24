@@ -97,6 +97,14 @@ salary_column[61:70, 1] <- names(region_tukeys[7])
 region_tukey_results <- bind_cols(salary_column, region_tukey_results)
 region_tukey_results <- select(region_tukey_results, salary_type, term, comparison, adj.p.value)
 
+#---------------------------------------------------------------------------------------------#
+region_tukey_results <- region_tukey_results %>%
+  mutate(flag = if_else(((adj.p.value > 0.01 )&(adj.p.value < 0.05)), '*',
+                        if_else(((adj.p.value < 0.01)&(adj.p.value > 0.001)), '**',
+                                if_else((adj.p.value < 0.001), '***', 'Cannot Reject the NULL Hypothesis'))))
+#---------------------------------------------------------------------------------------------#
+
+
 school_type_tukey_results <- bind_rows(school_type_tukeys)
 
 salary_column[1:10, 1] <- names(region_tukeys[1])
@@ -109,6 +117,14 @@ salary_column[61:70, 1] <- names(school_type_tukeys[7])
 
 school_type_tukey_results <- bind_cols(salary_column, school_type_tukey_results)
 school_type_tukey_results <- select(school_type_tukey_results, salary_type, term, comparison, adj.p.value)
+
+#---------------------------------------------------------------------------------#
+school_type_tukey_results <- school_type_tukey_results %>%
+  mutate(flag = if_else(((adj.p.value > 0.01 )&(adj.p.value < 0.05)), '*',
+                        if_else(((adj.p.value < 0.01)&(adj.p.value > 0.001)), '**',
+                                if_else((adj.p.value < 0.001), '***', 'Cannot Reject the NULL Hypothesis'))))
+#--------------------------------------------------------------------------------#
+
 
 write_csv(region_results, path=paste0(output_file_path, "/region_anova_results.csv"), col_names = TRUE)
 write_csv(school_type_results, path=paste0(output_file_path, "/school_type_anova_results.csv"), col_names = TRUE)
