@@ -39,7 +39,7 @@ We will summarise any differences in graduates' salary within each variable (sch
 
 ### Release Versions
 
-Version 1.0 of our project can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/v1.0.). 
+Version 1.0 of our project can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/v1.0). 
 
 Future versions of our project will also be placed here, as it is updated. 
 
