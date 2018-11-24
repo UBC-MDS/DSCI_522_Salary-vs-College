@@ -37,6 +37,12 @@ To visualize the distribution of the data we plan to use violin/jitter plots tha
 
 We will summarise any differences in graduates' salary within each variable (school region, type, major) using an ANOVA.
 
+### Release Versions
+
+Version 1.0 of our project can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/v1.0). 
+
+Future versions of our project will also be placed here, as it is updated. 
+
 ### Directory structure
 ```
 project_root/
