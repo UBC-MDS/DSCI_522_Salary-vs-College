@@ -24,7 +24,7 @@ input_file_path <- args[1]
 output_file_path <- args[2]
 
 #input_file_path <- "data/clean_data/clean_salary_by_region_type_join.csv"
-#output_file_path <- "results/anova_results/"
+#output_file_path <- "results/anova_results"
 
 df <- read_csv(input_file_path)
 all_categories <-  unique(df$Salary_Type)
@@ -57,10 +57,60 @@ school_type_aovs <- lapply(school_type_aovs, broom::tidy)
 school_type_tukeys <- lapply(school_type_tukeys, broom::tidy)
 region_tukeys <- lapply(region_tukeys, broom::tidy)
 
-
 for (index in seq(1:length(region_aovs))){
   write_csv(region_aovs[[index]], path=paste0(output_file_path, "/", names(region_aovs[index]), "_region_anova.csv"), col_names = TRUE)
   write_csv(school_type_aovs[[index]], path=paste0(output_file_path, "/", names(region_aovs[index]), "_type_anova.csv"), col_names = TRUE)
   write_csv(region_tukeys[[index]], path=paste0(output_file_path, "/", names(region_aovs[index]), "_region_tukey.csv"), col_names = TRUE)
   write_csv(school_type_tukeys[[index]], path=paste0(output_file_path, "/", names(region_aovs[index]), "_type_tukey.csv"), col_names = TRUE)
 }
+#region_aovs
+#school_type_aovs
+#region_tukeys
+
+region_results <- as_tibble(matrix(ncol=3, nrow=7))
+school_type_results <- as_tibble(matrix(ncol=3, nrow=7))
+region_results <- rename(region_results, Salary_Type = V1, F_Statistic = V2, P_Value = V3)
+school_type_results <- rename(school_type_results, Salary_Type = V1, F_Statistic = V2, P_Value = V3)
+
+for (index in seq(1:length(all_categories))){
+  region_results[index, 1] <- names(region_aovs[index])
+  region_results[index, 2] <- region_aovs[[index]]["statistic"][[1]][1]
+  region_results[index, 3] <- region_aovs[[index]]["p.value"][[1]][1]
+  school_type_results[index, 1] <- names(school_type_aovs[index])
+  school_type_results[index, 2] <- school_type_aovs[[index]]["statistic"][[1]][1]
+  school_type_results[index, 3] <- school_type_aovs[[index]]["p.value"][[1]][1]
+}
+
+region_tukey_results <- bind_rows(region_tukeys)
+
+salary_column <- as_tibble(matrix(ncol=1, nrow=70))
+salary_column <- rename(salary_column, salary_type=V1)
+
+salary_column[1:10, 1] <- names(region_tukeys[1])
+salary_column[11:20, 1] <- names(region_tukeys[2])
+salary_column[21:30, 1] <- names(region_tukeys[3])
+salary_column[31:40, 1] <- names(region_tukeys[4])
+salary_column[41:50, 1] <- names(region_tukeys[5])
+salary_column[51:60, 1] <- names(region_tukeys[6])
+salary_column[61:70, 1] <- names(region_tukeys[7])
+
+region_tukey_results <- bind_cols(salary_column, region_tukey_results)
+region_tukey_results <- select(region_tukey_results, salary_type, term, comparison, adj.p.value)
+
+school_type_tukey_results <- bind_rows(school_type_tukeys)
+
+salary_column[1:10, 1] <- names(region_tukeys[1])
+salary_column[11:20, 1] <- names(school_type_tukeys[2])
+salary_column[21:30, 1] <- names(school_type_tukeys[3])
+salary_column[31:40, 1] <- names(school_type_tukeys[4])
+salary_column[41:50, 1] <- names(school_type_tukeys[5])
+salary_column[51:60, 1] <- names(school_type_tukeys[6])
+salary_column[61:70, 1] <- names(school_type_tukeys[7])
+
+school_type_tukey_results <- bind_cols(salary_column, school_type_tukey_results)
+school_type_tukey_results <- select(school_type_tukey_results, salary_type, term, comparison, adj.p.value)
+
+write_csv(region_results, path=paste0(output_file_path, "/region_anova_results.csv"), col_names = TRUE)
+write_csv(school_type_results, path=paste0(output_file_path, "/school_type_anova_results.csv"), col_names = TRUE)
+write_csv(region_tukey_results, path=paste0(output_file_path, "/region_tukey_results.csv"), col_names = TRUE)
+write_csv(school_type_tukey_results, path=paste0(output_file_path, "/school_type_tukey_results.csv"), col_names = TRUE)
