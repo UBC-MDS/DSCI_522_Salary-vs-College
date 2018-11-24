@@ -1,0 +1,71 @@
+salary_type,term,comparison,adj.p.value
+Starting_Median_Salary,School_Type,Ivy League-Engineering,0.981832341904006
+Starting_Median_Salary,School_Type,Liberal Arts-Engineering,1.346700528870315e-13
+Starting_Median_Salary,School_Type,Party-Engineering,1.4876988529977098e-13
+Starting_Median_Salary,School_Type,State-Engineering,1.006972283335017e-13
+Starting_Median_Salary,School_Type,Liberal Arts-Ivy League,1.688649220454863e-13
+Starting_Median_Salary,School_Type,Party-Ivy League,2.09188222299872e-12
+Starting_Median_Salary,School_Type,State-Ivy League,1.4588330543574557e-13
+Starting_Median_Salary,School_Type,Party-Liberal Arts,0.9999998926895469
+Starting_Median_Salary,School_Type,State-Liberal Arts,0.1951979630642091
+Starting_Median_Salary,School_Type,State-Party,0.5768294372983995
+Mid_Career_Median_Salary,School_Type,Ivy League-Engineering,0.009596435649004031
+Mid_Career_Median_Salary,School_Type,Liberal Arts-Engineering,2.266772026637831e-6
+Mid_Career_Median_Salary,School_Type,Party-Engineering,1.2028954365916888e-7
+Mid_Career_Median_Salary,School_Type,State-Engineering,1.4876988529977098e-13
+Mid_Career_Median_Salary,School_Type,Liberal Arts-Ivy League,8.851475108428986e-12
+Mid_Career_Median_Salary,School_Type,Party-Ivy League,8.040235144335384e-13
+Mid_Career_Median_Salary,School_Type,State-Ivy League,1.3777867735598193e-13
+Mid_Career_Median_Salary,School_Type,Party-Liberal Arts,0.47046125560513996
+Mid_Career_Median_Salary,School_Type,State-Liberal Arts,2.783438124431825e-8
+Mid_Career_Median_Salary,School_Type,State-Party,0.1121139201171748
+Mid_Career_10th_Percentile_Salary,School_Type,Ivy League-Engineering,0.45216473601967166
+Mid_Career_10th_Percentile_Salary,School_Type,Liberal Arts-Engineering,1.8962515890841303e-8
+Mid_Career_10th_Percentile_Salary,School_Type,Party-Engineering,1.5343282200319663e-13
+Mid_Career_10th_Percentile_Salary,School_Type,State-Engineering,0
+Mid_Career_10th_Percentile_Salary,School_Type,Liberal Arts-Ivy League,0.002764881243768058
+Mid_Career_10th_Percentile_Salary,School_Type,Party-Ivy League,6.237797510522114e-6
+Mid_Career_10th_Percentile_Salary,School_Type,State-Ivy League,1.5920721407880478e-9
+Mid_Career_10th_Percentile_Salary,School_Type,Party-Liberal Arts,0.5510676231173159
+Mid_Career_10th_Percentile_Salary,School_Type,State-Liberal Arts,0.034758153249346835
+Mid_Career_10th_Percentile_Salary,School_Type,State-Party,0.8051781534349669
+Mid_Career_25th_Percentile_Salary,School_Type,Ivy League-Engineering,0.9841315147533274
+Mid_Career_25th_Percentile_Salary,School_Type,Liberal Arts-Engineering,2.2637447472106942e-13
+Mid_Career_25th_Percentile_Salary,School_Type,Party-Engineering,5.28133092814187e-13
+Mid_Career_25th_Percentile_Salary,School_Type,State-Engineering,1.7486012637846216e-13
+Mid_Career_25th_Percentile_Salary,School_Type,Liberal Arts-Ivy League,2.33334805721519e-6
+Mid_Career_25th_Percentile_Salary,School_Type,Party-Ivy League,1.3979210219394744e-6
+Mid_Career_25th_Percentile_Salary,School_Type,State-Ivy League,7.588873973674026e-11
+Mid_Career_25th_Percentile_Salary,School_Type,Party-Liberal Arts,0.915932599261431
+Mid_Career_25th_Percentile_Salary,School_Type,State-Liberal Arts,0.0021355845059822798
+Mid_Career_25th_Percentile_Salary,School_Type,State-Party,0.47165697533964623
+Mid_Career_50th_Percentile_Salary,School_Type,Ivy League-Engineering,0.009596435649004031
+Mid_Career_50th_Percentile_Salary,School_Type,Liberal Arts-Engineering,2.266772026637831e-6
+Mid_Career_50th_Percentile_Salary,School_Type,Party-Engineering,1.2028954365916888e-7
+Mid_Career_50th_Percentile_Salary,School_Type,State-Engineering,1.4876988529977098e-13
+Mid_Career_50th_Percentile_Salary,School_Type,Liberal Arts-Ivy League,8.851475108428986e-12
+Mid_Career_50th_Percentile_Salary,School_Type,Party-Ivy League,8.040235144335384e-13
+Mid_Career_50th_Percentile_Salary,School_Type,State-Ivy League,1.3777867735598193e-13
+Mid_Career_50th_Percentile_Salary,School_Type,Party-Liberal Arts,0.47046125560513996
+Mid_Career_50th_Percentile_Salary,School_Type,State-Liberal Arts,2.783438124431825e-8
+Mid_Career_50th_Percentile_Salary,School_Type,State-Party,0.1121139201171748
+Mid_Career_75th_Percentile_Salary,School_Type,Ivy League-Engineering,8.407885498940004e-10
+Mid_Career_75th_Percentile_Salary,School_Type,Liberal Arts-Engineering,0.843224197671469
+Mid_Career_75th_Percentile_Salary,School_Type,Party-Engineering,0.00655323718423606
+Mid_Career_75th_Percentile_Salary,School_Type,State-Engineering,1.0246026249660645e-10
+Mid_Career_75th_Percentile_Salary,School_Type,Liberal Arts-Ivy League,1.7363888105137448e-13
+Mid_Career_75th_Percentile_Salary,School_Type,Party-Ivy League,9.214851104388799e-14
+Mid_Career_75th_Percentile_Salary,School_Type,State-Ivy League,4.318767565791859e-14
+Mid_Career_75th_Percentile_Salary,School_Type,Party-Liberal Arts,0.01929900622335068
+Mid_Career_75th_Percentile_Salary,School_Type,State-Liberal Arts,9.170442183403793e-14
+Mid_Career_75th_Percentile_Salary,School_Type,State-Party,0.045682104850870875
+Mid_Career_90th_Percentile_Salary,School_Type,Ivy League-Engineering,4.218847493575595e-15
+Mid_Career_90th_Percentile_Salary,School_Type,Liberal Arts-Engineering,0.43870954216257674
+Mid_Career_90th_Percentile_Salary,School_Type,Party-Engineering,0.8516001297798959
+Mid_Career_90th_Percentile_Salary,School_Type,State-Engineering,8.946064559708367e-4
+Mid_Career_90th_Percentile_Salary,School_Type,Liberal Arts-Ivy League,5.615963249994138e-11
+Mid_Career_90th_Percentile_Salary,School_Type,Party-Ivy League,0
+Mid_Career_90th_Percentile_Salary,School_Type,State-Ivy League,0
+Mid_Career_90th_Percentile_Salary,School_Type,Party-Liberal Arts,0.04059362385093401
+Mid_Career_90th_Percentile_Salary,School_Type,State-Liberal Arts,1.7801789042870553e-8
+Mid_Career_90th_Percentile_Salary,School_Type,State-Party,0.01822616044428116
