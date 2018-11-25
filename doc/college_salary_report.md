@@ -408,3 +408,8 @@ universities and colleges in the States (or if there is even a
 difference at all).
 
 ### References
+
+1.  [Kaggle Data - College vs
+    Salary](https://www.kaggle.com/wsj/college-salaries)  
+2.  [Dumbbell plots
+    explained](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html#Dumbbell%20Plot)
