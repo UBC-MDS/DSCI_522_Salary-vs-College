@@ -23,27 +23,32 @@ output_file_path <- args[2]
 #input_file_path <- "data/clean_data/clean_salary_by_region_type_join.csv"
 #output_file_path <- "results"
 
-df <- read_csv(input_file_path)
-all_categories <-  unique(df$Salary_Type)
+main <- function(){
 
-df <- df %>% distinct()
+  df <- read_csv(input_file_path)
+  all_categories <-  unique(df$Salary_Type)
+  
+  df <- df %>% distinct()
+  
+  #head(df)
+  
+  increase_in <- (spread(df, Salary_Type, Salary)) %>%
+    mutate(abs_increase = Mid_Career_Median_Salary - Starting_Median_Salary, 
+           percent_increase = (Mid_Career_Median_Salary/Starting_Median_Salary)*100)
+  
+  increase_in <- select(increase_in, School_Name, Region, School_Type, Starting_Median_Salary, Mid_Career_Median_Salary, abs_increase, percent_increase)
+  
+  increase_in
+  
+  write_csv(increase_in, path=paste0(output_file_path, "/increase_in_salary.csv"), col_names=TRUE)
+  
+  #increase_in_tidy <- gather(increase_in, Mid_Career_10th_Percentile_Salary, Mid_Career_25th_Percentile_Salary, Mid_Career_50th_Percentile_Salary, 
+  #         Mid_Career_75th_Percentile_Salary, Mid_Career_90th_Percentile_Salary, Mid_Career_Median_Salary, Starting_Median_Salary, 
+  #         abs_increase, percent_increase, key="Salary_Type", value="Salary")
+  
+  #(increase_in_tidy %>%
+  #  filter(Salary_Type == "abs_increase"))
 
-#head(df)
+}
 
-increase_in <- (spread(df, Salary_Type, Salary)) %>%
-  mutate(abs_increase = Mid_Career_Median_Salary - Starting_Median_Salary, 
-         percent_increase = (Mid_Career_Median_Salary/Starting_Median_Salary)*100)
-
-increase_in <- select(increase_in, School_Name, Region, School_Type, Starting_Median_Salary, Mid_Career_Median_Salary, abs_increase, percent_increase)
-
-increase_in
-
-write_csv(increase_in, path=paste0(output_file_path, "/increase_in_salary.csv"), col_names=TRUE)
-
-#increase_in_tidy <- gather(increase_in, Mid_Career_10th_Percentile_Salary, Mid_Career_25th_Percentile_Salary, Mid_Career_50th_Percentile_Salary, 
-#         Mid_Career_75th_Percentile_Salary, Mid_Career_90th_Percentile_Salary, Mid_Career_Median_Salary, Starting_Median_Salary, 
-#         abs_increase, percent_increase, key="Salary_Type", value="Salary")
-
-#(increase_in_tidy %>%
-#  filter(Salary_Type == "abs_increase"))
-
+main()

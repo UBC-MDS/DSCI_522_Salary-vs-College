@@ -67,11 +67,16 @@ char_to_num <- function(dataframe){
   return(dataframe_tidy)
 }
 
-# Read in original dataset
-raw_data <- read_csv(input_file_path)
+main <- function(){
 
-# Clean dataset using the function `char_to_num`
-clean_data <- char_to_num(raw_data)
+  # Read in original dataset
+  raw_data <- read_csv(input_file_path)
 
-# Write the clean data file
-write.csv(clean_data, file = output_file_path, row.names = FALSE)
+  # Clean dataset using the function `char_to_num`
+  clean_data <- char_to_num(raw_data)
+
+  # Write the clean data file
+  write.csv(clean_data, file = output_file_path, row.names = FALSE)
+}
+
+main()
