@@ -15,9 +15,11 @@
 # Rscript src/Data_cleaning.R ../data/raw_data/degrees-that-pay-back.csv ../data/clean_data/clean_salary_by_degree.csv
 # Rscript src/Data_cleaning.R ../data/raw_data/salaries-by-college-type.csv ../data/clean_data/clean_salary_by_type.csv
 # Rscript src/Data_cleaning.R ../data/raw_data/salaries-by-region.csv ../data/clean_data/clean_salary_by_region.csv
+# ../data/raw_data/<file name> is the path for the input data, in this case the row data .csv, we have three different raw data .csv files
+# ../data/clean_data/<file name> is the path for the output data, in this case the file name for the output cleaned data could be self defined
 
 #import libraries
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 
 # Read in command line argument
 args <- commandArgs(trailingOnly = TRUE)

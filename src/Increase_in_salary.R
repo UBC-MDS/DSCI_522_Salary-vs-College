@@ -11,9 +11,11 @@
 
 # Usage: 
 # Rscript Increase_in_salary.R ../data/clean_data/clean_salary_by_region_type_join.csv ../results
+# ../data/clean_data/clean_salary_by_region_type_join.csv is the file path for the input file
+# ../results is the location for the output file
 
 #import libraries
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 
 # Read in command line argument
 args <- commandArgs(trailingOnly = TRUE)

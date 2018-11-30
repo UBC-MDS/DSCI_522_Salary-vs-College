@@ -14,9 +14,11 @@
 
 # Usage: 
 # Rscript anova_tukey_tests.R ../data/clean_data/clean_salary_by_region_type_join.csv ../results/anova_results
+# ../data/clean_data/clean_salary_by_region_type_join.csv is the file path for the input .csv file, which contains the joined table for region and school type with salary
+# ../results/anova_results is the folder name for all the output files
 
 #import libraries
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 
 # Read in command line argument
 args <- commandArgs(trailingOnly = TRUE)

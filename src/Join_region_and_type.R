@@ -5,6 +5,8 @@
 # and inner joins the results based on the university name as a key. 
 # A new .csv file is the output of this script. 
 #
+
+# Usage: 
 # Script input arguments from the command line:
 # 1. .csv file path for the cleaned salary by region (e.g. data/clean_data/clean_salary_by_region.csv)
 # 2. .csv file path for the cleaned salary by type (e.g. data/clean_data/clean_salary_by_type.csv)
@@ -12,12 +14,10 @@
 # 
 # Script output is a .csv file that represents the joined dataframe in tidy data form
 
-
-# Usage: 
 # Rscript Join_region_and_type.R ../data/clean_data/clean_salary_by_region.csv ../data/clean_data/clean_salary_by_type.csv ../data/clean_data/clean_salary_by_region_type_join.csv
 
 # import libraries
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 
 # define and read the .csv files
 args <- commandArgs(trailingOnly = TRUE)
