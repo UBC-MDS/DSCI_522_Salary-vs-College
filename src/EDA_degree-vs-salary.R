@@ -9,11 +9,12 @@
 
 # Usage:
 # Rscript src/EDA_degree-vs-salary.R data/clean_data/clean_salary_by_degree.csv
+# The data/clean_data/clean_salary_by_degree.csv is the path for the input file, which contains the cleaned data from degree to salary
 
 
-library(tidyverse)
-library(ggalt)
-library(scales)
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(ggalt))
+suppressPackageStartupMessages(library(scales))
 
 args <- commandArgs(trailingOnly = TRUE)
 input_file_path <- args[1] # "data/clean_data/clean_salary_by_degree.csv"

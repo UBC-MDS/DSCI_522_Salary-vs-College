@@ -5,7 +5,7 @@
 
 # Usage: Rscript import-data.R
 
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 
 main <- function(){
 

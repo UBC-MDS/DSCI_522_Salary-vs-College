@@ -5,11 +5,11 @@
 # 1. school region and graduates' salaries (start vs. MidCareer, salary distribution in MidCareer)
 # 2. school type and graduates' salaries (start vs. MidCareer, salary distribution in MidCareer)
 
+# Usage:
 # The script takes two input arguments from the command line:
 # 1. the file path for the joined table: data/clean_data/clean_salary_joined_region_and_type.csv
 # 2. the college attribute that the user wants to explore: Region or School_Type
 
-# Usage:
 # Rscript src/EDA_region_and_school_type_to_salary.R data/clean_data/clean_salary_by_region_type_join.csv Region
 # Rscript src/EDA_region_and_school_type_to_salary.R data/clean_data/clean_salary_by_region_type_join.csv School_Type
 
@@ -21,10 +21,10 @@
 
 
 # import libraries
-library(tidyverse)
-library(ggthemes)
-library(ggalt)
-library(scales)
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(ggthemes))
+suppressPackageStartupMessages(library(ggalt))
+suppressPackageStartupMessages(library(scales))
 
 # read in the command line arguments
 args <- commandArgs(trailingOnly = TRUE)
