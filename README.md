@@ -39,6 +39,8 @@ We will summarise any differences in graduates' salary within each variable (sch
 
 ### Final Thoughts
 
+Final report can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/blob/master/doc/college_salary_report.md). 
+
 After creating several visualizations and hypothesis testing on our data, it turns out our initial assumptions were mostly correct. Engineering disciplines dominated the highest paying salary lists across multiple categories, with Computer Science following closely behind. The financial fields, while not as prevalent as Computer Science or Engineering, still populated the top half of the earnings lists. 
 
 Two surprising entries are the Physician Assistant and Nursing fields, both of which have a comparatively high starting salary. In the case of Physician Assistant, the starting salary is even higher than the Engineering fields, placing #1 on the starting salary list. However, both the Physician Assistant and Nursing fields do not have a high mid-career salary, eventually being beat out by the Engineering and Computer Science fields. 
@@ -57,7 +59,41 @@ Future versions of our project will also be placed here, as it is updated.
 
 ### Project Reproduction
 
-A Makefile was created and placed in the root directory to easily reproduce this analysis. To run this analysis, clone this repository and run `make all` in the command line. The overall workflow for the entire project is as follows: 
+A Makefile was created and placed in the root directory to easily reproduce this analysis. To run this analysis, clone this repository and run `make all` in the command line. 
+
+To reproduce this project manually, run the scripts in this order: 
+
+1. src/Data_cleaning.R
+2. src/Join_region_and_type.R
+3. src/EDA_degree-vs-salary.R
+4. src/EDA_region_and_school_type_to_salary
+5. src/anova_tukey_tests.R
+6. src/Increase_in_salary.R
+7. src/Linear_Regression.R
+
+Expected inputs: 
+* data/raw_data/degrees-that-pay-back.csv
+* data/raw_data/salaries-by-college-type.csv
+* data/raw_data/salaries-by-region.csv
+
+Expected outputs: 
+* data/clean_data/clean_salary_by_degree.csv
+* data/clean_data/clean_salary_by_type.csv
+* data/clean_data/clean_salary_by_region.csv
+* results/degree_vs_mid_salary_range.png
+* results/degree_vs_salary_by_mid.png
+* results/degree_vs_salary_by_start.png
+* data/clean_data/clean_salary_by_region_type_join.csv
+* results/salary_change_Region.png
+* results/salary_change_SchoolType.png
+* results/salary_distribution_Region.png
+* results/salary_distribution_SchoolType.png
+* results/increase_in_salary.csv
+* results/anova_test/
+* results/lm_tests/
+* doc/college_salary_report.md
+
+The overall workflow for the entire project is as follows: 
 
 ![Workflow](Workflow.png)
 
@@ -70,7 +106,7 @@ project_root/
 ├── src/
 │   ├── anova_tukey_tests.R
 │   ├── EDA_degree-vs-salary.R
-│   ├── EDA_region_and_school.R
+│   ├── EDA_region_and_school_type_to_salary.R
 │   ├── Increase_in_salary.R
 │   ├── Join_region_and_type.R
 │   ├── Linear_Regression.R
