@@ -39,7 +39,7 @@ appropriately. We removed any spaces in the heading or ‘$’. We also
 joined the second two tables such that our joined table listed colleges,
 their region, their type and corresponding salary data. Since this was
 an [inner join](https://r4ds.had.co.nz/relational-data.html#inner-join)
-we lost \~50 colleges that were listed in the third table, but not the
+we lost ~50 colleges that were listed in the third table, but not the
 second. We wanted the comparison of college region and type with salary
 to be similar in terms of the colleges listed and so we felt this type
 of join was appropriate.
@@ -106,19 +106,7 @@ arts/social sciences had the lowest salaries.
 
 In regards to salary variation by school region, our hypothesis from the
 EDA was that there is a difference in salary depending on which region
-the college was in. We performed a one-way ANOVA shown in Table 1
-    below.
-
-    ## -- Attaching packages ----------------------------------------------------------------------------------------------- tidyverse 1.2.1 --
-
-    ## v ggplot2 3.1.0     v purrr   0.2.5
-    ## v tibble  1.4.2     v dplyr   0.7.7
-    ## v tidyr   0.8.2     v stringr 1.3.1
-    ## v readr   1.1.1     v forcats 0.3.0
-
-    ## -- Conflicts -------------------------------------------------------------------------------------------------- tidyverse_conflicts() --
-    ## x dplyr::filter() masks stats::filter()
-    ## x dplyr::lag()    masks stats::lag()
+the college was in. We performed a one-way ANOVA shown in Table 1 below.
 
     ## Parsed with column specification:
     ## cols(
@@ -140,7 +128,7 @@ the college was in. We performed a one-way ANOVA shown in Table 1
 **Table 1** above shows there was a statistical difference in salary,
 all salary types examined, amongst the different regions, with a p-value
 \< 0.05. Next we performed a Tukey’s post-hoc test to see which region
-was responsible for the difference in salary. This is summarized in
+was responsible for the difference in salary. Summary is presented in
 Table 2 below.
 
     ## Parsed with column specification:
@@ -152,78 +140,14 @@ Table 2 below.
     ##   flag = col_character()
     ## )
 
-| Salary Type                           | Region Comparison       | adjusted p-value | Interpretation                    |
-| :------------------------------------ | :---------------------- | ---------------: | :-------------------------------- |
-| Starting\_Median\_Salary              | Midwestern-California   |        0.0000408 | \*\*\*                            |
-| Starting\_Median\_Salary              | Northeastern-California |        0.9634884 | Cannot Reject the NULL Hypothesis |
-| Starting\_Median\_Salary              | Southern-California     |        0.0001661 | \*\*\*                            |
-| Starting\_Median\_Salary              | Western-California      |        0.0005862 | \*\*\*                            |
-| Starting\_Median\_Salary              | Northeastern-Midwestern |        0.0000018 | \*\*\*                            |
-| Starting\_Median\_Salary              | Southern-Midwestern     |        0.9895888 | Cannot Reject the NULL Hypothesis |
-| Starting\_Median\_Salary              | Western-Midwestern      |        0.9983989 | Cannot Reject the NULL Hypothesis |
-| Starting\_Median\_Salary              | Southern-Northeastern   |        0.0000122 | \*\*\*                            |
-| Starting\_Median\_Salary              | Western-Northeastern    |        0.0001904 | \*\*\*                            |
-| Starting\_Median\_Salary              | Western-Southern        |        0.9999592 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_Median\_Salary           | Midwestern-California   |        0.0000250 | \*\*\*                            |
-| Mid\_Career\_Median\_Salary           | Northeastern-California |        0.9652641 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_Median\_Salary           | Southern-California     |        0.0010309 | \*\*                              |
-| Mid\_Career\_Median\_Salary           | Western-California      |        0.0002839 | \*\*\*                            |
-| Mid\_Career\_Median\_Salary           | Northeastern-Midwestern |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_Median\_Salary           | Southern-Midwestern     |        0.7469916 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_Median\_Salary           | Western-Midwestern      |        0.9996818 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_Median\_Salary           | Southern-Northeastern   |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_Median\_Salary           | Western-Northeastern    |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_Median\_Salary           | Western-Southern        |        0.9142965 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_10th\_Percentile\_Salary | Midwestern-California   |        0.1283208 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_10th\_Percentile\_Salary | Northeastern-California |        0.4643881 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_10th\_Percentile\_Salary | Southern-California     |        0.1972554 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_10th\_Percentile\_Salary | Western-California      |        0.2778049 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_10th\_Percentile\_Salary | Northeastern-Midwestern |        0.0000019 | \*\*\*                            |
-| Mid\_Career\_10th\_Percentile\_Salary | Southern-Midwestern     |        0.9976522 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_10th\_Percentile\_Salary | Western-Midwestern      |        0.9996644 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_10th\_Percentile\_Salary | Southern-Northeastern   |        0.0000046 | \*\*\*                            |
-| Mid\_Career\_10th\_Percentile\_Salary | Western-Northeastern    |        0.0001972 | \*\*\*                            |
-| Mid\_Career\_10th\_Percentile\_Salary | Western-Southern        |        0.9999950 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_25th\_Percentile\_Salary | Midwestern-California   |        0.0004422 | \*\*\*                            |
-| Mid\_Career\_25th\_Percentile\_Salary | Northeastern-California |        1.0000000 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_25th\_Percentile\_Salary | Southern-California     |        0.0045416 | \*\*                              |
-| Mid\_Career\_25th\_Percentile\_Salary | Western-California      |        0.0015425 | \*\*                              |
-| Mid\_Career\_25th\_Percentile\_Salary | Northeastern-Midwestern |        0.0000009 | \*\*\*                            |
-| Mid\_Career\_25th\_Percentile\_Salary | Southern-Midwestern     |        0.9120722 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_25th\_Percentile\_Salary | Western-Midwestern      |        0.9999998 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_25th\_Percentile\_Salary | Southern-Northeastern   |        0.0000408 | \*\*\*                            |
-| Mid\_Career\_25th\_Percentile\_Salary | Western-Northeastern    |        0.0000279 | \*\*\*                            |
-| Mid\_Career\_25th\_Percentile\_Salary | Western-Southern        |        0.9379583 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_50th\_Percentile\_Salary | Midwestern-California   |        0.0000250 | \*\*\*                            |
-| Mid\_Career\_50th\_Percentile\_Salary | Northeastern-California |        0.9652641 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_50th\_Percentile\_Salary | Southern-California     |        0.0010309 | \*\*                              |
-| Mid\_Career\_50th\_Percentile\_Salary | Western-California      |        0.0002839 | \*\*\*                            |
-| Mid\_Career\_50th\_Percentile\_Salary | Northeastern-Midwestern |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_50th\_Percentile\_Salary | Southern-Midwestern     |        0.7469916 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_50th\_Percentile\_Salary | Western-Midwestern      |        0.9996818 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_50th\_Percentile\_Salary | Southern-Northeastern   |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_50th\_Percentile\_Salary | Western-Northeastern    |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_50th\_Percentile\_Salary | Western-Southern        |        0.9142965 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_75th\_Percentile\_Salary | Midwestern-California   |        0.0016209 | \*\*                              |
-| Mid\_Career\_75th\_Percentile\_Salary | Northeastern-California |        0.2359886 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_75th\_Percentile\_Salary | Southern-California     |        0.0151179 | \*                                |
-| Mid\_Career\_75th\_Percentile\_Salary | Western-California      |        0.0028741 | \*\*                              |
-| Mid\_Career\_75th\_Percentile\_Salary | Northeastern-Midwestern |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_75th\_Percentile\_Salary | Southern-Midwestern     |        0.8940914 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_75th\_Percentile\_Salary | Western-Midwestern      |        0.9997165 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_75th\_Percentile\_Salary | Southern-Northeastern   |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_75th\_Percentile\_Salary | Western-Northeastern    |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_75th\_Percentile\_Salary | Western-Southern        |        0.8631754 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_90th\_Percentile\_Salary | Midwestern-California   |        0.2180698 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_90th\_Percentile\_Salary | Northeastern-California |        0.0027215 | \*\*                              |
-| Mid\_Career\_90th\_Percentile\_Salary | Southern-California     |        0.4692042 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_90th\_Percentile\_Salary | Western-California      |        0.2184222 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_90th\_Percentile\_Salary | Northeastern-Midwestern |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_90th\_Percentile\_Salary | Southern-Midwestern     |        0.9603623 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_90th\_Percentile\_Salary | Western-Midwestern      |        0.9990184 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_90th\_Percentile\_Salary | Southern-Northeastern   |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_90th\_Percentile\_Salary | Western-Northeastern    |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_90th\_Percentile\_Salary | Western-Southern        |        0.9210864 | Cannot Reject the NULL Hypothesis |
+| Salary Type              | Region Comparison       | adjusted p-value | Interpretation                    |
+| :----------------------- | :---------------------- | ---------------: | :-------------------------------- |
+| Starting\_Median\_Salary | Midwestern-California   |        0.0000408 | \*\*\*                            |
+| Starting\_Median\_Salary | Northeastern-California |        0.9634884 | Cannot Reject the NULL Hypothesis |
+| Starting\_Median\_Salary | Southern-California     |        0.0001661 | \*\*\*                            |
+| Starting\_Median\_Salary | Western-California      |        0.0005862 | \*\*\*                            |
+| Starting\_Median\_Salary | Northeastern-Midwestern |        0.0000018 | \*\*\*                            |
+| Starting\_Median\_Salary | Southern-Midwestern     |        0.9895888 | Cannot Reject the NULL Hypothesis |
 
 **Table 2** above shows that graduates of colleges in the Northeast and
 California had higher salaries than the other regions, however there was
@@ -265,78 +189,14 @@ comparisons with different salary types was \<0.05.
     ##   flag = col_character()
     ## )
 
-| Salary Type                           | Region Comparison        | adjusted p-value | Interpretation                    |
-| :------------------------------------ | :----------------------- | ---------------: | :-------------------------------- |
-| Starting\_Median\_Salary              | Ivy League-Engineering   |        0.9818323 | Cannot Reject the NULL Hypothesis |
-| Starting\_Median\_Salary              | Liberal Arts-Engineering |        0.0000000 | \*\*\*                            |
-| Starting\_Median\_Salary              | Party-Engineering        |        0.0000000 | \*\*\*                            |
-| Starting\_Median\_Salary              | State-Engineering        |        0.0000000 | \*\*\*                            |
-| Starting\_Median\_Salary              | Liberal Arts-Ivy League  |        0.0000000 | \*\*\*                            |
-| Starting\_Median\_Salary              | Party-Ivy League         |        0.0000000 | \*\*\*                            |
-| Starting\_Median\_Salary              | State-Ivy League         |        0.0000000 | \*\*\*                            |
-| Starting\_Median\_Salary              | Party-Liberal Arts       |        0.9999999 | Cannot Reject the NULL Hypothesis |
-| Starting\_Median\_Salary              | State-Liberal Arts       |        0.1951980 | Cannot Reject the NULL Hypothesis |
-| Starting\_Median\_Salary              | State-Party              |        0.5768294 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_Median\_Salary           | Ivy League-Engineering   |        0.0095964 | \*\*                              |
-| Mid\_Career\_Median\_Salary           | Liberal Arts-Engineering |        0.0000023 | \*\*\*                            |
-| Mid\_Career\_Median\_Salary           | Party-Engineering        |        0.0000001 | \*\*\*                            |
-| Mid\_Career\_Median\_Salary           | State-Engineering        |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_Median\_Salary           | Liberal Arts-Ivy League  |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_Median\_Salary           | Party-Ivy League         |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_Median\_Salary           | State-Ivy League         |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_Median\_Salary           | Party-Liberal Arts       |        0.4704613 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_Median\_Salary           | State-Liberal Arts       |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_Median\_Salary           | State-Party              |        0.1121139 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_10th\_Percentile\_Salary | Ivy League-Engineering   |        0.4521647 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_10th\_Percentile\_Salary | Liberal Arts-Engineering |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_10th\_Percentile\_Salary | Party-Engineering        |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_10th\_Percentile\_Salary | State-Engineering        |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_10th\_Percentile\_Salary | Liberal Arts-Ivy League  |        0.0027649 | \*\*                              |
-| Mid\_Career\_10th\_Percentile\_Salary | Party-Ivy League         |        0.0000062 | \*\*\*                            |
-| Mid\_Career\_10th\_Percentile\_Salary | State-Ivy League         |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_10th\_Percentile\_Salary | Party-Liberal Arts       |        0.5510676 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_10th\_Percentile\_Salary | State-Liberal Arts       |        0.0347582 | \*                                |
-| Mid\_Career\_10th\_Percentile\_Salary | State-Party              |        0.8051782 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_25th\_Percentile\_Salary | Ivy League-Engineering   |        0.9841315 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_25th\_Percentile\_Salary | Liberal Arts-Engineering |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_25th\_Percentile\_Salary | Party-Engineering        |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_25th\_Percentile\_Salary | State-Engineering        |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_25th\_Percentile\_Salary | Liberal Arts-Ivy League  |        0.0000023 | \*\*\*                            |
-| Mid\_Career\_25th\_Percentile\_Salary | Party-Ivy League         |        0.0000014 | \*\*\*                            |
-| Mid\_Career\_25th\_Percentile\_Salary | State-Ivy League         |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_25th\_Percentile\_Salary | Party-Liberal Arts       |        0.9159326 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_25th\_Percentile\_Salary | State-Liberal Arts       |        0.0021356 | \*\*                              |
-| Mid\_Career\_25th\_Percentile\_Salary | State-Party              |        0.4716570 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_50th\_Percentile\_Salary | Ivy League-Engineering   |        0.0095964 | \*\*                              |
-| Mid\_Career\_50th\_Percentile\_Salary | Liberal Arts-Engineering |        0.0000023 | \*\*\*                            |
-| Mid\_Career\_50th\_Percentile\_Salary | Party-Engineering        |        0.0000001 | \*\*\*                            |
-| Mid\_Career\_50th\_Percentile\_Salary | State-Engineering        |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_50th\_Percentile\_Salary | Liberal Arts-Ivy League  |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_50th\_Percentile\_Salary | Party-Ivy League         |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_50th\_Percentile\_Salary | State-Ivy League         |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_50th\_Percentile\_Salary | Party-Liberal Arts       |        0.4704613 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_50th\_Percentile\_Salary | State-Liberal Arts       |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_50th\_Percentile\_Salary | State-Party              |        0.1121139 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_75th\_Percentile\_Salary | Ivy League-Engineering   |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_75th\_Percentile\_Salary | Liberal Arts-Engineering |        0.8432242 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_75th\_Percentile\_Salary | Party-Engineering        |        0.0065532 | \*\*                              |
-| Mid\_Career\_75th\_Percentile\_Salary | State-Engineering        |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_75th\_Percentile\_Salary | Liberal Arts-Ivy League  |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_75th\_Percentile\_Salary | Party-Ivy League         |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_75th\_Percentile\_Salary | State-Ivy League         |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_75th\_Percentile\_Salary | Party-Liberal Arts       |        0.0192990 | \*                                |
-| Mid\_Career\_75th\_Percentile\_Salary | State-Liberal Arts       |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_75th\_Percentile\_Salary | State-Party              |        0.0456821 | \*                                |
-| Mid\_Career\_90th\_Percentile\_Salary | Ivy League-Engineering   |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_90th\_Percentile\_Salary | Liberal Arts-Engineering |        0.4387095 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_90th\_Percentile\_Salary | Party-Engineering        |        0.8516001 | Cannot Reject the NULL Hypothesis |
-| Mid\_Career\_90th\_Percentile\_Salary | State-Engineering        |        0.0008946 | \*\*\*                            |
-| Mid\_Career\_90th\_Percentile\_Salary | Liberal Arts-Ivy League  |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_90th\_Percentile\_Salary | Party-Ivy League         |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_90th\_Percentile\_Salary | State-Ivy League         |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_90th\_Percentile\_Salary | Party-Liberal Arts       |        0.0405936 | \*                                |
-| Mid\_Career\_90th\_Percentile\_Salary | State-Liberal Arts       |        0.0000000 | \*\*\*                            |
-| Mid\_Career\_90th\_Percentile\_Salary | State-Party              |        0.0182262 | \*                                |
+| Salary Type              | Region Comparison        | adjusted p-value | Interpretation                    |
+| :----------------------- | :----------------------- | ---------------: | :-------------------------------- |
+| Starting\_Median\_Salary | Ivy League-Engineering   |        0.9818323 | Cannot Reject the NULL Hypothesis |
+| Starting\_Median\_Salary | Liberal Arts-Engineering |        0.0000000 | \*\*\*                            |
+| Starting\_Median\_Salary | Party-Engineering        |        0.0000000 | \*\*\*                            |
+| Starting\_Median\_Salary | State-Engineering        |        0.0000000 | \*\*\*                            |
+| Starting\_Median\_Salary | Liberal Arts-Ivy League  |        0.0000000 | \*\*\*                            |
+| Starting\_Median\_Salary | Party-Ivy League         |        0.0000000 | \*\*\*                            |
 
 The results of the Tukey post-hoc tests show that graduates from
 colleges in Ivy Leagues school and Engineering schools had higher

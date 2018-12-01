@@ -62,7 +62,7 @@ main <- function(){
     df_region_est$Region <- as.factor(df_region_est$Region)
     
     # create facet labels
-    Salary_Type_dist.labs <- c("Mid-Career 10th Percentile Salary", "Mid-Career 50th Percentile Salary", "Mid-Career 90th Percentile Salary")
+    Salary_Type_dist.labs <- c("10th Percentile Salary", "50th Percentile Salary", "90th Percentile Salary")
     names(Salary_Type_dist.labs) <- c('Mid_Career_10th_Percentile_Salary', 'Mid_Career_50th_Percentile_Salary', 'Mid_Career_90th_Percentile_Salary')
     
     
@@ -74,18 +74,21 @@ main <- function(){
       ggplot(aes(Region, mean_salary, fill = Region)) +
       geom_errorbar(aes(x = Region,  ymin = lower_ci, ymax = upper_ci), width = 0.4)+
       geom_col(width = 0.75) +
-      labs(y = 'Salary') +
+      labs(y = 'Salary',
+           title = 'Figure 5. Region vs. Mid-Career Salary Distribution') +
       facet_grid(~Salary_Type, labeller = labeller(Salary_Type = Salary_Type_dist.labs)) +
       theme_bw()+
       theme(legend.title = element_blank(),
             axis.text.x = element_blank(),
             axis.ticks.x = element_blank(),
             axis.title.x = element_blank(),
-            strip.text.x = element_text(size = 7, colour = "black"),
-            panel.grid.major = element_blank()) +
+            strip.text = element_text(size =11, colour = "black"),
+            panel.grid.major = element_blank(),
+            strip.background = element_rect(fill = 'white'),
+            plot.title = element_text(hjust = 0.5)) +
       scale_fill_manual(values = c("lightpink", "lightpink1", "lightpink2", "lightpink3", "lightpink4"))+
       scale_y_continuous(label = dollar_format())
-    
+    # p_dist_region
     # save the figure to the result folder
     ggsave(plot = p_dist_region, width = 10, height = 5,dpi = 300, filename = "results/salary_distribution_Region.png")
     
@@ -99,14 +102,16 @@ main <- function(){
       geom_point() +
       geom_errorbar(aes(x = Region, ymin = lower_ci, ymax = upper_ci), width = 0.2) +
       coord_flip(xlim = NULL, ylim = NULL, expand = TRUE, clip = "on") +
-      labs( y = "Salary")+
+      labs( y = "Salary",
+            title = 'Figure 4. Region vs. Salary, from Starting to Mid-Career')+
       scale_color_discrete(labels = c("Average for the Mid-Career Median Salary", "Average for the Starting Median Salary")) +
       theme_bw() +
       theme(panel.grid.major = element_blank(),
             axis.title.y = element_blank(),
-            legend.title=element_blank())+
+            legend.title=element_blank(),
+            plot.title = element_text(hjust = 0.5))+
       scale_y_continuous(label = dollar_format())
-    
+    # p_start_MidCareer_region
     # save the figure to the result folder
     ggsave(plot = p_start_MidCareer_region, width = 10, height = 5,dpi = 300, filename = "results/salary_change_Region.png")
     
@@ -134,7 +139,7 @@ main <- function(){
     df_schoolType_est$School_Type <- as.factor(df_schoolType_est$School_Type)
     
     # create facet labels
-    Salary_Type_dist.labs <- c("Mid-Career 10th Percentile Salary", "Mid-Career 50th Percentile Salary", "Mid-Career 90th Percentile Salary")
+    Salary_Type_dist.labs <- c("10th Percentile Salary", "50th Percentile Salary", "90th Percentile Salary")
     names(Salary_Type_dist.labs) <- c('Mid_Career_10th_Percentile_Salary', 'Mid_Career_50th_Percentile_Salary', 'Mid_Career_90th_Percentile_Salary')
     
     # make the plot for the School_Type vs salary based on the distribution of the midCareer Salary
@@ -144,18 +149,21 @@ main <- function(){
       ggplot(aes(School_Type, mean_salary, fill = School_Type)) +
       geom_errorbar(aes(x = School_Type,  ymin = lower_ci, ymax = upper_ci), width = 0.4)+
       geom_col(width = 0.75) +
-      labs(y = 'Salary') +
+      labs(y = 'Salary',
+           title = 'Figure 7. School Type vs. Mid-Career Salary Distribution') +
       facet_grid(~Salary_Type, labeller = labeller(Salary_Type = Salary_Type_dist.labs)) +
       theme_bw()+
       theme(legend.title = element_blank(),
             axis.text.x = element_blank(),
             axis.ticks.x = element_blank(),
             axis.title.x = element_blank(),
-            strip.text.x = element_text(size = 7, colour = "black"),
-            panel.grid.major = element_blank()) +
+            strip.text = element_text(size = 11, colour = "black"),
+            strip.background = element_rect(fill = 'white'),
+            panel.grid.major = element_blank(),
+            plot.title = element_text(hjust = 0.5)) +
       scale_fill_manual(values = c("lightpink", "lightpink1", "lightpink2", "lightpink3", "lightpink4"))+
       scale_y_continuous(label = dollar_format())
-    
+    # p_dist_SchoolType
     # save the figure to the result folder
     ggsave(plot = p_dist_SchoolType, width = 10, height = 5,dpi = 300, filename = "results/salary_distribution_SchoolType.png")
     
@@ -168,14 +176,16 @@ main <- function(){
       geom_point() +
       geom_errorbar(aes(x = School_Type, ymin = lower_ci, ymax = upper_ci), width = 0.2) +
       coord_flip(xlim = NULL, ylim = NULL, expand = TRUE, clip = "on") +
-      labs( y = "Salary")+
+      labs( y = "Salary",
+            title = 'Figure 6. School Type vs. Salary, from Starting to Mid-Career')+
       scale_color_discrete(labels = c("Average for the Mid-Career Median Salary", "Average for the Starting Median Salary")) +
       theme_bw() +
       theme(panel.grid.major = element_blank(),
             axis.title.y = element_blank(),
-            legend.title=element_blank())+
+            legend.title=element_blank(),
+            plot.title = element_text(hjust = 0.5))+
       scale_y_continuous(label = dollar_format())
-    
+    # p_start_MidCareer_SchoolType
     # save the figure to the result folder
     ggsave(plot = p_start_MidCareer_SchoolType, width = 10, height = 5,dpi = 300, filename = "results/salary_change_SchoolType.png")
     
@@ -183,7 +193,7 @@ main <- function(){
   }else{
     print("Feature Not Found")
   }
-
+  
 }
 
 main()

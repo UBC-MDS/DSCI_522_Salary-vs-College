@@ -1,5 +1,5 @@
 # Create cleaned data file
-all: results/anova_results results/increase_in_salary.csv results/salary_distribution_SchoolType.png results/salary_change_SchoolType.png results/salary_distribution_Region.png results/salary_change_Region.png
+all: results/anova_results results/increase_in_salary.csv results/degree_vs_salary_by_start.png results/degree_vs_salary_by_mid.png results/degree_vs_mid_salary_range.png results/salary_distribution_SchoolType.png results/salary_change_SchoolType.png results/salary_distribution_Region.png results/salary_change_Region.png results/lm_tests doc/Final_Report
 
 data/clean_data/clean_salary_by_degree.csv : data/raw_data/degrees-that-pay-back.csv src/Data_cleaning.R
 	Rscript src/Data_cleaning.R data/raw_data/degrees-that-pay-back.csv data/clean_data/clean_salary_by_degree.csv
@@ -28,8 +28,16 @@ results/salary_distribution_SchoolType.png results/salary_change_SchoolType.png 
 
 # ANOVA and tukey pairwise test
 results/anova_results : data/clean_data/clean_salary_by_region_type_join.csv anova_tukey_tests.R
-	Rscript anova_tukey_tests.R data/clean_data/clean_salary_by_region_type_join.csv results/anova_results
+	Rscript src/anova_tukey_tests.R data/clean_data/clean_salary_by_region_type_join.csv results/anova_results
 
 # other data analysis done for the final report
-results/increase_in_salary.csv : data/clean_data/clean_salary_by_region_type_join.csv Increase_in_salary.R
-	Rscript Increase_in_salary.R data/clean_data/clean_salary_by_region_type_join.csv results/increase_in_salary.csv
+results/increase_in_salary.csv : data/clean_data/clean_salary_by_region_type_join.csv src/Increase_in_salary.R
+	Rscript src/Increase_in_salary.R data/clean_data/clean_salary_by_region_type_join.csv results/increase_in_salary.csv
+
+# Linear regression test
+results/lm_tests : data/clean_data/clean_salary_by_region_type_join.csv src/Linear_Regression.R
+	Rscript src/Linear_Regression.R data/clean_data/clean_salary_by_region_type_join.csv results/lm_tests
+
+
+doc/Final_Report : doc/college_salary_report.Rmd
+	Rscript -e 'rmarkdown::render("doc/college_salary_report.Rmd")'
