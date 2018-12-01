@@ -66,15 +66,15 @@ Since we had only 1 data point for each school degree, we could not do any hypot
 In regards to salary variation by school region, our hypothesis from the EDA was that there is a difference in salary depending on which region the college was in. We performed a one-way ANOVA shown in Table 1 below.
 
 ```{r echo = FALSE, results = "show"}
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 df <- read_csv("results/anova_results/region_anova_results.csv")
 knitr::kable(df, digits = c(NA, 2, 15), col.names = c("Salary Type", "F Statistic", "p-value"))
 ```
 
-**Table 1** above shows there was a statistical difference in salary, all salary types examined, amongst the different regions, with a p-value < 0.05. Next we performed a Tukey's post-hoc test to see which region was responsible for the difference in salary. This is summarized in Table 2 below.
+**Table 1** above shows there was a statistical difference in salary, all salary types examined, amongst the different regions, with a p-value < 0.05. Next we performed a Tukey's post-hoc test to see which region was responsible for the difference in salary. Summary is presented in Table 2 below.
 
 ```{r echo = FALSE, results = "show"}
-df <- read_csv("results/anova_results/region_tukey_results.csv") %>% 
+df <- head(read_csv("results/anova_results/region_tukey_results.csv") )%>% 
   select(-term)
 
 knitr::kable(df, col.names = c("Salary Type", "Region Comparison", "adjusted p-value", "Interpretation"))
@@ -92,7 +92,7 @@ knitr::kable(df, digits = c(NA, 2, 30), col.names = c("Salary Type", "F Statisti
 **Table 3** above shows that there was a significant difference in salary amongst different types of schools as the p-value in all comparisons with different salary types was <0.05.
 
 ```{r echo = FALSE, results = "show"}
-df <- read_csv("results/anova_results/school_type_tukey_results.csv") %>% 
+df <- head(read_csv("results/anova_results/school_type_tukey_results.csv")) %>% 
   select(-term)
 
 knitr::kable(df, col.names = c("Salary Type", "Region Comparison", "adjusted p-value", "Interpretation"))
