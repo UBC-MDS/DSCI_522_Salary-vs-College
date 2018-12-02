@@ -129,7 +129,8 @@ the college was in. We performed a one-way ANOVA shown in Table 1 below.
 all salary types examined, amongst the different regions, with a p-value
 \< 0.05. Next we performed a Tukey’s post-hoc test to see which region
 was responsible for the difference in salary. Summary is presented in
-Table 2 below.
+Table 2 below. To shorthen the table, we just filter the conbination
+with significant difference.
 
     ## Parsed with column specification:
     ## cols(
@@ -140,14 +141,45 @@ Table 2 below.
     ##   flag = col_character()
     ## )
 
-| Salary Type              | Region Comparison       | adjusted p-value | Interpretation                    |
-| :----------------------- | :---------------------- | ---------------: | :-------------------------------- |
-| Starting\_Median\_Salary | Midwestern-California   |        0.0000408 | \*\*\*                            |
-| Starting\_Median\_Salary | Northeastern-California |        0.9634884 | Cannot Reject the NULL Hypothesis |
-| Starting\_Median\_Salary | Southern-California     |        0.0001661 | \*\*\*                            |
-| Starting\_Median\_Salary | Western-California      |        0.0005862 | \*\*\*                            |
-| Starting\_Median\_Salary | Northeastern-Midwestern |        0.0000018 | \*\*\*                            |
-| Starting\_Median\_Salary | Southern-Midwestern     |        0.9895888 | Cannot Reject the NULL Hypothesis |
+| Salary Type                           | Region Comparison       | adjusted p-value | Interpretation |
+| :------------------------------------ | :---------------------- | ---------------: | :------------- |
+| Starting\_Median\_Salary              | Midwestern-California   |        0.0000408 | \*\*\*         |
+| Starting\_Median\_Salary              | Southern-California     |        0.0001661 | \*\*\*         |
+| Starting\_Median\_Salary              | Western-California      |        0.0005862 | \*\*\*         |
+| Starting\_Median\_Salary              | Northeastern-Midwestern |        0.0000018 | \*\*\*         |
+| Starting\_Median\_Salary              | Southern-Northeastern   |        0.0000122 | \*\*\*         |
+| Starting\_Median\_Salary              | Western-Northeastern    |        0.0001904 | \*\*\*         |
+| Mid\_Career\_Median\_Salary           | Midwestern-California   |        0.0000250 | \*\*\*         |
+| Mid\_Career\_Median\_Salary           | Southern-California     |        0.0010309 | \*\*           |
+| Mid\_Career\_Median\_Salary           | Western-California      |        0.0002839 | \*\*\*         |
+| Mid\_Career\_Median\_Salary           | Northeastern-Midwestern |        0.0000000 | \*\*\*         |
+| Mid\_Career\_Median\_Salary           | Southern-Northeastern   |        0.0000000 | \*\*\*         |
+| Mid\_Career\_Median\_Salary           | Western-Northeastern    |        0.0000000 | \*\*\*         |
+| Mid\_Career\_10th\_Percentile\_Salary | Northeastern-Midwestern |        0.0000019 | \*\*\*         |
+| Mid\_Career\_10th\_Percentile\_Salary | Southern-Northeastern   |        0.0000046 | \*\*\*         |
+| Mid\_Career\_10th\_Percentile\_Salary | Western-Northeastern    |        0.0001972 | \*\*\*         |
+| Mid\_Career\_25th\_Percentile\_Salary | Midwestern-California   |        0.0004422 | \*\*\*         |
+| Mid\_Career\_25th\_Percentile\_Salary | Southern-California     |        0.0045416 | \*\*           |
+| Mid\_Career\_25th\_Percentile\_Salary | Western-California      |        0.0015425 | \*\*           |
+| Mid\_Career\_25th\_Percentile\_Salary | Northeastern-Midwestern |        0.0000009 | \*\*\*         |
+| Mid\_Career\_25th\_Percentile\_Salary | Southern-Northeastern   |        0.0000408 | \*\*\*         |
+| Mid\_Career\_25th\_Percentile\_Salary | Western-Northeastern    |        0.0000279 | \*\*\*         |
+| Mid\_Career\_50th\_Percentile\_Salary | Midwestern-California   |        0.0000250 | \*\*\*         |
+| Mid\_Career\_50th\_Percentile\_Salary | Southern-California     |        0.0010309 | \*\*           |
+| Mid\_Career\_50th\_Percentile\_Salary | Western-California      |        0.0002839 | \*\*\*         |
+| Mid\_Career\_50th\_Percentile\_Salary | Northeastern-Midwestern |        0.0000000 | \*\*\*         |
+| Mid\_Career\_50th\_Percentile\_Salary | Southern-Northeastern   |        0.0000000 | \*\*\*         |
+| Mid\_Career\_50th\_Percentile\_Salary | Western-Northeastern    |        0.0000000 | \*\*\*         |
+| Mid\_Career\_75th\_Percentile\_Salary | Midwestern-California   |        0.0016209 | \*\*           |
+| Mid\_Career\_75th\_Percentile\_Salary | Southern-California     |        0.0151179 | \*             |
+| Mid\_Career\_75th\_Percentile\_Salary | Western-California      |        0.0028741 | \*\*           |
+| Mid\_Career\_75th\_Percentile\_Salary | Northeastern-Midwestern |        0.0000000 | \*\*\*         |
+| Mid\_Career\_75th\_Percentile\_Salary | Southern-Northeastern   |        0.0000000 | \*\*\*         |
+| Mid\_Career\_75th\_Percentile\_Salary | Western-Northeastern    |        0.0000000 | \*\*\*         |
+| Mid\_Career\_90th\_Percentile\_Salary | Northeastern-California |        0.0027215 | \*\*           |
+| Mid\_Career\_90th\_Percentile\_Salary | Northeastern-Midwestern |        0.0000000 | \*\*\*         |
+| Mid\_Career\_90th\_Percentile\_Salary | Southern-Northeastern   |        0.0000000 | \*\*\*         |
+| Mid\_Career\_90th\_Percentile\_Salary | Western-Northeastern    |        0.0000000 | \*\*\*         |
 
 **Table 2** above shows that graduates of colleges in the Northeast and
 California had higher salaries than the other regions, however there was
@@ -189,14 +221,13 @@ comparisons with different salary types was \<0.05.
     ##   flag = col_character()
     ## )
 
-| Salary Type              | Region Comparison        | adjusted p-value | Interpretation                    |
-| :----------------------- | :----------------------- | ---------------: | :-------------------------------- |
-| Starting\_Median\_Salary | Ivy League-Engineering   |        0.9818323 | Cannot Reject the NULL Hypothesis |
-| Starting\_Median\_Salary | Liberal Arts-Engineering |        0.0000000 | \*\*\*                            |
-| Starting\_Median\_Salary | Party-Engineering        |        0.0000000 | \*\*\*                            |
-| Starting\_Median\_Salary | State-Engineering        |        0.0000000 | \*\*\*                            |
-| Starting\_Median\_Salary | Liberal Arts-Ivy League  |        0.0000000 | \*\*\*                            |
-| Starting\_Median\_Salary | Party-Ivy League         |        0.0000000 | \*\*\*                            |
+| Salary Type              | Region Comparison        | adjusted p-value | Interpretation |
+| :----------------------- | :----------------------- | ---------------: | :------------- |
+| Starting\_Median\_Salary | Liberal Arts-Engineering |                0 | \*\*\*         |
+| Starting\_Median\_Salary | Party-Engineering        |                0 | \*\*\*         |
+| Starting\_Median\_Salary | State-Engineering        |                0 | \*\*\*         |
+| Starting\_Median\_Salary | Liberal Arts-Ivy League  |                0 | \*\*\*         |
+| Starting\_Median\_Salary | Party-Ivy League         |                0 | \*\*\*         |
 
 The results of the Tukey post-hoc tests show that graduates from
 colleges in Ivy Leagues school and Engineering schools had higher
