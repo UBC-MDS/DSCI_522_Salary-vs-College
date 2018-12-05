@@ -1,4 +1,6 @@
 School_Name,Region,School_Type,Starting_Median_Salary,Mid_Career_Median_Salary,abs_increase,percent_increase
+Adelphi University,Northeastern,NA,40600,79200,38600,195.07389162561577
+"American University, Washington D.C.",Southern,NA,45300,90800,45500,200.44150110375276
 Amherst College,Northeastern,Liberal Arts,54500,107000,52500,196.3302752293578
 Appalachian State University,Southern,State,40400,69100,28700,171.03960396039605
 Arizona State University (ASU),Western,Party,47400,84100,36700,177.42616033755274
@@ -8,11 +10,16 @@ Auburn University,Southern,State,45400,84700,39300,186.56387665198238
 Austin Peay State University,Southern,State,37700,59200,21500,157.0291777188329
 Ball State University (BSU),Midwestern,State,39100,64500,25400,164.96163682864452
 Bates College,Northeastern,Liberal Arts,47300,96500,49200,204.01691331923888
+Baylor University,Southern,NA,48300,88600,40300,183.4368530020704
 Binghamton University,Northeastern,State,53600,95900,42300,178.9179104477612
 Black Hills State University,Midwestern,State,35300,43900,8600,124.36260623229462
 Boise State University (BSU),Western,State,40800,69500,28700,170.34313725490196
+Boston College,Northeastern,NA,52700,103000,50300,195.4459203036053
+Boston University,Northeastern,NA,49000,93900,44900,191.6326530612245
 Bowdoin College,Northeastern,Liberal Arts,48100,107000,58900,222.45322245322242
 Bowling Green State University,Midwestern,State,39800,72100,32300,181.15577889447238
+Bradley University,Midwestern,NA,47000,87300,40300,185.74468085106383
+Brigham Young University (BYU),Western,NA,49400,88600,39200,179.35222672064776
 Brown University,Northeastern,Ivy League,56200,109000,52800,193.95017793594306
 Bucknell University,Northeastern,Liberal Arts,54100,110000,55900,203.3271719038817
 Cal Poly San Luis Obispo,California,State,57200,101000,43800,176.5734265734266
@@ -27,6 +34,7 @@ California Institute of Technology (CIT),California,Engineering,75500,123000,475
 "California State University, Sacramento (CSUS)",California,State,47800,82400,34600,172.38493723849373
 Carleton College,Midwestern,Liberal Arts,47500,103000,55500,216.8421052631579
 Carnegie Mellon University (CMU),Northeastern,Engineering,61800,111000,49200,179.6116504854369
+Case Western Reserve University,Midwestern,NA,56200,96500,40300,171.7081850533808
 Clemson University,Southern,State,48400,86000,37600,177.68595041322314
 Cleveland State University,Midwestern,State,43500,73100,29600,168.04597701149427
 Colby College,Northeastern,Liberal Arts,46400,85800,39400,184.91379310344826
@@ -38,49 +46,77 @@ Colorado State University (CSU),Western,State,44800,79000,34200,176.339285714285
 Columbia University,Northeastern,Ivy League,59400,107000,47600,180.13468013468014
 Cooper Union,Northeastern,Engineering,62200,114000,51800,183.2797427652733
 Cornell University,Northeastern,Ivy League,60300,110000,49700,182.42122719734658
+Dallas Baptist University,Southern,NA,39400,60200,20800,152.79187817258884
 Dartmouth College,Northeastern,Ivy League,58000,134000,76000,231.0344827586207
+Davenport University,Midwestern,NA,39700,46600,6900,117.38035264483626
 Davidson College,Southern,Liberal Arts,46100,104000,57900,225.59652928416486
 Denison University,Midwestern,Liberal Arts,42000,83500,41500,198.80952380952382
+DePaul University,Midwestern,NA,46400,84800,38400,182.75862068965517
 DePauw University,Midwestern,Liberal Arts,41400,88200,46800,213.0434782608696
+Dowling College,Northeastern,NA,41100,82800,41700,201.45985401459856
+Drexel University,Northeastern,NA,53400,93500,40100,175.0936329588015
+Duke University,Southern,NA,58900,106000,47100,179.9660441426146
+Duquesne University,Northeastern,NA,40700,84400,43700,207.37100737100738
 East Carolina University (ECU),Southern,State,40200,67500,27300,167.91044776119404
 Eastern Michigan University,Midwestern,State,40300,72100,31800,178.90818858560792
 Eastern Washington University,Western,State,38600,70900,32300,183.67875647668396
+Emory University,Southern,NA,52000,91600,39600,176.15384615384616
 Evergreen State College,Western,Liberal Arts,39500,63900,24400,161.77215189873417
+Fairleigh Dickinson University,Northeastern,NA,45700,78700,33000,172.21006564551422
+Fashion Institute of Technology,Northeastern,NA,42800,81000,38200,189.25233644859813
 Fitchburg State College,Northeastern,State,42400,72600,30200,171.22641509433961
 Florida Atlantic University (FAU),Southern,State,42600,71100,28500,166.90140845070422
 Florida International University (FIU),Southern,State,43200,75500,32300,174.7685185185185
+Florida Metropolitan University (FMU),Southern,NA,36600,51000,14400,139.34426229508196
 Florida State University (FSU),Southern,Party,42100,73000,30900,173.39667458432305
 Florida State University (FSU),Southern,State,42100,73000,30900,173.39667458432305
+Fordham University,Northeastern,NA,47800,99900,52100,208.99581589958157
 Fort Lewis College,Western,Liberal Arts,42000,69800,27800,166.1904761904762
 Franklin and Marshall College,Northeastern,Liberal Arts,49100,92800,43700,189.0020366598778
 George Mason University,Southern,State,47800,86900,39100,181.79916317991632
+George Washington University (GWU),Southern,NA,47000,97900,50900,208.29787234042553
+Georgetown University,Southern,NA,55000,110000,55000,200
 Georgia Institute of Technology,Southern,Engineering,58300,106000,47700,181.8181818181818
 Georgia State University,Southern,State,41800,74000,32200,177.0334928229665
 Gettysburg College,Northeastern,Liberal Arts,44700,85800,41100,191.9463087248322
+Gonzaga University,Western,NA,44900,76000,31100,169.26503340757236
 Grinnell College,Midwestern,Liberal Arts,42600,76600,34000,179.81220657276995
 Gustavus Adolphus College,Midwestern,Liberal Arts,44500,80600,36100,181.12359550561797
 Hamilton College,Northeastern,Liberal Arts,49200,83700,34500,170.1219512195122
 Harvard University,Northeastern,Ivy League,63400,124000,60600,195.58359621451103
 Harvey Mudd College,California,Engineering,71800,122000,50200,169.91643454039
+Hofstra University,Northeastern,NA,46800,92700,45900,198.0769230769231
+Howard University,Southern,NA,46900,81800,34900,174.4136460554371
 Humboldt State University,California,State,42600,71300,28700,167.37089201877936
 Idaho State University,Western,State,44900,73400,28500,163.47438752783964
 Illinois Institute of Technology (IIT),Midwestern,Engineering,56000,97800,41800,174.64285714285714
 Illinois State University,Midwestern,State,42000,73400,31400,174.76190476190476
 "Indiana University (IU), Bloomington",Midwestern,Party,46300,84000,37700,181.42548596112312
 "Indiana University (IU), Bloomington",Midwestern,State,46300,84000,37700,181.42548596112312
+Indiana Wesleyan University (IWU),Midwestern,NA,39800,58500,18700,146.98492462311557
 Iowa State University,Midwestern,State,45400,84600,39200,186.34361233480178
+Ithaca College,Northeastern,NA,42700,87400,44700,204.68384074941451
+Jacksonville University,Southern,NA,46700,66200,19500,141.7558886509636
 Juniata College,Northeastern,Liberal Arts,41800,78900,37100,188.755980861244
 Kansas State University (KSU),Midwestern,State,43300,79000,35700,182.44803695150117
 Kent State University,Midwestern,State,38700,62600,23900,161.75710594315245
+La Salle University (Philadelphia),Northeastern,NA,43400,84700,41300,195.16129032258064
 Lafayette College,Northeastern,Liberal Arts,53900,107000,53100,198.51576994434137
 Lamar University,Southern,State,46500,79400,32900,170.752688172043
+"Lee University (Cleveland, TN)",Southern,NA,34500,53900,19400,156.231884057971
+Lehigh University,Northeastern,NA,59200,105000,45800,177.36486486486487
+LeTourneau University,Southern,NA,49500,73800,24300,149.0909090909091
 Lewis & Clark College,Western,Liberal Arts,38900,72600,33700,186.63239074550128
+Long Island University,Northeastern,NA,47300,93200,45900,197.0401691331924
 Louisiana State University (LSU),Southern,Party,46900,87800,40900,187.20682302771857
 Louisiana State University (LSU),Southern,State,46900,87800,40900,187.20682302771857
+Marquette University,Midwestern,NA,48500,88400,39900,182.2680412371134
 Massachusetts Institute of Technology (MIT),Northeastern,Engineering,72200,126000,53800,174.5152354570637
+Mercy College,Northeastern,NA,43700,62600,18900,143.24942791762015
 Michigan State University (MSU),Midwestern,State,46300,85300,39000,184.23326133909288
 Middlebury College,Northeastern,Liberal Arts,47700,94200,46500,197.48427672955975
 Minnesota State University - Mankato,Midwestern,State,43300,74700,31400,172.51732101616628
+Mississippi College,Southern,NA,35400,60400,25000,170.6214689265537
 Mississippi State University (MSU),Southern,State,44500,79300,34800,178.20224719101122
 Missouri State University (MSU),Midwestern,State,36100,69500,33400,192.5207756232687
 Montana State University - Billings,Western,State,37900,50600,12700,133.50923482849603
@@ -90,34 +126,54 @@ Morehead State University,Southern,State,34800,60600,25800,174.13793103448276
 Mount Holyoke College,Northeastern,Liberal Arts,42400,94200,51800,222.16981132075472
 New Mexico Institute of Mining and Technology (New Mexico Tech),Western,Engineering,51000,93400,42400,183.13725490196077
 New Mexico State University,Western,State,44300,79500,35200,179.45823927765235
+New York University (NYU),Northeastern,NA,50300,95600,45300,190.0596421471173
+Niagara University,Northeastern,NA,36900,69700,32800,188.88888888888889
 North Carolina State University (NCSU),Southern,State,47200,83300,36100,176.48305084745763
 North Dakota State University (NDSU),Midwestern,State,45100,77800,32700,172.50554323725055
+Northeastern University,Northeastern,NA,50500,86400,35900,171.0891089108911
 Northern Illinois University (NIU),Midwestern,State,43600,80800,37200,185.32110091743118
+Northwestern University,Midwestern,NA,52700,95900,43200,181.97343453510436
 Oberlin College,Midwestern,Liberal Arts,43400,81600,38200,188.0184331797235
 Occidental College,California,Liberal Arts,51900,105000,53100,202.31213872832373
 Ohio State University (OSU),Midwestern,State,44900,83700,38800,186.4142538975501
 Ohio University,Midwestern,Party,42200,73400,31200,173.93364928909955
 Ohio University,Midwestern,State,42200,73400,31200,173.93364928909955
+Oklahoma City University,Southern,NA,40000,64300,24300,160.75
 Oklahoma State University,Southern,State,42800,80700,37900,188.5514018691589
 Oregon State University (OSU),Western,State,45100,83300,38200,184.70066518847005
+Pace University,Northeastern,NA,53200,89700,36500,168.60902255639098
+Park University,Midwestern,NA,44300,64300,20000,145.14672686230247
 Penn State - Harrisburg,Northeastern,State,45700,74000,28300,161.92560175054703
 Pennsylvania State University (PSU),Northeastern,Party,49900,85700,35800,171.7434869739479
 Pennsylvania State University (PSU),Northeastern,State,49900,85700,35800,171.7434869739479
+Philadelphia University,Northeastern,NA,45100,80300,35200,178.0487804878049
 Pittsburg State University,Midwestern,State,40400,58200,17800,144.05940594059405
 "Polytechnic University of New York, Brooklyn",Northeastern,Engineering,62400,114000,51600,182.69230769230768
 Pomona College,California,Liberal Arts,48600,101000,52400,207.81893004115227
 Portland State University (PSU),Western,State,42600,70900,28300,166.4319248826291
+Pratt Institute,Northeastern,NA,43800,89900,46100,205.25114155251143
 Princeton University,Northeastern,Ivy League,66500,131000,64500,196.99248120300751
+Providence College,Northeastern,NA,48000,88600,40600,184.58333333333334
 Purdue University,Midwestern,State,51400,90500,39100,176.07003891050584
+Quinnipiac University,Northeastern,NA,43000,76500,33500,177.90697674418604
 Randolph-Macon College,Southern,Liberal Arts,42600,83600,41000,196.24413145539904
 Randolph-Macon College,Southern,Party,42600,83600,41000,196.24413145539904
 Reed College,Western,Liberal Arts,40500,81100,40600,200.24691358024694
+Regis University,Western,NA,48300,73800,25500,152.7950310559006
 Rensselaer Polytechnic Institute (RPI),Northeastern,Engineering,61100,110000,48900,180.0327332242226
+Rice University,Southern,NA,64000,110000,46000,171.875
+Rider University,Northeastern,NA,43600,88900,45300,203.89908256880736
+Robert Morris College (RMC),Midwestern,NA,38500,68200,29700,177.14285714285714
 Rochester Institute of Technology (RIT),Northeastern,Engineering,48900,84600,35700,173.00613496932516
+Roger Williams University,Northeastern,NA,42000,72300,30300,172.14285714285717
 Rutgers University,Northeastern,State,50300,91800,41500,182.50497017892644
+Sacred Heart University,Northeastern,NA,46000,75300,29300,163.69565217391303
+Saint Leo University,Southern,NA,40900,57800,16900,141.320293398533
 San Diego State University (SDSU),California,State,46200,85200,39000,184.41558441558442
 San Francisco State University (SFSU),California,State,47300,86400,39100,182.66384778012684
 San Jose State University (SJSU),California,State,53500,95600,42100,178.69158878504675
+Seattle University,Western,NA,48300,82800,34500,171.42857142857142
+Seton Hall University,Northeastern,NA,48900,89200,40300,182.41308793456034
 Siena College,Northeastern,Liberal Arts,45500,85200,39700,187.25274725274724
 Skidmore College,Northeastern,Liberal Arts,41600,74600,33000,179.3269230769231
 Smith College,Northeastern,Liberal Arts,44000,83900,39900,190.6818181818182
@@ -126,7 +182,9 @@ South Dakota State University (SDSU),Midwestern,State,41100,73500,32400,178.8321
 Southern Illinois University Carbondale,Midwestern,State,43000,72500,29500,168.6046511627907
 Southern Utah University,Western,State,41900,56500,14600,134.84486873508354
 St. Cloud State University,Midwestern,State,41800,71400,29600,170.8133971291866
+"St. John's University, New York",Northeastern,NA,48000,93400,45400,194.58333333333334
 St. Olaf College,Midwestern,Liberal Arts,45300,86200,40900,190.28697571743928
+Stanford University,California,NA,70400,129000,58600,183.23863636363635
 State University of New York (SUNY) at Albany,Northeastern,Party,44500,92200,47700,207.19101123595505
 State University of New York (SUNY) at Albany,Northeastern,State,44500,92200,47700,207.19101123595505
 State University of New York (SUNY) at Buffalo,Northeastern,State,46200,81700,35500,176.83982683982686
@@ -139,11 +197,16 @@ State University of New York (SUNY) at Plattsburgh,Northeastern,State,40800,7620
 State University of New York (SUNY) at Potsdam,Northeastern,State,38000,70300,32300,185
 Stevens Institute of Technology,Northeastern,Engineering,60600,105000,44400,173.26732673267327
 Stony Brook University,Northeastern,State,49500,93000,43500,187.87878787878788
+Suffolk University,Northeastern,NA,42100,74000,31900,175.77197149643706
 Swarthmore College,Northeastern,Liberal Arts,49700,104000,54300,209.25553319919516
+Syracuse University,Northeastern,NA,45700,85900,40200,187.96498905908098
 Tarleton State University (TSU),Southern,State,40800,62400,21600,152.94117647058823
 Tennessee Technological University,Southern,Engineering,46200,80000,33800,173.16017316017314
 Texas A&M University,Southern,State,49700,96100,46400,193.36016096579476
+Texas Christian University (TCU),Southern,NA,45100,78100,33000,173.17073170731706
 Thomas Aquinas College,California,Liberal Arts,41500,67500,26000,162.65060240963857
+Tulane University,Southern,NA,49100,95800,46700,195.112016293279
+Tusculum College,Southern,NA,36900,55500,18600,150.40650406504065
 Union College,Northeastern,Liberal Arts,47200,95800,48600,202.96610169491527
 University of Akron,Midwestern,State,41100,70300,29200,171.0462287104623
 University of Alabama at Birmingham (UAB),Southern,State,39200,70100,30900,178.82653061224488
@@ -164,6 +227,7 @@ University of California at Los Angeles (UCLA),California,State,52600,101000,484
 "University of California, Santa Barbara (UCSB)",California,State,50500,95000,44500,188.1188118811881
 "University of California, Santa Cruz (UCSC)",California,State,44700,84100,39400,188.14317673378076
 University of Central Florida (UCF),Southern,State,42600,71700,29100,168.30985915492957
+University Of Chicago,Midwestern,NA,53400,113000,59600,211.61048689138576
 University of Colorado - Boulder (UCB),Western,State,47100,97600,50500,207.21868365180467
 University of Colorado - Denver,Western,State,46100,84400,38300,183.08026030368762
 University of Connecticut (UConn),Northeastern,State,48000,88800,40800,185
@@ -207,11 +271,13 @@ University of Nebraska at Omaha,Midwestern,State,41500,72600,31100,174.939759036
 "University of Nevada, Reno (UNR)",Western,State,46500,82900,36400,178.27956989247312
 University of New Hampshire (UNH),Northeastern,Party,41800,78300,36500,187.3205741626794
 University of New Hampshire (UNH),Northeastern,State,41800,78300,36500,187.3205741626794
+University of New Haven,Northeastern,NA,44400,82900,38500,186.7117117117117
 University of New Mexico (UNM),Western,State,41600,81600,40000,196.15384615384613
 University of North Carolina at Chapel Hill (UNCH),Southern,State,42900,81500,38600,189.97668997668998
 University of North Carolina at Charlotte (UNCC),Southern,State,43100,74000,30900,171.6937354988399
 University of North Carolina at Wilmington (UNCW),Southern,State,37500,64400,26900,171.73333333333335
 University of North Dakota,Midwestern,State,44000,80600,36600,183.1818181818182
+University of Notre Dame,Midwestern,NA,56300,116000,59700,206.0390763765542
 University of Oklahoma,Southern,State,44700,82900,38200,185.4586129753915
 University of Oregon,Western,State,42200,78400,36200,185.78199052132703
 University of Pennsylvania,Northeastern,Ivy League,60900,120000,59100,197.04433497536945
@@ -220,6 +286,7 @@ University of Rhode Island (URI),Northeastern,State,43900,85300,41400,194.305239
 University of Richmond,Southern,Liberal Arts,48600,94600,46000,194.65020576131687
 University of South Carolina,Southern,State,40000,71700,31700,179.25
 University of South Florida (USF),Southern,State,41100,71100,30000,172.992700729927
+University of Southern California (USC),California,NA,54800,99600,44800,181.75182481751824
 University of Southern Maine,Northeastern,State,39400,63600,24200,161.42131979695432
 University of Tennessee,Southern,Party,43800,74600,30800,170.31963470319636
 University of Tennessee,Southern,State,43800,74600,30800,170.31963470319636
@@ -229,6 +296,7 @@ University of Texas at Arlington (UTA),Southern,State,45400,80800,35400,177.9735
 University of Texas at El Paso (UTEP),Southern,State,43400,72100,28700,166.1290322580645
 University of Texas at San Antonio (UTSA),Southern,State,42500,70700,28200,166.35294117647058
 University of Toledo,Midwestern,State,43100,75900,32800,176.10208816705338
+University of Tulsa,Southern,NA,42400,88700,46300,209.19811320754715
 University of Utah,Western,State,45400,83200,37800,183.25991189427313
 University of Vermont (UVM),Northeastern,State,44800,82700,37900,184.59821428571428
 University of Virginia (UVA),Southern,State,52700,103000,50300,195.4459203036053
@@ -248,9 +316,12 @@ University of Wyoming (UW),Western,State,44500,78700,34200,176.85393258426967
 Ursinus College,Northeastern,Liberal Arts,42100,80000,37900,190.02375296912112
 Utah State University,Western,State,43800,78700,34900,179.68036529680364
 Utah Valley State College,Western,State,42400,67100,24700,158.25471698113208
+Vanderbilt University,Southern,NA,51200,104000,52800,203.125
 Vassar College,Northeastern,Liberal Arts,46000,94600,48600,205.65217391304347
+Villanova University,Northeastern,NA,55800,101000,45200,181.0035842293907
 Virginia Commonwealth University (VCU),Southern,State,42000,68400,26400,162.85714285714286
 Virginia Polytechnic Institute and State University (Virginia Tech),Southern,Engineering,53500,95400,41900,178.3177570093458
+Virginia Wesleyan College (VWC),Southern,NA,34600,54900,20300,158.67052023121386
 Washington and Lee University,Southern,Liberal Arts,53600,104000,50400,194.02985074626866
 Washington State University (WSU),Western,State,45300,84700,39400,186.9757174392936
 Wayne State University,Midwestern,State,42800,76100,33300,177.803738317757
@@ -263,6 +334,7 @@ Western Carolina University,Southern,State,36900,66600,29700,180.4878048780488
 Western Michigan University (WMU),Midwestern,State,42300,73800,31500,174.468085106383
 Western Washington University,Western,State,42700,75400,32700,176.5807962529274
 Whitman College,Western,Liberal Arts,43500,80100,36600,184.13793103448276
+Widener University,Northeastern,NA,52900,83400,30500,157.65595463137996
 Williams College,Northeastern,Liberal Arts,51700,102000,50300,197.29206963249516
 Wittenberg University,Midwestern,Liberal Arts,39200,78200,39000,199.48979591836735
 Worcester Polytechnic Institute (WPI),Northeastern,Engineering,61000,114000,53000,186.88524590163937

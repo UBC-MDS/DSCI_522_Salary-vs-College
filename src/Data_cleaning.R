@@ -75,7 +75,8 @@ main <- function(){
   raw_data <- read_csv(input_file_path)
 
   # Clean dataset using the function `char_to_num`
-  clean_data <- char_to_num(raw_data)
+  clean_data <- char_to_num(raw_data) %>%
+    mutate_if(is.numeric, as.integer)
 
   # Write the clean data file
   write.csv(clean_data, file = output_file_path, row.names = FALSE)
