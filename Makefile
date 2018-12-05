@@ -1,5 +1,5 @@
 # Create cleaned data file
-all: results/anova_results results/increase_in_salary.csv results/degree_vs_salary_by_start.png results/degree_vs_salary_by_mid.png results/degree_vs_mid_salary_range.png results/salary_distribution_SchoolType.png results/salary_change_SchoolType.png results/salary_distribution_Region.png results/salary_change_Region.png doc/Final_Report
+all: results/degree_vs_salary_by_start.png results/degree_vs_salary_by_mid.png results/degree_vs_mid_salary_range.png results/salary_distribution_SchoolType.png results/salary_change_SchoolType.png results/salary_distribution_Region.png results/salary_change_Region.png results/anova_results results/increase_in_salary.csv doc/Final_Report
 
 data/clean_data/clean_salary_by_degree.csv : data/raw_data/degrees-that-pay-back.csv src/Data_cleaning.R
 	Rscript src/Data_cleaning.R data/raw_data/degrees-that-pay-back.csv data/clean_data/clean_salary_by_degree.csv
@@ -41,3 +41,9 @@ results/increase_in_salary.csv : data/clean_data/clean_salary_by_region_type_joi
 
 doc/Final_Report : doc/college_salary_report.Rmd
 	Rscript -e "rmarkdown::render('doc/college_salary_report.Rmd')"
+
+clean :
+	rm -f data/clean_data/*.csv
+	rm -f results/*.png
+	rm -f results/anova_results/*
+	rm -f doc/college_salary_report.md
