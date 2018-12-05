@@ -13,7 +13,7 @@
 # added on top of all the ANOVA tests. 
 
 # Usage: 
-# Rscript anova_tukey_tests.R ../data/clean_data/clean_salary_by_region_type_join.csv ../results/anova_results
+# Rscript src/anova_tukey_tests.R ../data/clean_data/clean_salary_by_region_type_join.csv ../results/anova_results
 # ../data/clean_data/clean_salary_by_region_type_join.csv is the file path for the input .csv file, which contains the joined table for region and school type with salary
 # ../results/anova_results is the folder name for all the output files
 
@@ -31,35 +31,35 @@ output_file_path <- args[2]
 main <- function(){
   df <- read_csv(input_file_path)
   all_categories <-  unique(df$Salary_Type)
-
+  
   df <- df %>% distinct()
-
+  
   region_aovs <- vector("list", length(all_categories))
   school_type_aovs <- vector("list", length(all_categories))
   
   for (index in seq(1:length(all_categories))){
-  #print(all_categories[index])
+    #print(all_categories[index])
     salary_type_df <- df %>%
       filter(Salary_Type == all_categories[index])
     names(region_aovs)[index] <- all_categories[index]
     region_aovs[[index]] <- aov(Salary~Region, data = salary_type_df)
     names(school_type_aovs)[index] <- all_categories[index]
-   school_type_aovs[[index]] <- aov(Salary~School_Type, data = salary_type_df)
+    school_type_aovs[[index]] <- aov(Salary~School_Type, data = salary_type_df)
   }
-
-    region_tukeys <- lapply(region_aovs, stats::TukeyHSD)
-    school_type_tukeys <- lapply(school_type_aovs, stats::TukeyHSD)
-    
-    for (index in seq(1:length(all_categories))){
-      names(region_tukeys)[index] <- all_categories[index]
-      names(school_type_tukeys)[index] <- all_categories[index]
-    }
   
-    region_aovs <- lapply(region_aovs, broom::tidy)
-    school_type_aovs <- lapply(school_type_aovs, broom::tidy)
-    school_type_tukeys <- lapply(school_type_tukeys, broom::tidy)
-    region_tukeys <- lapply(region_tukeys, broom::tidy)
-
+  region_tukeys <- lapply(region_aovs, stats::TukeyHSD)
+  school_type_tukeys <- lapply(school_type_aovs, stats::TukeyHSD)
+  
+  for (index in seq(1:length(all_categories))){
+    names(region_tukeys)[index] <- all_categories[index]
+    names(school_type_tukeys)[index] <- all_categories[index]
+  }
+  
+  region_aovs <- lapply(region_aovs, broom::tidy)
+  school_type_aovs <- lapply(school_type_aovs, broom::tidy)
+  school_type_tukeys <- lapply(school_type_tukeys, broom::tidy)
+  region_tukeys <- lapply(region_tukeys, broom::tidy)
+  
   for (index in seq(1:length(region_aovs))){
     write_csv(region_aovs[[index]], path=paste0(output_file_path, "/", names(region_aovs[index]), "_region_anova.csv"), col_names = TRUE)
     write_csv(school_type_aovs[[index]], path=paste0(output_file_path, "/", names(region_aovs[index]), "_type_anova.csv"), col_names = TRUE)
@@ -83,7 +83,7 @@ main <- function(){
     school_type_results[index, 2] <- school_type_aovs[[index]]["statistic"][[1]][1]
     school_type_results[index, 3] <- school_type_aovs[[index]]["p.value"][[1]][1]
   }
-
+  
   region_tukey_results <- bind_rows(region_tukeys)
   
   salary_column <- as_tibble(matrix(ncol=1, nrow=70))
@@ -133,7 +133,7 @@ main <- function(){
   write_csv(school_type_results, path=paste0(output_file_path, "/school_type_anova_results.csv"), col_names = TRUE)
   write_csv(region_tukey_results, path=paste0(output_file_path, "/region_tukey_results.csv"), col_names = TRUE)
   write_csv(school_type_tukey_results, path=paste0(output_file_path, "/school_type_tukey_results.csv"), col_names = TRUE)
-
+  
 }
 
 main()
