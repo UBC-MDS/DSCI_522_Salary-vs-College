@@ -893,7 +893,7 @@
 "Thomas Aquinas College","Liberal Arts","Mid_Career_25th_Percentile_Salary",44600
 "Evergreen State College","Liberal Arts","Mid_Career_25th_Percentile_Salary",47200
 "Dartmouth College","Ivy League","Mid_Career_25th_Percentile_Salary",90200
-"Princeton University","Ivy League","Mid_Career_25th_Percentile_Salary",1e+05
+"Princeton University","Ivy League","Mid_Career_25th_Percentile_Salary",100000
 "Yale University","Ivy League","Mid_Career_25th_Percentile_Salary",80600
 "Harvard University","Ivy League","Mid_Career_25th_Percentile_Salary",86200
 "University of Pennsylvania","Ivy League","Mid_Career_25th_Percentile_Salary",79200
@@ -1420,7 +1420,7 @@
 "Reed College","Liberal Arts","Mid_Career_75th_Percentile_Salary",101000
 "Gustavus Adolphus College","Liberal Arts","Mid_Career_75th_Percentile_Salary",101000
 "Whitman College","Liberal Arts","Mid_Career_75th_Percentile_Salary",111000
-"Ursinus College","Liberal Arts","Mid_Career_75th_Percentile_Salary",1e+05
+"Ursinus College","Liberal Arts","Mid_Career_75th_Percentile_Salary",100000
 "Juniata College","Liberal Arts","Mid_Career_75th_Percentile_Salary",110000
 "Wittenberg University","Liberal Arts","Mid_Career_75th_Percentile_Salary",131000
 "Grinnell College","Liberal Arts","Mid_Career_75th_Percentile_Salary",116000
@@ -1525,14 +1525,14 @@
 "Kansas State University (KSU)","State","Mid_Career_75th_Percentile_Salary",106000
 "University of Wyoming (UW)","State","Mid_Career_75th_Percentile_Salary",105000
 "Utah State University","State","Mid_Career_75th_Percentile_Salary",101000
-"University of Wisconsin (UW) - Platteville","State","Mid_Career_75th_Percentile_Salary",1e+05
+"University of Wisconsin (UW) - Platteville","State","Mid_Career_75th_Percentile_Salary",100000
 "University of Oregon","State","Mid_Career_75th_Percentile_Salary",117000
 "University of Kentucky (UK)","State","Mid_Career_75th_Percentile_Salary",107000
 "University of New Hampshire (UNH)","State","Mid_Career_75th_Percentile_Salary",114000
 "University of Massachusetts (UMass) - Boston","State","Mid_Career_75th_Percentile_Salary",109000
 "West Virginia University (WVU)","State","Mid_Career_75th_Percentile_Salary",106000
 "University of Maryland Baltimore County (UMBC)","State","Mid_Career_75th_Percentile_Salary",105000
-"North Dakota State University (NDSU)","State","Mid_Career_75th_Percentile_Salary",1e+05
+"North Dakota State University (NDSU)","State","Mid_Career_75th_Percentile_Salary",100000
 "State University of New York (SUNY) at Oswego","State","Mid_Career_75th_Percentile_Salary",115000
 "University of Massachusetts (UMass) - Dartmouth","State","Mid_Career_75th_Percentile_Salary",107000
 "Montana State University - Bozeman","State","Mid_Career_75th_Percentile_Salary",111000
@@ -1541,7 +1541,7 @@
 "State University of New York (SUNY) at Plattsburgh","State","Mid_Career_75th_Percentile_Salary",105000
 "Wayne State University","State","Mid_Career_75th_Percentile_Salary",101000
 "University of Hawaii","State","Mid_Career_75th_Percentile_Salary",104000
-"University of Toledo","State","Mid_Career_75th_Percentile_Salary",1e+05
+"University of Toledo","State","Mid_Career_75th_Percentile_Salary",100000
 "Florida International University (FIU)","State","Mid_Career_75th_Percentile_Salary",98200
 "University of Wisconsin (UW) - Whitewater","State","Mid_Career_75th_Percentile_Salary",99300
 "Western Washington University","State","Mid_Career_75th_Percentile_Salary",99200
@@ -1571,7 +1571,7 @@
 "University of Montana","State","Mid_Career_75th_Percentile_Salary",96400
 "University of Central Florida (UCF)","State","Mid_Career_75th_Percentile_Salary",98400
 "University of South Carolina","State","Mid_Career_75th_Percentile_Salary",98400
-"University of Nevada, Las Vegas (UNLV)","State","Mid_Career_75th_Percentile_Salary",1e+05
+"University of Nevada, Las Vegas (UNLV)","State","Mid_Career_75th_Percentile_Salary",100000
 "St. Cloud State University","State","Mid_Career_75th_Percentile_Salary",101000
 "University of Wisconsin (UW) - Parkside","State","Mid_Career_75th_Percentile_Salary",84900
 "California State University (CSU), Stanislaus","State","Mid_Career_75th_Percentile_Salary",94100
@@ -1582,14 +1582,14 @@
 "Eastern Washington University","State","Mid_Career_75th_Percentile_Salary",93100
 "University of Texas at San Antonio (UTSA)","State","Mid_Career_75th_Percentile_Salary",92700
 "University of Akron","State","Mid_Career_75th_Percentile_Salary",95200
-"State University of New York (SUNY) at Potsdam","State","Mid_Career_75th_Percentile_Salary",1e+05
+"State University of New York (SUNY) at Potsdam","State","Mid_Career_75th_Percentile_Salary",100000
 "University of Alabama at Birmingham (UAB)","State","Mid_Career_75th_Percentile_Salary",91400
 "University of Memphis (U of M)","State","Mid_Career_75th_Percentile_Salary",93500
 "Boise State University (BSU)","State","Mid_Career_75th_Percentile_Salary",87500
 "Missouri State University (MSU)","State","Mid_Career_75th_Percentile_Salary",102000
 "University of Wisconsin (UW) - La Crosse","State","Mid_Career_75th_Percentile_Salary",93100
 "Appalachian State University","State","Mid_Career_75th_Percentile_Salary",90800
-"Virginia Commonwealth University (VCU)","State","Mid_Career_75th_Percentile_Salary",1e+05
+"Virginia Commonwealth University (VCU)","State","Mid_Career_75th_Percentile_Salary",100000
 "University of Wisconsin (UW) - Stout","State","Mid_Career_75th_Percentile_Salary",91600
 "East Carolina University (ECU)","State","Mid_Career_75th_Percentile_Salary",98700
 "Utah Valley State College","State","Mid_Career_75th_Percentile_Salary",84900

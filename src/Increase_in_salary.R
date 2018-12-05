@@ -42,7 +42,7 @@ main <- function(){
   
   increase_in
   
-  write_csv(increase_in, path=paste0(output_file_path, "/increase_in_salary.csv"), col_names=TRUE)
+  write_csv(increase_in, path=paste0(output_file_path), col_names=TRUE)
   
   #increase_in_tidy <- gather(increase_in, Mid_Career_10th_Percentile_Salary, Mid_Career_25th_Percentile_Salary, Mid_Career_50th_Percentile_Salary, 
   #         Mid_Career_75th_Percentile_Salary, Mid_Career_90th_Percentile_Salary, Mid_Career_Median_Salary, Starting_Median_Salary, 

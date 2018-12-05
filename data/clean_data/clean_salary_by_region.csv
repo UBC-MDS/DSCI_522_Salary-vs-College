@@ -1180,7 +1180,7 @@
 "Lee University (Cleveland, TN)","Southern","Mid_Career_25th_Percentile_Salary",44500
 "Florida Metropolitan University (FMU)","Southern","Mid_Career_25th_Percentile_Salary",36800
 "Dartmouth College","Northeastern","Mid_Career_25th_Percentile_Salary",90200
-"Princeton University","Northeastern","Mid_Career_25th_Percentile_Salary",1e+05
+"Princeton University","Northeastern","Mid_Career_25th_Percentile_Salary",100000
 "Massachusetts Institute of Technology (MIT)","Northeastern","Mid_Career_25th_Percentile_Salary",99200
 "Yale University","Northeastern","Mid_Career_25th_Percentile_Salary",80600
 "Harvard University","Northeastern","Mid_Career_25th_Percentile_Salary",86200
@@ -1660,7 +1660,7 @@
 "University of Alaska, Anchorage","Western","Mid_Career_75th_Percentile_Salary",99300
 "Lewis & Clark College","Western","Mid_Career_75th_Percentile_Salary",104000
 "University of Montana","Western","Mid_Career_75th_Percentile_Salary",96400
-"University of Nevada, Las Vegas (UNLV)","Western","Mid_Career_75th_Percentile_Salary",1e+05
+"University of Nevada, Las Vegas (UNLV)","Western","Mid_Career_75th_Percentile_Salary",100000
 "Portland State University (PSU)","Western","Mid_Career_75th_Percentile_Salary",94400
 "Eastern Washington University","Western","Mid_Career_75th_Percentile_Salary",93100
 "Fort Lewis College","Western","Mid_Career_75th_Percentile_Salary",94000
@@ -1702,12 +1702,12 @@
 "Gustavus Adolphus College","Midwestern","Mid_Career_75th_Percentile_Salary",101000
 "University of North Dakota","Midwestern","Mid_Career_75th_Percentile_Salary",111000
 "Kansas State University (KSU)","Midwestern","Mid_Career_75th_Percentile_Salary",106000
-"University of Wisconsin (UW) - Platteville","Midwestern","Mid_Career_75th_Percentile_Salary",1e+05
+"University of Wisconsin (UW) - Platteville","Midwestern","Mid_Career_75th_Percentile_Salary",100000
 "Wittenberg University","Midwestern","Mid_Career_75th_Percentile_Salary",131000
-"North Dakota State University (NDSU)","Midwestern","Mid_Career_75th_Percentile_Salary",1e+05
+"North Dakota State University (NDSU)","Midwestern","Mid_Career_75th_Percentile_Salary",100000
 "Grinnell College","Midwestern","Mid_Career_75th_Percentile_Salary",116000
 "Wayne State University","Midwestern","Mid_Career_75th_Percentile_Salary",101000
-"University of Toledo","Midwestern","Mid_Career_75th_Percentile_Salary",1e+05
+"University of Toledo","Midwestern","Mid_Career_75th_Percentile_Salary",100000
 "University of Wisconsin (UW) - Whitewater","Midwestern","Mid_Career_75th_Percentile_Salary",99300
 "Minnesota State University - Mankato","Midwestern","Mid_Career_75th_Percentile_Salary",95700
 "University of Wisconsin (UW) - Milwaukee","Midwestern","Mid_Career_75th_Percentile_Salary",93700
@@ -1802,7 +1802,7 @@
 "University of Alabama at Birmingham (UAB)","Southern","Mid_Career_75th_Percentile_Salary",91400
 "University of Memphis (U of M)","Southern","Mid_Career_75th_Percentile_Salary",93500
 "Appalachian State University","Southern","Mid_Career_75th_Percentile_Salary",90800
-"Virginia Commonwealth University (VCU)","Southern","Mid_Career_75th_Percentile_Salary",1e+05
+"Virginia Commonwealth University (VCU)","Southern","Mid_Career_75th_Percentile_Salary",100000
 "East Carolina University (ECU)","Southern","Mid_Career_75th_Percentile_Salary",98700
 "Western Carolina University","Southern","Mid_Career_75th_Percentile_Salary",94400
 "Jacksonville University","Southern","Mid_Career_75th_Percentile_Salary",88500
@@ -1895,7 +1895,7 @@
 "State University of New York (SUNY) at Geneseo","Northeastern","Mid_Career_75th_Percentile_Salary",117000
 "Fashion Institute of Technology","Northeastern","Mid_Career_75th_Percentile_Salary",106000
 "Philadelphia University","Northeastern","Mid_Career_75th_Percentile_Salary",108000
-"Ursinus College","Northeastern","Mid_Career_75th_Percentile_Salary",1e+05
+"Ursinus College","Northeastern","Mid_Career_75th_Percentile_Salary",100000
 "Adelphi University","Northeastern","Mid_Career_75th_Percentile_Salary",114000
 "Juniata College","Northeastern","Mid_Career_75th_Percentile_Salary",110000
 "Fairleigh Dickinson University","Northeastern","Mid_Career_75th_Percentile_Salary",112000
@@ -1914,7 +1914,7 @@
 "Fitchburg State College","Northeastern","Mid_Career_75th_Percentile_Salary",99600
 "Roger Williams University","Northeastern","Mid_Career_75th_Percentile_Salary",102000
 "University Of Maine","Northeastern","Mid_Career_75th_Percentile_Salary",99300
-"State University of New York (SUNY) at Potsdam","Northeastern","Mid_Career_75th_Percentile_Salary",1e+05
+"State University of New York (SUNY) at Potsdam","Northeastern","Mid_Career_75th_Percentile_Salary",100000
 "Niagara University","Northeastern","Mid_Career_75th_Percentile_Salary",92000
 "State University of New York (SUNY) at Fredonia","Northeastern","Mid_Career_75th_Percentile_Salary",93300
 "University of Southern Maine","Northeastern","Mid_Career_75th_Percentile_Salary",85700
@@ -2078,7 +2078,7 @@
 "Emory University","Southern","Mid_Career_90th_Percentile_Salary",192000
 "American University, Washington D.C.","Southern","Mid_Career_90th_Percentile_Salary",169000
 "University of Tulsa","Southern","Mid_Career_90th_Percentile_Salary",197000
-"Baylor University","Southern","Mid_Career_90th_Percentile_Salary",2e+05
+"Baylor University","Southern","Mid_Career_90th_Percentile_Salary",200000
 "University of Florida (UF)","Southern","Mid_Career_90th_Percentile_Salary",172000
 "Louisiana State University (LSU)","Southern","Mid_Career_90th_Percentile_Salary",165000
 "George Mason University","Southern","Mid_Career_90th_Percentile_Salary",150000
