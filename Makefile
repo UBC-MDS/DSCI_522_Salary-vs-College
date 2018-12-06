@@ -6,12 +6,15 @@
 
 all: results/degree_vs_salary_by_start.png results/degree_vs_salary_by_mid.png results/degree_vs_mid_salary_range.png results/salary_distribution_SchoolType.png results/salary_change_SchoolType.png results/salary_distribution_Region.png results/salary_change_Region.png results/anova_results results/increase_in_salary.csv doc/Final_Report
 
+# create clean data of salary by college degree
 data/clean_data/clean_salary_by_degree.csv : data/raw_data/degrees-that-pay-back.csv src/Data_cleaning.R
 	Rscript src/Data_cleaning.R data/raw_data/degrees-that-pay-back.csv data/clean_data/clean_salary_by_degree.csv
 
+# create clean data of salary by college type
 data/clean_data/clean_salary_by_type.csv : data/raw_data/salaries-by-college-type.csv src/Data_cleaning.R
 	Rscript src/Data_cleaning.R data/raw_data/salaries-by-college-type.csv data/clean_data/clean_salary_by_type.csv
 
+# create clean data of salary by region
 data/clean_data/clean_salary_by_region.csv : data/raw_data/salaries-by-region.csv src/Data_cleaning.R
 	Rscript src/Data_cleaning.R data/raw_data/salaries-by-region.csv data/clean_data/clean_salary_by_region.csv
 
@@ -39,11 +42,7 @@ results/anova_results : data/clean_data/clean_salary_by_region_type_join.csv src
 results/increase_in_salary.csv : data/clean_data/clean_salary_by_region_type_join.csv src/Increase_in_salary.R
 	Rscript src/Increase_in_salary.R data/clean_data/clean_salary_by_region_type_join.csv results/increase_in_salary.csv
 
-# Linear regression test
-# results/lm_tests : data/clean_data/clean_salary_by_region_type_join.csv src/Linear_Regression.R
-# 	Rscript src/Linear_Regression.R data/clean_data/clean_salary_by_region_type_join.csv results/lm_tests
-
-
+# final report
 doc/Final_Report : doc/college_salary_report.Rmd
 	Rscript -e "rmarkdown::render('doc/college_salary_report.Rmd', 'github_document')"
 
