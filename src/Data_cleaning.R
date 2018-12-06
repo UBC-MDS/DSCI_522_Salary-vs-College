@@ -1,5 +1,7 @@
 # Data_cleaning.R
 # Group: lab2-11
+# Authors: Alex Pak, Linyang Yu, Constantin Shuster
+# Date: November 24, 2018
 
 # This script reads the raw data and cleans the raw data
 # It changes data that is currently character type to computable numeric data

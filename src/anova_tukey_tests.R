@@ -1,5 +1,7 @@
 # Statistic_test.R
 # Group: lab2-11
+# Authors: Alex Pak, Linyang Yu, Constantin Shuster
+# Date: November 24, 2018
 #
 # This script reads in the joined clean data and performs multiple one-way ANOVA's
 # across all salary type categories. Then, this script performs the Tukey Procedure

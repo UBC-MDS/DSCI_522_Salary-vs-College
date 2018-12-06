@@ -1,5 +1,7 @@
 # Increase_in_salary.R
 # Group: lab2-11
+# Authors: Alex Pak, Linyang Yu, Constantin Shuster
+# Date: November 24, 2018
 #
 # This script reads in the joined table and creates a .csv with the increase in starting to mid-career salary. 
 #

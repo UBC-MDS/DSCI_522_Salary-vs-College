@@ -1,5 +1,7 @@
 # Join_region_and_type.R
 # Group: lab2-11
+# Authors: Alex Pak, Linyang Yu, Constantin Shuster
+# Date: November 24, 2018
 
 # This script reads the clean salary by region and salary by type .csv's 
 # and inner joins the results based on the university name as a key. 
