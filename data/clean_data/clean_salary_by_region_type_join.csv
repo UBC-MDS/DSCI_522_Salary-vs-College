@@ -1257,7 +1257,7 @@
 "Lee University (Cleveland, TN)","Southern",NA,"Mid_Career_25th_Percentile_Salary",44500
 "Florida Metropolitan University (FMU)","Southern",NA,"Mid_Career_25th_Percentile_Salary",36800
 "Dartmouth College","Northeastern","Ivy League","Mid_Career_25th_Percentile_Salary",90200
-"Princeton University","Northeastern","Ivy League","Mid_Career_25th_Percentile_Salary",100000
+"Princeton University","Northeastern","Ivy League","Mid_Career_25th_Percentile_Salary",1e+05
 "Massachusetts Institute of Technology (MIT)","Northeastern","Engineering","Mid_Career_25th_Percentile_Salary",99200
 "Yale University","Northeastern","Ivy League","Mid_Career_25th_Percentile_Salary",80600
 "Harvard University","Northeastern","Ivy League","Mid_Career_25th_Percentile_Salary",86200
@@ -1762,7 +1762,7 @@
 "University of Alaska, Anchorage","Western","State","Mid_Career_75th_Percentile_Salary",99300
 "Lewis & Clark College","Western","Liberal Arts","Mid_Career_75th_Percentile_Salary",104000
 "University of Montana","Western","State","Mid_Career_75th_Percentile_Salary",96400
-"University of Nevada, Las Vegas (UNLV)","Western","State","Mid_Career_75th_Percentile_Salary",100000
+"University of Nevada, Las Vegas (UNLV)","Western","State","Mid_Career_75th_Percentile_Salary",1e+05
 "Portland State University (PSU)","Western","State","Mid_Career_75th_Percentile_Salary",94400
 "Eastern Washington University","Western","State","Mid_Career_75th_Percentile_Salary",93100
 "Fort Lewis College","Western","Liberal Arts","Mid_Career_75th_Percentile_Salary",94000
@@ -1807,12 +1807,12 @@
 "Gustavus Adolphus College","Midwestern","Liberal Arts","Mid_Career_75th_Percentile_Salary",101000
 "University of North Dakota","Midwestern","State","Mid_Career_75th_Percentile_Salary",111000
 "Kansas State University (KSU)","Midwestern","State","Mid_Career_75th_Percentile_Salary",106000
-"University of Wisconsin (UW) - Platteville","Midwestern","State","Mid_Career_75th_Percentile_Salary",100000
+"University of Wisconsin (UW) - Platteville","Midwestern","State","Mid_Career_75th_Percentile_Salary",1e+05
 "Wittenberg University","Midwestern","Liberal Arts","Mid_Career_75th_Percentile_Salary",131000
-"North Dakota State University (NDSU)","Midwestern","State","Mid_Career_75th_Percentile_Salary",100000
+"North Dakota State University (NDSU)","Midwestern","State","Mid_Career_75th_Percentile_Salary",1e+05
 "Grinnell College","Midwestern","Liberal Arts","Mid_Career_75th_Percentile_Salary",116000
 "Wayne State University","Midwestern","State","Mid_Career_75th_Percentile_Salary",101000
-"University of Toledo","Midwestern","State","Mid_Career_75th_Percentile_Salary",100000
+"University of Toledo","Midwestern","State","Mid_Career_75th_Percentile_Salary",1e+05
 "University of Wisconsin (UW) - Whitewater","Midwestern","State","Mid_Career_75th_Percentile_Salary",99300
 "Minnesota State University - Mankato","Midwestern","State","Mid_Career_75th_Percentile_Salary",95700
 "University of Wisconsin (UW) - Milwaukee","Midwestern","State","Mid_Career_75th_Percentile_Salary",93700
@@ -1919,7 +1919,7 @@
 "University of Alabama at Birmingham (UAB)","Southern","State","Mid_Career_75th_Percentile_Salary",91400
 "University of Memphis (U of M)","Southern","State","Mid_Career_75th_Percentile_Salary",93500
 "Appalachian State University","Southern","State","Mid_Career_75th_Percentile_Salary",90800
-"Virginia Commonwealth University (VCU)","Southern","State","Mid_Career_75th_Percentile_Salary",100000
+"Virginia Commonwealth University (VCU)","Southern","State","Mid_Career_75th_Percentile_Salary",1e+05
 "East Carolina University (ECU)","Southern","State","Mid_Career_75th_Percentile_Salary",98700
 "Western Carolina University","Southern","State","Mid_Career_75th_Percentile_Salary",94400
 "Jacksonville University","Southern",NA,"Mid_Career_75th_Percentile_Salary",88500
@@ -2014,7 +2014,7 @@
 "State University of New York (SUNY) at Geneseo","Northeastern","State","Mid_Career_75th_Percentile_Salary",117000
 "Fashion Institute of Technology","Northeastern",NA,"Mid_Career_75th_Percentile_Salary",106000
 "Philadelphia University","Northeastern",NA,"Mid_Career_75th_Percentile_Salary",108000
-"Ursinus College","Northeastern","Liberal Arts","Mid_Career_75th_Percentile_Salary",100000
+"Ursinus College","Northeastern","Liberal Arts","Mid_Career_75th_Percentile_Salary",1e+05
 "Adelphi University","Northeastern",NA,"Mid_Career_75th_Percentile_Salary",114000
 "Juniata College","Northeastern","Liberal Arts","Mid_Career_75th_Percentile_Salary",110000
 "Fairleigh Dickinson University","Northeastern",NA,"Mid_Career_75th_Percentile_Salary",112000
@@ -2034,7 +2034,7 @@
 "Fitchburg State College","Northeastern","State","Mid_Career_75th_Percentile_Salary",99600
 "Roger Williams University","Northeastern",NA,"Mid_Career_75th_Percentile_Salary",102000
 "University Of Maine","Northeastern","State","Mid_Career_75th_Percentile_Salary",99300
-"State University of New York (SUNY) at Potsdam","Northeastern","State","Mid_Career_75th_Percentile_Salary",100000
+"State University of New York (SUNY) at Potsdam","Northeastern","State","Mid_Career_75th_Percentile_Salary",1e+05
 "Niagara University","Northeastern",NA,"Mid_Career_75th_Percentile_Salary",92000
 "State University of New York (SUNY) at Fredonia","Northeastern","State","Mid_Career_75th_Percentile_Salary",93300
 "University of Southern Maine","Northeastern","State","Mid_Career_75th_Percentile_Salary",85700
@@ -2206,7 +2206,7 @@
 "Emory University","Southern",NA,"Mid_Career_90th_Percentile_Salary",192000
 "American University, Washington D.C.","Southern",NA,"Mid_Career_90th_Percentile_Salary",169000
 "University of Tulsa","Southern",NA,"Mid_Career_90th_Percentile_Salary",197000
-"Baylor University","Southern",NA,"Mid_Career_90th_Percentile_Salary",200000
+"Baylor University","Southern",NA,"Mid_Career_90th_Percentile_Salary",2e+05
 "University of Florida (UF)","Southern","Party","Mid_Career_90th_Percentile_Salary",172000
 "University of Florida (UF)","Southern","State","Mid_Career_90th_Percentile_Salary",172000
 "Louisiana State University (LSU)","Southern","Party","Mid_Career_90th_Percentile_Salary",165000

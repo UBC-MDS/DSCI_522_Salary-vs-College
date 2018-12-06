@@ -1,71 +1,71 @@
 salary_type,term,comparison,adj.p.value,flag
-Starting_Median_Salary,Region,Midwestern-California,9.001796888230551e-6,***
-Starting_Median_Salary,Region,Northeastern-California,0.2509971384671884,Cannot Reject the NULL Hypothesis
-Starting_Median_Salary,Region,Southern-California,1.1446433863526728e-5,***
-Starting_Median_Salary,Region,Western-California,1.0870934290718726e-4,***
-Starting_Median_Salary,Region,Northeastern-Midwestern,1.4906133517367248e-4,***
-Starting_Median_Salary,Region,Southern-Midwestern,0.9993446046885526,Cannot Reject the NULL Hypothesis
-Starting_Median_Salary,Region,Western-Midwestern,0.9999583446651886,Cannot Reject the NULL Hypothesis
-Starting_Median_Salary,Region,Southern-Northeastern,1.6544887890412863e-4,***
-Starting_Median_Salary,Region,Western-Northeastern,0.004064704007642916,**
+Starting_Median_Salary,Region,Midwestern-California,9.001796888008506e-6,***
+Starting_Median_Salary,Region,Northeastern-California,0.25099713846721117,Cannot Reject the NULL Hypothesis
+Starting_Median_Salary,Region,Southern-California,1.1446433863415706e-5,***
+Starting_Median_Salary,Region,Western-California,1.0870934290729828e-4,***
+Starting_Median_Salary,Region,Northeastern-Midwestern,1.490613351737835e-4,***
+Starting_Median_Salary,Region,Southern-Midwestern,0.9993446046885528,Cannot Reject the NULL Hypothesis
+Starting_Median_Salary,Region,Western-Midwestern,0.9999583446651887,Cannot Reject the NULL Hypothesis
+Starting_Median_Salary,Region,Southern-Northeastern,1.6544887890423965e-4,***
+Starting_Median_Salary,Region,Western-Northeastern,0.0040647040076432495,**
 Starting_Median_Salary,Region,Western-Southern,0.9999922605173097,Cannot Reject the NULL Hypothesis
 Mid_Career_Median_Salary,Region,Midwestern-California,1.1893291955056284e-5,***
-Mid_Career_Median_Salary,Region,Northeastern-California,0.9548812473982862,Cannot Reject the NULL Hypothesis
+Mid_Career_Median_Salary,Region,Northeastern-California,0.954881247398293,Cannot Reject the NULL Hypothesis
 Mid_Career_Median_Salary,Region,Southern-California,7.563001177468553e-5,***
 Mid_Career_Median_Salary,Region,Western-California,7.234809197598224e-5,***
 Mid_Career_Median_Salary,Region,Northeastern-Midwestern,2.2650112008193446e-8,***
-Mid_Career_Median_Salary,Region,Southern-Midwestern,0.9537009345819433,Cannot Reject the NULL Hypothesis
+Mid_Career_Median_Salary,Region,Southern-Midwestern,0.9537009345819496,Cannot Reject the NULL Hypothesis
 Mid_Career_Median_Salary,Region,Western-Midwestern,0.9999956182020462,Cannot Reject the NULL Hypothesis
 Mid_Career_Median_Salary,Region,Southern-Northeastern,2.7147377124059346e-7,***
 Mid_Career_Median_Salary,Region,Western-Northeastern,3.320115880112162e-6,***
-Mid_Career_Median_Salary,Region,Western-Southern,0.9629546219209041,Cannot Reject the NULL Hypothesis
-Mid_Career_10th_Percentile_Salary,Region,Midwestern-California,0.08467916981789003,Cannot Reject the NULL Hypothesis
-Mid_Career_10th_Percentile_Salary,Region,Northeastern-California,0.9818616601054174,Cannot Reject the NULL Hypothesis
-Mid_Career_10th_Percentile_Salary,Region,Southern-California,0.07953360169133172,Cannot Reject the NULL Hypothesis
-Mid_Career_10th_Percentile_Salary,Region,Western-California,0.147835617084505,Cannot Reject the NULL Hypothesis
+Mid_Career_Median_Salary,Region,Western-Southern,0.9629546219209086,Cannot Reject the NULL Hypothesis
+Mid_Career_10th_Percentile_Salary,Region,Midwestern-California,0.08467916981789425,Cannot Reject the NULL Hypothesis
+Mid_Career_10th_Percentile_Salary,Region,Northeastern-California,0.981861660105416,Cannot Reject the NULL Hypothesis
+Mid_Career_10th_Percentile_Salary,Region,Southern-California,0.07953360169133505,Cannot Reject the NULL Hypothesis
+Mid_Career_10th_Percentile_Salary,Region,Western-California,0.14783561708450976,Cannot Reject the NULL Hypothesis
 Mid_Career_10th_Percentile_Salary,Region,Northeastern-Midwestern,7.354751656607483e-5,***
 Mid_Career_10th_Percentile_Salary,Region,Southern-Midwestern,0.9999994208401308,Cannot Reject the NULL Hypothesis
 Mid_Career_10th_Percentile_Salary,Region,Western-Midwestern,0.9999999471481149,Cannot Reject the NULL Hypothesis
-Mid_Career_10th_Percentile_Salary,Region,Southern-Northeastern,3.349430966670397e-5,***
-Mid_Career_10th_Percentile_Salary,Region,Western-Northeastern,0.002233987720325903,**
+Mid_Career_10th_Percentile_Salary,Region,Southern-Northeastern,3.349430966681499e-5,***
+Mid_Career_10th_Percentile_Salary,Region,Western-Northeastern,0.002233987720326125,**
 Mid_Career_10th_Percentile_Salary,Region,Western-Southern,0.9999979114164689,Cannot Reject the NULL Hypothesis
 Mid_Career_25th_Percentile_Salary,Region,Midwestern-California,2.5195945977252165e-4,***
-Mid_Career_25th_Percentile_Salary,Region,Northeastern-California,0.9100404856026637,Cannot Reject the NULL Hypothesis
-Mid_Career_25th_Percentile_Salary,Region,Southern-California,3.383000082730625e-4,***
+Mid_Career_25th_Percentile_Salary,Region,Northeastern-California,0.9100404856026748,Cannot Reject the NULL Hypothesis
+Mid_Career_25th_Percentile_Salary,Region,Southern-California,3.383000082731735e-4,***
 Mid_Career_25th_Percentile_Salary,Region,Western-California,5.099241701232993e-4,***
-Mid_Career_25th_Percentile_Salary,Region,Northeastern-Midwestern,1.1791842261965613e-5,***
-Mid_Career_25th_Percentile_Salary,Region,Southern-Midwestern,0.9993011486565364,Cannot Reject the NULL Hypothesis
-Mid_Career_25th_Percentile_Salary,Region,Western-Midwestern,0.9988803461541977,Cannot Reject the NULL Hypothesis
+Mid_Career_25th_Percentile_Salary,Region,Northeastern-Midwestern,1.1791842262076635e-5,***
+Mid_Career_25th_Percentile_Salary,Region,Southern-Midwestern,0.9993011486565366,Cannot Reject the NULL Hypothesis
+Mid_Career_25th_Percentile_Salary,Region,Western-Midwestern,0.998880346154198,Cannot Reject the NULL Hypothesis
 Mid_Career_25th_Percentile_Salary,Region,Southern-Northeastern,1.1755517790645875e-5,***
-Mid_Career_25th_Percentile_Salary,Region,Western-Northeastern,1.3119398610916821e-4,***
-Mid_Career_25th_Percentile_Salary,Region,Western-Southern,0.9895398482556781,Cannot Reject the NULL Hypothesis
+Mid_Career_25th_Percentile_Salary,Region,Western-Northeastern,1.311939861090572e-4,***
+Mid_Career_25th_Percentile_Salary,Region,Western-Southern,0.9895398482556803,Cannot Reject the NULL Hypothesis
 Mid_Career_50th_Percentile_Salary,Region,Midwestern-California,1.1893291955056284e-5,***
-Mid_Career_50th_Percentile_Salary,Region,Northeastern-California,0.9548812473982862,Cannot Reject the NULL Hypothesis
+Mid_Career_50th_Percentile_Salary,Region,Northeastern-California,0.954881247398293,Cannot Reject the NULL Hypothesis
 Mid_Career_50th_Percentile_Salary,Region,Southern-California,7.563001177468553e-5,***
 Mid_Career_50th_Percentile_Salary,Region,Western-California,7.234809197598224e-5,***
 Mid_Career_50th_Percentile_Salary,Region,Northeastern-Midwestern,2.2650112008193446e-8,***
-Mid_Career_50th_Percentile_Salary,Region,Southern-Midwestern,0.9537009345819433,Cannot Reject the NULL Hypothesis
+Mid_Career_50th_Percentile_Salary,Region,Southern-Midwestern,0.9537009345819496,Cannot Reject the NULL Hypothesis
 Mid_Career_50th_Percentile_Salary,Region,Western-Midwestern,0.9999956182020462,Cannot Reject the NULL Hypothesis
 Mid_Career_50th_Percentile_Salary,Region,Southern-Northeastern,2.7147377124059346e-7,***
 Mid_Career_50th_Percentile_Salary,Region,Western-Northeastern,3.320115880112162e-6,***
-Mid_Career_50th_Percentile_Salary,Region,Western-Southern,0.9629546219209041,Cannot Reject the NULL Hypothesis
-Mid_Career_75th_Percentile_Salary,Region,Midwestern-California,4.711632876863714e-4,***
-Mid_Career_75th_Percentile_Salary,Region,Northeastern-California,0.9926547084225018,Cannot Reject the NULL Hypothesis
-Mid_Career_75th_Percentile_Salary,Region,Southern-California,0.002293597316988638,**
+Mid_Career_50th_Percentile_Salary,Region,Western-Southern,0.9629546219209086,Cannot Reject the NULL Hypothesis
+Mid_Career_75th_Percentile_Salary,Region,Midwestern-California,4.711632876864824e-4,***
+Mid_Career_75th_Percentile_Salary,Region,Northeastern-California,0.9926547084225001,Cannot Reject the NULL Hypothesis
+Mid_Career_75th_Percentile_Salary,Region,Southern-California,0.002293597316988971,**
 Mid_Career_75th_Percentile_Salary,Region,Western-California,4.534821988192439e-4,***
 Mid_Career_75th_Percentile_Salary,Region,Northeastern-Midwestern,2.5256257085715106e-9,***
-Mid_Career_75th_Percentile_Salary,Region,Southern-Midwestern,0.9579365754196758,Cannot Reject the NULL Hypothesis
-Mid_Career_75th_Percentile_Salary,Region,Western-Midwestern,0.9894243562476194,Cannot Reject the NULL Hypothesis
+Mid_Career_75th_Percentile_Salary,Region,Southern-Midwestern,0.9579365754196806,Cannot Reject the NULL Hypothesis
+Mid_Career_75th_Percentile_Salary,Region,Western-Midwestern,0.9894243562476197,Cannot Reject the NULL Hypothesis
 Mid_Career_75th_Percentile_Salary,Region,Southern-Northeastern,2.7210243835895653e-8,***
 Mid_Career_75th_Percentile_Salary,Region,Western-Northeastern,6.494962390135584e-8,***
-Mid_Career_75th_Percentile_Salary,Region,Western-Southern,0.8187018820537151,Cannot Reject the NULL Hypothesis
-Mid_Career_90th_Percentile_Salary,Region,Midwestern-California,0.11193567022891404,Cannot Reject the NULL Hypothesis
-Mid_Career_90th_Percentile_Salary,Region,Northeastern-California,0.4156853650232516,Cannot Reject the NULL Hypothesis
-Mid_Career_90th_Percentile_Salary,Region,Southern-California,0.39184989729351205,Cannot Reject the NULL Hypothesis
-Mid_Career_90th_Percentile_Salary,Region,Western-California,0.059355396540711536,Cannot Reject the NULL Hypothesis
-Mid_Career_90th_Percentile_Salary,Region,Northeastern-Midwestern,3.486264077423584e-8,***
-Mid_Career_90th_Percentile_Salary,Region,Southern-Midwestern,0.8512304118142423,Cannot Reject the NULL Hypothesis
-Mid_Career_90th_Percentile_Salary,Region,Western-Midwestern,0.9668564295128395,Cannot Reject the NULL Hypothesis
+Mid_Career_75th_Percentile_Salary,Region,Western-Southern,0.8187018820537264,Cannot Reject the NULL Hypothesis
+Mid_Career_90th_Percentile_Salary,Region,Midwestern-California,0.11193567022892026,Cannot Reject the NULL Hypothesis
+Mid_Career_90th_Percentile_Salary,Region,Northeastern-California,0.4156853650232375,Cannot Reject the NULL Hypothesis
+Mid_Career_90th_Percentile_Salary,Region,Southern-California,0.3918498972935268,Cannot Reject the NULL Hypothesis
+Mid_Career_90th_Percentile_Salary,Region,Western-California,0.05935539654071542,Cannot Reject the NULL Hypothesis
+Mid_Career_90th_Percentile_Salary,Region,Northeastern-Midwestern,3.4862640885258145e-8,***
+Mid_Career_90th_Percentile_Salary,Region,Southern-Midwestern,0.8512304118142421,Cannot Reject the NULL Hypothesis
+Mid_Career_90th_Percentile_Salary,Region,Western-Midwestern,0.9668564295128402,Cannot Reject the NULL Hypothesis
 Mid_Career_90th_Percentile_Salary,Region,Southern-Northeastern,2.0850277002715245e-6,***
-Mid_Career_90th_Percentile_Salary,Region,Western-Northeastern,4.736161922647142e-7,***
-Mid_Career_90th_Percentile_Salary,Region,Western-Southern,0.571785805402411,Cannot Reject the NULL Hypothesis
+Mid_Career_90th_Percentile_Salary,Region,Western-Northeastern,4.736161924867588e-7,***
+Mid_Career_90th_Percentile_Salary,Region,Western-Southern,0.5717858054024132,Cannot Reject the NULL Hypothesis
