@@ -69,39 +69,14 @@ To run this analysis, clone this repository and run the following in the command
 1. `make all` to create all the analysis files and final report   
 2. `make clean` to delete all the analysis output and final report  
 
+Below is the Makefile Dependency diagram:
+
+![Makefile](Makefile.png)
+
 ##### Manually
-Run the scripts in this order - **please check each script file for individual script command line inputs**:
+Check the Makefile for the order of how the scripts should be run, command line syntax is visible in the Makefile.
 
-1. src/Data_cleaning.R
-2. src/Join_region_and_type.R
-3. src/EDA_degree-vs-salary.R
-4. src/EDA_region_and_school_type_to_salary
-5. src/anova_tukey_tests.R
-6. src/Increase_in_salary.R
-
-Project inputs:
-* data/raw_data/degrees-that-pay-back.csv
-* data/raw_data/salaries-by-college-type.csv
-* data/raw_data/salaries-by-region.csv
-
-Expected outputs:
-* data/clean_data/clean_salary_by_degree.csv
-* data/clean_data/clean_salary_by_type.csv
-* data/clean_data/clean_salary_by_region.csv
-* results/degree_vs_mid_salary_range.png
-* results/degree_vs_salary_by_mid.png
-* results/degree_vs_salary_by_start.png
-* data/clean_data/clean_salary_by_region_type_join.csv
-* results/salary_change_Region.png
-* results/salary_change_SchoolType.png
-* results/salary_distribution_Region.png
-* results/salary_distribution_SchoolType.png
-* results/increase_in_salary.csv
-* results/anova_test/
-* results/lm_tests/
-* doc/college_salary_report.md
-
-The overall workflow for the entire project is as follows:
+The diagram below also shows the overall workflow for the entire project to help understand script order and outputs:
 
 ![Workflow](Workflow.png)
 
