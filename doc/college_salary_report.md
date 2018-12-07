@@ -27,11 +27,11 @@ We were first interested in examining how starting and mid-career salaries varie
 
 ![Figure 2](../results/degree_vs_salary_by_mid.png)
 
-Figure 3 is also a dumbbell plot displaying the range of mid-career salaries by college degree. The range is from 10th to 90th percentile and the median is the point in red. The salary data was ordered by median mid-career salary.
+Figure 3 is also a dumbbell plot but it displays the range of **mid-career** salaries by **college degree**. The range is from 10th to 90th percentile and the median is the point in red. The salary data was ordered by median mid-career salary.
 
 ![Figure 3](../results/degree_vs_mid_salary_range.png)
 
-Next we examined how graduates' salaries varied by college region. Figure 4 shows start and mid-career salary data aggregated by college region. The salary data was represented as a mean estimates with standard errors at a 95% confidence interval. The mean estimates were of median start and mid career salaries of colleges in each region that were available in the *joined* table.
+The next variable we examined was college region and its impact on graduates' salaries. Figure 4 shows start and mid-career salary aggregated by college region. The salary data was represented as mean estimates with 95% confidence intervals. The mean estimates were of *median* start and mid career salaries of colleges in each region that were available in the *joined* table.
 
 ![Figure 4](../results/salary_change_Region.png)
 
