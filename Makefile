@@ -4,7 +4,7 @@
 .PHONY: all clean
 .DELETE_ON_ERROR:
 
-all: results/degree_vs_salary_by_start.png results/degree_vs_salary_by_mid.png results/degree_vs_mid_salary_range.png results/salary_distribution_SchoolType.png results/salary_change_SchoolType.png results/salary_distribution_Region.png results/salary_change_Region.png results/anova_results/region_anova_results.csv  results/anova_results/region_tukey_results.csv results/anova_results/school_type_anova_results.csv results/anova_results/school_type_tukey_results.csv results/increase_in_salary.csv doc/Final_Report
+all: doc/college_salary_report.md
 
 # create clean data of salary by college degree
 data/clean_data/clean_salary_by_degree.csv : data/raw_data/degrees-that-pay-back.csv src/Data_cleaning.R
@@ -34,16 +34,23 @@ results/salary_distribution_Region.png results/salary_change_Region.png : data/c
 results/salary_distribution_SchoolType.png results/salary_change_SchoolType.png : data/clean_data/clean_salary_by_region_type_join.csv src/EDA_region_and_school_type_to_salary.R
 	Rscript src/EDA_region_and_school_type_to_salary.R data/clean_data/clean_salary_by_region_type_join.csv School_Type
 
-# ANOVA and tukey pairwise test
-results/anova_results/region_anova_results.csv  results/anova_results/region_tukey_results.csv results/anova_results/school_type_anova_results.csv results/anova_results/school_type_tukey_results.csv : data/clean_data/clean_salary_by_region_type_join.csv src/anova_tukey_tests.R
+# Create ANOVA and tukey pairwise test
+results/anova_results/region_anova_results.csv results/anova_results/region_tukey_results.csv results/anova_results/school_type_anova_results.csv results/anova_results/school_type_tukey_results.csv : data/clean_data/clean_salary_by_region_type_join.csv src/anova_tukey_tests.R
 	Rscript src/anova_tukey_tests.R data/clean_data/clean_salary_by_region_type_join.csv results/anova_results
 
-# other data analysis done for the final report
-results/increase_in_salary.csv : data/clean_data/clean_salary_by_region_type_join.csv src/Increase_in_salary.R
-	Rscript src/Increase_in_salary.R data/clean_data/clean_salary_by_region_type_join.csv results/increase_in_salary.csv
-
 # final report
-doc/Final_Report : doc/college_salary_report.Rmd
+doc/college_salary_report.md : results/degree_vs_salary_by_start.png \
+results/degree_vs_salary_by_mid.png \
+results/degree_vs_mid_salary_range.png \
+results/salary_distribution_Region.png \
+results/salary_change_Region.png \
+results/salary_distribution_SchoolType.png \
+results/salary_change_SchoolType.png \
+results/anova_results/region_anova_results.csv \
+results/anova_results/region_tukey_results.csv \
+results/anova_results/school_type_anova_results.csv \
+results/anova_results/school_type_tukey_results.csv \
+doc/college_salary_report.Rmd
 	Rscript -e "rmarkdown::render('doc/college_salary_report.Rmd', 'github_document')"
 
 clean :
@@ -51,3 +58,4 @@ clean :
 	rm -f results/*.png
 	rm -f results/anova_results/*
 	rm -f doc/college_salary_report.md
+	rm -f doc/college_salary_report.html
