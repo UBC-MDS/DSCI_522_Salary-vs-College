@@ -3,7 +3,7 @@ Exploring attributes of US college education in relation to career salary
 =========================================================================
 
 **By**: Alex Pak, Linyang Yu, Constantin Shuster
-**Date**: November 24, 2018
+**Date**: December 8, 2018
 
 ### Our question
 
@@ -81,6 +81,8 @@ Next we performed Tukey's post-hoc tests to determine which region was responsib
 | Western      | \*\*\*     | \*\*         | 1        | NA      | 1          |
 | Midwestern   | \*\*\*     | \*\*\*       | 0.9993   | 1       | NA         |
 
+-   = &lt;0.05, \*\* = &lt;0.01, \*\*\* = &lt;0.001
+
 **Table 3**
 
 |              | California | Northeastern | Southern | Western | Midwestern |
@@ -90,6 +92,8 @@ Next we performed Tukey's post-hoc tests to determine which region was responsib
 | Southern     | \*\*\*     | \*\*\*       | NA       | 0.963   | 0.9537     |
 | Western      | \*\*\*     | \*\*\*       | 0.963    | NA      | 1          |
 | Midwestern   | \*\*\*     | \*\*\*       | 0.9537   | 1       | NA         |
+
+-   = &lt;0.05, \*\* = &lt;0.01, \*\*\* = &lt;0.001
 
 Table 2 and 3 show that graduates of colleges in the Northeast and California had higher salaries than the other regions, however there was no statistically significant difference at alpha = 0.05 between colleges in the Northeast and California.
 
@@ -119,6 +123,8 @@ Table 5 and 6 show the results of the Tukey's post-hoc tests for starting and mi
 | Party        | \*\*\*     | \*\*\*      | 1            | NA     | 0.5768 |
 | State        | \*\*\*     | \*\*\*      | 0.1952       | 0.5768 | NA     |
 
+-   = &lt;0.05, \*\* = &lt;0.01, \*\*\* = &lt;0.001
+
 **Table 6**
 
 |              | Ivy League | Engineering | Liberal Arts | Party  | State  |
@@ -128,6 +134,8 @@ Table 5 and 6 show the results of the Tukey's post-hoc tests for starting and mi
 | Liberal Arts | \*\*\*     | \*\*\*      | NA           | 0.4705 | \*\*\* |
 | Party        | \*\*\*     | \*\*\*      | 0.4705       | NA     | 0.1121 |
 | State        | \*\*\*     | \*\*\*      | \*\*\*       | 0.1121 | NA     |
+
+-   = &lt;0.05, \*\* = &lt;0.01, \*\*\* = &lt;0.001
 
 The results of Table 5 and 6 show that graduates from Ivy League schools or Engineering schools had higher salaries than the other school types, however there was no significant difference between graduates of Ivy League and Engineering schools.
 
