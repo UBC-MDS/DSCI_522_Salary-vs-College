@@ -59,13 +59,6 @@ In regards to salary variation by school region, our EDA shows that California a
 
 **Table 1**
 
-    ## Parsed with column specification:
-    ## cols(
-    ##   Salary_Type = col_character(),
-    ##   F_Statistic = col_double(),
-    ##   P_Value = col_double()
-    ## )
-
 | Salary Type                       |  F Statistic|       p-value|
 |:----------------------------------|------------:|-------------:|
 | Starting Median Salary            |        12.10|  3.398112e-09|
@@ -80,15 +73,6 @@ Next we performed Tukey's post-hoc tests to determine which region was responsib
 
 **Table 2**
 
-    ## Parsed with column specification:
-    ## cols(
-    ##   salary_type = col_character(),
-    ##   term = col_character(),
-    ##   comparison = col_character(),
-    ##   adj.p.value = col_double(),
-    ##   flag = col_character()
-    ## )
-
 |              | California | Northeastern | Southern | Western | Midwestern |
 |--------------|:-----------|:-------------|:---------|:--------|:-----------|
 | California   | NA         | 0.251        | \*\*\*   | \*\*\*  | \*\*\*     |
@@ -98,15 +82,6 @@ Next we performed Tukey's post-hoc tests to determine which region was responsib
 | Midwestern   | \*\*\*     | \*\*\*       | 0.9993   | 1       | NA         |
 
 **Table 3**
-
-    ## Parsed with column specification:
-    ## cols(
-    ##   salary_type = col_character(),
-    ##   term = col_character(),
-    ##   comparison = col_character(),
-    ##   adj.p.value = col_double(),
-    ##   flag = col_character()
-    ## )
 
 |              | California | Northeastern | Southern | Western | Midwestern |
 |--------------|:-----------|:-------------|:---------|:--------|:-----------|
@@ -122,13 +97,6 @@ In regards to salary variation by school type, our hypothesis from the EDA was t
 
 **Table 4**
 
-    ## Parsed with column specification:
-    ## cols(
-    ##   Salary_Type = col_character(),
-    ##   F_Statistic = col_double(),
-    ##   P_Value = col_double()
-    ## )
-
 | Salary Type                       |  F Statistic|     p-value|
 |:----------------------------------|------------:|-----------:|
 | Starting Median Salary            |        66.81|  0.0000e+00|
@@ -143,15 +111,6 @@ Table 5 and 6 show the results of the Tukey's post-hoc tests for starting and mi
 
 **Table 5**
 
-    ## Parsed with column specification:
-    ## cols(
-    ##   salary_type = col_character(),
-    ##   term = col_character(),
-    ##   comparison = col_character(),
-    ##   adj.p.value = col_double(),
-    ##   flag = col_character()
-    ## )
-
 |              | Ivy League | Engineering | Liberal Arts | Party  | State  |
 |--------------|:-----------|:------------|:-------------|:-------|:-------|
 | Ivy League   | NA         | 0.9818      | \*\*\*       | \*\*\* | \*\*\* |
@@ -161,15 +120,6 @@ Table 5 and 6 show the results of the Tukey's post-hoc tests for starting and mi
 | State        | \*\*\*     | \*\*\*      | 0.1952       | 0.5768 | NA     |
 
 **Table 6**
-
-    ## Parsed with column specification:
-    ## cols(
-    ##   salary_type = col_character(),
-    ##   term = col_character(),
-    ##   comparison = col_character(),
-    ##   adj.p.value = col_double(),
-    ##   flag = col_character()
-    ## )
 
 |              | Ivy League | Engineering | Liberal Arts | Party  | State  |
 |--------------|:-----------|:------------|:-------------|:-------|:-------|
@@ -183,11 +133,11 @@ The results of Table 5 and 6 show that graduates from Ivy League schools or Engi
 
 ### Interpretation
 
-When comparing Degrees to Salary, the Engineering fields consistently appear as the top earners. Of the top 10 spots (when comparing starting salary), Engineering degrees dominate, appearing in 7/10 spots. Although this might imply that STEM fields are high earners, it seems to only apply to the applied STEM field; for example, the more conventional science fields such as psychology and biology fall much lower on the list.
+When comparing college degrees to salary, the Engineering fields consistently appear as the top earners. Of the top 10 spots (when comparing starting salary), Engineering degrees dominate, appearing in 7/10 spots. Although this might imply that STEM fields are high earners, it seems to only apply to the applied STEM field; for example, the more conventional science fields such as psychology and biology fall much lower on the list. These results are similar to this [study](https://study.com/articles/Undergraduate_Degree_vs_Graduate_Degree_Income_and_Salary_Comparison.html).
 
 Looking at the Tukey procedure results for Region vs. Salary, the Northeastern and California seem to have similar means, as the null hypothesis consistently cannot be rejected across multiple salary types. This seems to make sense, as California and the Northeastern region contain highly rated schools (ex. Stanford, California Institute of Technology, Harvard).
 
-The Tukey procedure results for School Type vs Salary seems to follow this interpretation. From the visualizations, Ivy League schools consistently place highly on the salary scale. However, when using the Tukey procedure, it seems as if there is no significant difference between the Ivy League school earnings and Engineering school earnings, suggesting once again that Engineering degrees are worth the most.
+The Tukey procedure results for School Type vs Salary seems to follow this interpretation. From the visualizations, Ivy League schools consistently place highly on the salary scale. However, when using the Tukey procedure, it seems as if there is no significant difference between the Ivy League school earnings and Engineering school earnings, suggesting once again that Engineering degrees are worth the most. Our results are similar to an analysis by the [Washington Post](https://www.washingtonpost.com/news/wonk/wp/2015/09/14/this-chart-shows-why-parents-push-their-kids-so-hard-to-get-into-ivy-league-schools/?noredirect=on&utm_term=.23ad81f0b9b1) which also showed graduation from Ivy League scools is associated with the highest career salaries.
 
 ### Limitations
 
@@ -209,3 +159,5 @@ To further enhance our analysis, we could compare the top performing degrees in 
 
 1.  [Kaggle Data - College vs Salary](https://www.kaggle.com/wsj/college-salaries)
 2.  [Dumbbell plots explained](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html#Dumbbell%20Plot)
+3.  [Study.com - Undergraduate degree salary comparison](https://study.com/articles/Undergraduate_Degree_vs_Graduate_Degree_Income_and_Salary_Comparison.html)
+4.  [Washington Post - Ivy League school salary comparison](https://www.washingtonpost.com/news/wonk/wp/2015/09/14/this-chart-shows-why-parents-push-their-kids-so-hard-to-get-into-ivy-league-schools/?noredirect=on&utm_term=.23ad81f0b9b1)
