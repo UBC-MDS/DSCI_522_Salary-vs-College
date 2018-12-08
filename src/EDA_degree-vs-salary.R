@@ -1,5 +1,7 @@
 # EDA_degree-vs-salary.R
 # Group: lab2-11
+# Authors: Alex Pak, Linyang Yu, Constantin Shuster
+# Date: November 24, 2018
 #
 # This script reads in the cleaned data for degree vs. salary and performs EDA to create three figures reflecting the EDA.
 #
@@ -42,7 +44,8 @@ main <- function(){
           strip.text.x = element_text(size = 15, colour = "black"),
           panel.grid.minor=element_blank()) +
     labs(x = "Salary",
-         title = "Median starting to mid-career salary, by college degree, ordered by starting salary") +
+         title = "Figure 1. Median starting to mid-career salary, by college degree",
+         caption = "Data is ordered by starting salary.") +
     scale_x_continuous(label = dollar_format())
   
   
@@ -61,7 +64,8 @@ main <- function(){
           strip.text.x = element_text(size = 15, colour = "black"),
           panel.grid.minor=element_blank()) +
     labs(x = "Salary",
-         title = "Median starting to mid-career salary, by college degree, ordered by mid-career salary") +
+         title = "Figure 2. Median starting to mid-career salary, by college degree",
+         caption = "Data is ordered by mid-career salary.") +
     scale_x_continuous(label = dollar_format())
   
   
@@ -84,7 +88,8 @@ main <- function(){
           strip.text.x = element_text(size = 15, colour = "black"),
           panel.grid.minor=element_blank()) +
     labs(x = "Salary",
-         title = "Mid-career salary range (10th, 50th and 90th percentile), by college degree") +
+         title = "Figure 3. Mid-career salary range (10th, 50th and 90th percentile), by college degree",
+         caption = "Data is ordered by median mid-career salary.") +
     scale_x_continuous(label = dollar_format())
   
   #save the plots in results folder under the following paths

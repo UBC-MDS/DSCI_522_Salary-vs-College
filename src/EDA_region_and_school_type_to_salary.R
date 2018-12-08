@@ -1,5 +1,7 @@
 # EDA_region_and_school_type_to_salary.R
 # Group: lab2-11
+# Authors: Alex Pak, Linyang Yu, Constantin Shuster
+# Date: November 24, 2018
 
 # This script creates two plots each time the script is called to explore a college attribute's relation to salary between:
 # 1. school region and graduates' salaries (start vs. MidCareer, salary distribution in MidCareer)
@@ -75,7 +77,7 @@ main <- function(){
       geom_errorbar(aes(x = Region,  ymin = lower_ci, ymax = upper_ci), width = 0.4)+
       geom_col(width = 0.75) +
       labs(y = 'Salary',
-           title = 'Figure 5. Region vs. Mid-Career Salary Distribution') +
+           title = 'Figure 5. Mid-Career salary by school region') +
       facet_grid(~Salary_Type, labeller = labeller(Salary_Type = Salary_Type_dist.labs)) +
       theme_bw()+
       theme(legend.title = element_blank(),
@@ -86,7 +88,7 @@ main <- function(){
             panel.grid.major = element_blank(),
             strip.background = element_rect(fill = 'white'),
             plot.title = element_text(hjust = 0.5)) +
-      scale_fill_manual(values = c("lightpink", "lightpink1", "lightpink2", "lightpink3", "lightpink4"))+
+      scale_fill_brewer(palette="Set2")+
       scale_y_continuous(label = dollar_format())
     # p_dist_region
     # save the figure to the result folder
@@ -103,7 +105,7 @@ main <- function(){
       geom_errorbar(aes(x = Region, ymin = lower_ci, ymax = upper_ci), width = 0.2) +
       coord_flip(xlim = NULL, ylim = NULL, expand = TRUE, clip = "on") +
       labs( y = "Salary",
-            title = 'Figure 4. Region vs. Salary, from Starting to Mid-Career')+
+            title = 'Figure 4. Starting and mid-career salary by region')+
       scale_color_discrete(labels = c("Average for the Mid-Career Median Salary", "Average for the Starting Median Salary")) +
       theme_bw() +
       theme(panel.grid.major = element_blank(),
@@ -150,7 +152,7 @@ main <- function(){
       geom_errorbar(aes(x = School_Type,  ymin = lower_ci, ymax = upper_ci), width = 0.4)+
       geom_col(width = 0.75) +
       labs(y = 'Salary',
-           title = 'Figure 7. School Type vs. Mid-Career Salary Distribution') +
+           title = 'Figure 7. Mid-Career salary by school type') +
       facet_grid(~Salary_Type, labeller = labeller(Salary_Type = Salary_Type_dist.labs)) +
       theme_bw()+
       theme(legend.title = element_blank(),
@@ -161,7 +163,7 @@ main <- function(){
             strip.background = element_rect(fill = 'white'),
             panel.grid.major = element_blank(),
             plot.title = element_text(hjust = 0.5)) +
-      scale_fill_manual(values = c("lightpink", "lightpink1", "lightpink2", "lightpink3", "lightpink4"))+
+      scale_fill_brewer(palette="Set2")+
       scale_y_continuous(label = dollar_format())
     # p_dist_SchoolType
     # save the figure to the result folder
@@ -177,7 +179,7 @@ main <- function(){
       geom_errorbar(aes(x = School_Type, ymin = lower_ci, ymax = upper_ci), width = 0.2) +
       coord_flip(xlim = NULL, ylim = NULL, expand = TRUE, clip = "on") +
       labs( y = "Salary",
-            title = 'Figure 6. School Type vs. Salary, from Starting to Mid-Career')+
+            title = 'Figure 6. Starting and mid-career salary by region')+
       scale_color_discrete(labels = c("Average for the Mid-Career Median Salary", "Average for the Starting Median Salary")) +
       theme_bw() +
       theme(panel.grid.major = element_blank(),

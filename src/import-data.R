@@ -1,5 +1,7 @@
 # import-data.R
 # Group: lab2-11
+# Authors: Alex Pak, Linyang Yu, Constantin Shuster
+# Date: November 24, 2018
 
 # This script read the original data as .csv files
 

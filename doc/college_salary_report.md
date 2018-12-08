@@ -23,27 +23,27 @@ To begin our analysis we cleaned up the data tables by converting character data
 
 We were first interested in examining how starting and mid-career salaries varied by college degree. Figure 1 and 2 below are [dumbbell plots](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html#Dumbbell%20Plot) where the **starting point** of the dumbbell is the **starting career salary** and the **end point** is the **mid-career salary**. Both salary values are median salaries.
 
-**Figure 1**: Salary data is ordered by starting salary ![Figure 1](../results/degree_vs_salary_by_start.png)
+![Figure 1](../results/degree_vs_salary_by_start.png)
 
-**Figure 2**: Salary data is ordered by mid-career salary ![Figure 2](../results/degree_vs_salary_by_mid.png)
+![Figure 2](../results/degree_vs_salary_by_mid.png)
 
-Figure 3 is also a dumbbell plot displaying the range of mid-career salaries by college degree. The range is from 10th to 90th percentile and the median is the point in red. The salary data was ordered by median mid-career salary.
+Figure 3 is also a dumbbell plot but it displays the range of **mid-career** salaries by **college degree**. The range is from 10th to 90th percentile and the median is the point in red. The salary data was ordered by median mid-career salary.
 
-**Figure 3**: Salary data is ordered by *median* mid-career salary ![Figure 3](../results/degree_vs_mid_salary_range.png)
+![Figure 3](../results/degree_vs_mid_salary_range.png)
 
-Next we examined how graduates' salaries varied by college region. Figure 4 shows start and mid-career salary data aggregated by college region. The salary data was represented as a mean estimates with standard errors at a 95% confidence interval. The mean estimates were of median start and mid career salaries of colleges in each region that were available in the *joined* table.
+The next variable we examined was college region and its impact on graduates' salaries. Figure 4 shows start and mid-career salary aggregated by college region. The salary data was represented as mean estimates with 95% confidence intervals. The mean estimates were of *median* start and mid career salaries of colleges in each region that were available in the *joined* table.
 
-**Figure 4**: ![Figure 4](../results/salary_change_Region.png)
+![Figure 4](../results/salary_change_Region.png)
 
 Figure 5 shows the mid-career salaries of the different US college regions, split into panels of 10th, 50th and 90th percentiles. We did this to look at whether the same pattern was seen across the full salary range, and whether certain regions were associated with the potential to achieve a higher "top" salary. Salary data was also represented as mean estimates with standard errors at a 95% confidence interval.
 
-**Figure 5** ![Figure 5](../results/salary_distribution_Region.png)
+![Figure 5](../results/salary_distribution_Region.png)
 
 Lastly, we examined how graduates' salary varied by college type. Figure 6 and 7 are similar analyses to figure 4 and 5 respectively, only the variable is college type. Salary data was calculated in the exact same manner as described in figure 4 and 5.
 
-**Figure 6** ![Figure 6](../results/salary_change_SchoolType.png)
+![Figure 6](../results/salary_change_SchoolType.png)
 
-**Figure 7** ![Figure 7](../results/salary_distribution_SchoolType.png)
+![Figure 7](../results/salary_distribution_SchoolType.png)
 
 ### Results
 
