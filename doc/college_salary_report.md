@@ -3,7 +3,7 @@ Exploring attributes of US college education in relation to career salary
 =========================================================================
 
 **By**: Alex Pak, Linyang Yu, Constantin Shuster
-**Date**: November 24, 2018
+**Date**: December 8, 2018
 
 ### Our question
 
@@ -17,9 +17,11 @@ Starting career salary was a median value. Mid-career salary was either 10th, 25
 
 The dataset was downloaded from [kaggle](https://www.kaggle.com/wsj/college-salaries) and is originally from *The Wall Street Journal* but based on a study done by *Payscale, Inc.*. The data is split into 3 tables. The first table contains College degrees and the corresponding salary data. The second table lists colleges, their region and corresponding salary data. The third table lists colleges, their type and corresponding salary data.
 
-To begin our analysis we cleaned up the data tables by converting character data into numerical data so it can analyzed and visualized appropriately. We removed any spaces in the heading or '$'. We also joined the second two tables such that our joined table listed colleges, their region, their type and corresponding salary data. Since this was an [inner join](https://r4ds.had.co.nz/relational-data.html#inner-join) we lost ~50 colleges that were listed in the third table, but not the second. We wanted the comparison of college region and type with salary to be similar in terms of the colleges listed and so we felt this type of join was appropriate.
+To begin our analysis we cleaned up the data tables by converting character data into numerical data so it can analyzed and visualized appropriately. We removed any spaces in the heading or '$'. We also joined the second two tables such that our joined table listed colleges, their region, their type and corresponding salary data.
 
 ### Exploratory data analysis (EDA)
+
+##### Salary by college degree
 
 We were first interested in examining how starting and mid-career salaries varied by college degree. Figure 1 and 2 below are [dumbbell plots](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html#Dumbbell%20Plot) where the **starting point** of the dumbbell is the **starting career salary** and the **end point** is the **mid-career salary**. Both salary values are median salaries.
 
@@ -31,13 +33,17 @@ Figure 3 is also a dumbbell plot but it displays the range of **mid-career** sal
 
 ![Figure 3](../results/degree_vs_mid_salary_range.png)
 
+##### Salary by college region
+
 The next variable we examined was college region and its impact on graduates' salaries. Figure 4 shows start and mid-career salary aggregated by college region. The salary data was represented as mean estimates with 95% confidence intervals. The mean estimates were of *median* start and mid career salaries of colleges in each region that were available in the *joined* table.
 
 ![Figure 4](../results/salary_change_Region.png)
 
-Figure 5 shows the mid-career salaries of the different US college regions, split into panels of 10th, 50th and 90th percentiles. We did this to look at whether the same pattern was seen across the full salary range, and whether certain regions were associated with the potential to achieve a higher "top" salary. Salary data was also represented as mean estimates with standard errors at a 95% confidence interval.
+Figure 5 shows the mid-career salaries of the different US college regions, split into panels of 10th, 50th and 90th percentiles. We did this to look at whether the same pattern was observed across the full salary range, and whether certain regions were associated with the potential to achieve a higher "top" salary. Salary data was also represented as mean estimates with a 95% confidence interval.
 
 ![Figure 5](../results/salary_distribution_Region.png)
+
+##### Salary by college type
 
 Lastly, we examined how graduates' salary varied by college type. Figure 6 and 7 are similar analyses to figure 4 and 5 respectively, only the variable is college type. Salary data was calculated in the exact same manner as described in figure 4 and 5.
 
@@ -49,124 +55,97 @@ Lastly, we examined how graduates' salary varied by college type. Figure 6 and 7
 
 Since we had only 1 data point for each school degree, we could not do any hypothesis testing and thus we report here only major trends we observed in the data from the Figure 1, 2 and 3. From these figures we can see that graduates from STEM majors (Science, Technology and Mathematics) have higher salaries both at the start of their career and in the middle of their career. Graduates with majors in education or the arts/social sciences had the lowest salaries.
 
-In regards to salary variation by school region, our hypothesis from the EDA was that there is a difference in salary depending on which region the college was in. We performed a one-way ANOVA shown in Table 1 below.
+In regards to salary variation by school region, our EDA shows that California and Northeastern colleges may be associated with higher salaries both at the start and middle of their career. We performed a one-way ANOVA to test whether a difference in salary was present amongst the regions, shown in Table 1 below. The ANOVA tests (for all salary types) were statistically significant.
 
-    ## Parsed with column specification:
-    ## cols(
-    ##   Salary_Type = col_character(),
-    ##   F_Statistic = col_double(),
-    ##   P_Value = col_double()
-    ## )
+**Table 1**
 
-| Salary Type                           |  F Statistic|       p-value|
-|:--------------------------------------|------------:|-------------:|
-| Starting\_Median\_Salary              |        12.10|  3.398112e-09|
-| Mid\_Career\_Median\_Salary           |        17.38|  5.700000e-13|
-| Mid\_Career\_10th\_Percentile\_Salary |         8.71|  1.187212e-06|
-| Mid\_Career\_25th\_Percentile\_Salary |        12.69|  1.246776e-09|
-| Mid\_Career\_50th\_Percentile\_Salary |        17.38|  5.700000e-13|
-| Mid\_Career\_75th\_Percentile\_Salary |        18.28|  1.340000e-13|
-| Mid\_Career\_90th\_Percentile\_Salary |        13.88|  2.306060e-10|
+| Salary Type                       |  F Statistic|       p-value|
+|:----------------------------------|------------:|-------------:|
+| Starting Median Salary            |        12.10|  3.398112e-09|
+| Mid Career Median Salary          |        17.38|  5.700000e-13|
+| Mid Career 10th Percentile Salary |         8.71|  1.187212e-06|
+| Mid Career 25th Percentile Salary |        12.69|  1.246776e-09|
+| Mid Career 50th Percentile Salary |        17.38|  5.700000e-13|
+| Mid Career 75th Percentile Salary |        18.28|  1.340000e-13|
+| Mid Career 90th Percentile Salary |        13.88|  2.306060e-10|
 
-**Table 1** above shows there was a statistical difference in salary, all salary types examined, amongst the different regions, with a p-value &lt; 0.05. Next we performed a Tukey's post-hoc test to see which region was responsible for the difference in salary. Summary is presented in Table 2 below. To shorthen the table, we just filter the conbination with significant difference.
+Next we performed Tukey's post-hoc tests to determine which region was responsible for the difference in salary. Table 2 summarizes Tukey's tests between region with regard to starting salary while Table 3 summarizes the results with regard to mid-career salary. All the Tukey's post hoc tests for each salary type, as well as ANOVA table are available in the `results/anova_results` folder.
 
-    ## Parsed with column specification:
-    ## cols(
-    ##   salary_type = col_character(),
-    ##   term = col_character(),
-    ##   comparison = col_character(),
-    ##   adj.p.value = col_double(),
-    ##   flag = col_character()
-    ## )
+**Table 2**
 
-| Salary Type                           | Region Comparison       |  adjusted p-value| Interpretation |
-|:--------------------------------------|:------------------------|-----------------:|:---------------|
-| Starting\_Median\_Salary              | Midwestern-California   |         0.0000090| \*\*\*         |
-| Starting\_Median\_Salary              | Southern-California     |         0.0000114| \*\*\*         |
-| Starting\_Median\_Salary              | Western-California      |         0.0001087| \*\*\*         |
-| Starting\_Median\_Salary              | Northeastern-Midwestern |         0.0001491| \*\*\*         |
-| Starting\_Median\_Salary              | Southern-Northeastern   |         0.0001654| \*\*\*         |
-| Starting\_Median\_Salary              | Western-Northeastern    |         0.0040647| \*\*           |
-| Mid\_Career\_Median\_Salary           | Midwestern-California   |         0.0000119| \*\*\*         |
-| Mid\_Career\_Median\_Salary           | Southern-California     |         0.0000756| \*\*\*         |
-| Mid\_Career\_Median\_Salary           | Western-California      |         0.0000723| \*\*\*         |
-| Mid\_Career\_Median\_Salary           | Northeastern-Midwestern |         0.0000000| \*\*\*         |
-| Mid\_Career\_Median\_Salary           | Southern-Northeastern   |         0.0000003| \*\*\*         |
-| Mid\_Career\_Median\_Salary           | Western-Northeastern    |         0.0000033| \*\*\*         |
-| Mid\_Career\_10th\_Percentile\_Salary | Northeastern-Midwestern |         0.0000735| \*\*\*         |
-| Mid\_Career\_10th\_Percentile\_Salary | Southern-Northeastern   |         0.0000335| \*\*\*         |
-| Mid\_Career\_10th\_Percentile\_Salary | Western-Northeastern    |         0.0022340| \*\*           |
-| Mid\_Career\_25th\_Percentile\_Salary | Midwestern-California   |         0.0002520| \*\*\*         |
-| Mid\_Career\_25th\_Percentile\_Salary | Southern-California     |         0.0003383| \*\*\*         |
-| Mid\_Career\_25th\_Percentile\_Salary | Western-California      |         0.0005099| \*\*\*         |
-| Mid\_Career\_25th\_Percentile\_Salary | Northeastern-Midwestern |         0.0000118| \*\*\*         |
-| Mid\_Career\_25th\_Percentile\_Salary | Southern-Northeastern   |         0.0000118| \*\*\*         |
-| Mid\_Career\_25th\_Percentile\_Salary | Western-Northeastern    |         0.0001312| \*\*\*         |
-| Mid\_Career\_50th\_Percentile\_Salary | Midwestern-California   |         0.0000119| \*\*\*         |
-| Mid\_Career\_50th\_Percentile\_Salary | Southern-California     |         0.0000756| \*\*\*         |
-| Mid\_Career\_50th\_Percentile\_Salary | Western-California      |         0.0000723| \*\*\*         |
-| Mid\_Career\_50th\_Percentile\_Salary | Northeastern-Midwestern |         0.0000000| \*\*\*         |
-| Mid\_Career\_50th\_Percentile\_Salary | Southern-Northeastern   |         0.0000003| \*\*\*         |
-| Mid\_Career\_50th\_Percentile\_Salary | Western-Northeastern    |         0.0000033| \*\*\*         |
-| Mid\_Career\_75th\_Percentile\_Salary | Midwestern-California   |         0.0004712| \*\*\*         |
-| Mid\_Career\_75th\_Percentile\_Salary | Southern-California     |         0.0022936| \*\*           |
-| Mid\_Career\_75th\_Percentile\_Salary | Western-California      |         0.0004535| \*\*\*         |
-| Mid\_Career\_75th\_Percentile\_Salary | Northeastern-Midwestern |         0.0000000| \*\*\*         |
-| Mid\_Career\_75th\_Percentile\_Salary | Southern-Northeastern   |         0.0000000| \*\*\*         |
-| Mid\_Career\_75th\_Percentile\_Salary | Western-Northeastern    |         0.0000001| \*\*\*         |
-| Mid\_Career\_90th\_Percentile\_Salary | Northeastern-Midwestern |         0.0000000| \*\*\*         |
-| Mid\_Career\_90th\_Percentile\_Salary | Southern-Northeastern   |         0.0000021| \*\*\*         |
-| Mid\_Career\_90th\_Percentile\_Salary | Western-Northeastern    |         0.0000005| \*\*\*         |
+|              | California | Northeastern | Southern | Western | Midwestern |
+|--------------|:-----------|:-------------|:---------|:--------|:-----------|
+| California   | NA         | 0.251        | \*\*\*   | \*\*\*  | \*\*\*     |
+| Northeastern | 0.251      | NA           | \*\*\*   | \*\*    | \*\*\*     |
+| Southern     | \*\*\*     | \*\*\*       | NA       | 1       | 0.9993     |
+| Western      | \*\*\*     | \*\*         | 1        | NA      | 1          |
+| Midwestern   | \*\*\*     | \*\*\*       | 0.9993   | 1       | NA         |
 
-**Table 2** above shows that graduates of colleges in the Northeast and California had higher salaries than the other regions, however there was no statistically significant difference at alpha = 0.05 between colleges in the Northeast and California.
+-   = &lt;0.05, \*\* = &lt;0.01, \*\*\* = &lt;0.001
 
-In regards to salary variation by school type, our hypothesis from the EDA was that there is a difference in salary depending on which college type a graduate attended. We performed a one-way ANOVA shown in Table 1 below.
+**Table 3**
 
-    ## Parsed with column specification:
-    ## cols(
-    ##   Salary_Type = col_character(),
-    ##   F_Statistic = col_double(),
-    ##   P_Value = col_double()
-    ## )
+|              | California | Northeastern | Southern | Western | Midwestern |
+|--------------|:-----------|:-------------|:---------|:--------|:-----------|
+| California   | NA         | 0.9549       | \*\*\*   | \*\*\*  | \*\*\*     |
+| Northeastern | 0.9549     | NA           | \*\*\*   | \*\*\*  | \*\*\*     |
+| Southern     | \*\*\*     | \*\*\*       | NA       | 0.963   | 0.9537     |
+| Western      | \*\*\*     | \*\*\*       | 0.963    | NA      | 1          |
+| Midwestern   | \*\*\*     | \*\*\*       | 0.9537   | 1       | NA         |
 
-| Salary Type                           |  F Statistic|     p-value|
-|:--------------------------------------|------------:|-----------:|
-| Starting\_Median\_Salary              |        66.81|  0.0000e+00|
-| Mid\_Career\_Median\_Salary           |        54.69|  0.0000e+00|
-| Mid\_Career\_10th\_Percentile\_Salary |        42.43|  2.5089e-26|
-| Mid\_Career\_25th\_Percentile\_Salary |        51.27|  0.0000e+00|
-| Mid\_Career\_50th\_Percentile\_Salary |        54.69|  0.0000e+00|
-| Mid\_Career\_75th\_Percentile\_Salary |        64.17|  0.0000e+00|
-| Mid\_Career\_90th\_Percentile\_Salary |        57.32|  0.0000e+00|
+-   = &lt;0.05, \*\* = &lt;0.01, \*\*\* = &lt;0.001
 
-**Table 3** above shows that there was a significant difference in salary amongst different types of schools as the p-value in all comparisons with different salary types was &lt;0.05.
+Table 2 and 3 show that graduates of colleges in the Northeast and California had higher salaries than the other regions, however there was no statistically significant difference at alpha = 0.05 between colleges in the Northeast and California.
 
-    ## Parsed with column specification:
-    ## cols(
-    ##   salary_type = col_character(),
-    ##   term = col_character(),
-    ##   comparison = col_character(),
-    ##   adj.p.value = col_double(),
-    ##   flag = col_character()
-    ## )
+In regards to salary variation by school type, our hypothesis from the EDA was that there is a difference in salary depending on which college type a graduate attended. We performed a one-way ANOVA shown in Table 4 below. The one-way ANOVA showed a significant difference amongst school types across all salary comparison types at a significance level of &lt; 0.05
 
-| Salary Type              | Region Comparison        |  adjusted p-value| Interpretation |
-|:-------------------------|:-------------------------|-----------------:|:---------------|
-| Starting\_Median\_Salary | Liberal Arts-Engineering |                 0| \*\*\*         |
-| Starting\_Median\_Salary | Party-Engineering        |                 0| \*\*\*         |
-| Starting\_Median\_Salary | State-Engineering        |                 0| \*\*\*         |
-| Starting\_Median\_Salary | Liberal Arts-Ivy League  |                 0| \*\*\*         |
-| Starting\_Median\_Salary | Party-Ivy League         |                 0| \*\*\*         |
+**Table 4**
 
-The results of the Tukey post-hoc tests show that graduates from colleges in Ivy Leagues school and Engineering schools had higher salaries than the other school types, however there was no significant difference between graduates of Ivy League and Engineering schools.
+| Salary Type                       |  F Statistic|     p-value|
+|:----------------------------------|------------:|-----------:|
+| Starting Median Salary            |        66.81|  0.0000e+00|
+| Mid Career Median Salary          |        54.69|  0.0000e+00|
+| Mid Career 10th Percentile Salary |        42.43|  2.5089e-26|
+| Mid Career 25th Percentile Salary |        51.27|  0.0000e+00|
+| Mid Career 50th Percentile Salary |        54.69|  0.0000e+00|
+| Mid Career 75th Percentile Salary |        64.17|  0.0000e+00|
+| Mid Career 90th Percentile Salary |        57.32|  0.0000e+00|
+
+Table 5 and 6 show the results of the Tukey's post-hoc tests for starting and mid-career median salaries respectively, which were performed in order to determine which school type was responsible for the difference found via the one-way ANOVA testing.
+
+**Table 5**
+
+|              | Ivy League | Engineering | Liberal Arts | Party  | State  |
+|--------------|:-----------|:------------|:-------------|:-------|:-------|
+| Ivy League   | NA         | 0.9818      | \*\*\*       | \*\*\* | \*\*\* |
+| Engineering  | 0.9818     | NA          | \*\*\*       | \*\*\* | \*\*\* |
+| Liberal Arts | \*\*\*     | \*\*\*      | NA           | 1      | 0.1952 |
+| Party        | \*\*\*     | \*\*\*      | 1            | NA     | 0.5768 |
+| State        | \*\*\*     | \*\*\*      | 0.1952       | 0.5768 | NA     |
+
+-   = &lt;0.05, \*\* = &lt;0.01, \*\*\* = &lt;0.001
+
+**Table 6**
+
+|              | Ivy League | Engineering | Liberal Arts | Party  | State  |
+|--------------|:-----------|:------------|:-------------|:-------|:-------|
+| Ivy League   | NA         | \*\*        | \*\*\*       | \*\*\* | \*\*\* |
+| Engineering  | \*\*       | NA          | \*\*\*       | \*\*\* | \*\*\* |
+| Liberal Arts | \*\*\*     | \*\*\*      | NA           | 0.4705 | \*\*\* |
+| Party        | \*\*\*     | \*\*\*      | 0.4705       | NA     | 0.1121 |
+| State        | \*\*\*     | \*\*\*      | \*\*\*       | 0.1121 | NA     |
+
+-   = &lt;0.05, \*\* = &lt;0.01, \*\*\* = &lt;0.001
+
+The results of Table 5 and 6 show that graduates from Ivy League schools or Engineering schools had higher salaries than the other school types, however there was no significant difference between graduates of Ivy League and Engineering schools.
 
 ### Interpretation
 
-When comparing Degrees to Salary, the Engineering fields consistently appear as the top earners. Of the top 10 spots (when comparing starting salary), Engineering degrees dominate, appearing in 7/10 spots. Although this might imply that STEM fields are high earners, it seems to only apply to the applied STEM field; for example, the more conventional science fields such as psychology and biology fall much lower on the list.
+When comparing college degrees to salary, the Engineering fields consistently appear as the top earners. Of the top 10 spots (when comparing starting salary), Engineering degrees dominate, appearing in 7/10 spots. Although this might imply that STEM fields are high earners, it seems to only apply to the applied STEM field; for example, the more conventional science fields such as psychology and biology fall much lower on the list. These results are similar to this [study](https://study.com/articles/Undergraduate_Degree_vs_Graduate_Degree_Income_and_Salary_Comparison.html).
 
 Looking at the Tukey procedure results for Region vs. Salary, the Northeastern and California seem to have similar means, as the null hypothesis consistently cannot be rejected across multiple salary types. This seems to make sense, as California and the Northeastern region contain highly rated schools (ex. Stanford, California Institute of Technology, Harvard).
 
-The Tukey procedure results for School Type vs Salary seems to follow this interpretation. From the visualizations, Ivy League schools consistently place highly on the salary scale. However, when using the Tukey procedure, it seems as if there is no significant difference between the Ivy League school earnings and Engineering school earnings, suggesting once again that Engineering degrees are worth the most.
+The Tukey procedure results for School Type vs Salary seems to follow this interpretation. From the visualizations, Ivy League schools consistently place highly on the salary scale. However, when using the Tukey procedure, it seems as if there is no significant difference between the Ivy League school earnings and Engineering school earnings, suggesting once again that Engineering degrees are worth the most. Our results are similar to an analysis by the [Washington Post](https://www.washingtonpost.com/news/wonk/wp/2015/09/14/this-chart-shows-why-parents-push-their-kids-so-hard-to-get-into-ivy-league-schools/?noredirect=on&utm_term=.23ad81f0b9b1) which also showed graduation from Ivy League scools is associated with the highest career salaries.
 
 ### Limitations
 
@@ -188,3 +167,5 @@ To further enhance our analysis, we could compare the top performing degrees in 
 
 1.  [Kaggle Data - College vs Salary](https://www.kaggle.com/wsj/college-salaries)
 2.  [Dumbbell plots explained](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html#Dumbbell%20Plot)
+3.  [Study.com - Undergraduate degree salary comparison](https://study.com/articles/Undergraduate_Degree_vs_Graduate_Degree_Income_and_Salary_Comparison.html)
+4.  [Washington Post - Ivy League school salary comparison](https://www.washingtonpost.com/news/wonk/wp/2015/09/14/this-chart-shows-why-parents-push-their-kids-so-hard-to-get-into-ivy-league-schools/?noredirect=on&utm_term=.23ad81f0b9b1)

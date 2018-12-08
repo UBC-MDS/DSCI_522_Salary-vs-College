@@ -100,13 +100,14 @@ main <- function(){
       filter(Salary_Type %in% c ('Starting_Median_Salary', 'Mid_Career_Median_Salary'))
     
     p_start_MidCareer_region <- start_Mid_region %>%
-      ggplot(aes(x= fct_reorder(Region, mean_salary), y =mean_salary, color = Salary_Type)) +
+      ggplot(aes(x= fct_reorder(Region, mean_salary), y = mean_salary, color = Salary_Type)) +
       geom_point() +
       geom_errorbar(aes(x = Region, ymin = lower_ci, ymax = upper_ci), width = 0.2) +
       coord_flip(xlim = NULL, ylim = NULL, expand = TRUE, clip = "on") +
       labs( y = "Salary",
-            title = 'Figure 4. Starting and mid-career salary by region')+
-      scale_color_discrete(labels = c("Average for the Mid-Career Median Salary", "Average for the Starting Median Salary")) +
+            title = 'Figure 4. Starting and mid-career salary by region',
+            caption = "Mean estimates, 95% confidence interval.")+
+      scale_color_discrete(labels = c("Mid-Career Median Salary", "Starting Median Salary")) +
       theme_bw() +
       theme(panel.grid.major = element_blank(),
             axis.title.y = element_blank(),
@@ -122,7 +123,8 @@ main <- function(){
   }else if(feature_exp == 'School_Type'){
     # get the data for the school type
     df_SchoolType <- df %>%
-      select(-School_Name, -Region)
+      select(-School_Name, -Region) %>% 
+      filter(!is.na(School_Type))
     
     # duplicate created during join need to be removed
     df_schoolType_unique <- unique( df_SchoolType[ , ])
@@ -179,8 +181,9 @@ main <- function(){
       geom_errorbar(aes(x = School_Type, ymin = lower_ci, ymax = upper_ci), width = 0.2) +
       coord_flip(xlim = NULL, ylim = NULL, expand = TRUE, clip = "on") +
       labs( y = "Salary",
-            title = 'Figure 6. Starting and mid-career salary by region')+
-      scale_color_discrete(labels = c("Average for the Mid-Career Median Salary", "Average for the Starting Median Salary")) +
+            title = 'Figure 6. Starting and mid-career salary by school type',
+            caption = "Mean estimates, 95% confidence interval.")+
+      scale_color_discrete(labels = c("Mid-Career Median Salary", "Starting Median Salary")) +
       theme_bw() +
       theme(panel.grid.major = element_blank(),
             axis.title.y = element_blank(),
