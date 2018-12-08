@@ -4,7 +4,7 @@
 .PHONY: all clean
 .DELETE_ON_ERROR:
 
-all: results/degree_vs_salary_by_start.png results/degree_vs_salary_by_mid.png results/degree_vs_mid_salary_range.png results/salary_distribution_SchoolType.png results/salary_change_SchoolType.png results/salary_distribution_Region.png results/salary_change_Region.png results/anova_results results/increase_in_salary.csv doc/Final_Report
+all: results/degree_vs_salary_by_start.png results/degree_vs_salary_by_mid.png results/degree_vs_mid_salary_range.png results/salary_distribution_SchoolType.png results/salary_change_SchoolType.png results/salary_distribution_Region.png results/salary_change_Region.png results/anova_results/region_anova_results.csv  results/anova_results/region_tukey_results.csv results/anova_results/school_type_anova_results.csv results/anova_results/school_type_tukey_results.csv results/increase_in_salary.csv doc/Final_Report
 
 # create clean data of salary by college degree
 data/clean_data/clean_salary_by_degree.csv : data/raw_data/degrees-that-pay-back.csv src/Data_cleaning.R
@@ -35,7 +35,7 @@ results/salary_distribution_SchoolType.png results/salary_change_SchoolType.png 
 	Rscript src/EDA_region_and_school_type_to_salary.R data/clean_data/clean_salary_by_region_type_join.csv School_Type
 
 # ANOVA and tukey pairwise test
-results/anova_results : data/clean_data/clean_salary_by_region_type_join.csv src/anova_tukey_tests.R
+results/anova_results/region_anova_results.csv  results/anova_results/region_tukey_results.csv results/anova_results/school_type_anova_results.csv results/anova_results/school_type_tukey_results.csv : data/clean_data/clean_salary_by_region_type_join.csv src/anova_tukey_tests.R
 	Rscript src/anova_tukey_tests.R data/clean_data/clean_salary_by_region_type_join.csv results/anova_results
 
 # other data analysis done for the final report
