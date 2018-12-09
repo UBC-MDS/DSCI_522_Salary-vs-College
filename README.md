@@ -52,7 +52,7 @@ Based on our analysis, if your objective is to maximize earnings, follow convent
 * Version 1.0 of our project can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/v1.0).
 * Version 2.0 of our project can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/V2.0.1).
 * Version 3.0 of our project can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/V3.0).
-* Version 4.0 of our project can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/V4.0)
+* Version 4.0 (FINAL) of our project can be found [here](https://github.com/UBC-MDS/DSCI_522_Salary-vs-College/tree/V4.0)
 
 Future versions of our project will also be placed here, as it is updated.
 
